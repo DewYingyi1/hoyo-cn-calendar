@@ -1,0 +1,15 @@
+{
+  "name": "hoyo-cn-calendar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test",
+    "update": "node scripts/update.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "auth": "node scripts/github-auth.mjs",
+    "publish-settings": "node scripts/github-settings.mjs"
+  }
+}

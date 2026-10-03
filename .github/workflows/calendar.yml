@@ -1,0 +1,62 @@
+name: 国服日历更新与发布
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: calendar-publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: 规则与日历测试
+        run: npm test
+      - name: 采集官方公告
+        run: npm run update
+      - name: 校验并生成公开日历
+        run: npm run build && npm run check
+      - name: 维护异常与人工审核告警
+        run: node scripts/notify.mjs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+      - name: 保存采集记录
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh official calendar data [skip ci]'
+            git push
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布订阅页面与ICS
+        id: deployment
+        uses: actions/deploy-pages@v4

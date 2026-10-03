@@ -1,0 +1,254 @@
+[
+  {
+    "game": "genshin",
+    "postId": "78469941",
+    "decision": "confirmed-split",
+    "notes": "整体期至11/03 03:59，紊乱爆发期至10/10 03:59；两者均09/30 10:00开始。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78467497",
+    "decision": "confirmed-end-only",
+    "notes": "网页截止10/18 23:59；9/28未注明开始时刻。10/12 23:59是话题抽奖截止，10/19晚是开奖，不收录。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78335167",
+    "decision": "suppressed-duplicate",
+    "notes": "09/23 06:00、预计5小时维护已用78299035收录。幻想真境剧诗及深境螺旋只给更新日期，无精确时刻，不补04:00。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78324485",
+    "decision": "suppressed-aggregate",
+    "notes": "『09/23 7.1版本更新后 ~ 10/13 17:59』为三个单独祈愿帖提供同一期明确截止；不再增加汇总卡池。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78319398",
+    "decision": "unresolved",
+    "notes": "『活动时间』后为空；时间可能在图片，本地纯文本没有任何起止日期。银翎溯月，玄鸟结璘未编造日程。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78299710",
+    "decision": "confirmed-cross-reference",
+    "notes": "薇斯纳祈愿单帖确认名称；78324485确认同期10/13 17:59截止，更新后开始保持null。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78299709",
+    "decision": "confirmed-cross-reference",
+    "notes": "沃雅妮莎祈愿单帖确认名称；78324485确认同期10/13 17:59截止，更新后开始保持null。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78299708",
+    "decision": "confirmed-cross-reference",
+    "notes": "蝶变与漩流颂歌是同一武器祈愿；78324485确认10/13 17:59截止，仅收录一个武器池。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78299706",
+    "decision": "confirmed-split",
+    "notes": "佳礼来信09/28 00:00至版本结束，精确结束未知；累计登录10/01 04:00至10/19 03:59。首充双倍重置无明确时刻，不另建事件。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78299035",
+    "decision": "confirmed-expected-maintenance",
+    "notes": "09/23 06:00开始、预计5小时。预计结束11:00明确标记为预计，不是实际开服确认。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78118185",
+    "decision": "suppressed-recap",
+    "notes": "回顾长图只有版本上线日期、兑换码09/15 12:00失效，没有前瞻开播时刻。"
+  },
+  {
+    "game": "genshin",
+    "postId": "78118075",
+    "decision": "suppressed-replay",
+    "notes": "已发布节目正文只有版本上线日期及兑换码失效时间，不是开播预告；最新前瞻预告78027438不在本次review范围，由主任务处理。"
+  },
+  {
+    "game": "genshin",
+    "postId": "77910704",
+    "decision": "suppressed-expired",
+    "notes": "7.0第二期祈愿09/01 18:00至09/22 14:59，10/03已经结束，不纳入当前未来活动。"
+  },
+  {
+    "game": "genshin",
+    "postId": "77797178",
+    "decision": "suppressed-expired",
+    "notes": "7.0第二期武器池，与77910704交叉确认09/22 14:59已经截止。"
+  },
+  {
+    "game": "genshin",
+    "postId": "77797177",
+    "decision": "suppressed-expired",
+    "notes": "伊涅芙7.0第二期祈愿，与77910704交叉确认09/22 14:59已经截止。"
+  },
+  {
+    "game": "genshin",
+    "postId": "77797176",
+    "decision": "suppressed-expired",
+    "notes": "菲林斯7.0第二期祈愿，与77910704交叉确认09/22 14:59已经截止。"
+  },
+  {
+    "game": "genshin",
+    "postId": "77761570",
+    "decision": "unresolved",
+    "notes": "险境征者竞锋大赛『活动时间』后为空，不能仅凭旧帖发布日期确认起止或当前状态。"
+  },
+  {
+    "game": "genshin",
+    "postId": "77537726",
+    "decision": "suppressed-expired",
+    "notes": "上期幽境危战整体截止09/22 03:59，爆发期08/29 03:59结束；不是当前一期。"
+  },
+  {
+    "game": "genshin",
+    "postId": "77508654",
+    "decision": "unresolved",
+    "notes": "美团联名只给08/16、08/19、08/21各阶段开启日期，并要求以活动页为准；无明确时刻或结束日期，不能确认当前有效或补00:00。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78470442",
+    "decision": "confirmed",
+    "notes": "网页开放09/28 10:00至11/11 06:00，明确起止。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78463670",
+    "decision": "confirmed-split",
+    "notes": "拆维护、两项时装特惠、未来一镜到底、幻宠抽取与伴手礼、四期轮换挑战。爱幽灵与机器人及汇聚愿力使用独立帖，永久玩法不收录；巡星之礼没有明确时间不推算。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78448395",
+    "decision": "confirmed-split",
+    "notes": "真珠及专属光锥截止11/10 15:00，绯英及返场光锥截止10/21 11:59，共四个池；角色试用不重复当卡池事件。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78445058",
+    "decision": "confirmed-limited-rewards",
+    "notes": "限时奖励截止11/11 03:59；结束后玩法进入常时传略，常驻奖励继续，不标记永久玩法关闭。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78421074",
+    "decision": "suppressed-permanent",
+    "notes": "『2026/09/28 4.6版本更新后永久开放』，没有限时截止或明确开服时刻，不作为有限活动日程。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78287359",
+    "decision": "suppressed-recap",
+    "notes": "节目速览只给上线日和兑换码09/21 23:59:59失效；不是直播开播。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78286470",
+    "decision": "confirmed-cross-reference",
+    "notes": "活动说明仅『4.6版本期间』；78463670同名活动明确更新后至11/11 06:00，可补明确结束。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78164947",
+    "decision": "confirmed-livestream",
+    "notes": "『2026年9月20日19:30正式播出』；剔除同帖转发抽奖09/20 18:00截止语义。"
+  },
+  {
+    "game": "starrail",
+    "postId": "78075760",
+    "decision": "suppressed-expired",
+    "notes": "4.5第二期跃迁09/12 12:00至09/28 03:59，10/03已经结束。"
+  },
+  {
+    "game": "starrail",
+    "postId": "77754792",
+    "decision": "confirmed-active-cycles",
+    "notes": "旧版本正文仍含有效周期：仙客天狼至10/05 03:59、立界开篇至10/19 03:59；08/26维护非9月历史范围，不收录。"
+  },
+  {
+    "game": "starrail",
+    "postId": "77739472",
+    "decision": "suppressed-expired",
+    "notes": "4.5第一期跃迁截止09/12 11:59，已结束。"
+  },
+  {
+    "game": "starrail",
+    "postId": "77738471",
+    "decision": "suppressed-expired-limited-rewards",
+    "notes": "狂飙大奖赛限时奖励09/28 03:59截止；常时传略常驻玩法继续，不表示限时奖励仍有效。"
+  },
+  {
+    "game": "starrail",
+    "postId": "77328417",
+    "decision": "suppressed-older-livestream",
+    "notes": "4.5前瞻08/14 19:30，非最新4.6前瞻及9月历史范围，转发抽奖也不收录。"
+  },
+  {
+    "game": "starrail",
+    "postId": "77188470",
+    "decision": "suppressed-expired",
+    "notes": "4.4新角色及返场跃迁均08/25 15:00截止，非当前或未来卡池。"
+  },
+  {
+    "game": "zzz",
+    "postId": "78044082",
+    "decision": "unresolved",
+    "notes": "烈火重锤仅『3.2版本更新后 ~ 3.2版本结束』，本地ZZZ正文未取得版本结束的精确时刻；不能编造开始结束。"
+  },
+  {
+    "game": "zzz",
+    "postId": "77020090",
+    "decision": "suppressed-expired",
+    "notes": "回归丽都网页明确『2026/9/9 05:59:59关闭』，10/03已结束。"
+  },
+  {
+    "game": "zzz",
+    "postId": "77018353",
+    "decision": "suppressed-older-version",
+    "notes": "法厄同年度大揭秘仅3.1版本更新后至3.1结束；3.1回归网页09/09已关闭且3.2内容已有9月活动，非当前3.2活动，不编造3.1边界。"
+  },
+  {
+    "game": "zzz",
+    "postId": "76999562",
+    "decision": "suppressed-older-version",
+    "notes": "狩猎游戏只限3.1版本，非当前3.2烈火重锤；未推算3.1精确起止。"
+  },
+  {
+    "game": "zzz",
+    "postId": "76998463",
+    "decision": "suppressed-expired",
+    "notes": "音乐平台活动08/10 23:59结束；兑换码08/31 23:59:59失效，均已过期且含义不同。"
+  },
+  {
+    "game": "zzz",
+    "postId": "76980111",
+    "decision": "suppressed-older-version",
+    "notes": "玛瑟尔周年馈礼仅3.1版本期间，不是3.2当前活动；没有精确版本边界，不编造起止。"
+  },
+  {
+    "game": "zzz",
+    "postId": "76979895",
+    "decision": "suppressed-older-version",
+    "notes": "点映返礼及票根仅3.1版本期间有效；结束后未选择奖励补发不等于活动延续。"
+  },
+  {
+    "game": "zzz",
+    "postId": "76978820",
+    "decision": "suppressed-expired",
+    "notes": "重新生成review新增3.1卡池汇总：蕾米埃尔及光锥09/08 14:59截止、爱芮及光锥08/19 11:59截止，均已结束。"
+  },
+  {
+    "game": "zzz",
+    "postId": null,
+    "decision": "scope-note",
+    "notes": "重新生成官方正文新增3.2下期卡池78470659：09/30 12:00至10/20 14:59，洛克茜、普罗米娅及各自音擎共四池；该帖不在重新生成review中，主任务负责自动事件，不在seed重复新增。最新3.2前瞻预告77716261也由主任务处理。正文仍无9月维护帖。"
+  }
+]

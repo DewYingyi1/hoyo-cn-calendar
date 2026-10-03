@@ -1,0 +1,9 @@
+node_modules/
+site/ics/
+site/data/
+.env
+.env.*
+!.env.example
+*.log
+local-private/
+data/seed-overrides.json

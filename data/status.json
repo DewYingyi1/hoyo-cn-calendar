@@ -1,0 +1,38 @@
+{
+  "games": {
+    "genshin": {
+      "lastSuccessAt": "2026-10-03T02:09:19.890Z",
+      "source": "miyoushe",
+      "scanned": 160,
+      "officialPosts": 85,
+      "eligiblePosts": 21,
+      "earliestPublishedAt": "2026-08-16T04:00:19.000Z",
+      "coverage": "官方主账号版块向前分页；不包含千星奇域独立账号或社区活动",
+      "error": null
+    },
+    "starrail": {
+      "lastSuccessAt": "2026-10-03T02:09:19.890Z",
+      "source": "miyoushe",
+      "scanned": 160,
+      "officialPosts": 106,
+      "eligiblePosts": 15,
+      "earliestPublishedAt": "2026-08-02T02:00:11.000Z",
+      "coverage": "官方主账号版块向前分页；不包含千星奇域独立账号或社区活动",
+      "error": null
+    },
+    "zzz": {
+      "lastSuccessAt": "2026-10-03T02:09:19.890Z",
+      "source": "miyoushe",
+      "scanned": 160,
+      "officialPosts": 135,
+      "eligiblePosts": 27,
+      "earliestPublishedAt": "2026-07-26T10:07:26.000Z",
+      "coverage": "官方主账号版块向前分页；不包含千星奇域独立账号或社区活动",
+      "error": null
+    }
+  },
+  "lastAttemptAt": "2026-10-03T02:09:19.890Z",
+  "issues": [],
+  "reviewCount": 3,
+  "successfulSources": 3
+}
