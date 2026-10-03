@@ -29,7 +29,7 @@ test('所有官网服务入口失败，仍不调用米游社或B站，不受旧�
       forum: async () => { retiredRequests++; return { posts: ['fallback'] }; },
       bilibili: async () => { retiredRequests++; return { posts: ['supplement'] }; },
       websiteOnly,
-    }), /act-api-takumi-static\.mihoyo\.com.*offline.*api-takumi-static\.mihoyo\.com.*offline/);
+    }), /act-api-takumi-static\.mihoyo\.com.*source-invalid.*api-takumi-static\.mihoyo\.com.*source-invalid/);
     assert.equal(retiredRequests, 0);
     assert.deepEqual(requests.map(url => new URL(url).origin), [configs.zzz.website.base, ...configs.zzz.website.fallbackBases]);
   }

@@ -9,6 +9,7 @@
     "update": "node scripts/update.mjs",
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
+    "approve-image": "node scripts/approve-image-evidence.mjs",
     "auth": "node scripts/github-auth.mjs",
     "publish-settings": "node scripts/github-settings.mjs"
   }

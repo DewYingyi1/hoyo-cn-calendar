@@ -70,8 +70,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "genshin",
@@ -83,8 +84,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "genshin",
@@ -96,8 +98,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "genshin",
@@ -109,8 +112,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "starrail",
@@ -122,8 +126,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "starrail",
@@ -135,8 +140,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "starrail",
@@ -148,8 +154,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "zzz",
@@ -161,8 +168,9 @@
     "source": "miyoushe",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "zzz",
@@ -174,8 +182,9 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "zzz",
@@ -187,8 +196,9 @@
     "source": "miyoushe",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "zzz",
@@ -200,8 +210,9 @@
     "source": "miyoushe",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "zzz",
@@ -213,7 +224,8 @@
     "source": "website",
     "firstSeenAt": "2026-10-03T09:19:26.744Z",
     "lastSeenAt": "2026-10-03T16:30:25.228Z",
-    "resolved": false,
-    "changedConfirmation": false
+    "resolved": true,
+    "changedConfirmation": false,
+    "resolvedAt": "2026-10-03T16:45:00.000Z"
   }
 ]

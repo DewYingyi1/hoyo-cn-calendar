@@ -10,3 +10,4 @@ local-private/
 *.pem
 data/seed-overrides.json
 data/website-confirmations-seed.json
+.build/

@@ -661,8 +661,34 @@
     "published": "2026-09-22T04:10:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166334",
     "digest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
-    "canonical": "genshin:website:166334",
-    "imagesHash": "cf3eeda6ef73750625b9f9738067ff03f81589d9a5b4ed2931406acda57d6875"
+    "canonical": "genshin:miyoushe:78319398",
+    "imagesHash": "cf3eeda6ef73750625b9f9738067ff03f81589d9a5b4ed2931406acda57d6875",
+    "imageEvidenceRequired": true,
+    "observedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/7666fd25cd46e760fd6e3c56559ef731_3787697831348162745.jpg": "d990073f4e1445a961398b9c3523a852ba498200fc04ca77078a7e4e58176be1",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/1ef06117219326f5cf1a275daa14f097_1804714576039064050.jpg": "87b09e452e3cf426f06231c3ae72236054c1248d373dc172193a342bb35b5e24",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/f74bf3411e7b8db3b6d874d8ff0b0f0c_7867928984594894666.jpg": "7a4cbce2367f88fd57279eaa9350a04ae2fd2bbbdee4f18bcb09ea17a6cb2142",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/0861fff5cb4ca6d1fcf58a5f3ff2b317_5084608278701984307.gif": "340cf53074acf544dac0495b45bcc76e210171c9f5807e6151e9a1b1122eca6b",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/4692bd9d52aa89f9f37a893a8f0012d7_6480787190767604121.gif": "70351cc92d94d0e95b70bd1c53b9a2681957c895236b7854ce61a316a19aa43e",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/282bb39ebf4bce861bda8a85c3970b6b_6190535564428635793.gif": "63cece052d470f0b307b1b4754705810fc9b6dfdedaabffbc22d4d5684aa5a30"
+    },
+    "observedImageBytesDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
+    "observedImageBytesAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidenceCheckedAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
+    "reviewedDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
+    "confirmedImagesHash": "cf3eeda6ef73750625b9f9738067ff03f81589d9a5b4ed2931406acda57d6875",
+    "confirmedImagesDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
+    "confirmedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/7666fd25cd46e760fd6e3c56559ef731_3787697831348162745.jpg": "d990073f4e1445a961398b9c3523a852ba498200fc04ca77078a7e4e58176be1",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/1ef06117219326f5cf1a275daa14f097_1804714576039064050.jpg": "87b09e452e3cf426f06231c3ae72236054c1248d373dc172193a342bb35b5e24",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/f74bf3411e7b8db3b6d874d8ff0b0f0c_7867928984594894666.jpg": "7a4cbce2367f88fd57279eaa9350a04ae2fd2bbbdee4f18bcb09ea17a6cb2142",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/0861fff5cb4ca6d1fcf58a5f3ff2b317_5084608278701984307.gif": "340cf53074acf544dac0495b45bcc76e210171c9f5807e6151e9a1b1122eca6b",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/4692bd9d52aa89f9f37a893a8f0012d7_6480787190767604121.gif": "70351cc92d94d0e95b70bd1c53b9a2681957c895236b7854ce61a316a19aa43e",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/282bb39ebf4bce861bda8a85c3970b6b_6190535564428635793.gif": "63cece052d470f0b307b1b4754705810fc9b6dfdedaabffbc22d4d5684aa5a30"
+    },
+    "confirmedImageBytesDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4"
   },
   "genshin:website:166333": {
     "title": "「银翎溯月，玄鸟结璘」活动：参与获取活动专属武器「单手剑·银釭」",
@@ -696,7 +722,39 @@
     "url": "https://ys.mihoyo.com/main/news/detail/166263",
     "digest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
     "canonical": "genshin:website:166263",
-    "imagesHash": "b822549ddd3d62f774d0541478360c9107a630fa8cc076fe037b36a93f17fbc0"
+    "imagesHash": "b822549ddd3d62f774d0541478360c9107a630fa8cc076fe037b36a93f17fbc0",
+    "imageEvidenceRequired": true,
+    "observedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/4b2cc660905c8b480dd1ccd3b518f9c2_1188685737212660274.jpg": "c6d82a323d89506f5589d5dd6feccb9d62793dbd4c6b05bf84ece76450aa8123",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/4565f205762982efdd4c77818b9bec02_5832665879233654674.jpg": "72165d79978504829494ab45a5a4539f65c95ae2ae4587ce9c1ff287866d21dc",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/87fc84d7d87cb6d466d1d7222947ff33_3477449296054766153.jpg": "9eb3a49576666b0352bbd337f330c10e265668b0ee1830a320718baaae9e9490",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/e5178807cf52258053ee17b4f364dab6_9033596213317825101.gif": "a44f9e82a2f3c781bf28449d5adf5880ca47fb5712679b7658b5b6b1f76426dd",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/ae2fd7ab5076b518d18340d4e6311c4b_4120768769358446681.jpg": "fc91264aab669c2b461c18b6ca1f27228ddefe8b6e0b45892bef46a19edf306c",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/f1f1d82104d7bfe0b9e21180e2f6002a_2054412297256087206.jpg": "85708549c6378b8a6a04309de0ef8e342bfee7c1f11d9a4184a62209fa6316cf",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/9dccdcf583494137e9c6ed6278200057_6548739947147696352.jpg": "866205271037dfc3c1a9634c1d1cdb46b1ce4a234951647c31110bf12b46dd93",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/69295124f909fcf7295498f5f86f4620_4642922694323751354.jpg": "f1e9f70c24aca112f7e9af05aec29e2e9254650766c25fdc30f4dffd66765ff2",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/5675494ae85bf8e2130ab1cb852dbbff_7169513807879256443.jpg": "859bdff9c437afa49121f842788179ca0aa4b3b29f7c3900580283a0757ed400"
+    },
+    "observedImageBytesDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
+    "observedImageBytesAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidenceCheckedAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
+    "reviewedDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
+    "confirmedImagesHash": "b822549ddd3d62f774d0541478360c9107a630fa8cc076fe037b36a93f17fbc0",
+    "confirmedImagesDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
+    "confirmedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/4b2cc660905c8b480dd1ccd3b518f9c2_1188685737212660274.jpg": "c6d82a323d89506f5589d5dd6feccb9d62793dbd4c6b05bf84ece76450aa8123",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/4565f205762982efdd4c77818b9bec02_5832665879233654674.jpg": "72165d79978504829494ab45a5a4539f65c95ae2ae4587ce9c1ff287866d21dc",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/87fc84d7d87cb6d466d1d7222947ff33_3477449296054766153.jpg": "9eb3a49576666b0352bbd337f330c10e265668b0ee1830a320718baaae9e9490",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/e5178807cf52258053ee17b4f364dab6_9033596213317825101.gif": "a44f9e82a2f3c781bf28449d5adf5880ca47fb5712679b7658b5b6b1f76426dd",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/ae2fd7ab5076b518d18340d4e6311c4b_4120768769358446681.jpg": "fc91264aab669c2b461c18b6ca1f27228ddefe8b6e0b45892bef46a19edf306c",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/f1f1d82104d7bfe0b9e21180e2f6002a_2054412297256087206.jpg": "85708549c6378b8a6a04309de0ef8e342bfee7c1f11d9a4184a62209fa6316cf",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/9dccdcf583494137e9c6ed6278200057_6548739947147696352.jpg": "866205271037dfc3c1a9634c1d1cdb46b1ce4a234951647c31110bf12b46dd93",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/69295124f909fcf7295498f5f86f4620_4642922694323751354.jpg": "f1e9f70c24aca112f7e9af05aec29e2e9254650766c25fdc30f4dffd66765ff2",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/5675494ae85bf8e2130ab1cb852dbbff_7169513807879256443.jpg": "859bdff9c437afa49121f842788179ca0aa4b3b29f7c3900580283a0757ed400"
+    },
+    "confirmedImageBytesDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164"
   },
   "genshin:website:166262": {
     "title": "7.1版本「往冥府的安魂歌」内容专题页上线！",
@@ -1086,15 +1144,63 @@
     "url": "https://ys.mihoyo.com/main/news/detail/165914",
     "digest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
     "canonical": "genshin:website:165914",
-    "imagesHash": "191626b4af46081b32f5d810edc2cef5674015a3e1231e8d2b2b9b0594df749b"
+    "imagesHash": "191626b4af46081b32f5d810edc2cef5674015a3e1231e8d2b2b9b0594df749b",
+    "imageEvidenceRequired": true,
+    "observedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/18766032aa74da5c7577d94e43bd731c_5926469632410416826.jpg": "828be29985000e72642d6f84009baa99ac437ec2dae1b8c4b653f8ffdd5e5d77",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/c02ac034f5c2c0959f3ade48595d77db_743397851519121153.jpg": "fbbc44ccc0a007f595bfc3d3aa357f82b5800c40d38ee364482d9d7bf1bf7fda",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/bd319f0d72b8b7447ebcb91d1786d366_3106538754065659145.jpg": "9247c2184e40e7eb70899e6e034b00ff24dbe39ffc36856b2a797017622d1fbc"
+    },
+    "observedImageBytesDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
+    "observedImageBytesAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidenceCheckedAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
+    "reviewedDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
+    "confirmedImagesHash": "191626b4af46081b32f5d810edc2cef5674015a3e1231e8d2b2b9b0594df749b",
+    "confirmedImagesDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
+    "confirmedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/18766032aa74da5c7577d94e43bd731c_5926469632410416826.jpg": "828be29985000e72642d6f84009baa99ac437ec2dae1b8c4b653f8ffdd5e5d77",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/c02ac034f5c2c0959f3ade48595d77db_743397851519121153.jpg": "fbbc44ccc0a007f595bfc3d3aa357f82b5800c40d38ee364482d9d7bf1bf7fda",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/bd319f0d72b8b7447ebcb91d1786d366_3106538754065659145.jpg": "9247c2184e40e7eb70899e6e034b00ff24dbe39ffc36856b2a797017622d1fbc"
+    },
+    "confirmedImageBytesDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1"
   },
   "genshin:website:165910": {
     "title": "「险境征者竞锋大赛」活动介绍——参与比赛 邀请迪奥娜！",
     "published": "2026-08-27T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165910",
     "digest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
-    "canonical": "genshin:website:165910",
-    "imagesHash": "d7f06ee65f763beee54d3feeb1123737cd8f1fff07b5f42cecc14a031de4cf40"
+    "canonical": "genshin:miyoushe:77761570",
+    "imagesHash": "d7f06ee65f763beee54d3feeb1123737cd8f1fff07b5f42cecc14a031de4cf40",
+    "imageEvidenceRequired": true,
+    "observedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/36cd9754a772f0a14cfcfdc77b485a30_6558439436243336736.jpg": "7b20ad026488114028e4fce6e7593187c7d0b7e1dfcf477a02959f62fb967071",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/662d5abada564bed34e6c0c00fdf0d29_2217635448098122046.jpg": "3be4d5ede65a8b58ab26f722e853c763e596932b598369583e3969a2443da0b1",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/c8d07ca096f4343ea1cf6f52ec1e3133_6535912649152921971.jpg": "8ea7b40e48f3a2e7d324ac4db266049da71955d94ebc0abaeb6a16bbd98dd89a",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/49a5c9880d0e7663c22a54d446ad4837_5177785019251428817.jpg": "aa3296075d70cd90313a63767395c66d46706b9418d12c9f4605ef50e6b13f7f",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/c685b631830f67c33cf58d59f7a7c8e6_7434122649161711366.jpg": "555d40b0429824edfaa6eb8f73129f88f03b4ef24465c4f0ef89b169447a2538",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/afd28cf0e444cbcf625912b7f9caa0d4_7649492175008471429.jpg": "5d10576527a436c184be5bbb54e75ebda4ab2d11a98043dd481b6cf2308cae7c",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/9a21614b408b94acccda2b65aa1d869b_564912837328891112.jpg": "fc4d532036e1b108ef0283356341462300f1dc405466b7a7d813829b5a22b23a"
+    },
+    "observedImageBytesDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
+    "observedImageBytesAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidenceCheckedAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
+    "reviewedDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
+    "confirmedImagesHash": "d7f06ee65f763beee54d3feeb1123737cd8f1fff07b5f42cecc14a031de4cf40",
+    "confirmedImagesDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
+    "confirmedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/36cd9754a772f0a14cfcfdc77b485a30_6558439436243336736.jpg": "7b20ad026488114028e4fce6e7593187c7d0b7e1dfcf477a02959f62fb967071",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/662d5abada564bed34e6c0c00fdf0d29_2217635448098122046.jpg": "3be4d5ede65a8b58ab26f722e853c763e596932b598369583e3969a2443da0b1",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/c8d07ca096f4343ea1cf6f52ec1e3133_6535912649152921971.jpg": "8ea7b40e48f3a2e7d324ac4db266049da71955d94ebc0abaeb6a16bbd98dd89a",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/49a5c9880d0e7663c22a54d446ad4837_5177785019251428817.jpg": "aa3296075d70cd90313a63767395c66d46706b9418d12c9f4605ef50e6b13f7f",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/c685b631830f67c33cf58d59f7a7c8e6_7434122649161711366.jpg": "555d40b0429824edfaa6eb8f73129f88f03b4ef24465c4f0ef89b169447a2538",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/afd28cf0e444cbcf625912b7f9caa0d4_7649492175008471429.jpg": "5d10576527a436c184be5bbb54e75ebda4ab2d11a98043dd481b6cf2308cae7c",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/9a21614b408b94acccda2b65aa1d869b_564912837328891112.jpg": "fc4d532036e1b108ef0283356341462300f1dc405466b7a7d813829b5a22b23a"
+    },
+    "confirmedImageBytesDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e"
   },
   "genshin:website:165908": {
     "title": "「七圣召唤」热斗模式：列阵斗巧",
@@ -2313,8 +2419,30 @@
     "published": "2026-09-09T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166031",
     "digest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
-    "canonical": "zzz:website:166031",
-    "imagesHash": "c0db542767a87481ae1689e4874bbbc6c6a47786c560edc8d4e8d47484503f45"
+    "canonical": "zzz:miyoushe:78044398",
+    "imagesHash": "c0db542767a87481ae1689e4874bbbc6c6a47786c560edc8d4e8d47484503f45",
+    "imageEvidenceRequired": true,
+    "observedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/6227a700a8d80f3327c1492e7ec3695e_8203141457298847046.png": "6b6c2c2c6746d2d135c478fb05a75a8e20f327a62309310b28e5ab92706b0a5f",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/28fd7c0593f1d781bba6e245ac39ebcc_7840733961209535562.png": "a3a523d4fc5bd884feafa9729f6ffdeee5ba0fb784d90431b6ffce76853f8250",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/c55ff09b186f0a923a472352a7ad9011_4669055663940502195.png": "9d2bf5843a8a138be7b2795c5c344efb8b60e4ef9792cdd859826ed3bf937c5c",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/4c8f54754d6095781c204dc1cfe44d52_7971724793015399520.png": "c744b29062e2de82f6ffe720b99d299e5eb7967d8dc53f35401ba3fb64f7dbff"
+    },
+    "observedImageBytesDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
+    "observedImageBytesAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidenceCheckedAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
+    "reviewedDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
+    "confirmedImagesHash": "c0db542767a87481ae1689e4874bbbc6c6a47786c560edc8d4e8d47484503f45",
+    "confirmedImagesDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
+    "confirmedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/6227a700a8d80f3327c1492e7ec3695e_8203141457298847046.png": "6b6c2c2c6746d2d135c478fb05a75a8e20f327a62309310b28e5ab92706b0a5f",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/28fd7c0593f1d781bba6e245ac39ebcc_7840733961209535562.png": "a3a523d4fc5bd884feafa9729f6ffdeee5ba0fb784d90431b6ffce76853f8250",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/c55ff09b186f0a923a472352a7ad9011_4669055663940502195.png": "9d2bf5843a8a138be7b2795c5c344efb8b60e4ef9792cdd859826ed3bf937c5c",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166031/4c8f54754d6095781c204dc1cfe44d52_7971724793015399520.png": "c744b29062e2de82f6ffe720b99d299e5eb7967d8dc53f35401ba3fb64f7dbff"
+    },
+    "confirmedImageBytesDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d"
   },
   "zzz:website:166028": {
     "title": "🎁维尔乌姆假日相册",
@@ -2843,8 +2971,30 @@
     "published": "2026-07-28T10:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165411",
     "digest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
-    "canonical": "zzz:website:165411",
-    "imagesHash": "2134bb0a723fb98a0b0d46cfe5b429cf0c967500117f90c9f45909e1bfc5ba6f"
+    "canonical": "zzz:miyoushe:77004031",
+    "imagesHash": "2134bb0a723fb98a0b0d46cfe5b429cf0c967500117f90c9f45909e1bfc5ba6f",
+    "imageEvidenceRequired": true,
+    "observedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/9e420d12acdceb9d8a135a16cad07a94_3277712537079166461.jpg": "76b04612201d50689fe67aa547a9c2ea3991e6a2e9edddd08f0c215326f3b5b0",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/870daabbeea81bf3305c183a83e16211_1754944996621816702.jpg": "2bbb8d8a0f459394f9255589919a7a5adec20345856b55e48e8306ef279090e0",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/4a1f4757ff6fe34939692ff9dabb6bb4_166268544614374654.jpg": "d39161a441ffe39505e214c298d3e762dfa5f9c8bafa3581eba9280354e7818a",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/0338a58d03725ed70367123c72f55a10_8662279285537486980.jpg": "34b755e70ae214aac56d6c6344714a8c6d469bb83383167d3763b022a12c8df6"
+    },
+    "observedImageBytesDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
+    "observedImageBytesAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidenceCheckedAt": "2026-10-03T16:45:00.000Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
+    "reviewedDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
+    "confirmedImagesHash": "2134bb0a723fb98a0b0d46cfe5b429cf0c967500117f90c9f45909e1bfc5ba6f",
+    "confirmedImagesDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
+    "confirmedImageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/9e420d12acdceb9d8a135a16cad07a94_3277712537079166461.jpg": "76b04612201d50689fe67aa547a9c2ea3991e6a2e9edddd08f0c215326f3b5b0",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/870daabbeea81bf3305c183a83e16211_1754944996621816702.jpg": "2bbb8d8a0f459394f9255589919a7a5adec20345856b55e48e8306ef279090e0",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/4a1f4757ff6fe34939692ff9dabb6bb4_166268544614374654.jpg": "d39161a441ffe39505e214c298d3e762dfa5f9c8bafa3581eba9280354e7818a",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165411/0338a58d03725ed70367123c72f55a10_8662279285537486980.jpg": "34b755e70ae214aac56d6c6344714a8c6d469bb83383167d3763b022a12c8df6"
+    },
+    "confirmedImageBytesDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51"
   },
   "zzz:website:165404": {
     "title": "「潜能预演·狩猎游戏」活动说明",

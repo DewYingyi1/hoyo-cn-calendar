@@ -98,8 +98,9 @@
   {
     "game": "genshin",
     "postId": "77761570",
-    "decision": "unresolved",
-    "notes": "险境征者竞锋大赛『活动时间』后为空，不能仅凭旧帖发布日期确认起止或当前状态。"
+    "decision": "confirmed-official-image-expired",
+    "notes": "官网165900及165910图证确认活动总时段2026/08/28 10:00至2026/09/14 03:59，阶段于08/28 10:00、08/30 04:00、09/01 04:00开放。该期已结束，不补发历史事件。",
+    "checkedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "genshin",
@@ -110,8 +111,9 @@
   {
     "game": "genshin",
     "postId": "77508654",
-    "decision": "unresolved",
-    "notes": "美团联名只给08/16、08/19、08/21各阶段开启日期，并要求以活动页为准；无明确时刻或结束日期，不能确认当前有效或补00:00。"
+    "decision": "suppressed-insufficient-time-expired",
+    "notes": "美团联名公告只给08/16、08/19、08/21各阶段开启日期，并要求以活动页为准；无明确时刻或结束日期，不能补00:00。该合作推广现已过期，已列入suppressPostIds，不发布日程，也不再作为当前待审核项。",
+    "checkedAt": "2026-10-03T17:40:00.000Z"
   },
   {
     "game": "starrail",
@@ -399,9 +401,13 @@
     "game": "genshin",
     "source": "website",
     "postId": "166334",
-    "decision": "website-migration-audit",
-    "notes": "NOT CONFIRMED / NO ALIAS: introduction has explicit start 2026/09/24 10:00, but no gameplay end in normalized text. It is not interchangeable with the full verified time-table notice 166333 for a whole-event confirmation.",
-    "checkedAt": "2026-10-03T03:03:17.671Z"
+    "decision": "confirmed-official-image-deduplicated",
+    "notes": "已读166334全部3张JPG及3张GIF接触表。静态图明确总时段2026/09/24 10:00至2026/10/12 03:59，与166333及既有genshin:miyoushe:78319398一致；GIF为玩法演示，无新增日期表。不新增重复UID。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166334",
+      "https://ys.mihoyo.com/main/news/detail/166333"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
   },
   {
     "game": "genshin",
@@ -591,9 +597,14 @@
     "game": "zzz",
     "source": "website",
     "postId": "166013",
-    "decision": "website-migration-audit",
-    "notes": "UNVERIFIED for a fixed-date manual confirmation: both sources say only 3.2 version update afterwards ~ 3.2 version end. No existing manual override handles this key. Remains reviewable rather than blanket-confirmed or suppressed; a new explicit fixed end would require a separate manual event, outside this seed's scope.",
-    "checkedAt": "2026-10-03T03:03:17.671Z"
+    "decision": "confirmed-cross-post-version-end",
+    "notes": "对应review中canonical米游社78044082。实时公开官网正文与本地历史正文完全一致；主动读原图，图上也只有3.2更新后至版本结束。官网166026同版本明确结束为2026/10/21 06:00（UTC+8），与166013时间语义一致，故生成一条沿用canonical ID的截止事件；不推算开始，不重复拆试玩关卡。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166013",
+      "https://zzz.mihoyo.com/news/166026",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166013/70281eae5d26cc6bb09d0a826d496b9b_2420442123503850837.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
   },
   {
     "game": "starrail",
@@ -610,19 +621,6 @@
     "decision": "confirmed-split-pass",
     "checkedAt": "2026-10-03T03:07:08.676Z",
     "notes": "官网两条时间分别核对：2026-10-19 02:59购买关闭，03:59任务与奖励截止。开始仅为版本更新后。"
-  },
-  {
-    "game": "zzz",
-    "source": "website",
-    "postId": "166013",
-    "decision": "confirmed-cross-post-version-end",
-    "notes": "对应review中canonical米游社78044082。实时公开官网正文与本地历史正文完全一致；主动读原图，图上也只有3.2更新后至版本结束。官网166026同版本明确结束为2026/10/21 06:00（UTC+8），与166013时间语义一致，故生成一条沿用canonical ID的截止事件；不推算开始，不重复拆试玩关卡。",
-    "evidenceUrls": [
-      "https://zzz.mihoyo.com/news/166013",
-      "https://zzz.mihoyo.com/news/166026",
-      "https://fastcdn.mihoyo.com/content-v2/nap/166013/70281eae5d26cc6bb09d0a826d496b9b_2420442123503850837.jpg"
-    ],
-    "checkedAt": "2026-10-03T04:10:41.401Z"
   },
   {
     "game": "genshin",
@@ -748,5 +746,146 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/165403/40165d60420d7afd5d25ddb160696200_4303653326101802562.jpg"
     ],
     "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166263",
+    "decision": "confirmed-split-complete-image-review",
+    "notes": "已读166263全部8张JPG及1张GIF接触表；GIF为佳礼来信动画，无新增日期表。既有自选、累计登录、祈愿、银翎溯月、幽境危战、纪行均沿用原UID。新增判测胜券本征赛事期、公示期、魔神任务限时奖励及系列尾声任务。第52期两款付费礼包属于商城限时上架，不纳入仅收游戏活动、卡池、维护、前瞻的公开日历。游逸旅闻、绝境攻炼、首充重置无精确时刻或截止，幻想真境剧诗仅给10/01日期，均不猜测。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166263",
+      "https://ys.mihoyo.com/main/news/detail/166253",
+      "https://ys.mihoyo.com/main/news/detail/166258"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165914",
+    "decision": "confirmed-split-historical-and-current",
+    "notes": "已读165914全部3张JPG。祈愿、险境征者、禁界拟想、盛材移涌及当我们抬头望月亮均为历史周期，不补发；独立官网165627确认无神怜爱的冻土区域探索奖励自7.0版本更新后至2026/11/03 14:59，仍有效且原最终集合缺失，现已补入。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/165914",
+      "https://ys.mihoyo.com/main/news/detail/165627"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165910",
+    "decision": "confirmed-official-image-suppressed-expired-duplicate",
+    "notes": "已读165910全部7张JPG。活动总时段2026/08/28 10:00至2026/09/14 03:59；165900时间表确认阶段于08/28 10:00、08/30 04:00、09/01 04:00开放。与genshin:miyoushe:77761570为同一期且已过期，不补发重复事件。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/165910",
+      "https://ys.mihoyo.com/main/news/detail/165900"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165210",
+    "decision": "confirmed-split-parent-preserved",
+    "notes": "根事件仅保留2026/07/15 06:00开始、预计5小时的历史维护UID；同帖其他旧活动均归档不补发。命运契约·再启明确2026/07/24 12:00至4.6版本结束前，166489确认截止2026/11/11 06:00，已新增子事件且不替换父维护节点。",
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/165210",
+      "https://sr.mihoyo.com/news/166489"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "164426",
+    "decision": "historical-resolved-split",
+    "notes": "根事件仅保留4.3维护历史；像素飞机大乱斗、尘灵游乐园、淬锋之礼已有独立事件。其他轮换挑战和补偿期限均已结束，不补发；巡星之礼、异相仲裁无独立精确截止，永久内容不生成有限事件。",
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/164426"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "163630",
+    "decision": "historical-resolved-split",
+    "notes": "根事件仅保留4.2维护历史；又上骰了已有独立事件。庆典祝礼、致开拓的你、千星旅伴、银河信号漫游等有限项目均已结束，不补发；缺独立截止的内容不以版本结束代填，永久内容不生成有限事件。",
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/163630"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "zzz",
+    "source": "miyoushe",
+    "postId": "78159162",
+    "decision": "confirmed-no-stage-split",
+    "notes": "官网166108确认总时段2026/09/16 10:00至2026/10/05 03:59。联合主题每日逐步开放、特战随进程开放，但没有逐关固定日期小时或独立领奖截止；保留现有总活动UID，不拆分猜测阶段。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166108"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166031",
+    "decision": "confirmed-image-deduplicated",
+    "notes": "已读166031全部4张PNG。第1图确认2026/09/10 10:00至2026/10/19 03:59，与166016及zzz:miyoushe:78044398一致；其余图只说明随主线进度解锁，无固定阶段时刻或更晚领奖期。不另建重复UID。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166031",
+      "https://zzz.mihoyo.com/news/166016"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "zzz",
+    "source": "miyoushe",
+    "postId": "78044398",
+    "decision": "confirmed-cross-image-no-stage-split",
+    "notes": "官网166016正文与166031全部图证确认总时段2026/09/10 10:00至2026/10/19 03:59。任务主题逐步开放，挑战模式依赖任务完成，未给各阶段固定时刻；保留现有总活动UID。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166016",
+      "https://zzz.mihoyo.com/news/166031"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "zzz",
+    "source": "miyoushe",
+    "postId": "77539168",
+    "decision": "confirmed-aggregate-expired",
+    "notes": "官网165758确认四类频段共同时间2026/08/19 12:00至2026/09/08 14:59；自选列表是可切换选项，不是多个同时独立UP池。周期已结束，保留既有汇总历史UID，不拆分重发。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/165758"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "165411",
+    "decision": "confirmed-image-deduplicated-expired",
+    "notes": "已读165411全部4张JPG。第1图确认限时奖励期为3.1版本更新后至2026/09/07 03:59，与165412及zzz:miyoushe:77004031一致；区域逐步解锁无具体时刻，经营流程不是日历阶段。限时奖励已过期，常驻体验继续，不另建重复UID。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/165411",
+      "https://zzz.mihoyo.com/news/165412"
+    ],
+    "checkedAt": "2026-10-03T16:45:00.000Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166253",
+    "decision": "confirmed-split-current",
+    "notes": "官网166253当前正文已人工核对并按两个不同语义拆分：魔神任务本体永久开放，额外限时奖励截止2026/11/03 14:59；完成第七章第四幕后可接取的系列尾声为限时任务，同样截止2026/11/03 14:59。两条已分别以:limited-rewards与:epilogue发布，不把永久魔神任务本体写成下线，也不重复创建父事件。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166253",
+      "https://ys.mihoyo.com/main/news/detail/166263"
+    ],
+    "checkedAt": "2026-10-03T17:27:00.000Z"
   }
 ]
