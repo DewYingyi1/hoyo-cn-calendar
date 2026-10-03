@@ -3,15 +3,13 @@ import path from 'node:path';
 import { ROOT, readJson, writeJson } from './build.mjs';
 import { GAMES, mergeEvents } from '../lib/calendar.mjs';
 import { parsePost, postDigest, imageDigest } from '../lib/parser.mjs';
-import { fetchForum, fetchWebsite } from '../lib/sources.mjs';
-import { sourceKey, findCanonical, canonicalPrefix, canonicalPost, isHandled } from '../lib/identity.mjs';
+import { fetchWebsite } from '../lib/sources.mjs';
+import { sourceKey, findCanonical, canonicalPrefix, canonicalPost, isHandled, preserveProvenance } from '../lib/identity.mjs';
 import { selectSource } from '../lib/selection.mjs';
-import { fetchBilibili } from '../lib/bilibili.mjs';
 import { confirmedImages } from '../lib/review.mjs';
 
 const now = new Date().toISOString();
 const configs = await readJson('sources/games.json');
-const bilibiliConfigs = await readJson('sources/bilibili.json', {});
 const old = await readJson('data/events.json', []);
 const incoming = [];
 const reviewInputs = [];
@@ -27,6 +25,7 @@ for (const item of await readJson('data/review.json', [])) {
   reviews.set(key, { ...item, source, postId: id });
 }
 const status = await readJson('data/status.json', { games: {} });
+delete status.supplemental;
 status.lastAttemptAt = now;
 status.issues = [];
 const overrides = await readJson('data/overrides.json', { events: [], suppressPostIds: [] });
@@ -35,8 +34,7 @@ let successes = 0;
 for (const [game, config] of Object.entries(configs)) {
   const previous = status.games[game] ?? {};
   try {
-    const { result, source, primaryError } = await selectSource(game, config, { website: fetchWebsite, forum: fetchForum, websiteOnly: process.env.WEBSITE_ONLY === '1' });
-    if (primaryError) status.issues.push(`${GAMES[game].short}官网不可用：${primaryError}；临时使用米游社备用源，遇验证码保留旧日程。`);
+    const { result, source } = await selectSource(game, config, { website: fetchWebsite });
     let eligible = 0;
     for (const post of result.posts) {
       const rawKey = sourceKey(post);
@@ -89,38 +87,6 @@ for (const [game, config] of Object.entries(configs)) {
     console.error(`${GAMES[game].name}来源失败：${error.message}`);
   }
 }
-// Bilibili is supplemental: its outage must not turn a successful website source into a failure.
-status.supplemental ??= {};
-for (const [game, config] of Object.entries(bilibiliConfigs)) {
-  if (!configs[game]) continue;
-  try {
-    const result = await fetchBilibili(game, config);
-    let added = 0;
-    for (const post of result.posts) {
-      const rawKey = sourceKey(post);
-      const parsed = parsePost(post);
-      const matching = parsed.event && [...old, ...incoming, ...overrides.events].filter(event => event.game === game && event.category === 'livestream' && event.start === parsed.event.start);
-      if (matching?.length) {
-        aliases[rawKey] = matching[0].id;
-        reviews.delete(rawKey);
-        registry[rawKey] = { title: post.title, published: post.published, url: post.url, digest: postDigest(post), imagesHash: imageDigest(post), canonical: matching[0].id };
-        continue;
-      }
-      const key = findCanonical(post, registry, aliases);
-      registry[rawKey] = { title: post.title, published: post.published, url: post.url, digest: postDigest(post), imagesHash: imageDigest(post), canonical: key };
-      // New supplemental notices are candidates until cross-source identity/date checks are approved.
-      const [, source, postId] = key.split(':');
-      reviews.set(key, { game, source, postId, title: post.title, url: post.url, digest: postDigest(post), reason: 'B站官方前瞻补源：核对开播时刻和跨来源身份后发布', firstSeenAt: reviews.get(key)?.firstSeenAt ?? now, resolved: false });
-      reviewInputs.push({ ...post, canonical: key, digest: postDigest(post), imagesHash: imageDigest(post) });
-      added++;
-    }
-    status.supplemental[game] = { source: 'bilibili', lastSuccessAt: now, scanned: result.scanned, candidates: added, coverage: result.coverage, error: null };
-    if (result.errors?.length) status.issues.push(`${GAMES[game].short}B站补源部分不可用；官网主源不受影响。`);
-  } catch (error) {
-    status.supplemental[game] = { ...status.supplemental[game], source: 'bilibili', lastAttemptAt: now, error: error.message };
-    status.issues.push(`${GAMES[game].short}B站补源不可用：${error.message}；官网主源不受影响，保留已有日程。`);
-  }
-}
 const canonicalOld = new Map();
 for (const event of old) {
   const prefix = event.id.split(':').slice(0, 3).join(':');
@@ -128,7 +94,9 @@ for (const event of old) {
   // During migration prefer the previously published canonical record, never create a second UID.
   if (!canonicalOld.has(id) || event.id === id) canonicalOld.set(id, { ...event, id });
 }
-const events = mergeEvents([...canonicalOld.values()], incoming, now);
+// Keep published historical provenance as well as the canonical UID; current website
+// evidence is recorded separately in the website registry and review inputs.
+const events = mergeEvents([...canonicalOld.values()], incoming.map(event => preserveProvenance(event, canonicalOld.get(event.id))), now);
 const cutoff = Date.now() - 100 * 86400000;
 const pending = [...reviews.values()].filter(review => Date.parse(review.firstSeenAt) >= cutoff);
 status.reviewCount = pending.filter(item => !item.resolved).length;

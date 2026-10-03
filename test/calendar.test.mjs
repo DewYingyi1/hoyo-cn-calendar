@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderCalendar, mergeEvents, validateEvent } from '../lib/calendar.mjs';
+import { renderCalendar, mergeEvents, validateEvent, readableTime } from '../lib/calendar.mjs';
 import { parsePost, extractDates, plainText } from '../lib/parser.mjs';
 
 const now = '2026-10-03T01:00:00Z';
@@ -40,6 +40,38 @@ test('时间倒置和重复ID阻止发布', () => {
 test('仅截止节点不推算版本更新时刻', () => {
   const events = mergeEvents([], [{ ...base, start: null }], now);
   assert.equal(uids(renderCalendar(events, { name: '测试', now })).length, 1);
+});
+test('订阅说明用中文日期，截止前置，核对笔记不进入弹窗', () => {
+  const events = mergeEvents([], [{ ...base, title: '纪行：任务与奖励截止', notes: '官网166259原文，canonical prefix及SHA256人工核对', displayNotes: '任务与奖励截止；购买提前1小时关闭。' }], now);
+  const text = renderCalendar(events, { name: '测试', now }).replace(/\r\n /g, '');
+  assert.match(text, /SUMMARY:\[原神\] 截止｜纪行：任务与奖励/);
+  assert.doesNotMatch(text, /canonical|SHA256|官网166259|T10:00:00\+08:00/);
+  assert.match(text, /截止：2026年10月20日 03:59/);
+  assert.match(text, /只是占位/);
+  assert.match(text, /购买提前1小时关闭/);
+  assert.equal(readableTime('2026-12-31T23:59:59+08:00'), '2026年12月31日 23:59:59');
+});
+test('跨度版不误称15分钟占位，前瞻和维护各用对应语义', () => {
+  const timeline = renderCalendar(saved(), { name: '测试', now, mode: 'timeline' }).replace(/\r\n /g, '');
+  assert.doesNotMatch(timeline, /15分钟/);
+  assert.match(timeline, /时间区间/);
+  const livestream = renderCalendar(mergeEvents([], [{ ...base, category: 'livestream', end: null }], now), { name: '测试', now }).replace(/\r\n /g, '');
+  assert.match(livestream, /开播：2026年10月05日 10:00/);
+  assert.doesNotMatch(livestream, /截止：/);
+  const maintenance = renderCalendar(mergeEvents([], [{ ...base, category: 'maintenance' }], now), { name: '测试', now }).replace(/\r\n /g, '');
+  assert.match(maintenance, /预计维护结束/);
+  assert.match(maintenance, /实际开服以官方通知为准/);
+});
+test('说明更新保留UID与开始截止，展示修订号增加', () => {
+  const first = saved();
+  const changed = mergeEvents(first, [{ ...base, displayNotes: '易读说明' }], '2026-10-04T01:00:00Z');
+  assert.equal(changed[0].sequence, first[0].sequence + 1);
+  const before = renderCalendar(first, { name: '测试', now }).replace(/\r\n /g, '');
+  const after = renderCalendar(changed, { name: '测试', now }).replace(/\r\n /g, '');
+  assert.deepEqual(uids(before), uids(after));
+  assert.deepEqual([...before.matchAll(/DT(?:START|END):(.+)/g)].map(m => m[0]), [...after.matchAll(/DT(?:START|END):(.+)/g)].map(m => m[0]));
+  assert.match(before, /SEQUENCE:1/);
+  assert.match(after, /SEQUENCE:2/);
 });
 test('识别标准国服活动时间', () => {
   const parsed = parsePost({ game: 'genshin', id: '123', official: true, title: '「测试」活动说明', published: now, url: base.url, text: '活动时间\n2026/10/05 10:00 ~ 2026/10/20 03:59\n参与条件：冒险等阶20级' });

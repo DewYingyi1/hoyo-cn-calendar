@@ -24,6 +24,7 @@ test('非法JSON与未知日期结构不通过', () => {
 });
 test('图片只读取白名单域名、不接受HTML、限大小、不跳转', async () => {
   await assert.rejects(loadReviewImage('https://evilmihoyo.com/p.png'), /白名单/);
+  await assert.rejects(loadReviewImage('https://i0.hdslb.com/p.png'), /白名单/);
   await assert.rejects(loadReviewImage(post.images[0], async () => new Response('html', { headers: { 'content-type': 'text/html' } })), /格式/);
   await assert.rejects(loadReviewImage(post.images[0], async () => new Response('', { headers: { 'content-type': 'image/png', 'content-length': '99999999' } })), /8MiB/);
   const image = await loadReviewImage(post.images[0], async (_, options) => { assert.equal(options.redirect, 'error'); return new Response('image', { headers: { 'content-type': 'image/png' } }); });

@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { GAMES, renderCalendar, validateEvent } from '../lib/calendar.mjs';
+import { GAMES, renderCalendar, validateEvent, readerNotes } from '../lib/calendar.mjs';
 
 export const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export async function readJson(file, fallback) {
@@ -37,7 +37,8 @@ export async function build() {
     status.games[game] ??= {};
     status.games[game].eventCount = final.filter(event => event.game === game && !event.cancelled && Date.parse(event.end ?? event.start) >= Date.now()).length;
   }
-  await writeJson('site/data/events.json', final);
+  // Maintenance evidence stays in repository data; the public calendar/page needs reader-facing notes.
+  await writeJson('site/data/events.json', final.map(event => ({ ...event, notes: readerNotes(event) })));
   await writeJson('site/data/status.json', status);
   await writeJson('site/data/review.json', await readJson('data/review.json', []));
   await fs.writeFile(path.join(ROOT, 'site/.nojekyll'), '');

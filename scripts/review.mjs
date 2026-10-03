@@ -3,7 +3,7 @@ import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { ROOT, readJson, writeJson } from './build.mjs';
 import { fetchWebsite } from '../lib/sources.mjs';
-import { fetchBilibili } from '../lib/bilibili.mjs';
+import { isWebsiteInput } from '../lib/selection.mjs';
 import { postDigest, imageDigest } from '../lib/parser.mjs';
 import { REVIEW_PROMPT, parseModelJSON, checkCandidate, loadReviewImage } from '../lib/review.mjs';
 
@@ -17,6 +17,7 @@ const hash = value => createHash('sha256').update(JSON.stringify(value)).digest(
 const privateDir = path.join(ROOT, 'local-private');
 await fs.mkdir(privateDir, { recursive: true });
 const store = await readJson('local-private/model-review.json', { schema: 1, records: {} });
+const games = await readJson('sources/games.json');
 let inputs, existing;
 if (process.argv.includes('--live')) {
   const base = 'https://dewyingyi1.github.io/hoyo-cn-calendar/';
@@ -27,8 +28,6 @@ if (process.argv.includes('--live')) {
   };
   const pending = (await json('data/review.json')).filter(item => !item.resolved);
   existing = await json('data/events.json');
-  const games = await readJson('sources/games.json');
-  const bilibili = await readJson('sources/bilibili.json', {});
   inputs = [];
   for (const game of Object.keys(games)) {
     const wanted = pending.filter(item => item.game === game);
@@ -40,20 +39,13 @@ if (process.argv.includes('--live')) {
         if (post) inputs.push({ ...post, canonical: `${review.game}:${review.source}:${review.postId}`, digest: postDigest(post), imagesHash: imageDigest(post) });
       }
     } catch { console.log(`${game}官网审核输入读取失败，旧候选保留。`); }
-    if (wanted.some(item => item.url.includes('bilibili.com'))) {
-      try {
-        const result = await fetchBilibili(game, bilibili[game]);
-        for (const review of wanted) {
-          const post = result.posts.find(post => post.url === review.url);
-          if (post) inputs.push({ ...post, canonical: `${review.game}:${review.source}:${review.postId}`, digest: postDigest(post), imagesHash: imageDigest(post) });
-        }
-      } catch { console.log(`${game}B站审核输入不可用，旧候选保留。`); }
-    }
   }
 } else {
   inputs = await readJson('local-private/review-inputs.json', []);
   existing = await readJson('site/data/events.json', []);
 }
+// Old local caches may still contain retired sources; never send them to the model.
+inputs = inputs.filter(post => isWebsiteInput(post, games));
 let calls = 0, tokens = 0;
 for (const post of inputs) {
   const id = `${post.game}:${post.source}:${post.id}`;
