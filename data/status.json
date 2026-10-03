@@ -1,11 +1,11 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T07:56:55.004Z",
+      "lastSuccessAt": "2026-10-03T09:19:26.744Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
-      "eligiblePosts": 23,
+      "eligiblePosts": 27,
       "earliestPublishedAt": "2026-08-13T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
       "error": null,
@@ -13,7 +13,7 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T07:56:55.004Z",
+      "lastSuccessAt": "2026-10-03T09:19:26.744Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -25,11 +25,11 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T07:56:55.004Z",
+      "lastSuccessAt": "2026-10-03T09:19:26.744Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
-      "eligiblePosts": 28,
+      "eligiblePosts": 30,
       "earliestPublishedAt": "2026-07-27T10:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
       "error": null,
@@ -37,8 +37,8 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     }
   },
-  "lastAttemptAt": "2026-10-03T07:56:55.004Z",
+  "lastAttemptAt": "2026-10-03T09:19:26.744Z",
   "issues": [],
-  "reviewCount": 1,
+  "reviewCount": 13,
   "successfulSources": 3
 }
