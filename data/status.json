@@ -1,19 +1,19 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T04:10:41.524Z",
+      "lastSuccessAt": "2026-10-03T04:19:40.883Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 23,
       "earliestPublishedAt": "2026-08-13T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "Cannot read properties of undefined (reading 'confirmedImagesHash')",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T04:14:29.156Z",
+      "lastSuccessAt": "2026-10-03T04:19:40.883Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -25,7 +25,7 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T04:14:29.156Z",
+      "lastSuccessAt": "2026-10-03T04:19:40.883Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -37,30 +37,28 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     }
   },
-  "lastAttemptAt": "2026-10-03T04:14:29.156Z",
+  "lastAttemptAt": "2026-10-03T04:19:40.883Z",
   "issues": [
-    "原神官网不可用：act-api-takumi-static.mihoyo.com：fetch failed；临时使用米游社备用源，遇验证码保留旧日程。",
-    "原神获取失败：Cannot read properties of undefined (reading 'confirmedImagesHash')；保留旧事件。",
     "原神B站补源不可用：B站：HTTP 412；官网主源不受影响，保留已有日程。",
     "星铁B站补源不可用：B站：HTTP 412；官网主源不受影响，保留已有日程。",
     "绝区零B站补源不可用：B站：HTTP 412；官网主源不受影响，保留已有日程。"
   ],
   "reviewCount": 1,
-  "successfulSources": 2,
+  "successfulSources": 3,
   "supplemental": {
     "genshin": {
       "source": "bilibili",
-      "lastAttemptAt": "2026-10-03T04:14:29.156Z",
+      "lastAttemptAt": "2026-10-03T04:19:40.883Z",
       "error": "B站：HTTP 412"
     },
     "starrail": {
       "source": "bilibili",
-      "lastAttemptAt": "2026-10-03T04:14:29.156Z",
+      "lastAttemptAt": "2026-10-03T04:19:40.883Z",
       "error": "B站：HTTP 412"
     },
     "zzz": {
       "source": "bilibili",
-      "lastAttemptAt": "2026-10-03T04:14:29.156Z",
+      "lastAttemptAt": "2026-10-03T04:19:40.883Z",
       "error": "B站：HTTP 412"
     }
   }

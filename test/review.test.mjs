@@ -34,3 +34,10 @@ test('已确认图片链接变化告警持续，不因下轮采集自动消失',
   assert.equal(confirmedImages(reference, 'confirmed-body', 'new-images').changed, true);
   assert.equal(confirmedImages(reference, 'reconfirmed-body', 'new-images').changed, false);
 });
+test('新公告及无确认记录不会因空记录抛错；首次确认建立当前图片基线', () => {
+  for (const reference of [undefined, null, {}]) {
+    assert.deepEqual(confirmedImages(reference, undefined, 'current-images'), { baseline: 'current-images', changed: false });
+    assert.deepEqual(confirmedImages(reference, 'first-confirmation', 'current-images'), { baseline: 'current-images', changed: false });
+  }
+  assert.deepEqual(confirmedImages({ confirmedImagesDigest: 'body' }, 'body', 'current-images'), { baseline: 'current-images', changed: false });
+});
