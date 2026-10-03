@@ -47,6 +47,16 @@
         <h3>三、看懂日历里的日程</h3><p>默认版把开启和截止各显示为一个时间节点。标题先写「开启」或「截止」；日历中显示的15分钟只是占位，不代表活动只持续15分钟。具体活动起止见日程说明。</p><p>说明中的时间均为北京时间；日历应用可能按设备时区显示。订阅刷新可能有延迟，临近截止以官网公告为准。</p>
         <details><summary>想把活动显示成一整段时间？</summary><p>可以改订下方「时间跨度」版：有明确起止的活动显示为持续区间；只确认开启或截止的活动仍保留单个时间节点。与默认版二选一，不要同时订阅。</p><div class="timeline-links"><a href="ics/genshin-timeline.ics">原神 · 时间跨度</a><a href="ics/starrail-timeline.ics">星穹铁道 · 时间跨度</a><a href="ics/zzz-timeline.ics">绝区零 · 时间跨度</a><a href="ics/all-timeline.ics">合并 · 时间跨度</a></div><p>这些链接可复制到日历应用中添加网址订阅；直接打开下载仍是静态文件。</p></details>
       </div></details>
+      <details class="help-block" id="windows-subscription-help"><summary>Windows 电脑订阅：WinCal 与 Rainlendar</summary><div class="help-content">
+        <h3>WinCal：用链接订阅，适合任务栏查看</h3>
+        <p><a href="https://github.com/ha0719/WinCal" target="_blank" rel="noopener noreferrer">WinCal（WinminiCal）项目 ↗</a> 支持远程 ICS 订阅、多份日历、刷新间隔与手动刷新；不需要先接入 Google 日历。它是任务栏弹出日历，不是常驻桌面的日历挂件。项目列出的系统要求为 Windows 10 1903+ 或 Windows 11。</p>
+        <ol><li>打开 <a href="https://github.com/ha0719/WinCal/releases/latest" target="_blank" rel="noopener noreferrer">下载页 ↗</a>，在「Assets」（下载文件）中选择 <code>WinCal.exe</code>，运行后打开设置。</li><li>数据源选择「ICS 订阅链接」，粘贴上方复制的 HTTPS 链接，点击「添加」，再点击「保存」。三款一起看可只添加合并版。</li><li>刷新间隔可选30分钟或1小时；缓存过期后，在读取日历数据时会尝试更新。需要立即重新拉取已发布内容时，可点击日历面板的刷新按钮。</li></ol>
+        <p>离线或刷新失败时可能仍显示旧缓存；后台下载完成后若显示未变，可再打开面板或手动刷新。本项目约每6小时更新一次，缩短客户端刷新间隔不会让官网采集更频繁。WinCal 按电脑时区显示时间，中国大陆使用时可核对系统时区为 UTC+8。</p>
+        <p class="fine-print">以上依据 WinCal 1.0 发布标签源码核对，尚未在本机安装实测。</p>
+        <h3>Rainlendar：网络订阅需要 Pro</h3>
+        <p><strong>Rainlendar Lite 免费版不能原生订阅并自动刷新网络 ICS 链接。</strong>Lite 可以读取或导入本地 ICS 文件，但下载后导入不会自动跟随此网站更新；需要原生网络订阅时，应使用 <a href="https://www.rainlendar.net/" target="_blank" rel="noopener noreferrer">Rainlendar Pro ↗</a> 的网络日历功能。</p>
+        <p>Lite 若另配外部定时下载与本地文件重载，也需要额外设置；这不是免费版本自带的网址订阅功能，单纯点击刷新不会从原订阅网址取回更新。</p>
+      </div></details>
       <div class="copy-feedback" id="copy-feedback" role="status" aria-live="polite"></div>
       <div id="manual-copy" class="manual-copy" hidden><label for="copy-value">自动复制不可用，请选中并复制此订阅链接：</label><input id="copy-value" type="text" readonly spellcheck="false"></div>
     </section>

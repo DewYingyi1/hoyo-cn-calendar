@@ -23,6 +23,26 @@
 
 电脑端谷歌日历：其他日历 → ＋ → 通过网址添加 → 粘贴 HTTPS 链接。**不是下载后导入**，导入不会持续更新。朋友可直接使用同样的公开链接，不需要游戏登录或本仓库权限。
 
+### Windows 电脑：WinCal / WinminiCal
+
+[WinCal](https://github.com/ha0719/WinCal) 适合通过 HTTPS ICS 链接订阅本项目，在任务栏弹出月历和近期日程；它不是常驻桌面挂件。项目列出的系统要求为 Windows 10 1903+ 或 Windows 11。支持多份 ICS、缓存、可设刷新间隔和手动刷新，不需要游戏账号，也不必先订阅到 Google 日历。
+
+一、打开[发布下载页](https://github.com/ha0719/WinCal/releases/latest)，在「Assets」（下载文件）中选择 `WinCal.exe`，运行并打开设置。
+
+二、数据源选「ICS 订阅链接」，粘贴本页 HTTPS 地址，点击「添加」后「保存」。只选所需游戏或合并版，不要重复添加。
+
+三、刷新间隔可选30分钟或1小时。源码在读取日历数据时检查缓存，过期则尝试后台更新；面板刷新按钮可强制重新下载。并非程序关闭后仍定时更新的独立服务。后台下载完成后若显示未变，可重新打开面板或手动刷新；离线/失败可能显示旧缓存。
+
+WinCal 按系统本地时区显示；在中国大陆使用时核对电脑时区为 UTC+8。本项目约每6小时采集发布一次，客户端更频繁刷新不会加快官网采集。
+
+依据 **1.0 发布标签源码** 核对远程下载、设置入口、缓存与手动刷新逻辑，未在本机安装或进行二进制兼容性实测：[`IcsCalendarService.cs`](https://github.com/ha0719/WinCal/blob/1.0/Core/Services/IcsCalendarService.cs)、[`SettingsWindow.xaml`](https://github.com/ha0719/WinCal/blob/1.0/Views/SettingsWindow.xaml)、[`PopupWindow.xaml.cs`](https://github.com/ha0719/WinCal/blob/1.0/Views/PopupWindow.xaml.cs)。
+
+### Rainlendar：区分 Lite 与 Pro
+
+**Rainlendar Lite 免费版不能原生订阅并自动刷新网络 ICS 链接。** Lite 能读取/导入本地 ICS，但下载导入只保留文件内容，不会自动拉取原网址的新日程。需要直接用链接持续订阅，应使用 **Rainlendar Pro** 的网络日历功能；[官网](https://www.rainlendar.net/)将网络日历等第三方集成功能列为 Pro 功能。
+
+Lite 加外部定时下载和本地文件重载属于额外配置，并非内置网络订阅。不能将“刷新本地文件”或“重新导入”描述成自动订阅网址；未配置下载时，点击刷新也不会取回本网站新内容。
+
 ## 数据与准确性
 
 ### 仅官网采集
