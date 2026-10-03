@@ -1,7 +1,7 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T03:08:52.620Z",
+      "lastSuccessAt": "2026-10-03T03:09:03.924Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
@@ -12,7 +12,7 @@
       "primarySource": "website"
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T03:08:52.620Z",
+      "lastSuccessAt": "2026-10-03T03:09:03.924Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -23,19 +23,21 @@
       "primarySource": "website"
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T03:08:52.620Z",
-      "source": "website",
-      "scanned": 100,
-      "officialPosts": 99,
-      "eligiblePosts": 28,
-      "earliestPublishedAt": "2026-07-27T10:00:00.000Z",
-      "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
+      "lastSuccessAt": "2026-10-03T03:09:03.924Z",
+      "source": "miyoushe",
+      "scanned": 160,
+      "officialPosts": 135,
+      "eligiblePosts": 31,
+      "earliestPublishedAt": "2026-07-26T10:07:26.000Z",
+      "coverage": "官方主账号版块向前分页；不包含千星奇域独立账号或社区活动",
       "error": null,
       "primarySource": "website"
     }
   },
-  "lastAttemptAt": "2026-10-03T03:08:52.620Z",
-  "issues": [],
+  "lastAttemptAt": "2026-10-03T03:09:03.924Z",
+  "issues": [
+    "绝区零官网不可用：fetch failed；临时使用米游社备用源，遇验证码保留旧日程。"
+  ],
   "reviewCount": 10,
   "successfulSources": 3
 }
