@@ -60,3 +60,23 @@ test('摘要时间不猜版本更新时刻，维护与前瞻标签准确', async
   assert.match(html, /'预计维护结束'/);
   assert.match(html, /'开播'/);
 });
+
+test('当前活动列表过滤已结束维护和前瞻，保留进行中、未来及非精确截止', async () => {
+  const html = await fs.readFile(new URL('../site/index.html', import.meta.url), 'utf8');
+  const source = html.slice(html.indexOf('    function eventTime('), html.indexOf('    function createEventCard('));
+  const ctx = { formatDate: value => value, dateValue: value => value ? new Date(value) : null };
+  vm.createContext(ctx);
+  vm.runInContext(source, ctx);
+  const now = Date.parse('2026-10-03T10:00:00Z');
+  const input = [
+    { id: 'april-maintenance', start: '2026-04-22T06:00:00+08:00', end: '2026-04-22T11:00:00+08:00' },
+    { id: 'old-livestream', category: 'livestream', start: '2026-09-20T19:30:00+08:00', end: null },
+    { id: 'ongoing', start: '2026-09-01T04:00:00+08:00', end: '2026-10-05T03:59:00+08:00' },
+    { id: 'future', start: '2026-10-05T04:00:00+08:00', end: '2026-11-16T03:59:00+08:00' },
+    { id: 'text-end', start: '2026-09-28T00:00:00+08:00', end: null, endText: '至7.1版本结束' },
+    { id: 'cancelled', start: '2026-10-05T04:00:00+08:00', end: '2026-11-16T03:59:00+08:00', cancelled: true },
+  ];
+  assert.deepEqual(Array.from(ctx.currentOrFutureEvents(input, now), item => item.id), ['ongoing', 'future', 'text-end']);
+  assert.match(html, /当前与未来活动/);
+  assert.match(html, /历史事件仍保留在订阅窗口中/);
+});

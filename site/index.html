@@ -66,8 +66,8 @@
     </section>
 
     <section id="events" class="section" aria-labelledby="events-title">
-      <div class="section-heading"><div><span class="eyebrow">FROM OFFICIAL SOURCES</span><h2 id="events-title">已收录的活动</h2></div><span id="event-count" class="section-caption">读取中</span></div>
-      <p class="section-description">这里展示本项目已收录的数据，不是完整官方排期。活动可能变更，具体规则和时间以官方原文为准。</p>
+      <div class="section-heading"><div><span class="eyebrow">FROM OFFICIAL SOURCES</span><h2 id="events-title">当前与未来活动</h2></div><span id="event-count" class="section-caption">读取中</span></div>
+      <p class="section-description">这里展示尚未结束或即将开始的已收录数据，不是完整官方排期。历史事件仍保留在订阅窗口中，但不混入当前活动列表；具体规则和时间以官方原文为准。</p>
       <p class="event-guide">按游戏收纳，默认收起。展开游戏查看活动，再点活动查看完整时间、说明与官方原文。</p>
       <div id="event-list" class="game-groups"><p class="empty-state" role="status">正在读取活动数据……</p></div>
     </section>
@@ -171,6 +171,18 @@
       return value ? formatDate(value) : text || formatDate(null);
     }
 
+    function currentOrFutureEvents(items, now = Date.now()) {
+      return items.filter(event => {
+        if (event.cancelled) return false;
+        const end = dateValue(event.end);
+        if (end) return end.getTime() >= now;
+        if (typeof event.endText === 'string' && event.endText.trim()) return true;
+        // One-shot nodes without an end (livestreams and known starts) expire at their start.
+        const start = dateValue(event.start);
+        return start ? start.getTime() >= now : true;
+      });
+    }
+
     function createEventCard(event) {
       const card = textElement('details', 'event-card' + (event.cancelled ? ' cancelled' : ''), '');
       const summary = textElement('summary', 'event-summary', '');
@@ -223,7 +235,7 @@
     function renderEvents() {
       const list = document.getElementById('event-list');
       list.replaceChildren();
-      document.getElementById('event-count').textContent = eventLoadError ? '活动数据不可用' : '总计 ' + events.length + ' 条已收录';
+      document.getElementById('event-count').textContent = eventLoadError ? '活动数据不可用' : '当前与未来共 ' + events.length + ' 条';
       if (eventLoadError || !events.length) {
         const published = state && state.games && Object.values(state.games).some(record => record && dateValue(record.lastSuccessAt));
         const message = eventLoadError ? '活动文件尚未生成或暂时无法读取。数据不可用不代表没有活动，请查看官方公告。' : !published ? '当前没有可展示的活动，也没有可确认的成功发布记录。请稍后再查看。' : '当前筛选下没有已收录活动；这不代表官方没有活动。';
@@ -324,7 +336,7 @@
       }).catch(() => renderStatus(null)),
       loadJSON('./data/events.json').then(data => {
         if (!Array.isArray(data)) throw new Error('Invalid events schema');
-        events = data.filter(event => event && typeof event === 'object' && !Array.isArray(event));
+        events = currentOrFutureEvents(data.filter(event => event && typeof event === 'object' && !Array.isArray(event)));
         renderEvents();
       }).catch(() => { eventLoadError = true; renderEvents(); })
     ]);
