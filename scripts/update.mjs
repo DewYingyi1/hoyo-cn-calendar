@@ -7,6 +7,7 @@ import { fetchWebsite } from '../lib/sources.mjs';
 import { sourceKey, findCanonical, canonicalPrefix, canonicalPost, isHandled, preserveProvenance } from '../lib/identity.mjs';
 import { selectSource } from '../lib/selection.mjs';
 import { confirmedImages } from '../lib/review.mjs';
+import { updateReview, retainReviews } from '../lib/review-state.mjs';
 
 const now = new Date().toISOString();
 const configs = await readJson('sources/games.json');
@@ -65,13 +66,10 @@ for (const [game, config] of Object.entries(configs)) {
         reviews.delete(key);
       } else if (handled && !expected && source === 'website') {
         reviews.set(key, { game, source: canonical.source, postId: canonical.id, title: post.title, url: post.url, reason: '跨来源人工记录尚未核对官网正文；保留既有日程', digest, firstSeenAt: now, resolved: false, changedConfirmation: true });
-      } else if (parsed.event) {
-        incoming.push(parsed.event); reviews.delete(key);
-      } else if (parsed.review) {
-        const oldReview = reviews.get(key);
-        reviews.set(key, { ...parsed.review, source: canonical.source, firstSeenAt: oldReview?.firstSeenAt ?? now,
-          resolved: handled && !changed, changedConfirmation: changed });
-      } else if (parsed.ignored) reviews.delete(key);
+      } else {
+        if (parsed.event) incoming.push(parsed.event);
+        updateReview(reviews, key, parsed, { source: canonical.source, now, handled, changed });
+      }
       if (reviews.has(key) && !reviews.get(key).resolved) reviewInputs.push({ ...post, canonical: key, digest, imagesHash });
     }
     if (process.env.LOCAL_AUDIT === '1') {
@@ -97,8 +95,7 @@ for (const event of old) {
 // Keep published historical provenance as well as the canonical UID; current website
 // evidence is recorded separately in the website registry and review inputs.
 const events = mergeEvents([...canonicalOld.values()], incoming.map(event => preserveProvenance(event, canonicalOld.get(event.id))), now);
-const cutoff = Date.now() - 100 * 86400000;
-const pending = [...reviews.values()].filter(review => Date.parse(review.firstSeenAt) >= cutoff);
+const pending = retainReviews(reviews.values(), now);
 status.reviewCount = pending.filter(item => !item.resolved).length;
 status.successfulSources = successes;
 await writeJson('data/events.json', events);
