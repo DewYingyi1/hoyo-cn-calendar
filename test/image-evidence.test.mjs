@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import os from 'node:os';
 import { promisify } from 'node:util';
 import { execFile } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
@@ -15,6 +16,7 @@ const hash = value => createHash('sha256').update(value).digest('hex');
 const context = { expectedDigest: 'reviewed-text', digest: 'reviewed-text', now: '2026-10-03T00:00:00Z' };
 const post = { images: [url] };
 const response = (bytes = 'GIF89a-one', headers = {}) => new Response(bytes, { headers: { 'content-type': 'image/gif', ...headers } });
+const tempRoot = () => process.env.LOCALAPPDATA ? path.join(process.env.LOCALAPPDATA, 'Temp', 'opencode') : path.join(os.tmpdir(), 'opencode');
 const baseline = { imageEvidenceRequired: true, confirmedImageBytes: { [url]: hash('GIF89a-one') }, confirmedImageBytesDigest: context.expectedDigest };
 
 test('字节检查只接受官方HTTPS图片、禁止认证URL及其他端口', () => {
@@ -217,9 +219,9 @@ test('坏官网记录逐条隔离，有效正文、图片正文与宣传保留�
 });
 
 test('更新入口隔离测试：图片失败不吞有效posts，跨轮不自动确认且不改实际data', async () => {
-  const tempRoot = path.join(process.env.LOCALAPPDATA ?? 'C:\\Users\\PC\\AppData\\Local', 'Temp', 'opencode');
-  await fs.mkdir(tempRoot, { recursive: true });
-  const sandbox = await fs.mkdtemp(path.join(tempRoot, 'hoyo-image-evidence-'));
+  const temporary = tempRoot();
+  await fs.mkdir(temporary, { recursive: true });
+  const sandbox = await fs.mkdtemp(path.join(temporary, 'hoyo-image-evidence-'));
   const put = async (file, value) => {
     await fs.mkdir(path.dirname(path.join(sandbox, file)), { recursive: true });
     await fs.writeFile(path.join(sandbox, file), typeof value === 'string' ? value : JSON.stringify(value));
@@ -302,9 +304,9 @@ test('更新入口隔离测试：图片失败不吞有效posts，跨轮不自动
 });
 
 test('首次采集全败且无基线时在事务前拒绝，不留下半套数据', async () => {
-  const tempRoot = path.join(process.env.LOCALAPPDATA ?? 'C:\\Users\\PC\\AppData\\Local', 'Temp', 'opencode');
-  await fs.mkdir(tempRoot, { recursive: true });
-  const sandbox = await fs.mkdtemp(path.join(tempRoot, 'hoyo-empty-update-'));
+  const temporary = tempRoot();
+  await fs.mkdir(temporary, { recursive: true });
+  const sandbox = await fs.mkdtemp(path.join(temporary, 'hoyo-empty-update-'));
   const put = async (file, value) => {
     await fs.mkdir(path.dirname(path.join(sandbox, file)), { recursive: true });
     await fs.writeFile(path.join(sandbox, file), typeof value === 'string' ? value : JSON.stringify(value));
