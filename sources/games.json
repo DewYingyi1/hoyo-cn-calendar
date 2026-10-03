@@ -4,5 +4,5 @@
   "starrail": { "gameId": 6, "forumId": 53, "officialUids": ["288909600"], "path": "sr", "pages": 8,
     "website": { "base": "https://act-api-takumi-static.mihoyo.com", "app": "1963de8dc19e461c", "channel": 255, "urlBase": "https://sr.mihoyo.com/news/" } },
   "zzz": { "gameId": 8, "forumId": 58, "officialUids": ["152039148"], "path": "zzz", "pages": 8,
-    "website": { "base": "https://api-takumi-static.mihoyo.com", "app": "706fd13a87294881", "channel": 273, "urlBase": "https://zzz.mihoyo.com/news/" } }
+    "website": { "base": "https://act-api-takumi-static.mihoyo.com", "fallbackBases": ["https://api-takumi-static.mihoyo.com"], "app": "706fd13a87294881", "channel": 273, "urlBase": "https://zzz.mihoyo.com/news/" } }
 }

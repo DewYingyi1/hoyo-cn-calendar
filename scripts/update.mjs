@@ -71,7 +71,7 @@ for (const [game, config] of Object.entries(configs)) {
       await fs.writeFile(path.join(ROOT, `local-private/${game}-${source}-latest.json`), JSON.stringify(result.posts, null, 2));
     }
     successes++;
-    status.games[game] = { ...previous, lastSuccessAt: now, source, primarySource: 'website', scanned: result.scanned, officialPosts: result.posts.length, eligiblePosts: eligible, earliestPublishedAt: result.posts.map(post => post.published).sort()[0], coverage: result.coverage, error: null };
+    status.games[game] = { ...previous, lastSuccessAt: now, source, primarySource: 'website', endpoint: result.endpoint ?? null, scanned: result.scanned, officialPosts: result.posts.length, eligiblePosts: eligible, earliestPublishedAt: result.posts.map(post => post.published).sort()[0], coverage: result.coverage, error: null };
     console.log(`${GAMES[game].name}：${result.posts.length} 官方公告，${eligible} 候选公告，来源 ${source}。`);
   } catch (error) {
     status.games[game] = { ...previous, primarySource: 'website', error: error.message };

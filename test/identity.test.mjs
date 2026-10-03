@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { findCanonical, canonicalPost } from '../lib/identity.mjs';
 import { mergeEvents, renderCalendar } from '../lib/calendar.mjs';
-import { normalizeWebsite } from '../lib/sources.mjs';
+import { normalizeWebsite, fetchWebsite } from '../lib/sources.mjs';
 import { selectSource } from '../lib/selection.mjs';
 import { classify, parsePost } from '../lib/parser.mjs';
 const now = '2026-10-03T01:00:00Z';
@@ -53,4 +53,16 @@ test('通行证购买截止不得混入任务与奖励截止', () => {
   const result = parsePost({ game: 'zzz', source: 'website', id: '1', official: true, title: '3.2版本「丽都城募」说明', published: now, url: 'https://zzz.mihoyo.com/news/1', text: '活动时间\n3.2版本更新后 ~ 2026/10/19 03:59\n※2026/10/19 02:59 将关闭本次活动中「成长计划」的购买。\n参与条件' });
   assert.ok(result.review);
   assert.equal(result.event, undefined);
+});
+test('官网同服务备用入口也失败后才允许退回米游社', async () => {
+  const config = { website: { base: 'https://act-api-takumi-static.mihoyo.com', fallbackBases: ['https://api-takumi-static.mihoyo.com'], app: 'test', channel: 273, urlBase: 'https://zzz.mihoyo.com/news/' } };
+  const requests = [];
+  const result = await fetchWebsite('zzz', config, async url => {
+    requests.push(url);
+    if (requests.length === 1) throw new Error('unreachable');
+    return { iTotal: 1, list: [{ iInfoId: 8, sTitle: '官网公告', sContent: '<p>正文</p>', dtStartTime: '2026-10-03 10:00:00' }] };
+  });
+  assert.equal(requests.length, 2);
+  assert.equal(result.posts[0].source, 'website');
+  assert.equal(result.endpoint, config.website.fallbackBases[0]);
 });
