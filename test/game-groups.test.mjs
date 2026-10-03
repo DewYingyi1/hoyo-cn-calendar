@@ -14,7 +14,7 @@ async function context() {
 
 test('活动按游戏唯一分组、保留全部记录，新游戏自动独立分组', async () => {
   const { ctx } = await context();
-  const events = JSON.parse(await fs.readFile(new URL('../site/data/events.json', import.meta.url), 'utf8'));
+  const events = JSON.parse(await fs.readFile(new URL('../data/events.json', import.meta.url), 'utf8'));
   const originalOrder = events.map(e => e.id);
   const groups = ctx.groupEvents(events);
   assert.equal(groups.length, 3);
