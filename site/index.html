@@ -154,7 +154,8 @@
         issues.append(textElement('li', '', message));
       });
       issues.hidden = entries.length === 0;
-      renderEvents();
+      // A late status response must not destroy loaded cards during a touch fling.
+      if (!events.length) renderEvents();
     }
 
     function officialURL(value) {
