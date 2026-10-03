@@ -1,7 +1,7 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T02:09:19.890Z",
+      "lastSuccessAt": "2026-10-03T02:11:27.475Z",
       "source": "miyoushe",
       "scanned": 160,
       "officialPosts": 85,
@@ -11,7 +11,7 @@
       "error": null
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T02:09:19.890Z",
+      "lastSuccessAt": "2026-10-03T02:11:27.475Z",
       "source": "miyoushe",
       "scanned": 160,
       "officialPosts": 106,
@@ -21,7 +21,7 @@
       "error": null
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T02:09:19.890Z",
+      "lastSuccessAt": "2026-10-03T02:11:27.475Z",
       "source": "miyoushe",
       "scanned": 160,
       "officialPosts": 135,
@@ -31,7 +31,7 @@
       "error": null
     }
   },
-  "lastAttemptAt": "2026-10-03T02:09:19.890Z",
+  "lastAttemptAt": "2026-10-03T02:11:27.475Z",
   "issues": [],
   "reviewCount": 3,
   "successfulSources": 3
