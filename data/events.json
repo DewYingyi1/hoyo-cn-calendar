@@ -6,10 +6,10 @@
     "title": "「禁界拟想阵地战」活动：阵地保卫挑战",
     "start": "2026-09-07T10:00:00+08:00",
     "end": "2026-09-17T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/ys/article/77989087",
+    "url": "https://ys.mihoyo.com/main/news/detail/165985",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "genshin:miyoushe:78027438",
@@ -18,10 +18,10 @@
     "title": "《原神》7.1版本「往冥府的安魂歌」前瞻特别节目预告",
     "start": "2026-09-12T20:00:00+08:00",
     "end": null,
-    "url": "https://www.miyoushe.com/ys/article/78027438",
+    "url": "https://ys.mihoyo.com/main/news/detail/166006",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:59:47.906Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "genshin:miyoushe:78105563",
@@ -30,10 +30,10 @@
     "title": "「盛材移涌」活动：天赋培养素材、武器突破素材双倍掉落",
     "start": "2026-09-14T04:00:00+08:00",
     "end": "2026-09-21T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/ys/article/78105563",
+    "url": "https://ys.mihoyo.com/main/news/detail/166079",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "genshin:miyoushe:78299696",
@@ -42,10 +42,10 @@
     "title": "「溯月纪行」活动说明",
     "start": null,
     "end": "2026-11-02T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/ys/article/78299696",
+    "url": "https://ys.mihoyo.com/main/news/detail/166259",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "genshin:miyoushe:78299703",
@@ -54,22 +54,22 @@
     "title": "「桌上剧团·冒险的前夜会」活动：自选邀请限定5星角色",
     "start": null,
     "end": "2026-11-03T14:59:00+08:00",
-    "url": "https://www.miyoushe.com/ys/article/78299703",
+    "url": "https://ys.mihoyo.com/main/news/detail/166257",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "genshin:miyoushe:78299704",
     "game": "genshin",
     "category": "event",
-    "title": "「巡历雪境，凝铸锋锐」：自选邀请「奔行世间」常驻祈愿5星角色",
+    "title": "「巡历雪境，凝铸锋锐」活动：自选邀请「奔行世间」常驻祈愿5星角色",
     "start": null,
     "end": "2026-11-03T14:59:00+08:00",
-    "url": "https://www.miyoushe.com/ys/article/78299704",
+    "url": "https://ys.mihoyo.com/main/news/detail/166256",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:59:47.906Z",
-    "sequence": 1
+    "modified": "2026-10-03T03:03:17.799Z",
+    "sequence": 2
   },
   {
     "id": "genshin:miyoushe:78335167",
@@ -81,6 +81,18 @@
     "url": "https://www.miyoushe.com/ys/article/78335167",
     "notes": "官方维护说明：2026/09/23 06:00开始，预计5个小时完成。。结束按官方预计5小时计算，仅为预计，不代表已开服。",
     "modified": "2026-10-03T01:59:47.906Z",
+    "sequence": 0
+  },
+  {
+    "id": "genshin:website:165908",
+    "game": "genshin",
+    "category": "event",
+    "title": "「七圣召唤」热斗模式：列阵斗巧",
+    "start": "2026-08-29T10:00:00+08:00",
+    "end": "2026-09-14T03:59:00+08:00",
+    "url": "https://ys.mihoyo.com/main/news/detail/165908",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T03:05:10.182Z",
     "sequence": 0
   },
   {
@@ -102,10 +114,10 @@
     "title": "「花藏繁生」活动：拟造花萼限时双倍掉落",
     "start": "2026-08-14T04:00:00+08:00",
     "end": "2026-08-24T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/sr/article/77414370",
+    "url": "https://sr.mihoyo.com/news/165638",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "starrail:miyoushe:77738471",
@@ -138,10 +150,10 @@
     "title": "「位面分裂」活动：位面饰品限时双倍掉落",
     "start": "2026-09-07T04:00:00+08:00",
     "end": "2026-09-21T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/sr/article/78008125",
+    "url": "https://sr.mihoyo.com/news/165983",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "starrail:miyoushe:78164947",
@@ -162,10 +174,10 @@
     "title": "「异器盈界」活动：隧洞遗器限时双倍掉落",
     "start": "2026-09-19T04:00:00+08:00",
     "end": "2026-09-28T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/sr/article/78222780",
+    "url": "https://sr.mihoyo.com/news/166178",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "starrail:miyoushe:78445058",
@@ -192,16 +204,232 @@
     "sequence": 0
   },
   {
+    "id": "starrail:website:163630",
+    "game": "starrail",
+    "category": "maintenance",
+    "title": "4.2版本「如是，众生欢笑不已」版本更新说明",
+    "start": "2026-04-22T06:00:00+08:00",
+    "end": "2026-04-22T11:00:00+08:00",
+    "url": "https://sr.mihoyo.com/news/163630",
+    "notes": "官方维护说明：2026/04/22 06:00开始，预计5个小时完成。。结束按官方预计5小时计算，仅为预计，不代表已开服。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:163776",
+    "game": "starrail",
+    "category": "event",
+    "title": "「又上骰了！战力党！」：打牌共斗，获取星琼等奖励！",
+    "start": "2026-04-29T12:00:00+08:00",
+    "end": "2026-06-01T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/163776",
+    "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:163777",
+    "game": "starrail",
+    "category": "event",
+    "title": "「位面分裂300%」活动：位面饰品限时三倍掉落",
+    "start": "2026-05-04T04:00:00+08:00",
+    "end": "2026-05-18T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/163777",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:163928",
+    "game": "starrail",
+    "category": "event",
+    "title": "「花藏繁生」活动：拟造花萼限时三倍掉落",
+    "start": "2026-05-13T04:00:00+08:00",
+    "end": "2026-05-25T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/163928",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:164276",
+    "game": "starrail",
+    "category": "event",
+    "title": "「异器盈界」活动：隧洞遗器限时三倍掉落",
+    "start": "2026-05-22T04:00:00+08:00",
+    "end": "2026-06-01T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/164276",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:164310",
+    "game": "starrail",
+    "category": "event",
+    "title": "「淬锋之礼」：获取「千冶•刃」赠送全新部位开拓穿搭「彼岸业火」",
+    "start": null,
+    "end": "2026-06-24T11:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/164310",
+    "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:164424",
+    "game": "starrail",
+    "category": "event",
+    "title": "「像素飞机大乱斗」：定制你的最强战机，获取命运的足迹、星琼、聊天气泡等奖励！",
+    "start": null,
+    "end": "2026-07-15T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/164424",
+    "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:164426",
+    "game": "starrail",
+    "category": "maintenance",
+    "title": "4.3版本「沉于生者的忘川」版本更新说明",
+    "start": "2026-06-01T06:00:00+08:00",
+    "end": "2026-06-01T11:00:00+08:00",
+    "url": "https://sr.mihoyo.com/news/164426",
+    "notes": "官方维护说明：2026/06/01 06:00开始，预计5个小时完成。。结束按官方预计5小时计算，仅为预计，不代表已开服。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:164751",
+    "game": "starrail",
+    "category": "event",
+    "title": "「位面分裂」活动：位面饰品限时双倍掉落",
+    "start": "2026-06-17T04:00:00+08:00",
+    "end": "2026-06-29T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/164751",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:164924",
+    "game": "starrail",
+    "category": "event",
+    "title": "「尘灵游乐园」：布置游乐园，获取命运的足迹、星琼等奖励！",
+    "start": "2026-06-24T12:00:00+08:00",
+    "end": "2026-07-15T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/164924",
+    "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:165108",
+    "game": "starrail",
+    "category": "event",
+    "title": "「异器盈界」活动：隧洞遗器限时双倍掉落",
+    "start": "2026-07-03T04:00:00+08:00",
+    "end": "2026-07-13T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/165108",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:165179",
+    "game": "starrail",
+    "category": "event",
+    "title": "4.4版本「无名勋礼」更新",
+    "start": null,
+    "end": "2026-08-24T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/165179",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:165209",
+    "game": "starrail",
+    "category": "event",
+    "title": "「反贪『砖』家」：完成骇入行动，获取自塑尘脂、命运的足迹、星琼等奖励！",
+    "start": null,
+    "end": "2026-08-26T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/165209",
+    "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:165210",
+    "game": "starrail",
+    "category": "maintenance",
+    "title": "4.4版本「鸣笛于归寂之时」版本更新说明",
+    "start": "2026-07-15T06:00:00+08:00",
+    "end": "2026-07-15T11:00:00+08:00",
+    "url": "https://sr.mihoyo.com/news/165210",
+    "notes": "官方维护说明：2026/07/15 06:00开始，预计5个小时完成。。结束按官方预计5小时计算，仅为预计，不代表已开服。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:165361",
+    "game": "starrail",
+    "category": "event",
+    "title": "「位面分裂」活动：位面饰品限时双倍掉落",
+    "start": "2026-07-27T04:00:00+08:00",
+    "end": "2026-08-10T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/165361",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:165791",
+    "game": "starrail",
+    "category": "event",
+    "title": "4.5版本「无名勋礼」更新",
+    "start": null,
+    "end": "2026-09-28T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/165791",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:166045",
+    "game": "starrail",
+    "category": "event",
+    "title": "「方寸大冒险」：集结小队挑战强敌，获取命运的足迹、星琼等奖励！",
+    "start": "2026-09-12T12:00:00+08:00",
+    "end": "2026-09-28T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/166045",
+    "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "starrail:website:166485",
+    "game": "starrail",
+    "category": "event",
+    "title": "4.6版本「无名勋礼」更新",
+    "start": null,
+    "end": "2026-11-09T03:59:00+08:00",
+    "url": "https://sr.mihoyo.com/news/166485",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
     "id": "zzz:miyoushe:76998963",
     "game": "zzz",
     "category": "event",
     "title": "「云端礼赠」活动说明",
     "start": null,
     "end": "2026-09-08T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/76998963",
+    "url": "https://zzz.mihoyo.com/news/165399",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77004031",
@@ -210,10 +438,10 @@
     "title": "「恰浪花逐夏而至」活动说明",
     "start": null,
     "end": "2026-09-07T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77004031",
+    "url": "https://zzz.mihoyo.com/news/165412",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77218429",
@@ -222,10 +450,10 @@
     "title": "「咔嚓！焦点对决！」活动说明",
     "start": "2026-08-07T10:00:00+08:00",
     "end": "2026-08-24T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77218429",
+    "url": "https://zzz.mihoyo.com/news/165551",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77322295",
@@ -234,10 +462,10 @@
     "title": "「深度巡防-三倍赏金」活动说明",
     "start": "2026-08-12T04:00:00+08:00",
     "end": "2026-08-17T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77322295",
+    "url": "https://zzz.mihoyo.com/news/165621",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77539168",
@@ -246,10 +474,10 @@
     "title": "3.1版本限时频段（下期）",
     "start": "2026-08-19T12:00:00+08:00",
     "end": "2026-09-08T14:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77539168",
+    "url": "https://zzz.mihoyo.com/news/165758",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:59:47.906Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77539806",
@@ -258,10 +486,10 @@
     "title": "「『嗯呢』大派送！」活动说明",
     "start": "2026-08-19T10:00:00+08:00",
     "end": "2026-09-08T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77539806",
+    "url": "https://zzz.mihoyo.com/news/165760",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77540119",
@@ -270,10 +498,10 @@
     "title": "「咔滋酥脆出餐计划」活动说明",
     "start": "2026-08-19T10:00:00+08:00",
     "end": "2026-09-07T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77540119",
+    "url": "https://zzz.mihoyo.com/news/165762",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77648886",
@@ -282,22 +510,22 @@
     "title": "「极危通缉与悠游假期」活动说明",
     "start": "2026-08-24T10:00:00+08:00",
     "end": "2026-09-07T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77648886",
+    "url": "https://zzz.mihoyo.com/news/165838",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77716261",
     "game": "zzz",
     "category": "livestream",
-    "title": "3.2版本「她与她的隐秘往事」前瞻特别节目预告",
+    "title": "《绝区零》3.2版本「她与她的隐秘往事」前瞻特别节目预告",
     "start": "2026-08-28T19:30:00+08:00",
     "end": null,
-    "url": "https://www.miyoushe.com/zzz/article/77716261",
+    "url": "https://zzz.mihoyo.com/news/165853",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T03:03:17.799Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77761555",
@@ -306,10 +534,10 @@
     "title": "「叮咚！见习邮差派件中」活动说明",
     "start": "2026-08-28T10:00:00+08:00",
     "end": "2026-09-14T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77761555",
+    "url": "https://zzz.mihoyo.com/news/165890",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:77886494",
@@ -318,10 +546,10 @@
     "title": "「实战特训-三倍悬赏」活动说明",
     "start": "2026-09-02T04:00:00+08:00",
     "end": "2026-09-07T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/77886494",
+    "url": "https://zzz.mihoyo.com/news/165945",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78027827",
@@ -330,10 +558,10 @@
     "title": "3.2版本限时频段（上期）",
     "start": null,
     "end": "2026-09-30T11:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78027827",
+    "url": "https://zzz.mihoyo.com/news/165991",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:59:47.906Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78028041",
@@ -342,10 +570,10 @@
     "title": "「天使应援大作战」活动说明",
     "start": null,
     "end": "2026-11-30T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78028041",
+    "url": "https://zzz.mihoyo.com/news/166009",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78044239",
@@ -354,10 +582,10 @@
     "title": "「全新放送」活动说明",
     "start": null,
     "end": "2026-10-20T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78044239",
+    "url": "https://zzz.mihoyo.com/news/166014",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78044398",
@@ -366,10 +594,10 @@
     "title": "「『弹球勇者』哐哐当！」活动说明",
     "start": "2026-09-10T10:00:00+08:00",
     "end": "2026-10-19T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78044398",
+    "url": "https://zzz.mihoyo.com/news/166016",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78159162",
@@ -378,10 +606,10 @@
     "title": "「虚境逐影争锋」活动说明",
     "start": "2026-09-16T10:00:00+08:00",
     "end": "2026-10-05T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78159162",
+    "url": "https://zzz.mihoyo.com/news/166108",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78299921",
@@ -390,10 +618,10 @@
     "title": "「惊喜放映企划」活动说明",
     "start": "2026-09-23T10:00:00+08:00",
     "end": "2026-10-20T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78299921",
+    "url": "https://zzz.mihoyo.com/news/166202",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78300153",
@@ -402,10 +630,10 @@
     "title": "「先遣赏金-区域巡防」活动说明",
     "start": "2026-09-23T04:00:00+08:00",
     "end": "2026-09-28T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78300153",
+    "url": "https://zzz.mihoyo.com/news/166226",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78470659",
@@ -414,10 +642,10 @@
     "title": "3.2版本限时频段（下期）",
     "start": "2026-09-30T12:00:00+08:00",
     "end": "2026-10-20T14:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78470659",
+    "url": "https://zzz.mihoyo.com/news/166512",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:59:47.906Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78471475",
@@ -426,10 +654,10 @@
     "title": "「锵锵！球仔成长日记」活动说明",
     "start": "2026-09-30T10:00:00+08:00",
     "end": "2026-10-19T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78471475",
+    "url": "https://zzz.mihoyo.com/news/166515",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
-    "sequence": 0
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
   },
   {
     "id": "zzz:miyoushe:78574794",
@@ -438,9 +666,33 @@
     "title": "「跛脚乌鸦奇探录」活动说明",
     "start": "2026-10-03T10:00:00+08:00",
     "end": "2026-10-19T03:59:00+08:00",
-    "url": "https://www.miyoushe.com/zzz/article/78574794",
+    "url": "https://zzz.mihoyo.com/news/166570",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T01:54:39.161Z",
+    "modified": "2026-10-03T02:51:44.596Z",
+    "sequence": 1
+  },
+  {
+    "id": "zzz:website:165403",
+    "game": "zzz",
+    "category": "event",
+    "title": "3.1版本「丽都城募」说明",
+    "start": null,
+    "end": "2026-09-07T03:59:00+08:00",
+    "url": "https://zzz.mihoyo.com/news/165403",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T03:05:10.182Z",
+    "sequence": 0
+  },
+  {
+    "id": "zzz:website:166012",
+    "game": "zzz",
+    "category": "event",
+    "title": "3.2版本「丽都城募」说明",
+    "start": null,
+    "end": "2026-10-19T03:59:00+08:00",
+    "url": "https://zzz.mihoyo.com/news/166012",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-03T03:05:10.182Z",
     "sequence": 0
   }
 ]

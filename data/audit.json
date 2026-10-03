@@ -250,5 +250,365 @@
     "postId": null,
     "decision": "scope-note",
     "notes": "重新生成官方正文新增3.2下期卡池78470659：09/30 12:00至10/20 14:59，洛克茜、普罗米娅及各自音擎共四池；该帖不在重新生成review中，主任务负责自动事件，不在seed重复新增。最新3.2前瞻预告77716261也由主任务处理。正文仍无9月维护帖。"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166513",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED against forum 78469941 and both overrides: overall 2026/09/30 10:00 ~ 2026/11/03 03:59; outburst 2026/09/30 10:00 ~ 2026/10/10 03:59. Both labelled ranges match exactly; HTML/Quill whitespace digest difference is not a date change. All audit times are China UTC+8.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166392",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED against forum 78335167: maintenance 2026/09/23 06:00, expected five hours, and compensation dates match. Existing canonical suppression is duplicate-update-summary handling, not cancellation; manual maintenance remains under 78299035.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166385",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED against forum 78324485, the explicit date reference for all three current manual banners: 2026/09/23 7.1 version update afterwards ~ 2026/10/13 17:59. The same named characters and weapons are listed. Retain existing summary suppression to avoid duplicate banners; unknown exact opening time remains null.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166333",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78319398 after visually reading the official website time-table image https://fastcdn.mihoyo.com/content-v2/hk4e/166333/cf3c84c7496aceb08f69fafd44461c7a_2309268114156292385.png from raw official content-list HTML. Stages start 2026/09/24 10:00, 2026/09/26 04:00, 2026/09/28 04:00; all gameplay ends 2026/10/12 03:59, exactly matching the previously image-verified override. Different image filename is not treated as same-image proof: the dates were actually read. No independent claim deadline established. Suggested ID 166312 is absent from the latest snapshot and is not confirmed or aliased.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166246",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78299710. Visually read official image https://fastcdn.mihoyo.com/content-v2/hk4e/166246/d312b66041a2539a6e9bb395186b2288_5352900078616596419.png: Vesna, 7.1 version update afterwards ~ 2026/10/13 17:59. Matches manual deadline and the explicit dated forum 78324485 / website 166385 summary. Publication at 10:10 on update day does not establish banner opening time.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166249",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78299709. Visually read official image https://fastcdn.mihoyo.com/content-v2/hk4e/166249/2b0ffa1b9508f0068a7522607c5c2326_2388390784621107338.png: Voyanisha, 7.1 version update afterwards ~ 2026/10/13 17:59. Same character and relevant date as the manual override and forum 78324485 / website 166385 date reference; exact opening time remains null.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166251",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78299708. Visually read official image https://fastcdn.mihoyo.com/content-v2/hk4e/166251/77517d6f6d0a9c4eb558ef52c890e5c7_1339960148980040887.png: both Butterfly Transformation and Vortex Canticle share 7.1 version update afterwards ~ 2026/10/13 17:59. Matches manual weapon-banner deadline and forum 78324485 / website 166385; do not split the two weapons into separate banners or invent opening time.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166252",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78299706. Compared named subsections, not whole-body digest: thank-you letters start 2026/09/28 00:00 and end at 7.1 version end with no explicit fixed end; cumulative login is 2026/10/01 04:00 ~ 2026/10/19 03:59. Both match the two overrides. Thirty-day mail validity is not the event deadline.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166256",
+    "decision": "website-migration-audit",
+    "notes": "ALIAS ONLY to forum 78299704 after comparing the same named standard-5-star invitation and identical range: 7.1 version update afterwards ~ 2026/11/03 14:59. Not included in manual confirmedKeys because there is no existing complex manual override to confirm.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166237",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED against forum 78299035 and maintenance override: 2026/09/23 06:00 begins, expected five hours. Calculated 11:00 is an estimate only, not verified opening time for any activity. The separate 07:00 update-notice publication is not maintenance start.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165953",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED existing suppressed forum counterpart 77910704: same 7.0 phase-two banner range 2026/09/01 18:00 ~ 2026/09/22 14:59. Already expired; existing canonical summary suppression remains appropriate.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165757",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED existing suppressed forum counterpart 77537726: overall 2026/08/19 10:00 ~ 2026/09/22 03:59 and outburst 2026/08/19 10:00 ~ 2026/08/29 03:59 both match. This is the old cycle, not current website 166513.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166538",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS out-of-scope music-platform web promotion, not an in-game activity or banner: music tasks 2026/09/29 12:00 ~ 2026/10/13 23:59; redemption ends 2026/10/31 23:59; reward distribution October 3 with 14-day mail validity is separate. No forum counterpart in provided snapshot; no manual date confirmation claimed.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166394",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS out-of-scope Weibo supertopic community promotion. Its three ranges end November 3, September 27 and October 4 respectively; do not turn them into an in-game event or blanket-confirm as one range.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165913",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired weapon banner. Visually read official image https://fastcdn.mihoyo.com/content-v2/hk4e/165913/f176a4d752dbeda48fbd472d02f15dc4_3824826731660447092.png: both named polearms, 2026/09/01 18:00 ~ 2026/09/22 14:59. Consistent with old forum 77910704 / website 165953 summary. No new alias or manual confirmation based on title alone.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165912",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired Ineffa banner. Visually read official image https://fastcdn.mihoyo.com/content-v2/hk4e/165912/9fdb26d744bfb16106039405cf35b4e8_7072052967110923374.png: 2026/09/01 18:00 ~ 2026/09/22 14:59. Expiry is actual image evidence, not publication-date inference.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165911",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired Flins banner. Visually read official image https://fastcdn.mihoyo.com/content-v2/hk4e/165911/57ea05a242bcc1d79e7d2041bf1df795_8945683220082263281.png: 2026/09/01 18:00 ~ 2026/09/22 14:59. Expiry is actual image evidence, not publication-date inference.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "165900",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired competition after visually reading website time-table image https://fastcdn.mihoyo.com/content-v2/hk4e/165900/70dd004723ad370bc4d86ed10f51643d_8859904937083376329.png: phases start 2026/08/28 10:00, 2026/08/30 04:00, 2026/09/01 04:00; all end 2026/09/14 03:59. Normalized text had no dates, so expiry was not inferred blindly from an old title.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166334",
+    "decision": "website-migration-audit",
+    "notes": "NOT CONFIRMED / NO ALIAS: introduction has explicit start 2026/09/24 10:00, but no gameplay end in normalized text. It is not interchangeable with the full verified time-table notice 166333 for a whole-event confirmation.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166006",
+    "decision": "website-migration-audit",
+    "notes": "NOT CONFIRMED: existing alias to forum 78027438 has matching relevant livestream September 12 at 20:00, with 2026 established by both announcement publication dates. Forum-only sharing/discussion prize deadlines are different semantics and are not transferable to website text. No complex manual override to migrate here.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166487",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED against forum 78448395 and all four banner overrides. True Pearl and the matching light cone: 2026/09/28 4.6 version update afterwards ~ 2026/11/10 15:00. Feiying rerun and matching light cone: same update-afterwards start ~ 2026/10/21 11:59. Character-trial clauses agree. The two distinct deadlines must not be collapsed; exact start remains null.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166489",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78463670 after comparing corresponding named sections. Maintenance 2026/09/28 06:00, expected five hours. Both costume discounts end 2026/11/11 03:59; One-Take Film 2026/10/21 12:00 ~ 2026/11/11 03:59; pet draws and gift claims each update-afterwards ~ 2026/11/11 06:00; Gluttony activity same 06:00 end. Chaos Memory Come-Life Crossing update-afterwards ~ 2026/11/02 03:59; Apocalyptic Shadow 2026/10/05 04:00 ~ 2026/11/16 03:59; Pure Fiction 2026/10/19 04:00 ~ 2026/11/30 03:59; next Chaos Memory 2026/11/02 04:00 ~ 2026/12/14 03:59. All nine direct overrides match; referenced Gluttony deadline also matches. Version end November 11 06:00 is not interchangeable with 03:59 rewards/discounts. No website livestream counterpart for forum 78164947 is present in latest 99-post snapshot: that manual 2026/09/20 19:30 record remains UNVERIFIED cross-source; do not alias a PV, topic page or update notice just because its version title matches.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166488",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78445058: labelled limited-activity period 2026/09/28 4.6 version update afterwards ~ 2026/11/11 03:59 matches the override. Both texts explicitly preserve permanent gameplay/rewards after that; deadline is only limited rewards.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166197",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED and alias to forum 78286470 using same named activity and identical 4.6-version-period label, plus the independently compared same-name section in website 166489 / forum 78463670 explicitly ending 2026/11/11 06:00. This matches the manual cross-post date reference; no 03:59 generic activity deadline is substituted. Exact start remains null.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165896",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED against forum 77754792 and both surviving challenge overrides: Apocalyptic Shadow 2026/08/31 04:00 ~ 2026/10/05 03:59; Pure Fiction 2026/09/14 04:00 ~ 2026/10/19 03:59. These are still current on October 3 despite 4.5 version ending September 28 06:00. DO NOT suppress this old-version notice.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165883",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED existing suppressed counterpart forum 77739472: 2026/08/26 4.5 version update afterwards ~ 2026/09/12 11:59, including matching trial period. Existing expired-cycle suppression is justified.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165506",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED existing suppressed counterpart forum 77188470: Himeko and light cone end 2026/08/25 15:00 after July 15 update; reruns run 2026/08/05 12:00 ~ 2026/08/25 15:00. Both separate ranges and trial references match; all expired.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166480",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS duplicate maintenance notice only after comparing its maintenance clause 2026/09/28 06:00, expected five hours, against website 166489 and forum 78463670 manual maintenance. Pre-download September 24 14:00 is not maintenance. Existing canonical maintenance remains represented via verified update-summary alias; no claim of a matching independent forum maintenance post.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166486",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS as permanent gameplay with no closing deadline; ALIAS to forum 78421074 verified by identical explicit opening label 2026/09/28 4.6 version update afterwards permanently open. Do not invent an activity end from the version end or from another pet event.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165885",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired limited-reward cycle; ALIAS to forum 77738471 verified by the same named Grand Prix and identical 2026/08/26 4.5 version update afterwards ~ 2026/09/28 03:59 range. Suppression does not claim the permanent gameplay itself closes.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165244",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS out-of-scope music-platform web tasks; actual participation range 2026/07/17 12:00 ~ 2026/07/30 23:59 and redemption deadline 2026/09/09 00:00 are both expired. No matching forum post provided; not a manual confirmation.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165208",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired 4.4 banners after reading both distinct ranges: main banner 2026/07/15 ~ 2026/08/25 15:00; reruns 2026/07/15 ~ 2026/08/05 11:59. No fixed July 15 opening hour given; not guessed.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165187",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS historical maintenance/pre-download notice: maintenance 2026/07/15 06:00 with expected five hours; later July 21 resource update / July 23 force-relogin dates are not a future version-maintenance event. No current manual counterpart confirmation claimed.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165117",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS permanent collaboration warp from finite deadline calendar, NOT as expired: explicit opening 2026/07/24 12:00 onwards long-term, and explicit no closing time. Do not fabricate a version-end deadline.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "164925",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired 4.3 phase-two banners; actual labelled warp and trial periods 2026/06/24 12:00 ~ 2026/07/14 15:00.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "164425",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired 4.3 phase-one banners; actual labelled warp period 2026/06/01 4.3 version update afterwards ~ 2026/06/24 11:59, trial period same end.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "164408",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS historical maintenance/pre-download; maintenance clause explicitly 2026/06/01 06:00 begins, expected five hours. May 29 14:00 is pre-download, not maintenance.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "163927",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired 4.2 phase-two banners; actual labelled warp period and character trials 2026/05/13 12:00 ~ 2026/06/01 03:59.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "163626",
+    "decision": "website-migration-audit",
+    "notes": "SUPPRESS expired 4.2 phase-one banners; actual labelled warp period 4.2 version update afterwards ~ 2026/05/13 11:59 and matching trial end.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "165417",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED existing suppressed counterpart forum 77018353: same 3.1 version update afterwards ~ 3.1 version end label. Website update notice 165415 explicitly says 3.1 ends 2026/09/09 06:00, already past. This confirms historical-cycle suppression, not a new fixed-date override.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "165404",
+    "decision": "website-migration-audit",
+    "notes": "CONFIRMED existing suppressed counterpart forum 76999562: same 3.1 version update afterwards ~ 3.1 version end label. Website 165415 explicitly establishes version end 2026/09/09 06:00. Historical suppressed cycle, not current 3.2 potential trial 166013.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "165853",
+    "decision": "website-migration-audit",
+    "notes": "ALIAS ONLY to forum 77716261: exact same relevant livestream opening August 28 19:30, not merely a title match; both 2026 publication dates establish year. Not the replay 165936 or September 9 version-launch date. No existing complex manual override requires confirmedKeys entry.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166013",
+    "decision": "website-migration-audit",
+    "notes": "UNVERIFIED for a fixed-date manual confirmation: both sources say only 3.2 version update afterwards ~ 3.2 version end. No existing manual override handles this key. Remains reviewable rather than blanket-confirmed or suppressed; a new explicit fixed end would require a separate manual event, outside this seed's scope.",
+    "checkedAt": "2026-10-03T03:03:17.671Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166485",
+    "decision": "confirmed-split-pass",
+    "checkedAt": "2026-10-03T03:07:08.676Z",
+    "notes": "官网两条时间分别核对：2026-11-09 02:59购买关闭，03:59任务与奖励截止。开始仅为版本更新后。"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166012",
+    "decision": "confirmed-split-pass",
+    "checkedAt": "2026-10-03T03:07:08.676Z",
+    "notes": "官网两条时间分别核对：2026-10-19 02:59购买关闭，03:59任务与奖励截止。开始仅为版本更新后。"
   }
 ]

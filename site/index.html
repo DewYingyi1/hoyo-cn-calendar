@@ -98,10 +98,11 @@
       const count = Number.isInteger(record.eventCount) && record.eventCount >= 0 ? record.eventCount : null;
       const countText = count === null ? '收录数量未知' : '收录 ' + count + ' 条';
       const last = '上次成功：' + formatDate(record.lastSuccessAt) + '；' + countText + '。';
-      if (record.error) return { label: '更新异常', tone: 'warning', detail: last + ' 最近更新失败，现有文件可能仍为旧数据。' };
+      const sourceText = record.source === 'website' ? ' 当前来源：国服官网（优先）。' : record.source === 'miyoushe' ? ' 当前来源：米游社（官网异常时备用）。' : '';
+      if (record.error) return { label: '更新异常', tone: 'warning', detail: last + sourceText + ' 最近更新失败，现有文件可能仍为旧数据。' };
       if (Date.now() - dateValue(record.lastSuccessAt).getTime() > staleAfter) return { label: '数据过期', tone: 'warning', detail: last + ' 已超过 72 小时。' };
       if (count === 0) return { label: '空日历', tone: 'neutral', detail: last + ' 空日历不代表当前没有官方活动。' };
-      return { label: '有成功记录', tone: 'good', detail: last + ' 不代表收录完整。' };
+      return { label: '有成功记录', tone: 'good', detail: last + sourceText + ' 不代表收录完整。' };
     }
 
     function renderStatus(data) {
