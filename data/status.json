@@ -1,7 +1,7 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T05:24:31.718Z",
+      "lastSuccessAt": "2026-10-03T05:26:01.759Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
@@ -13,7 +13,7 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T05:24:31.718Z",
+      "lastSuccessAt": "2026-10-03T05:26:01.759Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -25,7 +25,7 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T05:24:31.718Z",
+      "lastSuccessAt": "2026-10-03T05:26:01.759Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -37,7 +37,7 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     }
   },
-  "lastAttemptAt": "2026-10-03T05:24:31.718Z",
+  "lastAttemptAt": "2026-10-03T05:26:01.759Z",
   "issues": [],
   "reviewCount": 1,
   "successfulSources": 3
