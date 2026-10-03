@@ -48,18 +48,6 @@
     "changedConfirmation": false
   },
   {
-    "game": "zzz",
-    "postId": "78044082",
-    "title": "「潜能预演·烈火重锤」活动说明",
-    "url": "https://zzz.mihoyo.com/news/166013",
-    "reason": "未取得唯一带标签的明确时间段",
-    "digest": "496f7fd8ff6f00a12b3bcd980631227372f32cb8f1185fb8c86d419561b5ddd4",
-    "source": "miyoushe",
-    "firstSeenAt": "2026-10-03T01:54:39.161Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
     "game": "genshin",
     "postId": "166261",
     "title": "「七圣召唤」铸境研炼：巧策进斗",
@@ -68,102 +56,6 @@
     "digest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
     "source": "website",
     "firstSeenAt": "2026-10-03T03:05:10.182Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "starrail",
-    "postId": "166234",
-    "title": "「星际幻宠」乐园：获取属于你的幻宠、布设幻宠乐园",
-    "url": "https://sr.mihoyo.com/news/166234",
-    "reason": "未取得唯一带标签的明确时间段",
-    "digest": "46001a2f213e6253701976a8a416e7b0ed3c1e61d9ae3b16af4afcec267113cc",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:05:10.182Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "starrail",
-    "postId": "164343",
-    "title": "4.3版本「无名勋礼」&商店更新",
-    "url": "https://sr.mihoyo.com/news/164343",
-    "reason": "活动截止与购买截止不同，需要拆分审核",
-    "digest": "a3c4cc8845aa3f74d3f59d14eae7726c7cf0339d3e4f6641ffbe45da0329a920",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:05:10.182Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "zzz",
-    "postId": "166026",
-    "title": "3.2版本「她与她的隐秘往事」更新公告",
-    "url": "https://zzz.mihoyo.com/news/166026",
-    "reason": "汇总或存在多个截止语义，需要拆分审核",
-    "digest": "70edd025c4b64a8ee7d9adcd5da86dab6662bed7c8ea3718854f847c478bfbb5",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:05:10.182Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "zzz",
-    "postId": "165415",
-    "title": "3.1版本「漫长的告别」更新公告",
-    "url": "https://zzz.mihoyo.com/news/165415",
-    "reason": "未取得唯一带标签的明确时间段",
-    "digest": "9456de476d6f294973db989143853616afeabbd46360074ef67029dbf53876ea",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:05:10.182Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "genshin",
-    "postId": "78299696",
-    "title": "「溯月纪行」活动说明",
-    "url": "https://ys.mihoyo.com/main/news/detail/166259",
-    "reason": "活动截止与购买截止不同，需要拆分审核",
-    "digest": "cf8fdbfcd5cfecd9ca156207d5021dc23d729ab360eab38d15b88e8e28a0e135",
-    "source": "miyoushe",
-    "firstSeenAt": "2026-10-03T03:07:09.252Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "starrail",
-    "postId": "165791",
-    "title": "4.5版本「无名勋礼」更新",
-    "url": "https://sr.mihoyo.com/news/165791",
-    "reason": "活动截止与购买截止不同，需要拆分审核",
-    "digest": "b5d1fee961a4308aba6ab443132185b8764541d6578833d66ad8499b555e7a65",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:07:09.252Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "starrail",
-    "postId": "165179",
-    "title": "4.4版本「无名勋礼」更新",
-    "url": "https://sr.mihoyo.com/news/165179",
-    "reason": "活动截止与购买截止不同，需要拆分审核",
-    "digest": "ae52ffbabe3ef1bda249f5fa8e4bc6d97b0a91bb745ce4146ad539c1ae8f005a",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:07:09.252Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "zzz",
-    "postId": "165403",
-    "title": "3.1版本「丽都城募」说明",
-    "url": "https://zzz.mihoyo.com/news/165403",
-    "reason": "活动截止与购买截止不同，需要拆分审核",
-    "digest": "dd3e3d49ce00987a1ab9c8b492fb0e7bf8ada5120fa4b8d64b0190fc1a4117c3",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:07:09.252Z",
     "resolved": false,
     "changedConfirmation": false
   }

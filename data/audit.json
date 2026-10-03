@@ -610,5 +610,143 @@
     "decision": "confirmed-split-pass",
     "checkedAt": "2026-10-03T03:07:08.676Z",
     "notes": "官网两条时间分别核对：2026-10-19 02:59购买关闭，03:59任务与奖励截止。开始仅为版本更新后。"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166013",
+    "decision": "confirmed-cross-post-version-end",
+    "notes": "对应review中canonical米游社78044082。实时公开官网正文与本地历史正文完全一致；主动读原图，图上也只有3.2更新后至版本结束。官网166026同版本明确结束为2026/10/21 06:00（UTC+8），与166013时间语义一致，故生成一条沿用canonical ID的截止事件；不推算开始，不重复拆试玩关卡。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166013",
+      "https://zzz.mihoyo.com/news/166026",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166013/70281eae5d26cc6bb09d0a826d496b9b_2420442123503850837.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166261",
+    "decision": "unresolved-no-explicit-same-version-end",
+    "notes": "实时官网166261与本地正文一致，只写『7.1版本期间持续开放』；主动读其两张图，分别为活动题图与摩拉奖励图，均无日期。筛查7.1更新说明166392、维护预告166237、活动速递166263正文及原图，未找到7.1版本明确结束时刻或本期巧策进斗明确截止。同名历史164220、162106等属于其他版本，不能借用；11/02纪行截止、11/03 14:59自选邀请截止、11/03 03:59幽境挑战截止均不证明版本结束。保留未解决，不加入confirmations、不抑制、不生成双null事件。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166261",
+      "https://ys.mihoyo.com/main/news/detail/166392",
+      "https://ys.mihoyo.com/main/news/detail/166237",
+      "https://ys.mihoyo.com/main/news/detail/166263",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/0dec54ca95be4d0f739445aa9fd06287_2994576233141355097.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/53085da8561d14974989882a602f8669_2337821289380569120.png"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166234",
+    "decision": "confirmed-deduplicated-summary-permanent-preserved",
+    "notes": "实时官网正文与本地正文一致，主动读全部9张图：题图、幻宠外观及名称表，均无额外时间。『星际潮玩』和『游园伴手礼』均为4.6版本期间，官网166489各自明确截至2026/11/11 06:00；已存在starrail:miyoushe:78463670:event-pets、:event-pet-gift且日期正确，全部保留，不再在166234下复制。『镇伏贪饕』已存在78286470，亦不重复。166234明确乐园2026/09/28更新后永久开放、交换广场永久开放；本期抽取结束后潮玩礼券、潮玩代币、愿望星尘不会回收。suppressKeys仅阻止此汇总帖重复自动生成有限截止事件，不关闭常驻功能、不删除已发表子项。商店潮玩礼券本期上架时间仅版本期间，不额外制造与抽取重复的截止。",
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/166234",
+      "https://sr.mihoyo.com/news/166489",
+      "https://sr.mihoyo.com/news/166197",
+      "https://sr.mihoyo.com/news/166235",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/166234/4f455492e2cfc31fadd73960d36ee954_464654809775062300.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "164343",
+    "decision": "historical-resolved-multiple-deadlines",
+    "notes": "实时正文与本地一致，主动读3张图，均为题图、头像及礼包图，无新增时间。4.3无名勋礼任务与奖励2026/07/13 03:59截止，购买荣勋、奖章、授章07/13 02:59关闭；协议商店另为07/14 15:00截止，不能混为勋礼期限。均已过期，现有events/overrides无此canonical prefix，因此只确认并抑制该历史汇总候选，不新增历史重复事件，不删除任何旧UID。",
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/164343",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/164343/10403e1554a5ed90c059b3974732f675_2234939417491395224.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166026",
+    "decision": "confirmed-summary-add-two-missing-events",
+    "notes": "实时官网正文与本地一致，主动读更新题图，题图无另行时间。先对齐现有canonical及独立来源：全新放送166014、天使应援166009、弹球166016、虚境166108、惊喜166202、先遣166226、球仔166515、乌鸦166570各自与已发表时间一致，全部保留；烈火重锤单独在166013/78044082下收录，不在汇总再建子项。仅新增漏收『嗯呢从天降』09/30 10:00至10/20 03:59及『数据悬赏-实战模拟』10/14 04:00至10/19 03:59，同名历史帖不是本期，不合并。3.2结束原文10/21 06:00仅用于明确版本结束的烈火重锤；天使应援明确跨版本至11/30 03:59，不缩短。邮件有效30天、问题修复补偿10/09 23:59不冒充维护时间或活动截止；永久剧情、信赖等不生成关闭事件。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166026",
+      "https://zzz.mihoyo.com/news/166013",
+      "https://zzz.mihoyo.com/news/166009",
+      "https://zzz.mihoyo.com/news/166014",
+      "https://zzz.mihoyo.com/news/166016",
+      "https://zzz.mihoyo.com/news/166108",
+      "https://zzz.mihoyo.com/news/166202",
+      "https://zzz.mihoyo.com/news/166226",
+      "https://zzz.mihoyo.com/news/166515",
+      "https://zzz.mihoyo.com/news/166570"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "165415",
+    "decision": "historical-resolved-finite-items-permanent-preserved",
+    "notes": "实时正文与本地一致，主动读题图无额外日期。3.1版本结束明确2026/09/09 06:00；周年馈礼、年度大揭秘、潜能狩猎游戏至该时刻，云端礼赠与嗯呢大派送09/08 03:59，恰浪花、出餐、极危、实战特训09/07 03:59，焦点对决08/24 03:59，深度巡防08/17 03:59，回归网页活动09/09 05:59；时装折扣与限时组合09/09 05:59结束，单品恢复原价不下架。邮差明确08/28 10:00至09/14 03:59，确实延续超过版本结束，已有zzz:miyoushe:77761555日期正确，保留不缩短。截至10/03以上限时项目全部已过期。现有canonical prefix 165415无事件，抑制仅防历史汇总重复；不删除任何独立历史UID。主线及信赖永久、迷宫诡域08/05 10:00后常驻、薇薇安时装永久上架均不标关闭。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/165415",
+      "https://zzz.mihoyo.com/news/165890",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165415/cb76e713faf0bd59255e777f721c6bfa_5739319787676381259.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166259",
+    "decision": "confirmed-split-pass-existing-uid-preserved",
+    "notes": "对应review中78299696，官网alias仍指genshin:miyoushe:78299696。实时正文与本地一致；题图不含时间，主动读166263纪行原图明确开放11/02 03:59、购买11/02 02:59，两条均与166259文字一致。旧根ID及任务奖励截止11/02 03:59保持，只补:purchase；开始仍null，不假设开服11:00。这不是7.1版本结束的证据。其他已发表原神current自动日期经预解析对比未见差异，保持不动。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166259",
+      "https://ys.mihoyo.com/main/news/detail/166263",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/5675494ae85bf8e2130ab1cb852dbbff_7169513807879256443.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165791",
+    "decision": "historical-resolved-existing-event-preserved",
+    "notes": "实时正文与本地一致，已读题图，无额外时间。4.5任务与奖励截至2026/09/28 03:59，付费计划购买09/28 02:59关闭，购买关闭后仍能完成任务领奖；10/03均已过期。现有starrail:website:165791根ID、标题、start=null、end=09/28 03:59、URL、notes逐字保留作为完整候选，仅不带sequence/modified由主代理继承。不放入suppressKeys，不取消、不删历史事件；无需为已过期购买另建新UID。",
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/165791",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/165791/7c99395bb5e6dba56d0260c1a5af493d_5297903124940373022.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "165179",
+    "decision": "historical-resolved-existing-event-preserved",
+    "notes": "实时正文与本地一致，已读题图，无额外时间。4.4任务与奖励截至2026/08/24 03:59，荣勋、奖章、授章购买08/24 02:59关闭；两者均已过期。现有starrail:website:165179完整事件除sequence/modified逐字保留，不放suppressKeys、不删UID、不重新发布日期、不新增历史购买事件。",
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/165179",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/165179/5d3e60ef053f9c34a3b3872f75ba8530_5928666848578971811.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "165403",
+    "decision": "historical-resolved-existing-event-preserved",
+    "notes": "实时正文与本地一致；主动读城募长图，顶部为3.1更新后至2026/09/07 03:59，与正文一致。任务及奖励09/07 03:59截止，成长计划、典藏计划、升级购买09/07 02:59关闭，购买关闭后仍能完成任务领奖。均已过期；现有zzz:website:165403完整事件除sequence/modified逐字保留，不抑制、不删除、不变更既有日期；不新增已过去购买UID。",
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/165403",
+      "https://fastcdn.mihoyo.com/content-v2/nap/165403/40165d60420d7afd5d25ddb160696200_4303653326101802562.jpg"
+    ],
+    "checkedAt": "2026-10-03T04:10:41.401Z"
   }
 ]

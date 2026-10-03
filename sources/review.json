@@ -1,0 +1,8 @@
+{
+  "baseURL": "https://api.siliconflow.cn/v1",
+  "model": "Qwen/Qwen3.8-27B",
+  "maxPostsPerRun": 6,
+  "maxImagesPerPost": 3,
+  "maxOutputTokens": 2400,
+  "mode": "candidates-only"
+}

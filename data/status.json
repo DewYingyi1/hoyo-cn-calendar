@@ -1,7 +1,7 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T03:27:17.801Z",
+      "lastSuccessAt": "2026-10-03T04:10:41.524Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
@@ -13,7 +13,7 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T03:27:17.801Z",
+      "lastSuccessAt": "2026-10-03T04:10:41.524Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -25,7 +25,7 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T03:27:17.801Z",
+      "lastSuccessAt": "2026-10-03T04:10:41.524Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -37,8 +37,29 @@
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     }
   },
-  "lastAttemptAt": "2026-10-03T03:27:17.801Z",
-  "issues": [],
-  "reviewCount": 10,
-  "successfulSources": 3
+  "lastAttemptAt": "2026-10-03T04:10:41.524Z",
+  "issues": [
+    "原神B站补源不可用：B站：HTTP 412；官网主源不受影响，保留已有日程。",
+    "星铁B站补源不可用：B站：HTTP 412；官网主源不受影响，保留已有日程。",
+    "绝区零B站补源不可用：B站：HTTP 412；官网主源不受影响，保留已有日程。"
+  ],
+  "reviewCount": 1,
+  "successfulSources": 3,
+  "supplemental": {
+    "genshin": {
+      "source": "bilibili",
+      "lastAttemptAt": "2026-10-03T04:10:41.524Z",
+      "error": "B站：HTTP 412"
+    },
+    "starrail": {
+      "source": "bilibili",
+      "lastAttemptAt": "2026-10-03T04:10:41.524Z",
+      "error": "B站：HTTP 412"
+    },
+    "zzz": {
+      "source": "bilibili",
+      "lastAttemptAt": "2026-10-03T04:10:41.524Z",
+      "error": "B站：HTTP 412"
+    }
+  }
 }

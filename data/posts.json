@@ -445,2086 +445,2482 @@
     "published": "2026-09-23T02:14:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166251",
     "digest": "5d592bb44a21cfe05e79905ca7ea01fe375ffc780c4e0974ababefc385d6f107",
-    "canonical": "genshin:miyoushe:78299708"
+    "canonical": "genshin:miyoushe:78299708",
+    "imagesHash": "c085241d7584aeab9bd6ccf676e50cc3ec77d7c398bb443cda8e6179845738ae",
+    "confirmedImagesHash": "c085241d7584aeab9bd6ccf676e50cc3ec77d7c398bb443cda8e6179845738ae",
+    "confirmedImagesDigest": "5d592bb44a21cfe05e79905ca7ea01fe375ffc780c4e0974ababefc385d6f107"
   },
   "genshin:website:166249": {
     "title": "《原神》「涌浪叙歌」活动祈愿现已开启",
     "published": "2026-09-23T02:12:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166249",
     "digest": "73923bef80c735a48c4c84478e3ed7327864cff564accd6915b9940e15d49a7a",
-    "canonical": "genshin:miyoushe:78299709"
+    "canonical": "genshin:miyoushe:78299709",
+    "imagesHash": "7df63d0223898becbb4ec9a9f41fd237e655ac7aee92edd0f6ae0cbf6f6b66e9",
+    "confirmedImagesHash": "7df63d0223898becbb4ec9a9f41fd237e655ac7aee92edd0f6ae0cbf6f6b66e9",
+    "confirmedImagesDigest": "73923bef80c735a48c4c84478e3ed7327864cff564accd6915b9940e15d49a7a"
   },
   "genshin:website:166246": {
     "title": "《原神》「煦风欢舞时」活动祈愿现已开启",
     "published": "2026-09-23T02:10:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166246",
     "digest": "3b74b38a23b14a7a1b8eeee8ef19ebdaf44829ec3915eb387162f8105d9f8a0f",
-    "canonical": "genshin:miyoushe:78299710"
+    "canonical": "genshin:miyoushe:78299710",
+    "imagesHash": "af36f9614c2168846cd9e9ec4bc1e4cfd86307cc089f4ac9e4cae9d5d3417686",
+    "confirmedImagesHash": "af36f9614c2168846cd9e9ec4bc1e4cfd86307cc089f4ac9e4cae9d5d3417686",
+    "confirmedImagesDigest": "3b74b38a23b14a7a1b8eeee8ef19ebdaf44829ec3915eb387162f8105d9f8a0f"
   },
   "genshin:website:166558": {
     "title": "「风仙亦是仙」！修炼切忌走火入魔哦~",
     "published": "2026-10-02T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166558",
     "digest": "6051d8847670827b294eabc7a9b7d76c30c868830d024048410135fab0148753",
-    "canonical": "genshin:website:166558"
+    "canonical": "genshin:website:166558",
+    "imagesHash": "5ba1266463410f4b78d7d7a651e4d6f501913511f2f9d3a2dfd6f4a894bcd25b"
   },
   "genshin:website:166557": {
     "title": "《原神》剧情PV-「燕归来」",
     "published": "2026-10-02T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166557",
     "digest": "68f470fc8e9776cb1e1ddf111aa530860c3adbb8bd4bdaf78ab8f69d04eec690",
-    "canonical": "genshin:website:166557"
+    "canonical": "genshin:website:166557",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166547": {
     "title": "谨律时度，严慎争守",
     "published": "2026-09-29T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166547",
     "digest": "29b031e4119ae35c0097a3412d31ebdd06ada76daec417b2f0e5e531b26fa40f",
-    "canonical": "genshin:website:166547"
+    "canonical": "genshin:website:166547",
+    "imagesHash": "dd5ed5dea490e9ab80756b7989d163197a9ee57d1415ddab1e1777720feddfae"
   },
   "genshin:website:166540": {
     "title": "锐思灵慧，笑语玄机",
     "published": "2026-09-29T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166540",
     "digest": "15caa0bfe9d45c76f92586ef63600d22623a766390c9f60116e91da08eb221c6",
-    "canonical": "genshin:website:166540"
+    "canonical": "genshin:website:166540",
+    "imagesHash": "543fe770db3f22feef96726896fbf2124dfce9923582892f79a6e61bc3f03293"
   },
   "genshin:website:166538": {
     "title": "《原神》「风的来信」音乐六周年主题活动正式上线",
     "published": "2026-09-29T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166538",
     "digest": "28eb477e7d31374d55e0c0257ffd530b4a5d9d36a2de969cdc34c0f5f839c0de",
-    "canonical": "genshin:website:166538"
+    "canonical": "genshin:website:166538",
+    "imagesHash": "75246616d4c528074a166753536847838f4ffc0f088e8fc2d8c74b9cbc8c8811",
+    "confirmedImagesHash": "75246616d4c528074a166753536847838f4ffc0f088e8fc2d8c74b9cbc8c8811",
+    "confirmedImagesDigest": "28eb477e7d31374d55e0c0257ffd530b4a5d9d36a2de969cdc34c0f5f839c0de"
   },
   "genshin:website:166537": {
     "title": "尼可生日快乐 | 这么好的阳光，不做点什么也太可惜了。",
     "published": "2026-09-29T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166537",
     "digest": "452cf59dea96e4ff720620d3e9892628eb081e7ea006baf6efbd529c29d1fc8c",
-    "canonical": "genshin:website:166537"
+    "canonical": "genshin:website:166537",
+    "imagesHash": "ffff5570d28d3d0281e700b50f2fdd0935d91fcaa929fc442d64fc19430d22b6"
   },
   "genshin:website:166532": {
     "title": "《原神》六周年主题曲EP《风的来信 A Letter From the Wind》现已正式上线",
     "published": "2026-09-28T16:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166532",
     "digest": "27cbf832ec9da0a47c107ecd474a5d67a908e9cf9782cffee20f28b379157b61",
-    "canonical": "genshin:website:166532"
+    "canonical": "genshin:website:166532",
+    "imagesHash": "f2ccecd9b7c31e7b5f79405726ae329ae7b9968abb67982ebdc65f7ac7c70e7e"
   },
   "genshin:website:166526": {
     "title": "《原神》提瓦特冒险纪念视频：旅行六周年手札",
     "published": "2026-09-28T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166526",
     "digest": "d65f25da62b707d4cc0f72764ad0b5d6e75af6d996fc4a7c4d1574eb9553a241",
-    "canonical": "genshin:website:166526"
+    "canonical": "genshin:website:166526",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166514": {
     "title": "《原神》六周年主题曲《风的来信》",
     "published": "2026-09-28T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166514",
     "digest": "73ccf13f942bb82198f05ac350a596c905f3068fd093aaaafc1463d9fc012189",
-    "canonical": "genshin:website:166514"
+    "canonical": "genshin:website:166514",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166513": {
     "title": "「幽境危战」活动：紊乱地脉挑战",
     "published": "2026-09-28T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166513",
     "digest": "ce2dbefb42a604314f6ee57d95500ae29867fef4e3d26849d06f623edbb882a7",
-    "canonical": "genshin:miyoushe:78469941"
+    "canonical": "genshin:miyoushe:78469941",
+    "imagesHash": "57914f31b75fe82930c0c25b3c719c66ebff00a4fd9ad7323d24afe1400387f6",
+    "confirmedImagesHash": "57914f31b75fe82930c0c25b3c719c66ebff00a4fd9ad7323d24afe1400387f6",
+    "confirmedImagesDigest": "ce2dbefb42a604314f6ee57d95500ae29867fef4e3d26849d06f623edbb882a7"
   },
   "genshin:website:166510": {
     "title": "神里绫华生日快乐 | 稍微随性一些，想来你也不会介意吧？",
     "published": "2026-09-28T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166510",
     "digest": "ca18904ecbc31d41519073eb348be74324ba2af5af0ad3231a2570dc3d8a4de8",
-    "canonical": "genshin:website:166510"
+    "canonical": "genshin:website:166510",
+    "imagesHash": "4cce5eea293da024cdd1b8a114fdeb9a7e25f351028ccec9baf781add58879b4"
   },
   "genshin:website:166508": {
     "title": "【网页活动上线】周年拾光册——与派蒙一起回顾提瓦特之旅吧！",
     "published": "2026-09-28T03:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166508",
     "digest": "42bcbdb1a815e80ecfb551fc0994127497af5bc052f9218cf67c01496a1c0360",
-    "canonical": "genshin:website:166508"
+    "canonical": "genshin:website:166508",
+    "imagesHash": "b8df824d8591464b34278e71bce7baab557397424b69946d8ba648028c3912ed"
   },
   "genshin:website:166505": {
     "title": "请查收来自沃雅妮莎的回信",
     "published": "2026-09-27T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166505",
     "digest": "c6ecf8ddc8a81716f3775a4fadebabff8bb8c52987d2f42ded7a38604ad4a9c1",
-    "canonical": "genshin:website:166505"
+    "canonical": "genshin:website:166505",
+    "imagesHash": "06c665abc07e326a1dc6f6b3ab665ba6b555570944382a87aca5d67dfdbf5efa"
   },
   "genshin:website:166500": {
     "title": "中秋快乐 | 我刚刚做好的花灯，是不是很可爱很有趣？",
     "published": "2026-09-25T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166500",
     "digest": "eddae4e3356209ada984e164034b33a29b4f8b699d02855300b932b856817980",
-    "canonical": "genshin:website:166500"
+    "canonical": "genshin:website:166500",
+    "imagesHash": "4aba7fb0ad3274f6af7921756493fe4d44cd300f8fa494c2e6db2f7b90893ddf"
   },
   "genshin:website:166472": {
     "title": "菲米尼生日快乐 | 这种像变魔术一样的风格，一定是林尼的主意吧。",
     "published": "2026-09-24T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166472",
     "digest": "4bb876ff6112d6462e9c2c6d4011073e3f9e2997cb75d9f13c9e9ee6d745cf19",
-    "canonical": "genshin:website:166472"
+    "canonical": "genshin:website:166472",
+    "imagesHash": "108c3332507830e97cf4c89e902735e35b2d1e1df5efd3c6b9dd9926249d2d89"
   },
   "genshin:website:166440": {
     "title": "「朝会」召开，针对死之执政的计划是…？",
     "published": "2026-09-23T04:15:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166440",
     "digest": "d66190d1cf41619783980c450f177062337dc6d7048747e4049791ac0fc3dba3",
-    "canonical": "genshin:website:166440"
+    "canonical": "genshin:website:166440",
+    "imagesHash": "88abd43cfceaadfad20894a1f7544471e0e7f731218ef068c8549a1147a5b2d4"
   },
   "genshin:website:166394": {
     "title": "《原神》6周年微博专属超话系列活动现已开启",
     "published": "2026-09-23T02:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166394",
     "digest": "afc4453bfd1efd0820d78bc1861a8e61afd398ae142d080438df433a35b0365f",
-    "canonical": "genshin:website:166394"
+    "canonical": "genshin:website:166394",
+    "imagesHash": "ee251dad432ee91547a2aad95b527b66503652d5ff99178090be63c03b207de8",
+    "confirmedImagesHash": "ee251dad432ee91547a2aad95b527b66503652d5ff99178090be63c03b207de8",
+    "confirmedImagesDigest": "afc4453bfd1efd0820d78bc1861a8e61afd398ae142d080438df433a35b0365f"
   },
   "genshin:website:166392": {
     "title": "「往冥府的安魂歌」7.1版本更新说明",
     "published": "2026-09-22T23:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166392",
     "digest": "e28f83b250b231c6f900602937f7626ad31330821631c98a0251dfad61e6506e",
-    "canonical": "genshin:miyoushe:78335167"
+    "canonical": "genshin:miyoushe:78335167",
+    "imagesHash": "93e50edef88527fac23def5e210dc59e9b5e9e5ea765530a955e8cf48aeb97b2",
+    "confirmedImagesHash": "93e50edef88527fac23def5e210dc59e9b5e9e5ea765530a955e8cf48aeb97b2",
+    "confirmedImagesDigest": "e28f83b250b231c6f900602937f7626ad31330821631c98a0251dfad61e6506e"
   },
   "genshin:website:166385": {
     "title": "7.1版本活动祈愿预告第一期",
     "published": "2026-09-22T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166385",
     "digest": "a45b99033b86de58574a42b300e564ab7e07d72dfaab5ed83c418923473c2620",
-    "canonical": "genshin:miyoushe:78324485"
+    "canonical": "genshin:miyoushe:78324485",
+    "imagesHash": "ae265e76a28d444ca9a90e3812f7e0ac286cc83436ced05cbef47921540dc1cd",
+    "confirmedImagesHash": "ae265e76a28d444ca9a90e3812f7e0ac286cc83436ced05cbef47921540dc1cd",
+    "confirmedImagesDigest": "a45b99033b86de58574a42b300e564ab7e07d72dfaab5ed83c418923473c2620"
   },
   "genshin:website:166380": {
     "title": "【7.1】版本创作者激励计划即将开启",
     "published": "2026-09-22T07:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166380",
     "digest": "abd6928e31279854d5a844d72da22841e69e7d81fef943a3d19960c42ff06b08",
-    "canonical": "genshin:website:166380"
+    "canonical": "genshin:website:166380",
+    "imagesHash": "d169a09d9fb740025f3d6918140a552d76c5350fa678a33e86fa53d5a1b5361a"
   },
   "genshin:website:166379": {
     "title": "抖音《原神》7.1版本创作者激励计划即将开启",
     "published": "2026-09-22T07:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166379",
     "digest": "9eb97f074b219930e464df4a2a3689d8555312dd9bb1a97611ec01c399eaec5f",
-    "canonical": "genshin:website:166379"
+    "canonical": "genshin:website:166379",
+    "imagesHash": "81b7048ead792821f0975f708c9fd073d4e0650b07328650e578448916167b36"
   },
   "genshin:website:166378": {
     "title": "哔哩哔哩《原神》7.1版本创作者激励计划即将开启",
     "published": "2026-09-22T07:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166378",
     "digest": "c56decae43c6c69a56b71fd63a3ef9ff733e491975e19359ef2833f868082c2e",
-    "canonical": "genshin:website:166378"
+    "canonical": "genshin:website:166378",
+    "imagesHash": "e566586619acc61b978a28e35af0414698ba227dbf9b4e9fc19f8377d42928d4"
   },
   "genshin:website:166334": {
     "title": "「银翎溯月，玄鸟结璘」活动介绍——参与活动，获取专属武器！",
     "published": "2026-09-22T04:10:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166334",
     "digest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
-    "canonical": "genshin:website:166334"
+    "canonical": "genshin:website:166334",
+    "imagesHash": "cf3eeda6ef73750625b9f9738067ff03f81589d9a5b4ed2931406acda57d6875"
   },
   "genshin:website:166333": {
     "title": "「银翎溯月，玄鸟结璘」活动：参与获取活动专属武器「单手剑·银釭」",
     "published": "2026-09-22T04:02:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166333",
     "digest": "c7d70d3aff5951d75df1c08e4318c8f07619a490114e837aed2b9635b4fc131d",
-    "canonical": "genshin:miyoushe:78319398"
+    "canonical": "genshin:miyoushe:78319398",
+    "imagesHash": "df2a671602a8585bd09ce389e7bb6245a00f56d8e99ec08f03797d94425da5d1",
+    "confirmedImagesHash": "df2a671602a8585bd09ce389e7bb6245a00f56d8e99ec08f03797d94425da5d1",
+    "confirmedImagesDigest": "c7d70d3aff5951d75df1c08e4318c8f07619a490114e837aed2b9635b4fc131d"
   },
   "genshin:website:166331": {
     "title": "《原神》角色预告-「沃雅妮莎：此夜共沦」",
     "published": "2026-09-22T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166331",
     "digest": "2566359233cc8cbad78de0c3cef204c6104131fa435207409e6bc345b300cdab",
-    "canonical": "genshin:website:166331"
+    "canonical": "genshin:website:166331",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166329": {
     "title": "艾梅莉埃生日快乐 | 请再靠近一些，闭上眼睛仔细感受一番吧。",
     "published": "2026-09-22T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166329",
     "digest": "dc2dc1abb3739a02aa27ceff60b471cdc1e2a93ea468db3102f9dccf82160f2f",
-    "canonical": "genshin:website:166329"
+    "canonical": "genshin:website:166329",
+    "imagesHash": "c94a1cb79247dafe2c8e63b1dd67430f9ed471d104331616e43f7e6cd1ffb163"
   },
   "genshin:website:166263": {
     "title": "「往冥府的安魂歌」7.1版本活动速递第一期",
     "published": "2026-09-21T04:10:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166263",
     "digest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
-    "canonical": "genshin:website:166263"
+    "canonical": "genshin:website:166263",
+    "imagesHash": "b822549ddd3d62f774d0541478360c9107a630fa8cc076fe037b36a93f17fbc0"
   },
   "genshin:website:166262": {
     "title": "7.1版本「往冥府的安魂歌」内容专题页上线！",
     "published": "2026-09-21T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166262",
     "digest": "cd172b854f726a96bda1a922cb4227a91efd62cd814b850dee5915917dc7da27",
-    "canonical": "genshin:website:166262"
+    "canonical": "genshin:website:166262",
+    "imagesHash": "1fb1d94f53adb6853133c28a0a13fbaa7058ae84422807ce1318f4b359cbaafa"
   },
   "genshin:website:166261": {
     "title": "「七圣召唤」铸境研炼：巧策进斗",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166261",
     "digest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
-    "canonical": "genshin:website:166261"
+    "canonical": "genshin:website:166261",
+    "imagesHash": "2a1bbe18f6a611b844b0c95b5a13ea23c1852d63b3d6161abd0749079d73b1ee"
   },
   "genshin:website:166259": {
     "title": "「溯月纪行」活动说明",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166259",
     "digest": "cf8fdbfcd5cfecd9ca156207d5021dc23d729ab360eab38d15b88e8e28a0e135",
-    "canonical": "genshin:miyoushe:78299696"
+    "canonical": "genshin:miyoushe:78299696",
+    "imagesHash": "ae92df6b1526682c917ca4f039fde957a58219dd6afeabc8a636f5f3c80f4041",
+    "confirmedImagesHash": "ae92df6b1526682c917ca4f039fde957a58219dd6afeabc8a636f5f3c80f4041",
+    "confirmedImagesDigest": "cf8fdbfcd5cfecd9ca156207d5021dc23d729ab360eab38d15b88e8e28a0e135"
   },
   "genshin:website:166258": {
     "title": "「冒险助力礼包」第52期限时上架",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166258",
     "digest": "d0f30d5997c48ef9558f9ff5feba239de330939508f1e38718d10249d65ea4b6",
-    "canonical": "genshin:website:166258"
+    "canonical": "genshin:website:166258",
+    "imagesHash": "a35ea3d90d139d54abe8ab656be5e5a3cd6c527f06897fc285cbbfb3beac9fed"
   },
   "genshin:website:166257": {
     "title": "「桌上剧团·冒险的前夜会」活动：自选邀请限定5星角色",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166257",
     "digest": "6bec5169cda3a30551a5c4c108c5df4424398c4739cef35bae3758fab68b3770",
-    "canonical": "genshin:miyoushe:78299703"
+    "canonical": "genshin:miyoushe:78299703",
+    "imagesHash": "df9887689b70c8bbd9f750380f5eda39a8a4dfa3acc647186a51dcf567133add"
   },
   "genshin:website:166256": {
     "title": "「巡历雪境，凝铸锋锐」活动：自选邀请「奔行世间」常驻祈愿5星角色",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166256",
     "digest": "6ea3541b57a72e77688791e6ff53d1cb4da5b652f974fca788aa980893285130",
-    "canonical": "genshin:miyoushe:78299704"
+    "canonical": "genshin:miyoushe:78299704",
+    "imagesHash": "814a5142a06931cef92fa90c2d1e93165d7abb2dcd4d5a42772b17066ebf4d3f"
   },
   "genshin:website:166255": {
     "title": "「溯流的变奏曲」世界任务说明",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166255",
     "digest": "03c08bc407a9eb8c7cadba6b45374c1fac8f50889271d0a9deefc5c5bd12bfac",
-    "canonical": "genshin:website:166255"
+    "canonical": "genshin:website:166255",
+    "imagesHash": "8c4965a6c98b14d93743d386a4ec268e2b56007ae9b94d2d433336a2402841cc"
   },
   "genshin:website:166254": {
     "title": "「风仙亦是仙，古剑通幽玄！」世界任务说明",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166254",
     "digest": "3d9f47540f8ae7d3423509a960539b4dcee48388aae89a2e1303102c64885da9",
-    "canonical": "genshin:website:166254"
+    "canonical": "genshin:website:166254",
+    "imagesHash": "1edd28e2da6ebebb716364db29e26b7e6708ea1d73a42a4b30a501dfb3154e26"
   },
   "genshin:website:166253": {
     "title": "「往冥府的安魂歌」时限内完成魔神任务，可额外获得原石、角色突破素材等奖励",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166253",
     "digest": "2ae758c4384bf470d0a0e54531cc6aa2c6afd76dd6a1206045eef1b853229080",
-    "canonical": "genshin:website:166253"
+    "canonical": "genshin:website:166253",
+    "imagesHash": "757627da50a800169463514c3c555b63dc2a93e217b2aadf2e344e0a4ac00e95"
   },
   "genshin:website:166252": {
     "title": "「虹旅藏金·耀星烁熠」活动：登录领取1600原石、纠缠之缘*10等奖励",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166252",
     "digest": "34ffffb41a8633df047c2125db1ce6fbcc45b4707ca31a2da8dedc091904908d",
-    "canonical": "genshin:miyoushe:78299706"
+    "canonical": "genshin:miyoushe:78299706",
+    "imagesHash": "54d79e8efd22c70d5d2e0112209add90f734ac6d1b5599d260d806ecf23264cd",
+    "confirmedImagesHash": "54d79e8efd22c70d5d2e0112209add90f734ac6d1b5599d260d806ecf23264cd",
+    "confirmedImagesDigest": "34ffffb41a8633df047c2125db1ce6fbcc45b4707ca31a2da8dedc091904908d"
   },
   "genshin:website:166243": {
     "title": "《原神》角色预告-「薇斯纳：春之晨舞」",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166243",
     "digest": "09198a0db3a7c85be8f5ba0d827980ea461d959b3b0162c158ed75c3c595a6fd",
-    "canonical": "genshin:website:166243"
+    "canonical": "genshin:website:166243",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166242": {
     "title": "爱诺生日快乐 | 这个蛋卷是给我准备的嘛，看起来好好吃！",
     "published": "2026-09-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166242",
     "digest": "b5212b742149d978f3ef34b2e5e9bbadadb0b29027cfa22bd899b3cac30950bd",
-    "canonical": "genshin:website:166242"
+    "canonical": "genshin:website:166242",
+    "imagesHash": "719566bb87601d9cd70a015cd615213e8237f05f74785793cf494e4446dbe033"
   },
   "genshin:website:166237": {
     "title": "7.1版本更新维护预告",
     "published": "2026-09-21T03:10:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166237",
     "digest": "d0b0fd6c2092839847385362311487380d69ce0e46bb0c79e3194ae6db260dce",
-    "canonical": "genshin:miyoushe:78299035"
+    "canonical": "genshin:miyoushe:78299035",
+    "imagesHash": "8956e36867f5519629dacc7d8c0e23ce14acefe5b96866644592637ca1763d95",
+    "confirmedImagesHash": "8956e36867f5519629dacc7d8c0e23ce14acefe5b96866644592637ca1763d95",
+    "confirmedImagesDigest": "d0b0fd6c2092839847385362311487380d69ce0e46bb0c79e3194ae6db260dce"
   },
   "genshin:website:166201": {
     "title": "克洛琳德生日快乐 | 这里的水流比预想中要急，当心些。",
     "published": "2026-09-20T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166201",
     "digest": "c2433d614c8d4d9c665ecef7a8a6092ad84dd3b43a79f30c6df441e7572a5488",
-    "canonical": "genshin:website:166201"
+    "canonical": "genshin:website:166201",
+    "imagesHash": "c3a16f8b490c3c4cea28b2b32c3d137773e4ec19670aaa0ac18c8f46654e1a8e"
   },
   "genshin:website:166196": {
     "title": "「真心话大冒险」|薇斯纳的“审讯”时间",
     "published": "2026-09-19T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166196",
     "digest": "424e9ca40f4fd759fa84f3aa08e963c0a802eb3f1a9d0f5785b0964cd5e28635",
-    "canonical": "genshin:website:166196"
+    "canonical": "genshin:website:166196",
+    "imagesHash": "7b38f632a7691f4b0f3c58117e55d9be24618324bb92ce9782d8f64b3e629f26"
   },
   "genshin:website:166160": {
     "title": "《原神》沃雅妮莎角色PV——「心之声」",
     "published": "2026-09-17T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166160",
     "digest": "e5a5f99a45430944ecdee6f4219a0fee5e7231dcfffdcda23c4995833bae9f01",
-    "canonical": "genshin:website:166160"
+    "canonical": "genshin:website:166160",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166136": {
     "title": "7.1版本「往冥府的安魂歌」全新武器说明\t",
     "published": "2026-09-16T04:10:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166136",
     "digest": "95aa1cf8a26afb33f5321e2d9f73fb900f89339cddee9e361b39ba1d555949a5",
-    "canonical": "genshin:website:166136"
+    "canonical": "genshin:website:166136",
+    "imagesHash": "0d8e37321d29ee9369c1a43791a1669b74d018a3ceb1c9f0058094efdec63cfc"
   },
   "genshin:website:166135": {
     "title": "《原神》薇斯纳角色PV——「『风』行迷踪」",
     "published": "2026-09-16T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166135",
     "digest": "2881204eb93e5b1f9abee4f62ee356364d5f9adeb37f2bc1b8deb67ccd0df1a7",
-    "canonical": "genshin:website:166135"
+    "canonical": "genshin:website:166135",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166124": {
     "title": "首席，我要追随你！求沃雅妮莎首席更多消息",
     "published": "2026-09-15T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166124",
     "digest": "e796fb328a40d797099bec7ee4910cda57ba12745daf97277605068192c5e340",
-    "canonical": "genshin:website:166124"
+    "canonical": "genshin:website:166124",
+    "imagesHash": "e955297e825208ebc81391bfd48698bb6435166bc06f000585a039fda6a7266a"
   },
   "genshin:website:166125": {
     "title": "《原神》首充双倍返利重置说明",
     "published": "2026-09-15T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166125",
     "digest": "7e954b79dde0b7e60d048289e771b4494b2b448c66fe0c3fbef3bf9b23540cbe",
-    "canonical": "genshin:website:166125"
+    "canonical": "genshin:website:166125",
+    "imagesHash": "a20fb8b4150a911657ff9b08fd5056fa2cc81cd6c08cab361536a4571074cfcd"
   },
   "genshin:website:166113": {
     "title": "角色技能演示——「幽歌萦渊」·沃雅妮莎",
     "published": "2026-09-14T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166113",
     "digest": "80cb83e3b7795afdfd2e64e09452b8f466ad7e532b558a6daa4f16e928a14016",
-    "canonical": "genshin:website:166113"
+    "canonical": "genshin:website:166113",
+    "imagesHash": "cff464d935ab74f3d8fa3fea61d1bd9f928157025095094e3bdca1f80f032085"
   },
   "genshin:website:166112": {
     "title": "角色技能演示——「雪宴之锋」·薇斯纳",
     "published": "2026-09-14T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166112",
     "digest": "d6c0c509601fd3297296919b21deae5fcbdc289182396d40289b9e5dbb58a22e",
-    "canonical": "genshin:website:166112"
+    "canonical": "genshin:website:166112",
+    "imagesHash": "478c91081268c631b7afcd678610fb0fd57728582730e3ba1980603660534778"
   },
   "genshin:website:166111": {
     "title": "《原神》至冬篇OST《悯宥慈怜之垠 Where Mercy Endures》正式上线",
     "published": "2026-09-14T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166111",
     "digest": "2c5158ad9e45db7925750893c391db4001dee96bd97b2976a0e5b7d5c13b13e1",
-    "canonical": "genshin:website:166111"
+    "canonical": "genshin:website:166111",
+    "imagesHash": "aed61b03c27805ddef6b2dd40dc3e1241cdacc389c9aa200d81bb00d4b78d05e"
   },
   "genshin:website:166100": {
     "title": "「冬契军司令薇斯纳应对手册」——薇斯纳轶事",
     "published": "2026-09-13T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166100",
     "digest": "7e0af3b66691fd8522b940e786555d4a7146f0222a7e55ed6f061304a6d25dcd",
-    "canonical": "genshin:website:166100"
+    "canonical": "genshin:website:166100",
+    "imagesHash": "a537c5e0a052d59f85cb19fe579c8e233a262ee18d1e3c4420a3dfc3ed1c7ed8"
   },
   "genshin:website:166099": {
     "title": "「拾音邮局」原神六周年特别公益行动即将上线！",
     "published": "2026-09-13T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166099",
     "digest": "436f3f356bfb881ece04ef2d79b95aef453c3b85bc6abf8f75c4413617c92f38",
-    "canonical": "genshin:website:166099"
+    "canonical": "genshin:website:166099",
+    "imagesHash": "230b46c27b7003b8cb3afb95e66de3a2df03b5941d527cff54cdd1658b43555f"
   },
   "genshin:website:166098": {
     "title": "阿贝多生日快乐 ｜ 在此之前，先祝愿旅行者的旅途一切顺利吧。",
     "published": "2026-09-13T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166098",
     "digest": "9572f030bfbb1e9975cdafb02ce55b8d80150108b7911b948325f52ef8a40ad8",
-    "canonical": "genshin:website:166098"
+    "canonical": "genshin:website:166098",
+    "imagesHash": "3d11a35bef93962e3d1dec696824d700d8b855e95ccd1f0da932b6bf2779e3fe"
   },
   "genshin:website:166097": {
     "title": "《原神》六周年配音演员祝福-「循音致远的足迹」",
     "published": "2026-09-13T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166097",
     "digest": "6631b3ca5f45fc22518c2ce990e50c1994a68439e1be1e13c004cc1463624644",
-    "canonical": "genshin:website:166097"
+    "canonical": "genshin:website:166097",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166092": {
     "title": "原神7.1版本PV音乐现已更新加入专辑《流星的轨迹 Footprints of the Traveler》",
     "published": "2026-09-12T13:45:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166092",
     "digest": "07767eecea6940c8e82e834119854db250cd82394405834931e71b1594cf98b3",
-    "canonical": "genshin:website:166092"
+    "canonical": "genshin:website:166092",
+    "imagesHash": "2e349e4f56d1c0d1564df0026b3768184dc62188297c62d086fd8d2650b054bb"
   },
   "genshin:website:166095": {
     "title": "7.1版本《原神》六周年福利速览",
     "published": "2026-09-12T13:30:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166095",
     "digest": "3b0fad4aab923064631be1ba06d80c605161db8ad2dc27c5df5b084262908d16",
-    "canonical": "genshin:website:166095"
+    "canonical": "genshin:website:166095",
+    "imagesHash": "aa86fba60394229dc53813df066841bbe4516371625c5e407a74b7e8f7c3a804"
   },
   "genshin:website:166091": {
     "title": "《原神》7.1版本「往冥府的安魂歌」前瞻特别节目回顾长图",
     "published": "2026-09-12T13:27:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166091",
     "digest": "8a4629aafd7168f09bb6af897c3e1074b1ccc00bf923dc94678b3ca57ff70723",
-    "canonical": "genshin:website:166091"
+    "canonical": "genshin:website:166091",
+    "imagesHash": "ad4d4da7c1a751bf53db6c718690d36dfb171054b2ce7065031aa8f9cd344272"
   },
   "genshin:website:166090": {
     "title": "《原神》7.1版本「往冥府的安魂歌」前瞻特别节目",
     "published": "2026-09-12T13:25:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166090",
     "digest": "4e7a7030e1c9fddf418e530684a43163f223a31216aa71f8c254b8bf1ca78da8",
-    "canonical": "genshin:website:166090"
+    "canonical": "genshin:website:166090",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166089": {
     "title": "《原神》7.1版本「往冥府的安魂歌」活动汇总",
     "published": "2026-09-12T13:20:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166089",
     "digest": "ee6ce0eb7908859b94c809ddc60f0a56bfc15294c2b32ef1ba21c75da2911ccd",
-    "canonical": "genshin:website:166089"
+    "canonical": "genshin:website:166089",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166088": {
     "title": "《原神》7.1版本PV：「往冥府的安魂歌」",
     "published": "2026-09-12T13:15:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166088",
     "digest": "d5d932847604406e81cd030daca022e8ef16c280580a7f972f1fe086807b7e8c",
-    "canonical": "genshin:website:166088"
+    "canonical": "genshin:website:166088",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:166079": {
     "title": "「盛材移涌」活动：天赋培养素材、武器突破素材双倍掉落",
     "published": "2026-09-12T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166079",
     "digest": "c4d99bb8aaf222c8b81963d1f460fafa0c78451f83d6a34cd30345fc6591d698",
-    "canonical": "genshin:miyoushe:78105563"
+    "canonical": "genshin:miyoushe:78105563",
+    "imagesHash": "78827c7e71f9179fd4297d1e967fb700ab745eab1ac596c083f3d907e2bd7413"
   },
   "genshin:website:166029": {
     "title": "雷泽生日快乐 | 和卢皮卡，我们找好吃的去。",
     "published": "2026-09-09T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166029",
     "digest": "bd39a6f5940e17ac8a6576a53b910a81dd771bd56b40760c0ca45a271bed92fd",
-    "canonical": "genshin:website:166029"
+    "canonical": "genshin:website:166029",
+    "imagesHash": "2ddf872598c2d8ba6babe0d495af0b12d504871183bd42e71ecc79141cc37222"
   },
   "genshin:website:166007": {
     "title": "重云生日快乐 | 蒙德的猫尾酒馆，比我想象中更热闹呢…",
     "published": "2026-09-07T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166007",
     "digest": "d0aaa2435b55385fb3aed3e3a5cba475d558d72c879e35a6f867aa5c8665cbd8",
-    "canonical": "genshin:website:166007"
+    "canonical": "genshin:website:166007",
+    "imagesHash": "76fa0ea90efa196409fd16bcffc7c8f9690ce1d7b8ca7ffebe3424705d676b3c"
   },
   "genshin:website:166006": {
     "title": "《原神》7.1版本「往冥府的安魂歌」前瞻特别节目预告",
     "published": "2026-09-07T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/166006",
     "digest": "791ac32245b59485a34c665791dec612e3ac7853d7703831cbb801d1d771234c",
-    "canonical": "genshin:miyoushe:78027438"
+    "canonical": "genshin:miyoushe:78027438",
+    "imagesHash": "4d46a6690683c6d441a8035223710e3b717120ba8fcad23d36700ffe97f98fc8"
   },
   "genshin:website:165985": {
     "title": "「禁界拟想阵地战」活动：阵地保卫挑战",
     "published": "2026-09-05T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165985",
     "digest": "1d83d711a2a35939456ff75542fb67eea4cef6574510799669ea7834eb04c135",
-    "canonical": "genshin:miyoushe:77989087"
+    "canonical": "genshin:miyoushe:77989087",
+    "imagesHash": "f8e263e635055a70c2a8c2a4a235053ccf01b03d87741765a60e0f2890176bd9"
   },
   "genshin:website:165913": {
     "title": "《原神》「神铸赋形」活动祈愿现已开启，「长柄武器·血染荒城」「长柄武器·支离轮光」概率UP！",
     "published": "2026-09-01T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165913",
     "digest": "c3b2be78c64f9698efaf724f89175685136dec5d21f7f330ec6fafcbb2b08a87",
-    "canonical": "genshin:website:165913"
+    "canonical": "genshin:website:165913",
+    "imagesHash": "2667a7420b225253fecfe0f668ba6849079ef934a3dc16ec404fa1b1dca52273",
+    "confirmedImagesHash": "2667a7420b225253fecfe0f668ba6849079ef934a3dc16ec404fa1b1dca52273",
+    "confirmedImagesDigest": "c3b2be78c64f9698efaf724f89175685136dec5d21f7f330ec6fafcbb2b08a87"
   },
   "genshin:website:165912": {
     "title": "《原神》「聚星源动」活动祈愿现已开启",
     "published": "2026-09-01T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165912",
     "digest": "e5490c33fbb51f2da2a0e09eb300e14c0a7165003fc46db86313cc9309937c82",
-    "canonical": "genshin:website:165912"
+    "canonical": "genshin:website:165912",
+    "imagesHash": "7eb0e83c25aaca11ed854ad1bfc51d90dd2f9e5dd0abadf724caf6e770dec7e8",
+    "confirmedImagesHash": "7eb0e83c25aaca11ed854ad1bfc51d90dd2f9e5dd0abadf724caf6e770dec7e8",
+    "confirmedImagesDigest": "e5490c33fbb51f2da2a0e09eb300e14c0a7165003fc46db86313cc9309937c82"
   },
   "genshin:website:165911": {
     "title": "《原神》「孤灯夜访」活动祈愿现已开启",
     "published": "2026-09-01T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165911",
     "digest": "5630bde5e88ebd3dfb417f97f2fa3401254726b54bf2d4a793d29519cd7ef271",
-    "canonical": "genshin:website:165911"
+    "canonical": "genshin:website:165911",
+    "imagesHash": "5315ee0eb128a1bb62c1881503f55001bc47a6efa2d281d7b0c481880f698fde",
+    "confirmedImagesHash": "5315ee0eb128a1bb62c1881503f55001bc47a6efa2d281d7b0c481880f698fde",
+    "confirmedImagesDigest": "5630bde5e88ebd3dfb417f97f2fa3401254726b54bf2d4a793d29519cd7ef271"
   },
   "genshin:website:165953": {
     "title": "7.0版本活动祈愿预告第二期",
     "published": "2026-09-01T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165953",
     "digest": "6e6bde81f1a33a4a2424aa83e4ada8b8339d780889fcb25208aadc4e254fce31",
-    "canonical": "genshin:miyoushe:77910704"
+    "canonical": "genshin:miyoushe:77910704",
+    "imagesHash": "f256fa27bf346ee67365a9c372e75fe04bd8c23d22e518229cf19eb093cc1dc8",
+    "confirmedImagesHash": "f256fa27bf346ee67365a9c372e75fe04bd8c23d22e518229cf19eb093cc1dc8",
+    "confirmedImagesDigest": "6e6bde81f1a33a4a2424aa83e4ada8b8339d780889fcb25208aadc4e254fce31"
   },
   "genshin:website:165944": {
     "title": "莫娜生日快乐 | 唔，这倒是个不错的主意…",
     "published": "2026-08-31T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165944",
     "digest": "4168d2fe10e88f1fc32cfcff8628fcfe9df4f6032a6a16c2f3fd97c020fc6f12",
-    "canonical": "genshin:website:165944"
+    "canonical": "genshin:website:165944",
+    "imagesHash": "9445bcf07a9e7e859180a2f195adf0ca22d79240720cdb5a9e3f34d543bf2826"
   },
   "genshin:website:165943": {
     "title": "让我们来讲点古老的故事，权当消遣|「菲林斯」·侧记",
     "published": "2026-08-30T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165943",
     "digest": "09919b044ee3b549bd3b86d87f37602ee36acf62c2a3f369abc9b11335497187",
-    "canonical": "genshin:website:165943"
+    "canonical": "genshin:website:165943",
+    "imagesHash": "ab2b6596d68f32e4e2c7239e202e3b1c661ac0b43dd1fa57e51ba7da5733b556"
   },
   "genshin:website:165933": {
     "title": "你好，最近过得怎么样？吃了吗？｜「伊涅芙」·近闻",
     "published": "2026-08-29T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165933",
     "digest": "6e68236cbc081a06726dd9bf70b6b65db67d2740ea3ecb37c02b0b9bd5f1a615",
-    "canonical": "genshin:website:165933"
+    "canonical": "genshin:website:165933",
+    "imagesHash": "2b9bea2c1e45ab9814e8f96bfd761bdc22415f272a7148208b560cc32a175684"
   },
   "genshin:website:165916": {
     "title": "玛薇卡生日快乐 | 来到纳塔怎么能不登台表演一段呢？！",
     "published": "2026-08-28T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165916",
     "digest": "e9dca8e2546ea3f9ce17eb558d47adac4443abb4b12df076e617bdfdcdf32d9b",
-    "canonical": "genshin:website:165916"
+    "canonical": "genshin:website:165916",
+    "imagesHash": "d4e7aa3fb3709ce21859adc51fd2adfc91f6b5732f0dc24c965e4823318f5761"
   },
   "genshin:website:165914": {
     "title": "「无神怜爱的雪国」7.0版本活动速递第二期",
     "published": "2026-08-27T08:10:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165914",
     "digest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
-    "canonical": "genshin:website:165914"
+    "canonical": "genshin:website:165914",
+    "imagesHash": "191626b4af46081b32f5d810edc2cef5674015a3e1231e8d2b2b9b0594df749b"
   },
   "genshin:website:165910": {
     "title": "「险境征者竞锋大赛」活动介绍——参与比赛 邀请迪奥娜！",
     "published": "2026-08-27T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165910",
     "digest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
-    "canonical": "genshin:website:165910"
+    "canonical": "genshin:website:165910",
+    "imagesHash": "d7f06ee65f763beee54d3feeb1123737cd8f1fff07b5f42cecc14a031de4cf40"
   },
   "genshin:website:165908": {
     "title": "「七圣召唤」热斗模式：列阵斗巧",
     "published": "2026-08-27T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165908",
     "digest": "bb2d72b9dc8837789eeabb3a0e356b52240fa8b3bcedf343e5a6d442d6369865",
-    "canonical": "genshin:website:165908"
+    "canonical": "genshin:website:165908",
+    "imagesHash": "700cca7b8a1510287f43d6aaa43df16d4af5fe0447aa5a0e7079bf9ecafdeb06"
   },
   "genshin:website:165900": {
     "title": "「险境征者竞锋大赛」活动：参与邀请「猫尾特调·迪奥娜(冰)」",
     "published": "2026-08-26T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165900",
     "digest": "f963e5581976901b8df1b6f9b9f85d01aee39c38d1ab7d71367fa7464cd07d0e",
-    "canonical": "genshin:miyoushe:77761570"
+    "canonical": "genshin:miyoushe:77761570",
+    "imagesHash": "13029cd3bd22251d11a5cafef8c8dae3f667d93764fa306b492a80080073cb2a",
+    "confirmedImagesHash": "13029cd3bd22251d11a5cafef8c8dae3f667d93764fa306b492a80080073cb2a",
+    "confirmedImagesDigest": "f963e5581976901b8df1b6f9b9f85d01aee39c38d1ab7d71367fa7464cd07d0e"
   },
   "genshin:website:165899": {
     "title": "凝光生日快乐 | 今晚月圆风清，荷香氤氲，正适合凭栏小憩。",
     "published": "2026-08-26T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165899",
     "digest": "5eb742124b3109b100727bc8c91574594bdc11959d7f12e901e6bd79fbd1cab8",
-    "canonical": "genshin:website:165899"
+    "canonical": "genshin:website:165899",
+    "imagesHash": "6bde7f49fde564e5b5277522f75a18bf503e973dbba440035a2bcd3aac7b3785"
   },
   "genshin:website:165884": {
     "title": "《原神》7.0版本表情包「派蒙的画作第52弹」现已上线",
     "published": "2026-08-25T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165884",
     "digest": "c56433b04cd8be0f4e67f8ba33a43c622cb896bccc434b92314ed0af3edc5a8c",
-    "canonical": "genshin:website:165884"
+    "canonical": "genshin:website:165884",
+    "imagesHash": "2a50bc33bacc9e85adc0dc2bea854c5139deb739b12f1d8c14581a647274f508"
   },
   "genshin:website:165871": {
     "title": "《原神》过场动画-「凯旋」",
     "published": "2026-08-23T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165871",
     "digest": "8988daea2096ce2a3c423dd88d219d5b14a6f611d037ad5ce96745fa7be51998",
-    "canonical": "genshin:website:165871"
+    "canonical": "genshin:website:165871",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:165870": {
     "title": "至冬纪事：旅途趣闻大收集！",
     "published": "2026-08-23T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165870",
     "digest": "759f24b76ad984e224038272ad8273d8b1aebb9ec5b4a79bb832a36ce82a018d",
-    "canonical": "genshin:website:165870"
+    "canonical": "genshin:website:165870",
+    "imagesHash": "fde395914558c70d7ee49a904c0e1b2e9c412cb119f721f1d4d78754b695226c"
   },
   "genshin:website:165869": {
     "title": "《原神》剧情PV-「冰中余烬」",
     "published": "2026-08-23T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165869",
     "digest": "523688ef444a7cccaff6623a03c5603ad78abacb143131f0ab0e00f836b6a62a",
-    "canonical": "genshin:website:165869"
+    "canonical": "genshin:website:165869",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:165868": {
     "title": "《原神》过场动画-「『复活』之时将至」",
     "published": "2026-08-22T10:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165868",
     "digest": "4882a559acbe86fcdc187882519d23f532c4975ad55c76d40bebb3006901e9e1",
-    "canonical": "genshin:website:165868"
+    "canonical": "genshin:website:165868",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:165867": {
     "title": "《原神》过场动画-「『死亡』已在身边」",
     "published": "2026-08-22T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165867",
     "digest": "b135ea02ba37a64818b50603bc6097262fe4b1cc8b747c412f531ce0d37ca808",
-    "canonical": "genshin:website:165867"
+    "canonical": "genshin:website:165867",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:165866": {
     "title": "阿蕾奇诺生日快乐 | 看你的表情…这些贺卡和信件里也有你的一份？",
     "published": "2026-08-22T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165866",
     "digest": "a88f2a80c7cdf3951d34ddbe07b26b7fcaa2efc7a1946acb9261a8f41f2041b2",
-    "canonical": "genshin:website:165866"
+    "canonical": "genshin:website:165866",
+    "imagesHash": "568588a1984aea43af7542ddfe6c7166fedb3201930590ef3b50706c58654937"
   },
   "genshin:website:165846": {
     "title": "《原神》过场动画-「星锋」",
     "published": "2026-08-21T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165846",
     "digest": "253b28cff1d258da46bc850ddaf2aefc10444bb383ebd7a6994d4e6ab530460e",
-    "canonical": "genshin:website:165846"
+    "canonical": "genshin:website:165846",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "genshin:website:165835": {
     "title": "珐露珊生日快乐 | 我的课堂随时欢迎提问哦。",
     "published": "2026-08-20T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165835",
     "digest": "3bc5457064464b2196227505c1b1b5dd4c7aed6bf511eb5470a08c68c9aee637",
-    "canonical": "genshin:website:165835"
+    "canonical": "genshin:website:165835",
+    "imagesHash": "b010fb7b97bb0fe1f174c852f0d1ce635b7c2885107acb54f383bb548bc537e1"
   },
   "genshin:website:165804": {
     "title": "行过风波，赴一场至冬日常！",
     "published": "2026-08-19T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165804",
     "digest": "9dd1280a53929e7d1bdb7b70be2c94391166897b3fadbd3a4da42872a31d6bd9",
-    "canonical": "genshin:website:165804"
+    "canonical": "genshin:website:165804",
+    "imagesHash": "9cbf3dabba0e5e7d2b0f38bde111389ccd1fd6fcd9b4b3215abf363b92110976"
   },
   "genshin:website:165794": {
     "title": "纵鳍梭跃，澄波吟咏",
     "published": "2026-08-18T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165794",
     "digest": "5f8cb51c7cefb586794e90dac6ee8536c36b759f478abd9a1c2cb330d56dbfef",
-    "canonical": "genshin:website:165794"
+    "canonical": "genshin:website:165794",
+    "imagesHash": "0140d2dad006645b564f68382fd9a0bfff8d6565fc169e8122e9ebfbe688efb5"
   },
   "genshin:website:165756": {
     "title": "巡风执令，明光镇雪",
     "published": "2026-08-17T04:01:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165756",
     "digest": "de5f0339efd0380d7fb6b2e04f1493807753a7fdeb91a6c94cba3341447adb0c",
-    "canonical": "genshin:website:165756"
+    "canonical": "genshin:website:165756",
+    "imagesHash": "a5eb3aedb332a2a6a29c1aa01dfd9760e8c44bc600c7c475e7c68beece588350"
   },
   "genshin:website:165757": {
     "title": "「幽境危战」活动：紊乱地脉挑战",
     "published": "2026-08-17T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165757",
     "digest": "0dc2dc9f80c023bbb19cc16e49619618ceb6cb4d6319e2c9553bffac42134e83",
-    "canonical": "genshin:miyoushe:77537726"
+    "canonical": "genshin:miyoushe:77537726",
+    "imagesHash": "f3f75390ac8f96a265d0f9c2687632bfc52175f52560098e2696024a6350bfee",
+    "confirmedImagesHash": "f3f75390ac8f96a265d0f9c2687632bfc52175f52560098e2696024a6350bfee",
+    "confirmedImagesDigest": "0dc2dc9f80c023bbb19cc16e49619618ceb6cb4d6319e2c9553bffac42134e83"
   },
   "genshin:website:165755": {
     "title": " 千织生日快乐 | 若是有更好的建议，也欢迎你尽情提出来。",
     "published": "2026-08-17T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165755",
     "digest": "885d0edd6ea8fe0270e5a211742da837bcda8c3dfd28e0b7a146e0fa259417d0",
-    "canonical": "genshin:website:165755"
+    "canonical": "genshin:website:165755",
+    "imagesHash": "eb73ef621d7a914a815d01bf0972ef059d27e3decd7a206afff71748cde7b9fb"
   },
   "genshin:website:165751": {
     "title": "来自雪精的邀约",
     "published": "2026-08-16T04:05:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165751",
     "digest": "83a0d3298c38fcecbf9ac06c1998645507f7d1695c21755d30b83fcdfbc460ce",
-    "canonical": "genshin:website:165751"
+    "canonical": "genshin:website:165751",
+    "imagesHash": "fad8da00785bc734b185b935675d2632d913f0cbbe0c948e360bbdbab52165bf"
   },
   "genshin:website:165750": {
     "title": "「至冬特派，冰爽随行」原神 × 美团丨大众点评 联名活动正式开启",
     "published": "2026-08-16T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165750",
     "digest": "47214c55d83b4064e5ba0dcc691beaa111cec688dcac6be15aefe2d47348f1d9",
-    "canonical": "genshin:website:165750"
+    "canonical": "genshin:website:165750",
+    "imagesHash": "0de0d0cf30fe5a38db87ef0f86358f6770c7bd4e47494b98a6b3220157c0387a"
   },
   "genshin:website:165749": {
     "title": "娜维娅生日快乐 | 新一轮桌上剧团，正式开幕！",
     "published": "2026-08-16T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165749",
     "digest": "a4b0a7f3a28471bcf59647db0e2a820f4494caeed2052468f7ad6d6fc84b5cf3",
-    "canonical": "genshin:website:165749"
+    "canonical": "genshin:website:165749",
+    "imagesHash": "4d59dc094971290ca686e43c7ce9b93dcf2ad83af80d128a2985a809d6e47b8d"
   },
   "genshin:website:165747": {
     "title": "劲爆增刊！你绝对不能错过的至冬大事速报！",
     "published": "2026-08-15T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165747",
     "digest": "7c65f5e76e9c40d792ca2ee6bee635bef10a7d4bfb718daac6c2bc26447d629f",
-    "canonical": "genshin:website:165747"
+    "canonical": "genshin:website:165747",
+    "imagesHash": "a046cf287ae0de3daabb835360d574c0150c75095d6d298639ffb69b314db4ac"
   },
   "genshin:website:165716": {
     "title": "冬狩夜巡",
     "published": "2026-08-13T04:00:00.000Z",
     "url": "https://ys.mihoyo.com/main/news/detail/165716",
     "digest": "f72a8223d7d4c509933881d9f51a0456a08c64e189420c3e7b6e96e8dc29bf00",
-    "canonical": "genshin:website:165716"
+    "canonical": "genshin:website:165716",
+    "imagesHash": "6e12327d430b2cf6c978958724fe0af94c22bfe16b80072036a9f7474191d0d0"
   },
   "starrail:website:165946": {
     "title": "《崩坏：星穹铁道》「星际幻宠」抽取概率公示",
     "published": "2026-09-28T00:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165946",
     "digest": "ecc924282caf85e906c97c2bedbeb4b6b0e56c4c476dd6d1d8d123b3fba34289",
-    "canonical": "starrail:website:165946"
+    "canonical": "starrail:website:165946",
+    "imagesHash": "b0f9beaaa25d500a0b685901944b6342e2e2ec51ce6b3135e3dcf64375d4a48c"
   },
   "starrail:website:166490": {
     "title": "4.6版本「月升之前，与兽共舞」激励计划现已开启",
     "published": "2026-09-28T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166490",
     "digest": "ed7cb369c2665d0145ecb82a73a4b32a6aa87ade028dfdd5fbb504ce1dbcefee",
-    "canonical": "starrail:website:166490"
+    "canonical": "starrail:website:166490",
+    "imagesHash": "4db047d395ffdeaaca471f20c0d110bb0c246d1e5c23bdc3788db3b0e2aa3389"
   },
   "starrail:website:166489": {
     "title": "4.6版本「月升之前，与兽共舞」版本更新说明",
     "published": "2026-09-27T23:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166489",
     "digest": "c6ca4e0458caf06ca664ef4073614c03d432f1e4ce2227cb67a36c86fb3cbcb8",
-    "canonical": "starrail:miyoushe:78463670"
+    "canonical": "starrail:miyoushe:78463670",
+    "imagesHash": "05064fa65c4fe9600c2d559ee230b38cd917513baed0f9208d9db8eb91ed2a78",
+    "confirmedImagesHash": "05064fa65c4fe9600c2d559ee230b38cd917513baed0f9208d9db8eb91ed2a78",
+    "confirmedImagesDigest": "c6ca4e0458caf06ca664ef4073614c03d432f1e4ce2227cb67a36c86fb3cbcb8"
   },
   "starrail:website:166487": {
     "title": "4.6版本活动跃迁（其一）",
     "published": "2026-09-27T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166487",
     "digest": "09918db7963d43c7b8f0ab4a2dcaefa08bbf57591e26d8ce239741a79fc38381",
-    "canonical": "starrail:miyoushe:78448395"
+    "canonical": "starrail:miyoushe:78448395",
+    "imagesHash": "804df2312e915726a57e9de5bcff85688fa4744921d3ddd45446a442761fa221",
+    "confirmedImagesHash": "804df2312e915726a57e9de5bcff85688fa4744921d3ddd45446a442761fa221",
+    "confirmedImagesDigest": "09918db7963d43c7b8f0ab4a2dcaefa08bbf57591e26d8ce239741a79fc38381"
   },
   "starrail:website:166504": {
     "title": "《崩坏：星穹铁道》真珠角色PV——「如何描绘一种希望」",
     "published": "2026-09-27T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166504",
     "digest": "8e9bdaef3d1be3361f3463ec9784e0566cd04980ac12dfb21004ea449b5a9b5e",
-    "canonical": "starrail:website:166504"
+    "canonical": "starrail:website:166504",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:166488": {
     "title": "「爱，幽灵与机器人」：经营机铠工坊，获取自塑尘脂、命运的足迹、星琼等奖励！",
     "published": "2026-09-27T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166488",
     "digest": "d2bb711d8877ba23d23db7780378b6e3a2a3f52db19180172e4237918cf9ebfe",
-    "canonical": "starrail:miyoushe:78445058"
+    "canonical": "starrail:miyoushe:78445058",
+    "imagesHash": "7dd5f452e2ebbfb604c23f1255904ae06a51c61e483046227371427756ddcf69",
+    "confirmedImagesHash": "7dd5f452e2ebbfb604c23f1255904ae06a51c61e483046227371427756ddcf69",
+    "confirmedImagesDigest": "d2bb711d8877ba23d23db7780378b6e3a2a3f52db19180172e4237918cf9ebfe"
   },
   "starrail:website:166486": {
     "title": "「星际碰碰好搭档！」：派出你的随宠搭档，获取命运的足迹、星琼等奖励",
     "published": "2026-09-26T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166486",
     "digest": "fc8b78b0895b052cb0c4952ab42328de6143aa232c56cf533a77e3c2f72dc7b6",
-    "canonical": "starrail:miyoushe:78421074"
+    "canonical": "starrail:miyoushe:78421074",
+    "imagesHash": "f406191bfe037924ef5e61a8cd4e8763896157cdbcdd96709bd78cb63410130c",
+    "confirmedImagesHash": "f406191bfe037924ef5e61a8cd4e8763896157cdbcdd96709bd78cb63410130c",
+    "confirmedImagesDigest": "fc8b78b0895b052cb0c4952ab42328de6143aa232c56cf533a77e3c2f72dc7b6"
   },
   "starrail:website:166485": {
     "title": "4.6版本「无名勋礼」更新",
     "published": "2026-09-25T03:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/166485",
     "digest": "52226088ae2793f7bb047d892a4724bf10c1248d9684f674852484cf23b108ee",
-    "canonical": "starrail:website:166485"
+    "canonical": "starrail:website:166485",
+    "imagesHash": "7a7fdfe35b327055578600ba1824c314cc8947c08b4fd380e7c0903f61bb993c",
+    "confirmedImagesHash": "7a7fdfe35b327055578600ba1824c314cc8947c08b4fd380e7c0903f61bb993c",
+    "confirmedImagesDigest": "52226088ae2793f7bb047d892a4724bf10c1248d9684f674852484cf23b108ee"
   },
   "starrail:website:166480": {
     "title": "4.6版本更新维护预告",
     "published": "2026-09-24T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166480",
     "digest": "d5fa7624bbeb203e19d3a1e529680deed841d6b4d52168f88a93748c3918a523",
-    "canonical": "starrail:website:166480"
+    "canonical": "starrail:website:166480",
+    "imagesHash": "0b0d8105362e9cf605463e92684aef4ff02b686a7e09d5dbc8654cc4afafba81",
+    "confirmedImagesHash": "0b0d8105362e9cf605463e92684aef4ff02b686a7e09d5dbc8654cc4afafba81",
+    "confirmedImagesDigest": "d5fa7624bbeb203e19d3a1e529680deed841d6b4d52168f88a93748c3918a523"
   },
   "starrail:website:166478": {
     "title": "4.6版本新增关卡",
     "published": "2026-09-24T05:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/166478",
     "digest": "0768097cca969953c2e07be10af550d8e14d305af7ef69e27cc490b5571b3474",
-    "canonical": "starrail:website:166478"
+    "canonical": "starrail:website:166478",
+    "imagesHash": "581df75bd8bbc84a73bc4c4444b61424dd44a5c1ff097bf54c1347c6fe3e8eaa"
   },
   "starrail:website:166477": {
     "title": "「月升之前，与兽共舞」任务说明",
     "published": "2026-09-24T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166477",
     "digest": "3c39e61f0c86254ad4b4a16adab868299b7b6f2a35a2747194592c994af7c658",
-    "canonical": "starrail:website:166477"
+    "canonical": "starrail:website:166477",
+    "imagesHash": "69d46ece274d64eabd23255e1b8bfc81c1e869db10b4070848022c54c3688662"
   },
   "starrail:website:166452": {
     "title": "《崩坏：星穹铁道》即兴巡演PV——「至此，已成艺术」",
     "published": "2026-09-23T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166452",
     "digest": "d7d59f1d6685a79cb1c5275279e286f6a3294d1e3fd3813827363cef21dd570d",
-    "canonical": "starrail:website:166452"
+    "canonical": "starrail:website:166452",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:166458": {
     "title": "「货币战争•零和博弈」更新说明 V4.6",
     "published": "2026-09-23T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166458",
     "digest": "10d1b7707f54b8deb4eeae1b30a2a8891b5c9731d6b9f49b6f4fc8ec1997b381",
-    "canonical": "starrail:website:166458"
+    "canonical": "starrail:website:166458",
+    "imagesHash": "2dad02513ca776eb508058aef872852a4a8431c12eb83cbc36123ea0c1b59e15"
   },
   "starrail:website:166335": {
     "title": "《崩坏：星穹铁道》走近星穹——「真珠：深度学习中」",
     "published": "2026-09-22T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166335",
     "digest": "3bba7b8f54637d72748958cc361b9a054ea10680b27d9c7152acdf5ca59de99b",
-    "canonical": "starrail:website:166335"
+    "canonical": "starrail:website:166335",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:166199": {
     "title": "4.6版本「月升之前，与兽共舞」专题展示页",
     "published": "2026-09-20T12:35:00.000Z",
     "url": "https://sr.mihoyo.com/news/166199",
     "digest": "36af103834da836b766c012c4708c47f028ece9da4fd8d2099e6f446b9787cf6",
-    "canonical": "starrail:website:166199"
+    "canonical": "starrail:website:166199",
+    "imagesHash": "7695aaebf131309c5a4d401b521e9ed8d2cff518609b54660d3a7d1b964d622b"
   },
   "starrail:website:166235": {
     "title": "4.6版本商店上新",
     "published": "2026-09-20T12:15:00.000Z",
     "url": "https://sr.mihoyo.com/news/166235",
     "digest": "4bab8e8417522b44a3117e4fa403166c7be4b637465eef6a6623d10ac687d828",
-    "canonical": "starrail:website:166235"
+    "canonical": "starrail:website:166235",
+    "imagesHash": "711068ccc5bec457b12cf3d866e9bc7195574c2119127989e0b92583d21a5761"
   },
   "starrail:website:166197": {
     "title": "「镇伏『贪饕』，汇聚愿力」：击败受「贪饕」侵蚀的敌人，获取星琼、潮玩礼券等奖励！",
     "published": "2026-09-20T12:10:00.000Z",
     "url": "https://sr.mihoyo.com/news/166197",
     "digest": "80ae25aa7f573842f8469b83788fa4abb914f6812313603aa97a22820ad33bc2",
-    "canonical": "starrail:miyoushe:78286470"
+    "canonical": "starrail:miyoushe:78286470",
+    "imagesHash": "91f8c414bda667425ac7e9964acb8b765a4df77d6ad0a8da95a56339b23b6a6e",
+    "confirmedImagesHash": "91f8c414bda667425ac7e9964acb8b765a4df77d6ad0a8da95a56339b23b6a6e",
+    "confirmedImagesDigest": "80ae25aa7f573842f8469b83788fa4abb914f6812313603aa97a22820ad33bc2"
   },
   "starrail:website:166234": {
     "title": "「星际幻宠」乐园：获取属于你的幻宠、布设幻宠乐园",
     "published": "2026-09-20T12:05:00.000Z",
     "url": "https://sr.mihoyo.com/news/166234",
     "digest": "46001a2f213e6253701976a8a416e7b0ed3c1e61d9ae3b16af4afcec267113cc",
-    "canonical": "starrail:website:166234"
+    "canonical": "starrail:website:166234",
+    "imagesHash": "2cf94114601c0ecbd3699d133b6339c41a4fba1be59cc593f59f757a762dd63a",
+    "confirmedImagesHash": "2cf94114601c0ecbd3699d133b6339c41a4fba1be59cc593f59f757a762dd63a",
+    "confirmedImagesDigest": "46001a2f213e6253701976a8a416e7b0ed3c1e61d9ae3b16af4afcec267113cc"
   },
   "starrail:website:166198": {
     "title": "《崩坏：星穹铁道》4.6版本PV：「月升之前，与兽共舞」",
     "published": "2026-09-20T12:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166198",
     "digest": "c67cecc161cac0408224b8ce3f43e79d1da791fed12f36125d97657303c4a576",
-    "canonical": "starrail:website:166198"
+    "canonical": "starrail:website:166198",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:166178": {
     "title": "「异器盈界」活动：隧洞遗器限时双倍掉落",
     "published": "2026-09-17T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166178",
     "digest": "24d2ac9c3fa2050f224490ba2e40438f693c09dff3431a50eedffa8d07204217",
-    "canonical": "starrail:miyoushe:78222780"
+    "canonical": "starrail:miyoushe:78222780",
+    "imagesHash": "e5893ae2a2bc33b6a931f44696b5a4be305cbf025e1476970eb3d017c5b221c2"
   },
   "starrail:website:166045": {
     "title": "「方寸大冒险」：集结小队挑战强敌，获取命运的足迹、星琼等奖励！",
     "published": "2026-09-10T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166045",
     "digest": "20a92242678ab3768ea7a198c8a7a3f6ddc295a7336b1db417a855ecdcb5555d",
-    "canonical": "starrail:website:166045"
+    "canonical": "starrail:website:166045",
+    "imagesHash": "bf70f3f494bcac338de122928fa107dafd7870e8f85ae5e03a06139d7076738c"
   },
   "starrail:website:166044": {
     "title": "《崩坏：星穹铁道》砂金•戏浪角色PV——「独家爆料」",
     "published": "2026-09-10T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/166044",
     "digest": "3a46770c17c419ed0e55360a75d9f1c58178a7804e341b44a357c313bd863256",
-    "canonical": "starrail:website:166044"
+    "canonical": "starrail:website:166044",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165989": {
     "title": "《崩坏：星穹铁道》千星纪游PV——「深水区」",
     "published": "2026-09-06T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165989",
     "digest": "1473c7e37e8f626339e0316f6ea80ae8d15eae388e55c9c4aca3b8325dbba7b6",
-    "canonical": "starrail:website:165989"
+    "canonical": "starrail:website:165989",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165983": {
     "title": "「位面分裂」活动：位面饰品限时双倍掉落",
     "published": "2026-09-06T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165983",
     "digest": "6e81606f8a4a455238d0a557b26678a139fa72374c89a0d3fb2f205210eda6fb",
-    "canonical": "starrail:miyoushe:78008125"
+    "canonical": "starrail:miyoushe:78008125",
+    "imagesHash": "38f8d55ebd7767b9277040ce30d17023fb7e4616ade65f7630f3d26e7b232471"
   },
   "starrail:website:165970": {
     "title": "《崩坏：星穹铁道》走近星穹——「砂金•戏浪：苏乐达给了你多少广告费？」",
     "published": "2026-09-04T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165970",
     "digest": "a3dbb80da6708071f63a7d646ca882174c48987cfb24f955ea54d7e97ee0b39b",
-    "canonical": "starrail:website:165970"
+    "canonical": "starrail:website:165970",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165903": {
     "title": "听歌领80星琼！知更鸟全新单曲正式上线！",
     "published": "2026-08-26T04:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/165903",
     "digest": "b96e497504d46c5057ab751039ad8948e15578ad1ecbd59b86f3f52974ad066d",
-    "canonical": "starrail:website:165903"
+    "canonical": "starrail:website:165903",
+    "imagesHash": "5955db4932db3ad999142286602a581f9b4a2e7a843672ab15b7d27c186c364a"
   },
   "starrail:website:165897": {
     "title": "4.5版本「挥掷千星的筹码」激励计划现已开启",
     "published": "2026-08-26T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165897",
     "digest": "44a30f2d1c408da014112ca344dcd6d4df7d50d2f9e130d4b34371bee8d9e35b",
-    "canonical": "starrail:website:165897"
+    "canonical": "starrail:website:165897",
+    "imagesHash": "96714296aeb31b021d8a16f2ae1a804c22062309aad1780d4ce7be122722f9af"
   },
   "starrail:website:165896": {
     "title": "4.5版本「挥掷千星的筹码」版本更新说明",
     "published": "2026-08-25T23:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165896",
     "digest": "757a1098b9c6941176268e65d74116c3e016a96b617a3146111f96ff97d46e65",
-    "canonical": "starrail:miyoushe:77754792"
+    "canonical": "starrail:miyoushe:77754792",
+    "imagesHash": "29408ff43a33f1729e1f567dd995b58909a3b3435606878917b14e339b657163",
+    "confirmedImagesHash": "29408ff43a33f1729e1f567dd995b58909a3b3435606878917b14e339b657163",
+    "confirmedImagesDigest": "757a1098b9c6941176268e65d74116c3e016a96b617a3146111f96ff97d46e65"
   },
   "starrail:website:165883": {
     "title": "4.5版本活动跃迁（其一）",
     "published": "2026-08-25T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165883",
     "digest": "519a96d7c17bc2a237aaa765610d5eb140f35930f8a7e3893af383f131607438",
-    "canonical": "starrail:miyoushe:77739472"
+    "canonical": "starrail:miyoushe:77739472",
+    "imagesHash": "3820ad9eeda8fcc055385b89da5f55184f765eb865ac14074cad886331be9b26",
+    "confirmedImagesHash": "3820ad9eeda8fcc055385b89da5f55184f765eb865ac14074cad886331be9b26",
+    "confirmedImagesDigest": "519a96d7c17bc2a237aaa765610d5eb140f35930f8a7e3893af383f131607438"
   },
   "starrail:website:165885": {
     "title": "「超限：狂飙大奖赛」：夺得赛事冠军，获取自塑尘脂、命运的足迹、星琼等奖励！",
     "published": "2026-08-25T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165885",
     "digest": "617a90dc0fdb088c80525a8c5239504ea077f47964730dd0f468b5adaf1e6d99",
-    "canonical": "starrail:miyoushe:77738471"
+    "canonical": "starrail:miyoushe:77738471",
+    "imagesHash": "662a65ed9f18274c0ebb7f9b1963a9a198b36f650a171abd55338c9b84a48c9f",
+    "confirmedImagesHash": "662a65ed9f18274c0ebb7f9b1963a9a198b36f650a171abd55338c9b84a48c9f",
+    "confirmedImagesDigest": "617a90dc0fdb088c80525a8c5239504ea077f47964730dd0f468b5adaf1e6d99"
   },
   "starrail:website:165882": {
     "title": "《崩坏：星穹铁道》知更鸟•晴歌角色PV——「追赶风的方向」",
     "published": "2026-08-25T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165882",
     "digest": "ac68f111fc16756cbe03ad04d331dc59fae890cd36426c68a63e4b1b20a63d7c",
-    "canonical": "starrail:website:165882"
+    "canonical": "starrail:website:165882",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165873": {
     "title": "4.5版本预下载&更新预告",
     "published": "2026-08-24T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165873",
     "digest": "070ed8bbd21529a0d2028100f3f5e9f5b2cdfc4116d7c44f66ae8957d0e27177",
-    "canonical": "starrail:website:165873"
+    "canonical": "starrail:website:165873",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165848": {
     "title": "「亏成首富，从不要钱开始」开拓续闻说明",
     "published": "2026-08-21T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165848",
     "digest": "e7d516edf7ec089acdce58fb7415e8d50403e74e9ad38a4751aff18753596545",
-    "canonical": "starrail:website:165848"
+    "canonical": "starrail:website:165848",
+    "imagesHash": "07955f38d2a70c242fd298aec8ba286888aed428341a273f1cc072e2846d1507"
   },
   "starrail:website:165847": {
     "title": "「挥掷千星的筹码」开拓任务说明",
     "published": "2026-08-21T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165847",
     "digest": "823a9a822417d95312d24525765ddeee4e4d4ed3aa7d0a55ca2ccf6d46a858ee",
-    "canonical": "starrail:website:165847"
+    "canonical": "starrail:website:165847",
+    "imagesHash": "cb07e89c1728478cda0c5a627eb790c885603141260ff0d465dc5cda4e60ab2f"
   },
   "starrail:website:165845": {
     "title": "《崩坏：星穹铁道》千星纪游PV——「众声之外」",
     "published": "2026-08-21T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165845",
     "digest": "26b096c6dcf3dad8cb3e2e461718c138ce67d6c7ffc16cda3180e84ef27e054d",
-    "canonical": "starrail:website:165845"
+    "canonical": "starrail:website:165845",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165836": {
     "title": "「差分宇宙•乐园漫记」V4.5 更新说明",
     "published": "2026-08-20T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165836",
     "digest": "2a6dca8b40d26a6184f011e5f12d813fe70209b806b169e60f0787ad578399d5",
-    "canonical": "starrail:website:165836"
+    "canonical": "starrail:website:165836",
+    "imagesHash": "b6814806af3d999ff6b8a352c79330f0a3cbc46651fe7cab1a79edcee43528c0"
   },
   "starrail:website:165803": {
     "title": "《崩坏：星穹铁道》走近星穹——「知更鸟•晴歌：快乐的小鸟」",
     "published": "2026-08-19T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165803",
     "digest": "fcb5e909a4aa6c1c39320693fee038f6302ab2d91ec40154915edf58e01cad9f",
-    "canonical": "starrail:website:165803"
+    "canonical": "starrail:website:165803",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165791": {
     "title": "4.5版本「无名勋礼」更新",
     "published": "2026-08-17T03:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/165791",
     "digest": "b5d1fee961a4308aba6ab443132185b8764541d6578833d66ad8499b555e7a65",
-    "canonical": "starrail:website:165791"
+    "canonical": "starrail:website:165791",
+    "imagesHash": "db3471abdcc60af80655f5c8499836480a0190a629a12420efd98772884dd9ee",
+    "confirmedImagesHash": "db3471abdcc60af80655f5c8499836480a0190a629a12420efd98772884dd9ee",
+    "confirmedImagesDigest": "b5d1fee961a4308aba6ab443132185b8764541d6578833d66ad8499b555e7a65"
   },
   "starrail:website:165722": {
     "title": "4.5版本「挥掷千星的筹码」专题展示页",
     "published": "2026-08-14T12:45:00.000Z",
     "url": "https://sr.mihoyo.com/news/165722",
     "digest": "5f70ad297cd774d51bb5a4007cebc26287fc849bc8528682bbf325bc4cfb3d40",
-    "canonical": "starrail:website:165722"
+    "canonical": "starrail:website:165722",
+    "imagesHash": "a7ae8cf376103471233ae966ae5a2a4b3560d3c3f34142e4efbe4090d5eb675a"
   },
   "starrail:website:165721": {
     "title": "《崩坏：星穹铁道》4.5版本PV：「挥掷千星的筹码」",
     "published": "2026-08-14T12:06:00.000Z",
     "url": "https://sr.mihoyo.com/news/165721",
     "digest": "d230ecb7aa751e81b2f04a078d7851f22adf86b025af1d050c9c631b27b65437",
-    "canonical": "starrail:website:165721"
+    "canonical": "starrail:website:165721",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165723": {
     "title": "4.5版本商店上新",
     "published": "2026-08-14T12:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165723",
     "digest": "b32f4876adfad80eb1c5dfafab8a9cef89d757765271f540c9ea6c28b3c783d0",
-    "canonical": "starrail:website:165723"
+    "canonical": "starrail:website:165723",
+    "imagesHash": "ecc385d78ca9aa04e0917563266dc5452aa476a7f978bcdb99b740ab48e2d984"
   },
   "starrail:website:165638": {
     "title": "「花藏繁生」活动：拟造花萼限时双倍掉落",
     "published": "2026-08-13T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165638",
     "digest": "f900083768e3c33152f05b98e079ad9ecfb28755f93dd5b96c9e664a009532c9",
-    "canonical": "starrail:miyoushe:77414370"
+    "canonical": "starrail:miyoushe:77414370",
+    "imagesHash": "aea81760fa71515bd405de82a7c3eecf5d417c0e14cc9f3c4bf4130d15718d59"
   },
   "starrail:website:165506": {
     "title": "4.4版本活动跃迁（其二）",
     "published": "2026-08-04T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165506",
     "digest": "01dd8724c4382bae1d310ad7f89e6b2f7b867167d6205d5ea204be1d01b5d017",
-    "canonical": "starrail:miyoushe:77188470"
+    "canonical": "starrail:miyoushe:77188470",
+    "imagesHash": "6876f4ba8e1fe5db6ad2a9107c698651f36db8924b1be8cfd270ce47dbfdd850",
+    "confirmedImagesHash": "6876f4ba8e1fe5db6ad2a9107c698651f36db8924b1be8cfd270ce47dbfdd850",
+    "confirmedImagesDigest": "01dd8724c4382bae1d310ad7f89e6b2f7b867167d6205d5ea204be1d01b5d017"
   },
   "starrail:website:165483": {
     "title": "全新PV音乐专辑《行于命途6》正式上线 ",
     "published": "2026-08-02T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165483",
     "digest": "8b87cdcad48b47e457ec9384cac6c1c08cf364c0d9135b41b5cdb8d54653c1d5",
-    "canonical": "starrail:website:165483"
+    "canonical": "starrail:website:165483",
+    "imagesHash": "cfadd6a701cf9c9bdd4120fc8a3fcff8b8c12c7f5ab52f3729cb4f4aa7569987"
   },
   "starrail:website:165361": {
     "title": "「位面分裂」活动：位面饰品限时双倍掉落",
     "published": "2026-07-26T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165361",
     "digest": "da86031af037751e4f787026254f9dedfbdbe954e5e1bb20381047326cd5dfd0",
-    "canonical": "starrail:website:165361"
+    "canonical": "starrail:website:165361",
+    "imagesHash": "cffc87fde2ee94ba3341adab53a3cad85cae31c2ab4ba47898f81705c502e3a5"
   },
   "starrail:website:165338": {
     "title": "《崩坏：星穹铁道》× Fate[UBW] 联动PV——「别来无恙」",
     "published": "2026-07-23T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165338",
     "digest": "d08644b630c663d198f0e79c5824a3e65f845c86da1731a8b4d53701d3211091",
-    "canonical": "starrail:website:165338"
+    "canonical": "starrail:website:165338",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165318": {
     "title": "《崩坏：星穹铁道》走近星穹——「吉尔伽美什：我为你的喜悦而喜悦」",
     "published": "2026-07-22T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165318",
     "digest": "2b94cee369777725bc2a6ee79d185c69862a8ed0f8ff690c1bedcb97abe4a8ad",
-    "canonical": "starrail:website:165318"
+    "canonical": "starrail:website:165318",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165303": {
     "title": "《崩坏：星穹铁道》走近星穹——「远坂凛：如何在宇宙时代学会智能机」",
     "published": "2026-07-21T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165303",
     "digest": "7b551b5f66a06f07f0600eef8a454e9f39a743b1d5ac4aa3c81ba1a241458e6f",
-    "canonical": "starrail:website:165303"
+    "canonical": "starrail:website:165303",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165256": {
     "title": "《崩坏：星穹铁道》公益第二卷：「当一颗星照亮夜空」",
     "published": "2026-07-18T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165256",
     "digest": "3d4fb32f6be5a9fd867c154b9dc20107b53ef503048e51674184e96152ce71d2",
-    "canonical": "starrail:website:165256"
+    "canonical": "starrail:website:165256",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165244": {
     "title": "听歌领80星琼！专辑「神说要有笑（中篇）」音乐活动正式上线",
     "published": "2026-07-17T04:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/165244",
     "digest": "c034e335fd623adf31f05b07119488b78d125801f74bf1cadf752b87b245ad6c",
-    "canonical": "starrail:website:165244"
+    "canonical": "starrail:website:165244",
+    "imagesHash": "8083bca3198605b6c449c02b2d6f1b474eb44e3c6b76c029de0b422abea5671d",
+    "confirmedImagesHash": "8083bca3198605b6c449c02b2d6f1b474eb44e3c6b76c029de0b422abea5671d",
+    "confirmedImagesDigest": "c034e335fd623adf31f05b07119488b78d125801f74bf1cadf752b87b245ad6c"
   },
   "starrail:website:165237": {
     "title": "《崩坏：星穹铁道》EP：「下一站」",
     "published": "2026-07-16T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165237",
     "digest": "4dcfb5a8697adcecc5e62caad859e7a8dd492a09d8d25352061db28511eebe81",
-    "canonical": "starrail:website:165237"
+    "canonical": "starrail:website:165237",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165228": {
     "title": "4.4版本「鸣笛于归寂之时」激励计划现已开启",
     "published": "2026-07-15T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165228",
     "digest": "f31334ec227b0d6a61f134f4cb731e74c91b406fb5be5c82bb9098344e6235ad",
-    "canonical": "starrail:website:165228"
+    "canonical": "starrail:website:165228",
+    "imagesHash": "21aa46cc0082cd8d1d15cf1ad3b7ca8f49d8a3747c110c036f278b5dfd57ce2a"
   },
   "starrail:website:165210": {
     "title": "4.4版本「鸣笛于归寂之时」版本更新说明",
     "published": "2026-07-14T23:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165210",
     "digest": "93e1732fdbd57575169c5d799025b3d6970241e9303c2d3c7366fde34441ed27",
-    "canonical": "starrail:website:165210"
+    "canonical": "starrail:website:165210",
+    "imagesHash": "f942a8652a776a7479d81c9aa91b7ce4fa3adf4f3423ec64e1057d9a35a94ea4"
   },
   "starrail:website:165212": {
     "title": "《崩坏：星穹铁道》姬子•启行角色PV——「启明星于今夜坠落」",
     "published": "2026-07-14T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165212",
     "digest": "ad1557e4acad7b34d9db7fb8b73bfc8efeeb5facb16ea31789be910ba395b3be",
-    "canonical": "starrail:website:165212"
+    "canonical": "starrail:website:165212",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165209": {
     "title": "「反贪『砖』家」：完成骇入行动，获取自塑尘脂、命运的足迹、星琼等奖励！",
     "published": "2026-07-14T03:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/165209",
     "digest": "89d003d7a91db48fa2e74df7c8b1684252ef81caf7b257d8bde2865b2639d58f",
-    "canonical": "starrail:website:165209"
+    "canonical": "starrail:website:165209",
+    "imagesHash": "04a04a649719db2680c95f26e8ab0adc9c5c2120b81a452a57ac05ae214f302f"
   },
   "starrail:website:165208": {
     "title": "4.4版本活动跃迁（其一）",
     "published": "2026-07-14T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165208",
     "digest": "f56c780d7dad1691efc60ce5291833983af519ab3a3dc8f455ecf04fc3078f78",
-    "canonical": "starrail:website:165208"
+    "canonical": "starrail:website:165208",
+    "imagesHash": "461613872bc42b648ede9e83d7e792e78344f3b65032584e8a5b2d0c1ca5de61",
+    "confirmedImagesHash": "461613872bc42b648ede9e83d7e792e78344f3b65032584e8a5b2d0c1ca5de61",
+    "confirmedImagesDigest": "f56c780d7dad1691efc60ce5291833983af519ab3a3dc8f455ecf04fc3078f78"
   },
   "starrail:website:165187": {
     "title": "4.4版本更新维护预告",
     "published": "2026-07-13T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165187",
     "digest": "57c0cfd0b30be1b8902ea7b6340cef44f83bcb00017c564c915a0d45689f48fd",
-    "canonical": "starrail:website:165187"
+    "canonical": "starrail:website:165187",
+    "imagesHash": "2944cc6fff7f749c50c813d885ebcc348f657ae102072fd31b456983e7eb6771",
+    "confirmedImagesHash": "2944cc6fff7f749c50c813d885ebcc348f657ae102072fd31b456983e7eb6771",
+    "confirmedImagesDigest": "57c0cfd0b30be1b8902ea7b6340cef44f83bcb00017c564c915a0d45689f48fd"
   },
   "starrail:website:165186": {
     "title": "「货币战争•零和博弈」赛季扩充说明 V4.4",
     "published": "2026-07-13T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165186",
     "digest": "6a7ce5a0e9c3b9d774a54dfdf697946af7e0e5cc27fcda8fdef8c477830a371a",
-    "canonical": "starrail:website:165186"
+    "canonical": "starrail:website:165186",
+    "imagesHash": "53dad7571b684ee98570c369939164df59e45add23eee95875eb42c9ffefca15"
   },
   "starrail:website:165184": {
     "title": "4.4版本新增关卡",
     "published": "2026-07-12T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165184",
     "digest": "aeebae1bee933d17a7620c53d13dfaf9d48cacb41a39df8b05c9c9b004bbbd36",
-    "canonical": "starrail:website:165184"
+    "canonical": "starrail:website:165184",
+    "imagesHash": "1cc503fb36f4abb6e60397144ceab8161a5cbbbea1d8c0c68f98b87ba05662cf"
   },
   "starrail:website:165194": {
     "title": "《崩坏：星穹铁道》动画短片——「你的终点，我的起点」",
     "published": "2026-07-12T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165194",
     "digest": "f229f1e655eb58a8218ba693e1094fd232e72bc3c84d51373ff8491f35630131",
-    "canonical": "starrail:website:165194"
+    "canonical": "starrail:website:165194",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165183": {
     "title": "「鸣笛于归寂之时」任务说明",
     "published": "2026-07-11T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165183",
     "digest": "59aafe8203dc01f55b1092273d23845004aa455e00c28fbf5fa51e7cb921c12f",
-    "canonical": "starrail:website:165183"
+    "canonical": "starrail:website:165183",
+    "imagesHash": "7b45df88fe4863f874621dd1d68e27d14aa43e7a1443335aaa8bcce19fd0df30"
   },
   "starrail:website:165179": {
     "title": "4.4版本「无名勋礼」更新",
     "published": "2026-07-09T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165179",
     "digest": "ae52ffbabe3ef1bda249f5fa8e4bc6d97b0a91bb745ce4146ad539c1ae8f005a",
-    "canonical": "starrail:website:165179"
+    "canonical": "starrail:website:165179",
+    "imagesHash": "108de7ee5f5039b05a74f38418cc3e106add956ed8c5d84b2be4c262c3fc0770",
+    "confirmedImagesHash": "108de7ee5f5039b05a74f38418cc3e106add956ed8c5d84b2be4c262c3fc0770",
+    "confirmedImagesDigest": "ae52ffbabe3ef1bda249f5fa8e4bc6d97b0a91bb745ce4146ad539c1ae8f005a"
   },
   "starrail:website:165178": {
     "title": "《崩坏：星穹铁道》走近星穹——「姬子•启行：咖啡因来自咖啡果」",
     "published": "2026-07-09T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165178",
     "digest": "26f9e6cd27bb567d102867829e7633139c67d340c1b32ec3ea2ddad26c79e876",
-    "canonical": "starrail:website:165178"
+    "canonical": "starrail:website:165178",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165164": {
     "title": "《崩坏：星穹铁道》即兴巡演PV——「致仰望者」",
     "published": "2026-07-08T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165164",
     "digest": "a3cc9315e3e431f0ddb83e6af1d15d08b8007d5492947b03545362d990fd0838",
-    "canonical": "starrail:website:165164"
+    "canonical": "starrail:website:165164",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165119": {
     "title": "4.4版本商店上新",
     "published": "2026-07-03T13:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165119",
     "digest": "977c9526ac02d304121afdfac3c635732c8215f319789092faa49aabf4f24c33",
-    "canonical": "starrail:website:165119"
+    "canonical": "starrail:website:165119",
+    "imagesHash": "d7e7ea0181bb27d426779cbaee32b594b4e1cdea89446e202466d031a1d02a95"
   },
   "starrail:website:165117": {
     "title": "Fate[UBW] 联动跃迁说明",
     "published": "2026-07-03T12:55:00.000Z",
     "url": "https://sr.mihoyo.com/news/165117",
     "digest": "b47fcf05e37188f157b43e0e4c2f37c2f5b17726646038c472c043cd0547f660",
-    "canonical": "starrail:website:165117"
+    "canonical": "starrail:website:165117",
+    "imagesHash": "016377cadbf7f826cecb9346aa87335db64d8cdcb31488c8ed698dedca14ddd6",
+    "confirmedImagesHash": "016377cadbf7f826cecb9346aa87335db64d8cdcb31488c8ed698dedca14ddd6",
+    "confirmedImagesDigest": "b47fcf05e37188f157b43e0e4c2f37c2f5b17726646038c472c043cd0547f660"
   },
   "starrail:website:165120": {
     "title": "4.4版本「鸣笛于归寂之时」专题展示页现已上线",
     "published": "2026-07-03T12:45:00.000Z",
     "url": "https://sr.mihoyo.com/news/165120",
     "digest": "1a17a7fef9fc23ea6117dd696dcb1b0b6f3121a4f57c5b1d5dae54c770a9470b",
-    "canonical": "starrail:website:165120"
+    "canonical": "starrail:website:165120",
+    "imagesHash": "a629d6f78eb769319d05e2dc739cb83f6c1c9ccdb65494a59586b5596c179945"
   },
   "starrail:website:165118": {
     "title": "《崩坏：星穹铁道》4.4版本PV：「鸣笛于归寂之时」",
     "published": "2026-07-03T12:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/165118",
     "digest": "5443c9eace8c626e13507e5b9a7e787f39bdff2d9d16d7ec6a0f3f71302cb6d7",
-    "canonical": "starrail:website:165118"
+    "canonical": "starrail:website:165118",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:165108": {
     "title": "「异器盈界」活动：隧洞遗器限时双倍掉落",
     "published": "2026-07-02T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165108",
     "digest": "258f2907e7e61e210b918250731b484e378fa7bcd2b7fe8e5589ec73eebe1497",
-    "canonical": "starrail:website:165108"
+    "canonical": "starrail:website:165108",
+    "imagesHash": "459177a761f941afe50d2feb7f62e82655f10f43389cd87b66ba9631961804b1"
   },
   "starrail:website:165000": {
     "title": "《崩坏：星穹铁道》即兴巡演PV：「欢愉之死」",
     "published": "2026-06-26T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/165000",
     "digest": "6359eb538b63b486d349342421d06b807a3cc814e34c1b247db910eb9d79693a",
-    "canonical": "starrail:website:165000"
+    "canonical": "starrail:website:165000",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:164925": {
     "title": "4.3版本活动跃迁（其二）",
     "published": "2026-06-23T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164925",
     "digest": "803199447d2a7e605c77a20010d1f201906d1ad69076bd0db24e2af78bf25abe",
-    "canonical": "starrail:website:164925"
+    "canonical": "starrail:website:164925",
+    "imagesHash": "70afb1440059c7782976866f9afd0a8b2d48c0583c5921aa5cf4ccaeb23f4727",
+    "confirmedImagesHash": "70afb1440059c7782976866f9afd0a8b2d48c0583c5921aa5cf4ccaeb23f4727",
+    "confirmedImagesDigest": "803199447d2a7e605c77a20010d1f201906d1ad69076bd0db24e2af78bf25abe"
   },
   "starrail:website:164924": {
     "title": "「尘灵游乐园」：布置游乐园，获取命运的足迹、星琼等奖励！",
     "published": "2026-06-23T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164924",
     "digest": "940ef39d71b0cedb4aa818a47cee35970a19e7aeb32756f719e5c25f85cdaf89",
-    "canonical": "starrail:website:164924"
+    "canonical": "starrail:website:164924",
+    "imagesHash": "b54e09bdbe0fc246491fa0105d193b633f753edfe91aa8059efa27df9d97cf30"
   },
   "starrail:website:164751": {
     "title": "「位面分裂」活动：位面饰品限时双倍掉落",
     "published": "2026-06-16T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164751",
     "digest": "6fb59af0fde4c71d025b0fd35b609207fae2baaa0de3efddfa387e03557aa29b",
-    "canonical": "starrail:website:164751"
+    "canonical": "starrail:website:164751",
+    "imagesHash": "085f4a4184be1035f57ebb425fde13543ca62e737096a68cd8098b186ff35254"
   },
   "starrail:website:164428": {
     "title": "4.3版本「沉于生者的忘川」激励计划现已开启",
     "published": "2026-06-01T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164428",
     "digest": "1cb4a0809aad94598683b9026d944f8a23989bef2857d24fa8bd86ffeda4d53d",
-    "canonical": "starrail:website:164428"
+    "canonical": "starrail:website:164428",
+    "imagesHash": "47626b26c9dd67d7eb42becbc589dd21cd4916555399dd7cd21ba2589b56569d"
   },
   "starrail:website:164426": {
     "title": "4.3版本「沉于生者的忘川」版本更新说明",
     "published": "2026-05-31T23:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164426",
     "digest": "b86f7caf828445751c9b92183e77a487c79c560147778971184fb14a9d5063a4",
-    "canonical": "starrail:website:164426"
+    "canonical": "starrail:website:164426",
+    "imagesHash": "6116c62bd4f37d02f76dabc9884e92dcd9986967a5f980bbcacc02c68f1b7dd8"
   },
   "starrail:website:164425": {
     "title": "4.3版本活动跃迁（其一）",
     "published": "2026-05-31T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164425",
     "digest": "5426bd7233692fee338713a40cee089bc403cf21d153eefbc2ef1615dc7786fd",
-    "canonical": "starrail:website:164425"
+    "canonical": "starrail:website:164425",
+    "imagesHash": "0f71f5a4e7a8182b5cbdfa9cc28dd7d648f605cd183ba6b2abc5c03629e7054d",
+    "confirmedImagesHash": "0f71f5a4e7a8182b5cbdfa9cc28dd7d648f605cd183ba6b2abc5c03629e7054d",
+    "confirmedImagesDigest": "5426bd7233692fee338713a40cee089bc403cf21d153eefbc2ef1615dc7786fd"
   },
   "starrail:website:164424": {
     "title": "「像素飞机大乱斗」：定制你的最强战机，获取命运的足迹、星琼、聊天气泡等奖励！",
     "published": "2026-05-31T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164424",
     "digest": "e594d2900c1b89f4cadd31a1a425574a93c02115aca92665fd022ba8090ffa03",
-    "canonical": "starrail:website:164424"
+    "canonical": "starrail:website:164424",
+    "imagesHash": "543a8be1a11d742f1fe34dfbb502f78dc008f194a14fd880846a6e3602f272e4"
   },
   "starrail:website:164408": {
     "title": "【4.3】更新维护预告&预下载",
     "published": "2026-05-29T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164408",
     "digest": "8e5012547668baec02e15cb0e9a68a7ff1814fc6abe6443969d1963e308560bb",
-    "canonical": "starrail:website:164408"
+    "canonical": "starrail:website:164408",
+    "imagesHash": "08574cd6c8415984879ce28b216d144a5840ab37bfb546f23a171fdb05ca9987",
+    "confirmedImagesHash": "08574cd6c8415984879ce28b216d144a5840ab37bfb546f23a171fdb05ca9987",
+    "confirmedImagesDigest": "8e5012547668baec02e15cb0e9a68a7ff1814fc6abe6443969d1963e308560bb"
   },
   "starrail:website:164405": {
     "title": "《崩坏：星穹铁道》千冶•刃角色PV——「灭度」",
     "published": "2026-05-29T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164405",
     "digest": "c9607d3429bf4bb3dbeb292946e7fe4a9dc58f2082a041e867cd0521a02b3227",
-    "canonical": "starrail:website:164405"
+    "canonical": "starrail:website:164405",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:164406": {
     "title": "「沉于生者的忘川」任务说明",
     "published": "2026-05-27T16:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164406",
     "digest": "73e8c58230dae3b0049cf0f35ed0e94a6cc72b234a3da3798a34f1d5b1bd7932",
-    "canonical": "starrail:website:164406"
+    "canonical": "starrail:website:164406",
+    "imagesHash": "9d89dda2eec55994c3fb895f9f7c96e6e5011b14f528c7aa20220ae011dbe89a"
   },
   "starrail:website:164413": {
     "title": "《崩坏：星穹铁道》走近星穹——「千冶•刃：是千冶不是千治！」",
     "published": "2026-05-27T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164413",
     "digest": "e4c0d5a55f783e6be0baf7a2b91860d70f77508a6e179f2bce1aa551716a1b3f",
-    "canonical": "starrail:website:164413"
+    "canonical": "starrail:website:164413",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:164345": {
     "title": "4.3版本新增关卡",
     "published": "2026-05-26T06:30:00.000Z",
     "url": "https://sr.mihoyo.com/news/164345",
     "digest": "3a47fb7ebdf3964de6ad3c2c0538c4162ff5339f4b575ea011b83042b58e54ef",
-    "canonical": "starrail:website:164345"
+    "canonical": "starrail:website:164345",
+    "imagesHash": "1a2f3faa623df24f01b811a6940b1f750102c98a8161d337f9509b35d20d2f3c"
   },
   "starrail:website:164343": {
     "title": "4.3版本「无名勋礼」&商店更新",
     "published": "2026-05-26T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164343",
     "digest": "a3c4cc8845aa3f74d3f59d14eae7726c7cf0339d3e4f6641ffbe45da0329a920",
-    "canonical": "starrail:website:164343"
+    "canonical": "starrail:website:164343",
+    "imagesHash": "153c703f7e344896b93edaa5bd4d72f9f2b76060f0ab003d5b5edf24236b3dc4",
+    "confirmedImagesHash": "153c703f7e344896b93edaa5bd4d72f9f2b76060f0ab003d5b5edf24236b3dc4",
+    "confirmedImagesDigest": "a3c4cc8845aa3f74d3f59d14eae7726c7cf0339d3e4f6641ffbe45da0329a920"
   },
   "starrail:website:164327": {
     "title": "4.3版本「沉于生者的忘川」专题展示页",
     "published": "2026-05-22T12:25:00.000Z",
     "url": "https://sr.mihoyo.com/news/164327",
     "digest": "279e1eebcee9c543a65ce9500f76c38c6e319261dfc4a9e7d92c9d4ee4ef271e",
-    "canonical": "starrail:website:164327"
+    "canonical": "starrail:website:164327",
+    "imagesHash": "f0c810b3e2364c3a72336a059ffbc22ca6811e54d490993e4adc55bb992db9ec"
   },
   "starrail:website:164311": {
     "title": "《崩坏：星穹铁道》4.3版本PV：「沉于生者的忘川」",
     "published": "2026-05-22T11:55:00.000Z",
     "url": "https://sr.mihoyo.com/news/164311",
     "digest": "67bed7911158888c36c45bd31ee393855dc77ed6be79988d3c8dccd2f4eaaf83",
-    "canonical": "starrail:website:164311"
+    "canonical": "starrail:website:164311",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:164310": {
     "title": "「淬锋之礼」：获取「千冶•刃」赠送全新部位开拓穿搭「彼岸业火」",
     "published": "2026-05-22T11:50:00.000Z",
     "url": "https://sr.mihoyo.com/news/164310",
     "digest": "5b40cd98da5fe1a45bb1bc211ca9cf8b8f6ff823daa14eca1a307a15182cd311",
-    "canonical": "starrail:website:164310"
+    "canonical": "starrail:website:164310",
+    "imagesHash": "de1ccdc172bd19f6baa942b5a9baeb13f67b8abba8d3cbe9d58654fcaffd6a2d"
   },
   "starrail:website:164276": {
     "title": "「异器盈界」活动：隧洞遗器限时三倍掉落",
     "published": "2026-05-21T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/164276",
     "digest": "2b1596d1dfa08c72f80706c751d909059b25b9e323c6f5e8593a6697a7fbc323",
-    "canonical": "starrail:website:164276"
+    "canonical": "starrail:website:164276",
+    "imagesHash": "b94d85521da04a5f668c28d7fd38c35d1c3fe070aaae080193cd74f86a6b70ef"
   },
   "starrail:website:163928": {
     "title": "「花藏繁生」活动：拟造花萼限时三倍掉落",
     "published": "2026-05-13T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163928",
     "digest": "c3a225642ec74cc60bdcf7229fa40e6341e63eff578aada0c877d0a86fa0d1c2",
-    "canonical": "starrail:website:163928"
+    "canonical": "starrail:website:163928",
+    "imagesHash": "2090b3e786bcf1e05e0e90a8293dc76e12d9cca693d5840889a42ef6744b0d5b"
   },
   "starrail:website:163927": {
     "title": "4.2版本活动跃迁（其二）",
     "published": "2026-05-11T06:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163927",
     "digest": "83932d79bf6ae0672aea7cc093d0663d3f85940cf0b670c3812a2d1c057b5a8b",
-    "canonical": "starrail:website:163927"
+    "canonical": "starrail:website:163927",
+    "imagesHash": "c8f84c059954dc26918aefdfbeff533d979917c9ba4aafb57f74e7ef498522f2",
+    "confirmedImagesHash": "c8f84c059954dc26918aefdfbeff533d979917c9ba4aafb57f74e7ef498522f2",
+    "confirmedImagesDigest": "83932d79bf6ae0672aea7cc093d0663d3f85940cf0b670c3812a2d1c057b5a8b"
   },
   "starrail:website:163904": {
     "title": "《崩坏：星穹铁道》绯英角色PV——「她的日常」",
     "published": "2026-05-11T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163904",
     "digest": "270822556f220ea41d8c12358551d749057eec1b658e0d1a5c5bffb4c1a041cb",
-    "canonical": "starrail:website:163904"
+    "canonical": "starrail:website:163904",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:163865": {
     "title": "《崩坏：星穹铁道》走近星穹——「绯英：香香软软泥头车！」",
     "published": "2026-05-06T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163865",
     "digest": "e4a5f6861625fbe512129c63b9c5713e47821dadcdec19f32d169c16483a5974",
-    "canonical": "starrail:website:163865"
+    "canonical": "starrail:website:163865",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "starrail:website:163840": {
     "title": "「2026星铁奇妙夜」线上音乐演出官方录播完整版上线",
     "published": "2026-05-03T12:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163840",
     "digest": "b02d543cb3e06bdb5b259db970a9ffe4b3268dd53d0ab97a8ddbce6170cd59cd",
-    "canonical": "starrail:website:163840"
+    "canonical": "starrail:website:163840",
+    "imagesHash": "b099dab05030cddf6327cbefbc473705b446533825859fff84b2d0d77b431d52"
   },
   "starrail:website:163777": {
     "title": "「位面分裂300%」活动：位面饰品限时三倍掉落",
     "published": "2026-05-03T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163777",
     "digest": "64d74b96fb9264a6faaf10de930958e07f6b2173ac7b29aafcfadb6543da4c19",
-    "canonical": "starrail:website:163777"
+    "canonical": "starrail:website:163777",
+    "imagesHash": "b64af05af6cf6cabf2102789c80190ca63ecef6a1c042ad9af646469a908d41b"
   },
   "starrail:website:163776": {
     "title": "「又上骰了！战力党！」：打牌共斗，获取星琼等奖励！",
     "published": "2026-04-28T03:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163776",
     "digest": "e3115f7e2ea4abdfc5cec9f6a04ad663aa5877ecfe98203108b7344bab60d5af",
-    "canonical": "starrail:website:163776"
+    "canonical": "starrail:website:163776",
+    "imagesHash": "60df06d89ac9eec1205456addc1782aae51b2c39ad30054b49bc41b1dca02585"
   },
   "starrail:website:163726": {
     "title": "2026「星穹铁道生日会」正片上线",
     "published": "2026-04-26T10:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163726",
     "digest": "52f75f80c58fd8323411cf6a47717bc283458cf46d0b8628b808758d7aba260c",
-    "canonical": "starrail:website:163726"
+    "canonical": "starrail:website:163726",
+    "imagesHash": "d7ecd54ab89fef1630392bf56ff36db75a2f81e5cc57b0fbfe15a7db196b161b"
   },
   "starrail:website:163631": {
     "title": "4.2版本「如是，众生欢笑不已」激励计划现已开启",
     "published": "2026-04-22T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163631",
     "digest": "da7ccc34552b144acc266d7dc6f5c9ce7e8fce8c57d84703ff20837cda03afc8",
-    "canonical": "starrail:website:163631"
+    "canonical": "starrail:website:163631",
+    "imagesHash": "9402bba327bd04d332b1aa8ff3e5c0f2b89acc0904b710107e14a9df6a7ec5ed"
   },
   "starrail:website:163630": {
     "title": "4.2版本「如是，众生欢笑不已」版本更新说明",
     "published": "2026-04-21T23:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163630",
     "digest": "d72f0ebc40d6e8bf0fb4945f7026a4137a7c64b3b554155d1372460abd1b7d4c",
-    "canonical": "starrail:website:163630"
+    "canonical": "starrail:website:163630",
+    "imagesHash": "b5946f42edce4706f910100700da2ea9b3b5ba613d832e56643633abf56a7f88"
   },
   "starrail:website:163626": {
     "title": "4.2版本活动跃迁（其一）",
     "published": "2026-04-21T05:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163626",
     "digest": "38abbc126211594d529cedf331f3dac2030ce54d082e5d4bc32c8f53ac96e81a",
-    "canonical": "starrail:website:163626"
+    "canonical": "starrail:website:163626",
+    "imagesHash": "9df26bc924da8f007816650011f79090b1185a086d08aa90e4a6fde888b89cff",
+    "confirmedImagesHash": "9df26bc924da8f007816650011f79090b1185a086d08aa90e4a6fde888b89cff",
+    "confirmedImagesDigest": "38abbc126211594d529cedf331f3dac2030ce54d082e5d4bc32c8f53ac96e81a"
   },
   "starrail:website:163624": {
     "title": "《崩坏：星穹铁道》动画短片：「这游戏还能不能玩了？」",
     "published": "2026-04-21T04:00:00.000Z",
     "url": "https://sr.mihoyo.com/news/163624",
     "digest": "1aa1a1a3c8c38a18a7e995bacd24ea168e5e659b98f5683a9ad1db27a6480401",
-    "canonical": "starrail:website:163624"
+    "canonical": "starrail:website:163624",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "zzz:website:166576": {
     "title": "《绝区零》2026年10月月历壁纸",
     "published": "2026-10-02T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166576",
     "digest": "766d0a7f8a86739632fdd74106a2d3b971570a3fa585fcea70193c3df94fe2a9",
-    "canonical": "zzz:website:166576"
+    "canonical": "zzz:website:166576",
+    "imagesHash": "4278184680192636974d493ca0e74c83c8dcecc85fcfd194cb7fa0e228e2dc27"
   },
   "zzz:website:166570": {
     "title": "「跛脚乌鸦奇探录」活动说明",
     "published": "2026-10-01T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166570",
     "digest": "a3dc3e7ecc7f3586c4b89c32b85be6478b7a38998cfe1c8ea866424cb6548bee",
-    "canonical": "zzz:miyoushe:78574794"
+    "canonical": "zzz:miyoushe:78574794",
+    "imagesHash": "bcc6f539051fe6a0597bc353f99b3d7776669352e112eb2578552bbb1b446c75"
   },
   "zzz:website:166549": {
     "title": "她与她的隐秘往事丨3.2版本内容一览（下期）",
     "published": "2026-09-30T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166549",
     "digest": "0b5ddfeb8049e6c8326c1dcfeb9507c6ec3244ba8baf85641f3b2637a90ea5ed",
-    "canonical": "zzz:website:166549"
+    "canonical": "zzz:website:166549",
+    "imagesHash": "589931bdaa9adfb9af5acc1fdec7c26afc87c8d79ccf2eae5b7e904ba499bc5f"
   },
   "zzz:website:166528": {
     "title": "生日快乐南宫羽丨绝无仅有的大奖",
     "published": "2026-09-29T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166528",
     "digest": "b5b7286ec3f793d52aa4980441ed9b68853b0449af220798f69fabb2df72c73a",
-    "canonical": "zzz:website:166528"
+    "canonical": "zzz:website:166528",
+    "imagesHash": "49dc7822c4230c93a4fdd711f055a3157fa026b457ea65c1e275533de636b57b"
   },
   "zzz:website:166515": {
     "title": "「锵锵！球仔成长日记」活动说明",
     "published": "2026-09-28T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166515",
     "digest": "6003eecb5ab12a41d0f35b9edf9d9f8feff71c6a8512195b1ec69d15ddca6e7e",
-    "canonical": "zzz:miyoushe:78471475"
+    "canonical": "zzz:miyoushe:78471475",
+    "imagesHash": "7d4f78cb4ea404492df29ef4d901880d3199c0ede96830241e6a2dd7c99a8540"
   },
   "zzz:website:166512": {
     "title": "3.2版本限时频段（下期）",
     "published": "2026-09-28T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166512",
     "digest": "32e1ddf9fbf54256f89ba13fd95beb76ba54be303f3f9ed49bbc62fe8995f038",
-    "canonical": "zzz:miyoushe:78470659"
+    "canonical": "zzz:miyoushe:78470659",
+    "imagesHash": "d3ba7b8c40cfd9e42d9e761fde16082ce92a041998a1e2c273d2ea294d0a2d9f"
   },
   "zzz:website:166503": {
     "title": "代理人机制介绍丨洛克茜篇",
     "published": "2026-09-27T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166503",
     "digest": "35a5b74ba73fa6e62e9760c8260831d6a3d4f7d84a6a8242e2cf8679b148e397",
-    "canonical": "zzz:website:166503"
+    "canonical": "zzz:website:166503",
+    "imagesHash": "34605c5dcfa6c63850b0a1412270069fca84d0967000d385094d16da2f7b2fcc"
   },
   "zzz:website:166502": {
     "title": "代理人未归档影像丨洛克茜篇",
     "published": "2026-09-26T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166502",
     "digest": "1e6a1f7f1131d9ed8bad48de1162f3c4be6153675fced7e5d0438e06836bb730",
-    "canonical": "zzz:website:166502"
+    "canonical": "zzz:website:166502",
+    "imagesHash": "07dc2ba08f3364dcb3dd6c4773b80ac56beb32c457c01f0cb8168b1cb69afd93"
   },
   "zzz:website:166501": {
     "title": "丽都有丽事丨真·不可售影像",
     "published": "2026-09-25T10:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166501",
     "digest": "e3915e514f4e92120fbfdb26cf44ca9cedf9e58b61c9dceea2c29f59f1cf82d9",
-    "canonical": "zzz:website:166501"
+    "canonical": "zzz:website:166501",
+    "imagesHash": "03f711ae0cdd822f50690212d7e03a5c3a7043749fe964bdc4fa426c035c45f7"
   },
   "zzz:website:166484": {
     "title": "盈月辉光丨弗林特工坊",
     "published": "2026-09-25T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166484",
     "digest": "6fa0758a9dc6a1e3b43bd5a27ad6351f766e8b5763a9696b8f389b37b09f68f4",
-    "canonical": "zzz:website:166484"
+    "canonical": "zzz:website:166484",
+    "imagesHash": "2e3bb545dd0217958a3af281f55511a55ada499be86ce0ba4f4a4bf3917b8390"
   },
   "zzz:website:166479": {
     "title": "假日相册 | 维尔乌姆的日常掠影",
     "published": "2026-09-24T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166479",
     "digest": "961a79dcce6f2639aefbaf7478a424b003d82172384c539d6296a0b019621910",
-    "canonical": "zzz:website:166479"
+    "canonical": "zzz:website:166479",
+    "imagesHash": "3e99c5f49bd82e66be0d5c3cb8769d5d9e174670d0bf4ffeb4c11200f4c05f5d"
   },
   "zzz:website:166462": {
     "title": "假日相册 | 空中巴士密语",
     "published": "2026-09-23T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166462",
     "digest": "311572db08a5220a894fa52fa70009916c689fbf7ee3e2a6859b9d10bff868c2",
-    "canonical": "zzz:website:166462"
+    "canonical": "zzz:website:166462",
+    "imagesHash": "0d149d82568c76bb40effbdeb165c3e6ca2d211aec033e76caa70d0985835ed5"
   },
   "zzz:website:166408": {
     "title": "生日快乐丽娜丨回归基本功",
     "published": "2026-09-23T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166408",
     "digest": "4bd54ca0fc8af965f9a715600a159853b994410417ab59cf84777c1cf533a484",
-    "canonical": "zzz:website:166408"
+    "canonical": "zzz:website:166408",
+    "imagesHash": "224bf8ae82fbf559f81a678f6325b2828024dc08e9c141e056e3868a6467e29d"
   },
   "zzz:website:166382": {
     "title": "假日相册 | 片刻闲的片刻琉光",
     "published": "2026-09-22T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166382",
     "digest": "d09bb5f79cae4dace9aa9b90bc0a29bca5bf4a926c432130c9d4f54bfc3c73f6",
-    "canonical": "zzz:website:166382"
+    "canonical": "zzz:website:166382",
+    "imagesHash": "400eb299569d355738199f4b82ff3b5501c614fc97950a7689e7cbb495b531e8"
   },
   "zzz:website:166322": {
     "title": "生日快乐维琳娜丨尽享片刻安闲",
     "published": "2026-09-22T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166322",
     "digest": "e94f01a082c64bcfa730329526b08b128deaa63e77d85f2afbefe7585814d04e",
-    "canonical": "zzz:website:166322"
+    "canonical": "zzz:website:166322",
+    "imagesHash": "e5da2ccbe45f57b3946e421cef97a13d6a9b55c1f577205009eae3b037d9bf71"
   },
   "zzz:website:166226": {
     "title": "「先遣赏金-区域巡防」活动说明",
     "published": "2026-09-21T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166226",
     "digest": "1eaa3e2ca6e260e54892adf062682673d0afdfaeee8ed0507080090e6ad1e58d",
-    "canonical": "zzz:miyoushe:78300153"
+    "canonical": "zzz:miyoushe:78300153",
+    "imagesHash": "294cd439cea1680842e481b194fe1a808d636b9ff791a69534188362c4c5fde7"
   },
   "zzz:website:166202": {
     "title": "「惊喜放映企划」活动说明",
     "published": "2026-09-21T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166202",
     "digest": "11061dd774a340e31daacbfdb5299b9d333863c91237bbc1c74efc7b3ea939c0",
-    "canonical": "zzz:miyoushe:78299921"
+    "canonical": "zzz:miyoushe:78299921",
+    "imagesHash": "aee0e84952d944fb3421be834c4915306c1c4869d5b5a58ece360da0d0e0e697"
   },
   "zzz:website:166231": {
     "title": "生日快乐月城柳丨真正的贵重物品",
     "published": "2026-09-21T04:05:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166231",
     "digest": "980d413485e37f9852cf6ffa51e9fc06e141cf47b5a415515f3baf9e6f23150a",
-    "canonical": "zzz:website:166231"
+    "canonical": "zzz:website:166231",
+    "imagesHash": "c1f69b1a0b2caaf93525dfa1095776b59b71e378580bff53223b35398c39997e"
   },
   "zzz:website:166195": {
     "title": "养成指南上新丨洛克茜养成材料预告",
     "published": "2026-09-19T05:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166195",
     "digest": "0d3e97376540d0cc37aec82cdc7b1f3df8ffde9b0ceb13007cdefb63d91cadb1",
-    "canonical": "zzz:website:166195"
+    "canonical": "zzz:website:166195",
+    "imagesHash": "130d22db18380dd89f713f5af6e4d303f1ad7ace778cdad1200dd879ca6bf421"
   },
   "zzz:website:166130": {
     "title": "新品情报丨「妄想天使·连携时刻」手柄礼盒首发",
     "published": "2026-09-16T11:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166130",
     "digest": "17173c4ae3b0417ca80b4746c330399b710a06f0c6b3f141c0772a54ec3b017b",
-    "canonical": "zzz:website:166130"
+    "canonical": "zzz:website:166130",
+    "imagesHash": "addf787eb18230d3207d9641ce5338ce18977230da271b74d9a11a73b712dfae"
   },
   "zzz:website:166108": {
     "title": "「虚境逐影争锋」活动说明",
     "published": "2026-09-14T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166108",
     "digest": "2e21b55b3e6404e862fb3bf9657b60fded97067528ff6a6c225b329b58ae7cf5",
-    "canonical": "zzz:miyoushe:78159162"
+    "canonical": "zzz:miyoushe:78159162",
+    "imagesHash": "be3050548e6c0ea0868b28aa7de1b9ee144585017622d631e1892f90b79ac06f"
   },
   "zzz:website:166077": {
     "title": "代理人档案丨赛维里安",
     "published": "2026-09-12T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166077",
     "digest": "f4f5528b6c128943b62b303faf4df7b7e79396c100d8d86edeb426d84fb093ee",
-    "canonical": "zzz:website:166077"
+    "canonical": "zzz:website:166077",
+    "imagesHash": "24c4244129dea4b3bb1c14b1721f5025196daed0276f011fe9d0bca19d0fe58c"
   },
   "zzz:website:166070": {
     "title": "代理人档案丨菲欧妮",
     "published": "2026-09-12T03:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166070",
     "digest": "8b40901658e6276a5afd0e896d6e21fdf8c37e1883c5118a27447323a38a0d98",
-    "canonical": "zzz:website:166070"
+    "canonical": "zzz:website:166070",
+    "imagesHash": "a42bb71f17bfcc063aaee34280cc749ded6357e79867fa3a10745e1f114a2a38"
   },
   "zzz:website:166043": {
     "title": "《绝区零》3.2版本角色头像",
     "published": "2026-09-10T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166043",
     "digest": "2ded52c69a0061a1e8f5ca7ae5ab7a38f046e73ea6c895ed165572073431d8c2",
-    "canonical": "zzz:website:166043"
+    "canonical": "zzz:website:166043",
+    "imagesHash": "72bd1db9c286c312a9d40be341ad8f2b155218d59119cabacc4bb94ffa43e24a"
   },
   "zzz:website:166031": {
     "title": "「『弹球勇者』哐哐当！」活动介绍",
     "published": "2026-09-09T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166031",
     "digest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
-    "canonical": "zzz:website:166031"
+    "canonical": "zzz:website:166031",
+    "imagesHash": "c0db542767a87481ae1689e4874bbbc6c6a47786c560edc8d4e8d47484503f45"
   },
   "zzz:website:166028": {
     "title": "🎁维尔乌姆假日相册",
     "published": "2026-09-09T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166028",
     "digest": "14f5701b25f07278e659df6ba2fe53bb769fed0eec385c5d6a8acc61b8ff82b3",
-    "canonical": "zzz:website:166028"
+    "canonical": "zzz:website:166028",
+    "imagesHash": "da02dfa27137304257d2d617b23cc3fb5dbcb8569713a5d8706d931c5778d9ab"
   },
   "zzz:website:166027": {
     "title": "她与她的隐秘往事丨3.2版本内容一览（上期）",
     "published": "2026-09-09T03:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166027",
     "digest": "be188babf7ea27e5fb18a4f7cac75de78822d9192b329ee845bad198fbb99996",
-    "canonical": "zzz:website:166027"
+    "canonical": "zzz:website:166027",
+    "imagesHash": "1e686ec0848d684fab9100bfc79d4392c6c8a12e0bd7bcb33cf8ed43cac151fa"
   },
   "zzz:website:166026": {
     "title": "3.2版本「她与她的隐秘往事」更新公告",
     "published": "2026-09-08T23:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166026",
     "digest": "70edd025c4b64a8ee7d9adcd5da86dab6662bed7c8ea3718854f847c478bfbb5",
-    "canonical": "zzz:website:166026"
+    "canonical": "zzz:website:166026",
+    "imagesHash": "aee8e156bf0d1a17437aeab5379949bdb6a5b0a24c65c8160ade082e6e95b371",
+    "confirmedImagesHash": "aee8e156bf0d1a17437aeab5379949bdb6a5b0a24c65c8160ade082e6e95b371",
+    "confirmedImagesDigest": "70edd025c4b64a8ee7d9adcd5da86dab6662bed7c8ea3718854f847c478bfbb5"
   },
   "zzz:website:166022": {
     "title": "「妄想天使」限定时装展示",
     "published": "2026-09-08T11:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166022",
     "digest": "6c1438e9fd2524a3bc74d65e874591fb983efd361c6c4a8dd70e3618f5ae91b5",
-    "canonical": "zzz:website:166022"
+    "canonical": "zzz:website:166022",
+    "imagesHash": "6b11fd9ebe5ada23fcef7e565f93b462ad304cd2a83aebbed441c1a73a28d4e6"
   },
   "zzz:website:166019": {
     "title": "丽都修葺漫谈Vol.14丨系统&玩法篇",
     "published": "2026-09-08T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166019",
     "digest": "081d96baa80457cbbb692a2ceea21cf6c3c36e9b8d2dba00f5545bdd71c4b8e1",
-    "canonical": "zzz:website:166019"
+    "canonical": "zzz:website:166019",
+    "imagesHash": "f487b471b72beecca54c66173fab06be961b065e12321a9ef15bfff30435c660"
   },
   "zzz:website:166018": {
     "title": "3.2版本「商城」上新说明",
     "published": "2026-09-08T07:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166018",
     "digest": "eb6b6d0c887382c6306438f7325bd86e33a12636e7dab97a2ddd1cc2d2abba89",
-    "canonical": "zzz:website:166018"
+    "canonical": "zzz:website:166018",
+    "imagesHash": "2ca5727b8fd764519ca1ba64d9fdd1111d52627ea1da6e43ed7652c3cf2653c2"
   },
   "zzz:website:166016": {
     "title": "「『弹球勇者』哐哐当！」活动说明",
     "published": "2026-09-08T05:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166016",
     "digest": "a12fb1ca97e33e53755293485928b212913c01699d3953f53cb704e9c372b457",
-    "canonical": "zzz:miyoushe:78044398"
+    "canonical": "zzz:miyoushe:78044398",
+    "imagesHash": "e0cdecaa9eeb96d9da7ed0059e1691abc86469e98fee8027e78f9db0c92554cc"
   },
   "zzz:website:166014": {
     "title": "「全新放送」活动说明",
     "published": "2026-09-08T05:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166014",
     "digest": "1add4abbdbdba1510797690ae8067fc4869c85503551fc902e812a5efc35fe9a",
-    "canonical": "zzz:miyoushe:78044239"
+    "canonical": "zzz:miyoushe:78044239",
+    "imagesHash": "3505494c2799316da2318717dd1392b96a4863ce3338410c5a99d3f553a1b58e"
   },
   "zzz:website:166013": {
     "title": "「潜能预演·烈火重锤」活动说明",
     "published": "2026-09-08T05:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166013",
     "digest": "496f7fd8ff6f00a12b3bcd980631227372f32cb8f1185fb8c86d419561b5ddd4",
-    "canonical": "zzz:miyoushe:78044082"
+    "canonical": "zzz:miyoushe:78044082",
+    "imagesHash": "9c8057ca9d713e4d784a7a4854d32cd32a13f630604dbec25c06a395d345075b",
+    "confirmedImagesHash": "9c8057ca9d713e4d784a7a4854d32cd32a13f630604dbec25c06a395d345075b",
+    "confirmedImagesDigest": "496f7fd8ff6f00a12b3bcd980631227372f32cb8f1185fb8c86d419561b5ddd4"
   },
   "zzz:website:166012": {
     "title": "3.2版本「丽都城募」说明",
     "published": "2026-09-08T04:45:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166012",
     "digest": "63b0d1587bc6ab38e1c8677530169dc96e571ca9dd680d838d408bd769e3d18c",
-    "canonical": "zzz:website:166012"
+    "canonical": "zzz:website:166012",
+    "imagesHash": "f657ecda3d4b4597fe4f888a1a4253496693b5256d268ea073a596cbf7a04de8",
+    "confirmedImagesHash": "f657ecda3d4b4597fe4f888a1a4253496693b5256d268ea073a596cbf7a04de8",
+    "confirmedImagesDigest": "63b0d1587bc6ab38e1c8677530169dc96e571ca9dd680d838d408bd769e3d18c"
   },
   "zzz:website:166010": {
     "title": "「珂蕾妲」潜能激发机制介绍",
     "published": "2026-09-07T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166010",
     "digest": "3e78664307799360f7650d64fab7c7208db5fba526a0153162d377a4e9583815",
-    "canonical": "zzz:website:166010"
+    "canonical": "zzz:website:166010",
+    "imagesHash": "bbad6d4af0ca8d65e5b6cf628410d9788ff60730228db205dd9fb51e5163621b"
   },
   "zzz:website:165993": {
     "title": "新剧情：主线第三季第三章「她与她的隐秘往事」",
     "published": "2026-09-07T05:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165993",
     "digest": "043f865af7f21cd9be79424f9a661c98ae735778bff2b73174e140e639ced76e",
-    "canonical": "zzz:website:165993"
+    "canonical": "zzz:website:165993",
+    "imagesHash": "371c211323958668705f953b7306665ee6909e703a5abcb93be865333bc5cee5"
   },
   "zzz:website:166009": {
     "title": "「天使应援大作战」活动说明",
     "published": "2026-09-07T04:45:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166009",
     "digest": "2f204267c814dc0763360d8e27dabe435a3eef75695b0e174bf22d9489ab3371",
-    "canonical": "zzz:miyoushe:78028041"
+    "canonical": "zzz:miyoushe:78028041",
+    "imagesHash": "51739daf8dee565189d844c176e93011fa853821f0f754dd758fbfbfc19bf048"
   },
   "zzz:website:166008": {
     "title": "《绝区零》克拉蕾EP《血火相连》现已上架音乐平台",
     "published": "2026-09-07T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166008",
     "digest": "f20753efd570e5358a5133a0113f0aef93b133f5f08016b4ee3dc55d05328353",
-    "canonical": "zzz:website:166008"
+    "canonical": "zzz:website:166008",
+    "imagesHash": "0cff7ee7b4681dced4fc01df03fdfecabb8673584bbf57727e59885fb77977e7"
   },
   "zzz:website:165991": {
     "title": "3.2版本限时频段（上期）",
     "published": "2026-09-07T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165991",
     "digest": "240820abc156a650a6d3b876f67582f5256625cd83851bb56af65938ddcc224e",
-    "canonical": "zzz:miyoushe:78027827"
+    "canonical": "zzz:miyoushe:78027827",
+    "imagesHash": "6d84720623b3523d342204815b902598e1df9d85d94911bfdb14b3c29f19d411"
   },
   "zzz:website:165990": {
     "title": "3.2版本「她与她的隐秘往事」预下载开启&更新通知",
     "published": "2026-09-07T04:05:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165990",
     "digest": "4e42d5ae8c3f51f88c9ea170746b23fa1a2715806f45afdececb83fe4365e1d6",
-    "canonical": "zzz:website:165990"
+    "canonical": "zzz:website:165990",
+    "imagesHash": "9dc9c9ff8db82249931c0605702994f2ecdb0882b06e86d4314265ab87efe355"
   },
   "zzz:website:166003": {
     "title": "丽都有丽事丨糖分绑架",
     "published": "2026-09-07T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/166003",
     "digest": "b8c42cd5be239eb0fc381137a61500a01f03ebf24cf223835366d361c78bdd47",
-    "canonical": "zzz:website:166003"
+    "canonical": "zzz:website:166003",
+    "imagesHash": "acc499e5858cc04daa481b5663b6f2f1c3460f4b34421edb1b0d5652dd56137e"
   },
   "zzz:website:165986": {
     "title": "代理人机制介绍丨克拉蕾篇",
     "published": "2026-09-06T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165986",
     "digest": "b358020562618e9e91b935350fb187e85d9f065a4c723a5f4deb3bebd515c2f5",
-    "canonical": "zzz:website:165986"
+    "canonical": "zzz:website:165986",
+    "imagesHash": "a9bf9f27496ae159967ec3a5ebe0cbf669eda09f1467229085ecb29952626136"
   },
   "zzz:website:165966": {
     "title": "代理人未归档影像丨克拉蕾篇",
     "published": "2026-09-04T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165966",
     "digest": "299b224025464ba8ff6a93af6f63889645ef998eede175844ec9d446425bc7c0",
-    "canonical": "zzz:website:165966"
+    "canonical": "zzz:website:165966",
+    "imagesHash": "3850ddf6a9868204127f7b614ade60bd1c9ddaf2abe9ee9df97425810332234d"
   },
   "zzz:website:165957": {
     "title": "焦点剧场·剧目单丨弗林特工坊",
     "published": "2026-09-02T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165957",
     "digest": "333275ee2a97fc679be640a47b89cd4055533c605b83855598d9f5d8ba20dea7",
-    "canonical": "zzz:website:165957"
+    "canonical": "zzz:website:165957",
+    "imagesHash": "123b711ffa6d18e8c2add621a924e43ff7b46c4769a8f6b56086ac423714f0bb"
   },
   "zzz:website:165954": {
     "title": "《绝区零》2026年9月月历壁纸",
     "published": "2026-09-01T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165954",
     "digest": "963918c52547723b18e276b209dc546f6cda4345c9d6a41dee6ac834b01950f6",
-    "canonical": "zzz:website:165954"
+    "canonical": "zzz:website:165954",
+    "imagesHash": "a8de5a5d5345e02f9e1c6cbfac92071ee1ffef8388f87e9362ff5c53255e85d4"
   },
   "zzz:website:165950": {
     "title": "新品情报丨2026AW服饰等多款周边上新",
     "published": "2026-09-01T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165950",
     "digest": "0bd7c07aedb47946481e386182f593a06535944c65afc0abfbce26a808c4a980",
-    "canonical": "zzz:website:165950"
+    "canonical": "zzz:website:165950",
+    "imagesHash": "1153dd0e87a651ac3b11e1508622479ab53563a0cebf5eabf808f915c5b31d57"
   },
   "zzz:website:165948": {
     "title": "生日快乐朱鸢丨番茄学习法",
     "published": "2026-09-01T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165948",
     "digest": "dd1aaead55835632cc277b6b45965ab7e97b49a407cb005158210a33d7f44c04",
-    "canonical": "zzz:website:165948"
+    "canonical": "zzz:website:165948",
+    "imagesHash": "796a5526fc66465b97f44691624caae38b3e6894e63095203c6b34df1dcaff79"
   },
   "zzz:website:165945": {
     "title": "「实战特训-三倍悬赏」活动说明",
     "published": "2026-08-31T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165945",
     "digest": "d00beb4772936f1d1ef84bc4bc3bd96a84846e07dce225bcc38ab1076053145b",
-    "canonical": "zzz:miyoushe:77886494"
+    "canonical": "zzz:miyoushe:77886494",
+    "imagesHash": "6b132bb9401bdb32d5445df3785fc00154f84ce77f0de0e62dfa14291db912b9"
   },
   "zzz:website:165942": {
     "title": "生日快乐爱丽丝丨浪与兔",
     "published": "2026-08-30T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165942",
     "digest": "008906bb733cc929e51cb416bf639b0dd6d9e8fd21d32cceede1795c570bc064",
-    "canonical": "zzz:website:165942"
+    "canonical": "zzz:website:165942",
+    "imagesHash": "4b304229285d28a1f5a4ce5bda435cd71dfd155db4f61b317499c7771f5e9b42"
   },
   "zzz:website:165941": {
     "title": "养成指南上新丨克拉蕾养成材料预告",
     "published": "2026-08-29T05:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165941",
     "digest": "ef5c15f07ea13b3f9372826697fb7501036430c083e222dcad11d602e6130ca7",
-    "canonical": "zzz:website:165941"
+    "canonical": "zzz:website:165941",
+    "imagesHash": "b7b023978326d22c7145c83eb4c63a29d82c50e197b87c026b607a8886f3fa48"
   },
   "zzz:website:165940": {
     "title": "新品情报丨GSC粘土人手办 爱芮",
     "published": "2026-08-29T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165940",
     "digest": "19330b5e65a6b0a2a1a4a870c74c68b3d3b2ef9ecbfdff8f696da8f1b0182106",
-    "canonical": "zzz:website:165940"
+    "canonical": "zzz:website:165940",
+    "imagesHash": "b0e1ff673c92f3a8021d4bcb74a6e1f88f9ae8b9d1f5767c2c7a36427ce04fb4"
   },
   "zzz:website:165939": {
     "title": "新品情报丨LIMEPIE系列 星见雅 1/8手办 晓Ver.",
     "published": "2026-08-29T04:05:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165939",
     "digest": "3e2f5fbf7c016a32b5085344306c2d883bd3a2a2e3b4b74b16aba02c5c5f0ede",
-    "canonical": "zzz:website:165939"
+    "canonical": "zzz:website:165939",
+    "imagesHash": "056dab5d85d37e796885b1b491cef2fef6ecb05ad91121e75eaa6d87554bd08d"
   },
   "zzz:website:165938": {
     "title": "「妄想天使」限定时装免费赠送",
     "published": "2026-08-28T13:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165938",
     "digest": "059365397091f1e9c15a69706d17ee98058c055d10b3f6d321c6b6ccfe179396",
-    "canonical": "zzz:website:165938"
+    "canonical": "zzz:website:165938",
+    "imagesHash": "3735840008ced639d8b3f1105f3d5aebb2a24551ed0558d32938123329247e02"
   },
   "zzz:website:165936": {
     "title": "《绝区零》3.2 版本「她与她的隐秘往事」前瞻特别节目",
     "published": "2026-08-28T12:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165936",
     "digest": "bb25160c312fd10472563dc2dee9019c17b2c59f9e29610fea22af1409b79ea9",
-    "canonical": "zzz:website:165936"
+    "canonical": "zzz:website:165936",
+    "imagesHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
   },
   "zzz:website:165925": {
     "title": "情报总览丨《绝区零》3.2 版本「她与她的隐秘往事」",
     "published": "2026-08-28T12:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165925",
     "digest": "edae07a77fc062c9171b4446495c8b8b8db79876d1ac407811ec4e0322f15414",
-    "canonical": "zzz:website:165925"
+    "canonical": "zzz:website:165925",
+    "imagesHash": "29a5e596121b1da30ae2826b95be06787108b5943e724d1e8a71067eeb966b44"
   },
   "zzz:website:165890": {
     "title": "「叮咚！见习邮差派件中」活动说明",
     "published": "2026-08-26T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165890",
     "digest": "1448a564f047d92c3c306d2609d3ed0f82f68ae39c679b93535b652a8770aed4",
-    "canonical": "zzz:miyoushe:77761555"
+    "canonical": "zzz:miyoushe:77761555",
+    "imagesHash": "ef1538febb7ecc25ac292ac0ea5f801b307810f1aa1238b684bab13a9a9a3886"
   },
   "zzz:website:165853": {
     "title": "《绝区零》3.2版本「她与她的隐秘往事」前瞻特别节目预告",
     "published": "2026-08-24T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165853",
     "digest": "75a6dbfe45dea72dcb2511928906cde3ae6a9dc1e1359ebc5503012e65a1e171",
-    "canonical": "zzz:miyoushe:77716261"
+    "canonical": "zzz:miyoushe:77716261",
+    "imagesHash": "22a2cd02d3396ac2b2f9b84d6ef7251bc0a19a0173315ed568058a1362e22a6e"
   },
   "zzz:website:165838": {
     "title": "「极危通缉与悠游假期」活动说明",
     "published": "2026-08-21T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165838",
     "digest": "f4bb8f893710fd2e4888aa2281278e59c310d1c363ae6a58540b037f25a178d5",
-    "canonical": "zzz:miyoushe:77648886"
+    "canonical": "zzz:miyoushe:77648886",
+    "imagesHash": "ad89a44406e257c3b398d69884db4170f82e51cbd3d0880a4da891b7b98fd297"
   },
   "zzz:website:165825": {
     "title": "生日快乐雨果丨月色的决定",
     "published": "2026-08-20T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165825",
     "digest": "19f58c50448401ff07cb46b5e679c7685328399c8c9916d8a8ee35518fee8139",
-    "canonical": "zzz:website:165825"
+    "canonical": "zzz:website:165825",
+    "imagesHash": "c686c1067519f32e3e2e0675b35d71dda851df21bca7f9dec937fa6d7c597700"
   },
   "zzz:website:165800": {
     "title": "漫长的告别丨3.1版本内容一览（下期）",
     "published": "2026-08-19T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165800",
     "digest": "89e972daae74227b760c3a4d1446a9b8dd524ab256e7b8adf21eeb6bf2edf279",
-    "canonical": "zzz:website:165800"
+    "canonical": "zzz:website:165800",
+    "imagesHash": "22a1e669ed5b1d198ea662133238adef848fa682e3b2c997e13acd5a19936658"
   },
   "zzz:website:165762": {
     "title": "「咔滋酥脆出餐计划」活动说明",
     "published": "2026-08-17T05:45:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165762",
     "digest": "7c2264a2f06583eb7ceabf7ea125cd5e1dd28d92b61e42c9187edb6534588534",
-    "canonical": "zzz:miyoushe:77540119"
+    "canonical": "zzz:miyoushe:77540119",
+    "imagesHash": "3d4ab3031f14df6c211e3de237142bcad6cc8ac6b92b191c51386150b8fe0588"
   },
   "zzz:website:165760": {
     "title": "「『嗯呢』大派送！」活动说明",
     "published": "2026-08-17T05:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165760",
     "digest": "e95ad5314d707f6043274649327c3e5f3111e904e5cdedb3f4f77a962b94bc52",
-    "canonical": "zzz:miyoushe:77539806"
+    "canonical": "zzz:miyoushe:77539806",
+    "imagesHash": "7164c7a8b2d75e95e7ba5b2a26e433d16c5cf9e3f001066f208c5db35739fa44"
   },
   "zzz:website:165759": {
     "title": "3.1版本「商城」上新说明",
     "published": "2026-08-17T05:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165759",
     "digest": "e90bd311fb153d58e640c2e09dfcfe14b8012acf965a9d6cc4fefcde29fd92e9",
-    "canonical": "zzz:website:165759"
+    "canonical": "zzz:website:165759",
+    "imagesHash": "fd812a6c89ba264958265658c1aae5124f2b922aba715f71cc16572d5e96fb6f"
   },
   "zzz:website:165758": {
     "title": "3.1版本限时频段（下期）",
     "published": "2026-08-17T05:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165758",
     "digest": "c1be8b4fb66c3f9a9bc26b47b93179a24effa8e798b395678d021611e88c3650",
-    "canonical": "zzz:miyoushe:77539168"
+    "canonical": "zzz:miyoushe:77539168",
+    "imagesHash": "2a50a8432885d05a15bf5246678521263c017a043ff1c8fd4f85d945af4e0baf"
   },
   "zzz:website:165748": {
     "title": "丽都有丽事丨天马行空",
     "published": "2026-08-16T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165748",
     "digest": "ab4ceef234fcc641734387803307ef12eebf425d86e6468170526ce9bd83e451",
-    "canonical": "zzz:website:165748"
+    "canonical": "zzz:website:165748",
+    "imagesHash": "867e80b3d5fa4cacfa4ad57dc813d33698f1d26876c4592285d7154fb3f42665"
   },
   "zzz:website:165744": {
     "title": "代理人机制介绍丨希格莉德篇",
     "published": "2026-08-14T10:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165744",
     "digest": "5b602eab1e0b3a0f8be6e8a50ccac8e0580c8a07b01822f45b26dd4579dc3b81",
-    "canonical": "zzz:website:165744"
+    "canonical": "zzz:website:165744",
+    "imagesHash": "ac58105e61e8489d4a0644a6a39f0d87633bdef6f78085ae0847e99342635e82"
   },
   "zzz:website:165728": {
     "title": "生日快乐露西丨猪猪报告！",
     "published": "2026-08-14T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165728",
     "digest": "9e889de0579cb8dd6bb01025943bd919d25cd014b1d5f0744ed9ed46de8590b7",
-    "canonical": "zzz:website:165728"
+    "canonical": "zzz:website:165728",
+    "imagesHash": "f9738daa9f57d3ee54311738e6aab4bcd29ca4772aeb22e6c71ed617f6f59c87"
   },
   "zzz:website:165715": {
     "title": "代理人未归档影像丨希格莉德篇",
     "published": "2026-08-13T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165715",
     "digest": "4c0462d43db92b5ae7e7a0c8bf12a2b86c10f8d6b669e1f2e434e62124b0cf8e",
-    "canonical": "zzz:website:165715"
+    "canonical": "zzz:website:165715",
+    "imagesHash": "e0528af3bccde4cc7abc08790805bad7be4d431fe8b1251a5dedb9de408ea9f0"
   },
   "zzz:website:165623": {
     "title": "生日快乐珂蕾妲丨工地下午茶",
     "published": "2026-08-10T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165623",
     "digest": "d11a6ab142189911178f2e0688505e5018da3caf67a5c1685bbea54982532cfb",
-    "canonical": "zzz:website:165623"
+    "canonical": "zzz:website:165623",
+    "imagesHash": "77acfcd389f1ac3dcf62897fcf5769947f63796f589fff79efca59dd9f4b0de6"
   },
   "zzz:website:165621": {
     "title": "「深度巡防-三倍赏金」活动说明",
     "published": "2026-08-10T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165621",
     "digest": "0e72ab159ea21ed3decbc7190b5f39f7c1b51e4feb48d729692ab51ec437182b",
-    "canonical": "zzz:miyoushe:77322295"
+    "canonical": "zzz:miyoushe:77322295",
+    "imagesHash": "f82a967ed3ecf4c2fe866bc0fff96a62e60d2c6d27a9264c511b060737339494"
   },
   "zzz:website:165609": {
     "title": "养成指南上新丨希格莉德养成材料预告",
     "published": "2026-08-08T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165609",
     "digest": "648f1978feda45e55c34d3e1678384d912ac3b14a6e4bcd0757d6f9ff691af3a",
-    "canonical": "zzz:website:165609"
+    "canonical": "zzz:website:165609",
+    "imagesHash": "4cac668b8cc42bb7dc84841fddc072f1a9e931606e424e0bf498e1fe76be1843"
   },
   "zzz:website:165604": {
     "title": "代理人档案丨洛克茜",
     "published": "2026-08-07T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165604",
     "digest": "df772e3098f8aff957ea5b4a9988f35fa4b58e51c5017a606a5548d1bffe51fc",
-    "canonical": "zzz:website:165604"
+    "canonical": "zzz:website:165604",
+    "imagesHash": "4a4ed17dc51e24aa2989975158169647ac9feb74b10e93328092931afa0551d0"
   },
   "zzz:website:165596": {
     "title": "代理人档案丨克拉蕾",
     "published": "2026-08-07T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165596",
     "digest": "c496ac1683482478f5414dec85f6d2d4cc878fa52e717ed16892b70bd13e246f",
-    "canonical": "zzz:website:165596"
+    "canonical": "zzz:website:165596",
+    "imagesHash": "0a7bf469c40af5ce091e6f35bb0dfb8075dffd7cf3e86fa8ecff2f60896407fc"
   },
   "zzz:website:165580": {
     "title": "战绩新增丨全新模块「迷宫诡域」",
     "published": "2026-08-06T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165580",
     "digest": "7be2b3c3687d67fb1eeb9f0df4528ce7899d99b1676585c71655a28a5b9192eb",
-    "canonical": "zzz:website:165580"
+    "canonical": "zzz:website:165580",
+    "imagesHash": "7fd69b4af1dbe9c1a471092a9a3683ccb9c87a87d905d14603f15ef27b3b6e0f"
   },
   "zzz:website:165569": {
     "title": "「迷宫诡域」玩法介绍——地图与物品篇",
     "published": "2026-08-06T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165569",
     "digest": "79e5c627895d6207ca49dad3da347101d7e0b30d52505aa06ef2efa89a8e4307",
-    "canonical": "zzz:website:165569"
+    "canonical": "zzz:website:165569",
+    "imagesHash": "29c272f864e55aa429f215a336ed1147766fd7e80c6bbe1f8d0274cdc5c613c1"
   },
   "zzz:website:165551": {
     "title": "「咔嚓！焦点对决！」活动说明",
     "published": "2026-08-05T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165551",
     "digest": "be4703bbdfa5fe25b0abc290ae75f7c982cc33bfef65eece94f763b289e6920c",
-    "canonical": "zzz:miyoushe:77218429"
+    "canonical": "zzz:miyoushe:77218429",
+    "imagesHash": "c5f93f2451a6e0e66404252ba45db59a00e9a1f847981db1c5b58aa34387b306"
   },
   "zzz:website:165532": {
     "title": "「迷宫诡域」玩法介绍——基建与委托篇",
     "published": "2026-08-05T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165532",
     "digest": "2692b74920065951ddcf2422e26b5db0cb2e756eb4c18802f3d56a349622e04b",
-    "canonical": "zzz:website:165532"
+    "canonical": "zzz:website:165532",
+    "imagesHash": "93b7bf2b5d918d8795fe7da55f0a96eeee9692bb28cc240f17c6f1cd75b8cc82"
   },
   "zzz:website:165503": {
     "title": "「迷宫诡域」玩法介绍——基础玩法篇",
     "published": "2026-08-03T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165503",
     "digest": "1a8d318f539d6adf220d0e9d6021c943eb4a2bb4ef7ec112f8be49fabbe04459",
-    "canonical": "zzz:website:165503"
+    "canonical": "zzz:website:165503",
+    "imagesHash": "f6e7ff27d4ceafbf3838535f5acb9a3c895cd4d864d68501b77fa0e022efcb25"
   },
   "zzz:website:165490": {
     "title": "《绝区零》3.1版本角色头像",
     "published": "2026-08-02T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165490",
     "digest": "6bf24b2adb39b1c5dc59fa4a6d588c340a0fd0d626603b14d1ba8cfaf4916d11",
-    "canonical": "zzz:website:165490"
+    "canonical": "zzz:website:165490",
+    "imagesHash": "9815f2139bd83cc8bb8725da56f1ab0d29306a72ec6a35f35141571e22166f47"
   },
   "zzz:website:165489": {
     "title": "《绝区零》2026年8月月历壁纸",
     "published": "2026-08-02T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165489",
     "digest": "93fa76a8a7cae8e4a5048cb5f3965e1c602e0bb63ec0155460e1e694094f8c53",
-    "canonical": "zzz:website:165489"
+    "canonical": "zzz:website:165489",
+    "imagesHash": "b5f7e30e23a2f04cb02f5224866b84deaffbbf7454a666c3e9e170017d7ec197"
   },
   "zzz:website:165450": {
     "title": "叮咚🔔 妄想天使闪耀时刻放送~天使激推表情包现已上架~",
     "published": "2026-07-31T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165450",
     "digest": "e6a8760b4e97ff39f2abfd6b08d7f30c1ea1e6640da925b2cf242f27ff7b32cd",
-    "canonical": "zzz:website:165450"
+    "canonical": "zzz:website:165450",
+    "imagesHash": "a1fdd116c7942fe79d9bf1678557b4e02bfe52aa930767bb0bbb551ff59aa004"
   },
   "zzz:website:165431": {
     "title": "生日快乐猫又丨来源明确的礼物",
     "published": "2026-07-30T04:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165431",
     "digest": "ea5902261c43411572a7289a6390772790b4a1f4c6033f5acbee44d9af14fd84",
-    "canonical": "zzz:website:165431"
+    "canonical": "zzz:website:165431",
+    "imagesHash": "dbdf1290204fb4580ccf363d9e4b7088f08b96c00541756f9c687aa298ce7b8f"
   },
   "zzz:website:165420": {
     "title": "「回归丽都 羽落重逢」网页活动",
     "published": "2026-07-29T03:45:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165420",
     "digest": "933090ef744c637e985c4a335c0a4bf84ef3f3204620330b91bae77cf1d7355d",
-    "canonical": "zzz:website:165420"
+    "canonical": "zzz:website:165420",
+    "imagesHash": "006d707855cda767f74206eac9571647ed4d90eb51a7f2f7a6fa64891a486a14"
   },
   "zzz:website:165418": {
     "title": "漫长的告别丨3.1版本内容一览（上期）",
     "published": "2026-07-29T03:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165418",
     "digest": "f6066cf529d962a7ddd663b845cd006488aa7c2b131c6c6f8c093318402d7355",
-    "canonical": "zzz:website:165418"
+    "canonical": "zzz:website:165418",
+    "imagesHash": "9d03a4901b1db1ef81637185594002d6bd6be0c2267b3a7e99c1e75c26f32d96"
   },
   "zzz:website:165417": {
     "title": "「法厄同年度大揭秘」活动说明",
     "published": "2026-07-29T03:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165417",
     "digest": "9d479c2156fd555f60e2e6b7276c4801a60caceb59870fd13892c31dbf7ac90e",
-    "canonical": "zzz:miyoushe:77018353"
+    "canonical": "zzz:miyoushe:77018353",
+    "imagesHash": "e1edebc58f3d4fb5d40ddfb021e5d3d57aa76da17b29b4f6f0e66b0249ba629f",
+    "confirmedImagesHash": "e1edebc58f3d4fb5d40ddfb021e5d3d57aa76da17b29b4f6f0e66b0249ba629f",
+    "confirmedImagesDigest": "9d479c2156fd555f60e2e6b7276c4801a60caceb59870fd13892c31dbf7ac90e"
   },
   "zzz:website:165416": {
     "title": "《绝区零》PC端视觉体验升级功能使用FAQ",
     "published": "2026-07-29T00:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165416",
     "digest": "d58306058225086990f800b314b0305d0596ac51e4725ede5b7adba27cc18ebd",
-    "canonical": "zzz:website:165416"
+    "canonical": "zzz:website:165416",
+    "imagesHash": "6798e4660807710383e5d2f53c8550b586890739d1a040d1727f033811818009"
   },
   "zzz:website:165415": {
     "title": "3.1版本「漫长的告别」更新公告",
     "published": "2026-07-28T23:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165415",
     "digest": "9456de476d6f294973db989143853616afeabbd46360074ef67029dbf53876ea",
-    "canonical": "zzz:website:165415"
+    "canonical": "zzz:website:165415",
+    "imagesHash": "12a416eb9e65760f174108b3e7e10a3cd8a2207fd2e2a92bdee34b2a3d4583db",
+    "confirmedImagesHash": "12a416eb9e65760f174108b3e7e10a3cd8a2207fd2e2a92bdee34b2a3d4583db",
+    "confirmedImagesDigest": "9456de476d6f294973db989143853616afeabbd46360074ef67029dbf53876ea"
   },
   "zzz:website:165412": {
     "title": "「恰浪花逐夏而至」活动说明",
     "published": "2026-07-28T10:45:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165412",
     "digest": "f15d4ec38232e25258c80ee4fcf1bd54036a6508bc2e138aaf4a0c302925d65f",
-    "canonical": "zzz:miyoushe:77004031"
+    "canonical": "zzz:miyoushe:77004031",
+    "imagesHash": "cbd80bda4a65e7aa9a11cc306525443fa6bacc822b46d12fabda3b349a367fb8"
   },
   "zzz:website:165411": {
     "title": "「恰浪花逐夏而至」活动介绍",
     "published": "2026-07-28T10:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165411",
     "digest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
-    "canonical": "zzz:website:165411"
+    "canonical": "zzz:website:165411",
+    "imagesHash": "2134bb0a723fb98a0b0d46cfe5b429cf0c967500117f90c9f45909e1bfc5ba6f"
   },
   "zzz:website:165404": {
     "title": "「潜能预演·狩猎游戏」活动说明",
     "published": "2026-07-28T05:45:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165404",
     "digest": "3ab7469c5d002e97113c0e74c7495aa374042bf9ecd061a69db18d041cf9dc54",
-    "canonical": "zzz:miyoushe:76999562"
+    "canonical": "zzz:miyoushe:76999562",
+    "imagesHash": "5af4168e7eb4fc2f2754fc3a48ee62752669c73ff87e8e5f381cdbed74ef68cc",
+    "confirmedImagesHash": "5af4168e7eb4fc2f2754fc3a48ee62752669c73ff87e8e5f381cdbed74ef68cc",
+    "confirmedImagesDigest": "3ab7469c5d002e97113c0e74c7495aa374042bf9ecd061a69db18d041cf9dc54"
   },
   "zzz:website:165403": {
     "title": "3.1版本「丽都城募」说明",
     "published": "2026-07-28T05:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165403",
     "digest": "dd3e3d49ce00987a1ab9c8b492fb0e7bf8ada5120fa4b8d64b0190fc1a4117c3",
-    "canonical": "zzz:website:165403"
+    "canonical": "zzz:website:165403",
+    "imagesHash": "7a0e8cadc8fcd01f16f7f2f4c25b38d3c51aaa5c88b5ae8f4385ba45839c8545",
+    "confirmedImagesHash": "7a0e8cadc8fcd01f16f7f2f4c25b38d3c51aaa5c88b5ae8f4385ba45839c8545",
+    "confirmedImagesDigest": "dd3e3d49ce00987a1ab9c8b492fb0e7bf8ada5120fa4b8d64b0190fc1a4117c3"
   },
   "zzz:website:165402": {
     "title": "「卓越搭档」上新说明",
     "published": "2026-07-28T05:15:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165402",
     "digest": "80538e8b2e5df1b5c9f354d6dbd7b47033de43f2ab0ce2638d2fde7bfe24f2b0",
-    "canonical": "zzz:website:165402"
+    "canonical": "zzz:website:165402",
+    "imagesHash": "3416c26ec2ecde19963b84c741e0bc54253ee75dd958b2d7232d4d1b534f63ca"
   },
   "zzz:website:165399": {
     "title": "「云端礼赠」活动说明",
     "published": "2026-07-28T05:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165399",
     "digest": "11c653cae396caa89f3b502ea704cb304e9d69618b801fc49012dc936ca19ad6",
-    "canonical": "zzz:miyoushe:76998963"
+    "canonical": "zzz:miyoushe:76998963",
+    "imagesHash": "f1b71bdedfca1fd281f9e453b10e25b3a580088a02ac71b790890c9086309f28"
   },
   "zzz:website:165398": {
     "title": "新歌活动丨《绝区零》二周年音乐平台活动现已开启",
     "published": "2026-07-28T04:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165398",
     "digest": "5c551ac187356604ddb735c7bd566fc48fe2b3f899d120bad4048f60ee54ac99",
-    "canonical": "zzz:website:165398"
+    "canonical": "zzz:website:165398",
+    "imagesHash": "76f993325d7dc9d2f0ab46d3babeaa0f1c6609ec2619f0dbfab09e013405c2b8"
   },
   "zzz:website:165396": {
     "title": "V3.1庆典特惠&周年臻选",
     "published": "2026-07-28T04:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165396",
     "digest": "5c3da9196b666700bc445dc0404c64c0367d693552a5f8381be3fbd029153d76",
-    "canonical": "zzz:website:165396"
+    "canonical": "zzz:website:165396",
+    "imagesHash": "243e7cf1b55e316c195431a3d77e9abd229fefa176f95df68913f09515817d67"
   },
   "zzz:website:165392": {
     "title": "丽都修葺漫谈Vol.13丨系统&玩法更新篇",
     "published": "2026-07-27T11:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165392",
     "digest": "1cde48c6a7cedb0026074d583071f6967924616147116307ba550eb3d7b35661",
-    "canonical": "zzz:website:165392"
+    "canonical": "zzz:website:165392",
+    "imagesHash": "caea1898a7c8a4b6f08256f822f69bbb7adfd2fc9433b450bf03f21eaa9c6de2"
   },
   "zzz:website:165393": {
     "title": "《绝区零》蕾米埃尔EP《交缠舞步》现已上架音乐平台",
     "published": "2026-07-27T10:30:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165393",
     "digest": "95f55510b9b645859b68893158fb9add2549c53b1c8fe78cd0cfe902297a6d8d",
-    "canonical": "zzz:website:165393"
+    "canonical": "zzz:website:165393",
+    "imagesHash": "11097c1e67d1353dc638163a6b149d2175dbe146903fcb01e3d3fa640ed48a79"
   },
   "zzz:website:165391": {
     "title": "「简」、「猫又」、「丽娜」潜能激发机制介绍",
     "published": "2026-07-27T10:00:00.000Z",
     "url": "https://zzz.mihoyo.com/news/165391",
     "digest": "c2067079bdef4e91f7436752d4466a793e5828e181eeb632ecb96ffecac5b110",
-    "canonical": "zzz:website:165391"
+    "canonical": "zzz:website:165391",
+    "imagesHash": "ba9b487be6d3fc0cd2273e908da0947c0ca651532c53b6f68f85f23106f438df"
   },
   "zzz:miyoushe:78610194": {
     "title": "《绝区零》2026年10月月历壁纸",

@@ -13,6 +13,30 @@
       "sequence": 1
     },
     {
+      "id": "genshin:miyoushe:78299696",
+      "game": "genshin",
+      "category": "event",
+      "title": "溯月纪行：任务与奖励截止",
+      "start": null,
+      "end": "2026-11-02T03:59:00+08:00",
+      "url": "https://ys.mihoyo.com/main/news/detail/166259",
+      "notes": "官网166259『活动时间』明确『7.1版本更新后 ~ 2026/11/02 03:59』；166263活动速递原图亦分别列出纪行开放时间11/02 03:59与纪行购买时间11/02 02:59，图片 https://fastcdn.mihoyo.com/content-v2/hk4e/166263/5675494ae85bf8e2130ab1cb852dbbff_7169513807879256443.jpg 。保留已发表根ID及原截止；开始仅为版本更新后，保持null。截止仅针对本期纪行任务与奖励，不是7.1版本结束。",
+      "modified": "2026-10-03T04:10:41.401Z",
+      "sequence": 2
+    },
+    {
+      "id": "genshin:miyoushe:78299696:purchase",
+      "game": "genshin",
+      "category": "event",
+      "title": "溯月纪行：付费纪行购买截止",
+      "start": null,
+      "end": "2026-11-02T02:59:00+08:00",
+      "url": "https://ys.mihoyo.com/main/news/detail/166259",
+      "notes": "官网166259原文『2026/11/02 02:59将关闭本次纪行中珍珠纪行、珍珠之歌和纪行成歌的购买，购买关闭后旅行者仍可完成纪行任务并领取奖励』；166263原图购买时间同为11/02 02:59，任务与奖励可继续至03:59。购买期限单列，不覆盖已发表任务与奖励UID或日期；开始时刻未知。",
+      "modified": "2026-10-03T04:10:41.401Z",
+      "sequence": 0
+    },
+    {
       "id": "genshin:miyoushe:78299706:letters",
       "game": "genshin",
       "category": "event",
@@ -337,6 +361,30 @@
       "sequence": 1
     },
     {
+      "id": "starrail:website:165179",
+      "game": "starrail",
+      "category": "event",
+      "title": "4.4版本「无名勋礼」更新",
+      "start": null,
+      "end": "2026-08-24T03:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/165179",
+      "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+      "modified": "2026-10-03T03:05:10.182Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:165791",
+      "game": "starrail",
+      "category": "event",
+      "title": "4.5版本「无名勋礼」更新",
+      "start": null,
+      "end": "2026-09-28T03:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/165791",
+      "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+      "modified": "2026-10-03T03:05:10.182Z",
+      "sequence": 0
+    },
+    {
       "id": "starrail:website:166485",
       "game": "starrail",
       "category": "event",
@@ -361,6 +409,30 @@
       "sequence": 0
     },
     {
+      "id": "zzz:miyoushe:78044082",
+      "game": "zzz",
+      "category": "event",
+      "title": "潜能预演·烈火重锤",
+      "start": null,
+      "end": "2026-10-21T06:00:00+08:00",
+      "url": "https://zzz.mihoyo.com/news/166013",
+      "notes": "官网166013正文及活动图均为『3.2版本更新后 ~ 3.2版本结束』；同版本更新公告166026明确『3.2版本结束时间为2026/10/21 06:00（UTC+8）』，出处 https://zzz.mihoyo.com/news/166026 。因此只补足明确截止；开始仅为更新后，不用预计维护结束推算。沿用canonical prefix zzz:miyoushe:78044082，不另建官网重复UID。",
+      "modified": "2026-10-03T04:10:41.401Z",
+      "sequence": 0
+    },
+    {
+      "id": "zzz:website:165403",
+      "game": "zzz",
+      "category": "event",
+      "title": "3.1版本「丽都城募」说明",
+      "start": null,
+      "end": "2026-09-07T03:59:00+08:00",
+      "url": "https://zzz.mihoyo.com/news/165403",
+      "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+      "modified": "2026-10-03T03:05:10.182Z",
+      "sequence": 0
+    },
+    {
       "id": "zzz:website:166012",
       "game": "zzz",
       "category": "event",
@@ -382,6 +454,30 @@
       "url": "https://zzz.mihoyo.com/news/166012",
       "notes": "官网明确02:59关闭本期付费计划及升级购买。关闭购买后仍可完成任务、领取奖励至03:59；不是游戏活动提前结束。",
       "modified": "2026-10-03T03:07:08.676Z",
+      "sequence": 0
+    },
+    {
+      "id": "zzz:website:166026:event-bangboo-login",
+      "game": "zzz",
+      "category": "event",
+      "title": "「嗯呢」从天降：累计登录",
+      "start": "2026-09-30T10:00:00+08:00",
+      "end": "2026-10-20T03:59:00+08:00",
+      "url": "https://zzz.mihoyo.com/news/166026",
+      "notes": "3.2官网更新公告『「嗯呢」从天降』段原文：『活动期间，累计登录7天即可获赠[邦布券]*10』『活动时间：2026/09/30 10:00（服务器时间） ~ 2026/10/20 03:59（服务器时间）』。预先核对全部已有events、overrides及同版本官网来源，未见本期独立帖或重复子项；历史同名165154为7月活动，不能别名合并。",
+      "modified": "2026-10-03T04:10:41.401Z",
+      "sequence": 0
+    },
+    {
+      "id": "zzz:website:166026:event-combat-double",
+      "game": "zzz",
+      "category": "event",
+      "title": "数据悬赏-实战模拟：挑战奖励双倍",
+      "start": "2026-10-14T04:00:00+08:00",
+      "end": "2026-10-19T03:59:00+08:00",
+      "url": "https://zzz.mihoyo.com/news/166026",
+      "notes": "3.2官网更新公告『数据悬赏-实战模拟』段原文：『活动期限内，「实战模拟室」挑战奖励翻倍』『活动时间：2026/10/14 04:00（服务器时间） ~ 2026/10/19 03:59（服务器时间）』。这是已公告的未来双倍奖励期，不是常驻实战模拟室关闭；已有历史同名165298等为其他期次，不能去重到旧活动。",
+      "modified": "2026-10-03T04:10:41.401Z",
       "sequence": 0
     }
   ],
@@ -429,6 +525,9 @@
     "starrail:website:164425",
     "starrail:website:164408",
     "starrail:website:163927",
-    "starrail:website:163626"
+    "starrail:website:163626",
+    "starrail:website:166234",
+    "starrail:website:164343",
+    "zzz:website:165415"
   ]
 }

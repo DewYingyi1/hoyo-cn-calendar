@@ -6,5 +6,7 @@ site/data/
 !.env.example
 *.log
 local-private/
+*.key
+*.pem
 data/seed-overrides.json
 data/website-confirmations-seed.json
