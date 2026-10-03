@@ -109,5 +109,5 @@ await writeJson('data/status.json', status);
 // Full official bodies are ephemeral inputs, never committed or included in the public site.
 await fs.mkdir(path.join(ROOT, 'local-private'), { recursive: true });
 await fs.writeFile(path.join(ROOT, 'local-private/review-inputs.json'), JSON.stringify(reviewInputs, null, 2));
-console.log(`保存 ${events.length} 自动事件，${status.reviewCount} 待审核公告；${successes}/3 个来源成功。`);
+console.log(`保存 ${events.length} 自动事件，${status.reviewCount} 待审核公告；${successes}/${Object.keys(GAMES).length} 个来源成功。`);
 if (!successes && !old.length && !overrides.events.length) throw new Error('首次采集全部失败且没有已确认事件，拒绝发布空日历。');

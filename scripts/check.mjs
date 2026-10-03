@@ -24,4 +24,4 @@ for (const game of [...Object.keys(GAMES), 'all']) {
     if (game !== 'all') assert.ok(!unfolded.includes('[undefined]'));
   }
 }
-console.log(`校验通过：${events.length} 源事件，合并节点版 ${totalNodes} 节点，8 个 ICS 格式有效。`);
+console.log(`校验通过：${events.length} 源事件，全部订阅节点版 ${totalNodes} 节点，${(Object.keys(GAMES).length + 1) * 2} 个 ICS 格式有效。`);

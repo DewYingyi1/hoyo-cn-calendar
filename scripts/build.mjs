@@ -28,7 +28,7 @@ export async function build() {
   for (const game of [...Object.keys(GAMES), 'all']) {
     const selected = final.filter(event => game === 'all' || event.game === game);
     for (const mode of ['nodes', 'timeline']) {
-      const calendar = renderCalendar(selected, { name: `米哈游国服 · ${game === 'all' ? '三游合并' : GAMES[game].name}${mode === 'timeline' ? ' · 时间轴' : ' · 开始/截止'}`, mode, now });
+      const calendar = renderCalendar(selected, { name: `米哈游国服 · ${game === 'all' ? '全部订阅' : GAMES[game].name}${mode === 'timeline' ? ' · 时间轴' : ' · 开始/截止'}`, mode, now });
       await fs.writeFile(path.join(ROOT, `site/ics/${game}${mode === 'timeline' ? '-timeline' : ''}.ics`), calendar);
     }
   }
@@ -42,6 +42,6 @@ export async function build() {
   await writeJson('site/data/status.json', status);
   await writeJson('site/data/review.json', await readJson('data/review.json', []));
   await fs.writeFile(path.join(ROOT, 'site/.nojekyll'), '');
-  console.log(`生成 ${final.length} 个源事件，8 个 ICS 文件。`);
+  console.log(`生成 ${final.length} 个源事件，${(Object.keys(GAMES).length + 1) * 2} 个 ICS 文件。`);
 }
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await build();
