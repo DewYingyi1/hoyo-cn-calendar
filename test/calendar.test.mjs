@@ -70,8 +70,8 @@ test('说明更新保留UID与开始截止，展示修订号增加', () => {
   const after = renderCalendar(changed, { name: '测试', now }).replace(/\r\n /g, '');
   assert.deepEqual(uids(before), uids(after));
   assert.deepEqual([...before.matchAll(/DT(?:START|END):(.+)/g)].map(m => m[0]), [...after.matchAll(/DT(?:START|END):(.+)/g)].map(m => m[0]));
-  assert.match(before, /SEQUENCE:1/);
-  assert.match(after, /SEQUENCE:2/);
+  assert.match(before, /SEQUENCE:2/);
+  assert.match(after, /SEQUENCE:3/);
 });
 test('识别标准国服活动时间', () => {
   const parsed = parsePost({ game: 'genshin', id: '123', official: true, title: '「测试」活动说明', published: now, url: base.url, text: '活动时间\n2026/10/05 10:00 ~ 2026/10/20 03:59\n参与条件：冒险等阶20级' });
@@ -82,6 +82,7 @@ test('版本更新后卡池仅生成确定截止', () => {
   assert.ok(parsed.review, '汇总标题保守审核');
   const single = parsePost({ game: 'starrail', id: '456', official: true, title: '「测试」活动跃迁', published: now, url: base.url, text: '跃迁时间：版本更新后 - 2026/10/20 03:59\n活动规则' });
   assert.equal(single.event.start, null); assert.equal(single.event.end, base.end);
+  assert.equal(single.event.startText, '版本更新后');
 });
 test('排除社区杂项，不盲猜维护、多个阶段、未确认作者', () => {
   const post = { game: 'zzz', id: '1', official: true, published: now, url: base.url, text: '活动时间：2026/10/05 10:00 ~ 2026/10/20 03:59' };
@@ -122,4 +123,36 @@ test('星铁限时活动期不会写成永久玩法关闭', () => {
   assert.equal(parsed.start, null);
   assert.equal(parsed.end, base.end);
   assert.match(parsed.notes, /限时活动奖励期/);
+  assert.equal(parsed.startText, '2026/10/05 版本更新后');
+});
+test('官网日期与版本更新后原文进入说明，不虚构开始时刻或全天节点', () => {
+  const parsed = parsePost({ game: 'starrail', source: 'website', id: '164310', official: true, title: '「淬锋之礼」活动说明', published: '2026-06-01T00:00:00Z', url: 'https://sr.mihoyo.com/news/164310', text: '▌限时活动期\n2026/06/01 4.3版本更新后 - 2026/06/24 11:59\n参与条件：20级' }).event;
+  assert.equal(parsed.start, null);
+  assert.equal(parsed.startText, '2026/06/01 4.3版本更新后');
+  const events = mergeEvents([], [parsed], '2026-06-01T00:00:00Z');
+  for (const mode of ['nodes', 'timeline']) {
+    const rendered = renderCalendar(events, { name: '米哈游国服', mode, now: '2026-06-01T00:00:00Z' }).replace(/\r\n /g, '');
+    assert.match(rendered, /开始：2026\/06\/01 4.3版本更新后/);
+    assert.match(rendered, /DTSTART:20260624T035900Z/);
+    assert.equal(uids(rendered).length, 1);
+    assert.doesNotMatch(rendered, /DTSTART;VALUE=DATE|DTSTART:20260601/);
+  }
+});
+test('非精确结束文案可显示，已确认时刻优先，文案变更仍保留UID', () => {
+  const first = mergeEvents([], [{ ...base, startText: '7.1版本更新后', end: null, endText: '7.1版本结束' }], now);
+  const changed = mergeEvents(first, [{ ...first[0], endText: '活动持续至7.1版本结束' }], now);
+  assert.equal(changed[0].sequence, first[0].sequence + 1);
+  const render = events => renderCalendar(events, { name: '测试', now }).replace(/\r\n /g, '');
+  assert.match(render(first), /开始：2026年10月05日 10:00/);
+  assert.match(render(first), /截止：7.1版本结束/);
+  assert.deepEqual(uids(render(first)), uids(render(changed)));
+  assert.throws(() => validateEvent({ ...first[0], startText: '7.1版本更新后\n别的内容' }), /文案无效/);
+});
+test('版本更新前日期不是范围截止，不能拿前半句时刻充作截止', () => {
+  const result = parsePost({ game: 'genshin', id: '1', official: true, title: '「测试」活动说明', published: now, url: base.url, text: '活动时间\n2026/10/05 10:00 版本更新后 - 版本结束\n参与条件：20级' });
+  assert.ok(result.review);
+});
+test('括号包围活动时间标签不进入版本更新后原文', () => {
+  const result = parsePost({ game: 'zzz', id: '1', official: true, title: '「测试」活动说明', published: now, url: base.url, text: '【活动时间】\n3.2版本更新后 ~ 2026/10/20 03:59\n参与条件：20级' });
+  assert.equal(result.event.startText, '3.2版本更新后');
 });

@@ -28,7 +28,7 @@ export async function build() {
   for (const game of [...Object.keys(GAMES), 'all']) {
     const selected = final.filter(event => game === 'all' || event.game === game);
     for (const mode of ['nodes', 'timeline']) {
-      const calendar = renderCalendar(selected, { name: `米家国服 · ${game === 'all' ? '三游合并' : GAMES[game].name}${mode === 'timeline' ? ' · 时间轴' : ' · 开始/截止'}`, mode, now });
+      const calendar = renderCalendar(selected, { name: `米哈游国服 · ${game === 'all' ? '三游合并' : GAMES[game].name}${mode === 'timeline' ? ' · 时间轴' : ' · 开始/截止'}`, mode, now });
       await fs.writeFile(path.join(ROOT, `site/ics/${game}${mode === 'timeline' ? '-timeline' : ''}.ics`), calendar);
     }
   }

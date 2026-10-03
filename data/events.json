@@ -44,8 +44,9 @@
     "end": "2026-11-02T03:59:00+08:00",
     "url": "https://ys.mihoyo.com/main/news/detail/166259",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T02:51:44.596Z",
-    "sequence": 1
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 2,
+    "startText": "7.1版本更新后"
   },
   {
     "id": "genshin:miyoushe:78299703",
@@ -54,10 +55,11 @@
     "title": "「桌上剧团·冒险的前夜会」活动：自选邀请限定5星角色",
     "start": null,
     "end": "2026-11-03T14:59:00+08:00",
+    "startText": "7.1版本更新后",
     "url": "https://ys.mihoyo.com/main/news/detail/166257",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T02:51:44.596Z",
-    "sequence": 1
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 2
   },
   {
     "id": "genshin:miyoushe:78299704",
@@ -66,10 +68,11 @@
     "title": "「巡历雪境，凝铸锋锐」活动：自选邀请「奔行世间」常驻祈愿5星角色",
     "start": null,
     "end": "2026-11-03T14:59:00+08:00",
+    "startText": "7.1版本更新后",
     "url": "https://ys.mihoyo.com/main/news/detail/166256",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:03:17.799Z",
-    "sequence": 2
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 3
   },
   {
     "id": "genshin:miyoushe:78335167",
@@ -128,8 +131,9 @@
     "end": "2026-09-28T03:59:00+08:00",
     "url": "https://www.miyoushe.com/sr/article/77738471",
     "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
-    "modified": "2026-10-03T02:09:19.890Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1,
+    "startText": "2026/08/26 4.5版本更新后"
   },
   {
     "id": "starrail:miyoushe:77754792",
@@ -188,8 +192,9 @@
     "end": "2026-11-11T03:59:00+08:00",
     "url": "https://www.miyoushe.com/sr/article/78445058",
     "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
-    "modified": "2026-10-03T02:09:19.890Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1,
+    "startText": "2026/09/28 4.6版本更新后"
   },
   {
     "id": "starrail:miyoushe:78463670",
@@ -270,10 +275,11 @@
     "title": "「淬锋之礼」：获取「千冶•刃」赠送全新部位开拓穿搭「彼岸业火」",
     "start": null,
     "end": "2026-06-24T11:59:00+08:00",
+    "startText": "2026/06/01 4.3版本更新后",
     "url": "https://sr.mihoyo.com/news/164310",
     "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1
   },
   {
     "id": "starrail:website:164424",
@@ -282,10 +288,11 @@
     "title": "「像素飞机大乱斗」：定制你的最强战机，获取命运的足迹、星琼、聊天气泡等奖励！",
     "start": null,
     "end": "2026-07-15T03:59:00+08:00",
+    "startText": "2026/06/01 4.3版本更新后",
     "url": "https://sr.mihoyo.com/news/164424",
     "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1
   },
   {
     "id": "starrail:website:164426",
@@ -344,8 +351,9 @@
     "end": "2026-08-24T03:59:00+08:00",
     "url": "https://sr.mihoyo.com/news/165179",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1,
+    "startText": "2026/07/15 4.4版本更新后"
   },
   {
     "id": "starrail:website:165209",
@@ -354,10 +362,11 @@
     "title": "「反贪『砖』家」：完成骇入行动，获取自塑尘脂、命运的足迹、星琼等奖励！",
     "start": null,
     "end": "2026-08-26T03:59:00+08:00",
+    "startText": "2026/07/15 4.4版本更新后",
     "url": "https://sr.mihoyo.com/news/165209",
     "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1
   },
   {
     "id": "starrail:website:165210",
@@ -392,8 +401,9 @@
     "end": "2026-09-28T03:59:00+08:00",
     "url": "https://sr.mihoyo.com/news/165791",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1,
+    "startText": "2026/08/26 4.5版本更新后"
   },
   {
     "id": "starrail:website:166045",
@@ -416,8 +426,9 @@
     "end": "2026-11-09T03:59:00+08:00",
     "url": "https://sr.mihoyo.com/news/166485",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1,
+    "startText": "2026/09/28 4.6版本更新后"
   },
   {
     "id": "zzz:miyoushe:76998963",
@@ -426,10 +437,11 @@
     "title": "「云端礼赠」活动说明",
     "start": null,
     "end": "2026-09-08T03:59:00+08:00",
+    "startText": "3.1版本更新后",
     "url": "https://zzz.mihoyo.com/news/165399",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:12:03.146Z",
-    "sequence": 3
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 4
   },
   {
     "id": "zzz:miyoushe:77004031",
@@ -438,10 +450,11 @@
     "title": "「恰浪花逐夏而至」活动说明",
     "start": null,
     "end": "2026-09-07T03:59:00+08:00",
+    "startText": "3.1版本更新后",
     "url": "https://zzz.mihoyo.com/news/165412",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:12:03.146Z",
-    "sequence": 3
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 4
   },
   {
     "id": "zzz:miyoushe:77218429",
@@ -558,10 +571,11 @@
     "title": "3.2版本限时频段（上期）",
     "start": null,
     "end": "2026-09-30T11:59:00+08:00",
+    "startText": "为：3.2版本更新后",
     "url": "https://zzz.mihoyo.com/news/165991",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:12:03.146Z",
-    "sequence": 3
+    "modified": "2026-10-03T05:24:31.718Z",
+    "sequence": 5
   },
   {
     "id": "zzz:miyoushe:78028041",
@@ -570,10 +584,11 @@
     "title": "「天使应援大作战」活动说明",
     "start": null,
     "end": "2026-11-30T03:59:00+08:00",
+    "startText": "3.2版本更新后",
     "url": "https://zzz.mihoyo.com/news/166009",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:12:03.146Z",
-    "sequence": 3
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 4
   },
   {
     "id": "zzz:miyoushe:78044239",
@@ -582,10 +597,11 @@
     "title": "「全新放送」活动说明",
     "start": null,
     "end": "2026-10-20T03:59:00+08:00",
+    "startText": "3.2版本更新后",
     "url": "https://zzz.mihoyo.com/news/166014",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:12:03.146Z",
-    "sequence": 3
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 4
   },
   {
     "id": "zzz:miyoushe:78044398",
@@ -680,8 +696,9 @@
     "end": "2026-09-07T03:59:00+08:00",
     "url": "https://zzz.mihoyo.com/news/165403",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1,
+    "startText": "3.1版本更新后"
   },
   {
     "id": "zzz:website:166012",
@@ -692,7 +709,8 @@
     "end": "2026-10-19T03:59:00+08:00",
     "url": "https://zzz.mihoyo.com/news/166012",
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
-    "modified": "2026-10-03T03:05:10.182Z",
-    "sequence": 0
+    "modified": "2026-10-03T05:24:31.247Z",
+    "sequence": 1,
+    "startText": "3.2版本更新后"
   }
 ]

@@ -45,6 +45,7 @@
         <h3>一、选一份日历</h3><p>选择单款游戏，或选择三款合并版。不要同时订阅合并版和单款版，以免日程重复。</p>
         <h3>二、添加网址订阅</h3><p><strong>Apple / Outlook / 其他日历：</strong>点击上方「复制订阅链接」，在应用里找到「添加订阅日历」或「从网络订阅」，粘贴链接。</p><p><strong>Google 日历：</strong>点击卡片中的「添加到 Google 日历」。也可在网页版进入「其他日历 → ＋ → 通过网址」，粘贴订阅链接。</p><p><strong>「ICS 文件」是下载入口：</strong>下载后直接导入通常只保存当时的日程，不会持续更新。</p>
         <h3>三、看懂日历里的日程</h3><p>默认版把开启和截止各显示为一个时间节点。标题先写「开启」或「截止」；日历中显示的15分钟只是占位，不代表活动只持续15分钟。具体活动起止见日程说明。</p><p>说明中的时间均为北京时间；日历应用可能按设备时区显示。订阅刷新可能有延迟，临近截止以官网公告为准。</p>
+        <p>官网只写「某版本更新后」或「某版本结束」时，活动说明照录这段原文；未公布几点，就不推算开服或截止时刻，也不凭空添加时间节点。</p>
         <details><summary>想把活动显示成一整段时间？</summary><p>可以改订下方「时间跨度」版：有明确起止的活动显示为持续区间；只确认开启或截止的活动仍保留单个时间节点。与默认版二选一，不要同时订阅。</p><div class="timeline-links"><a href="ics/genshin-timeline.ics">原神 · 时间跨度</a><a href="ics/starrail-timeline.ics">星穹铁道 · 时间跨度</a><a href="ics/zzz-timeline.ics">绝区零 · 时间跨度</a><a href="ics/all-timeline.ics">合并 · 时间跨度</a></div><p>这些链接可复制到日历应用中添加网址订阅；直接打开下载仍是静态文件。</p></details>
       </div></details>
       <details class="help-block" id="windows-subscription-help"><summary>Windows 电脑订阅：WinCal 与 Rainlendar</summary><div class="help-content">
@@ -186,8 +187,8 @@
         const times = textElement('div', 'event-times', '');
         const startLabel = event.category === 'maintenance' ? '维护开始' : event.category === 'livestream' ? '开播' : '开始';
         const endLabel = event.category === 'maintenance' ? '预计维护结束' : '截止';
-        times.append(textElement('p', '', startLabel + '：' + formatDate(event.start)));
-        if (event.category !== 'livestream') times.append(textElement('p', '', endLabel + '：' + formatDate(event.end)));
+        times.append(textElement('p', '', startLabel + '：' + (event.start ? formatDate(event.start) : event.startText || formatDate(null))));
+        if (event.category !== 'livestream') times.append(textElement('p', '', endLabel + '：' + (event.end ? formatDate(event.end) : event.endText || formatDate(null))));
         article.append(times);
         if (typeof event.notes === 'string' && event.notes) article.append(textElement('p', 'event-notes', event.notes));
         const url = officialURL(event.url);
