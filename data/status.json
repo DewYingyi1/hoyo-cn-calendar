@@ -1,31 +1,31 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T05:40:34.331Z",
+      "lastSuccessAt": "2026-10-03T07:23:07.038Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 23,
       "earliestPublishedAt": "2026-08-13T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "act-api-takumi-static.mihoyo.com：fetch failed",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T05:40:34.331Z",
+      "lastSuccessAt": "2026-10-03T07:23:07.038Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 41,
       "earliestPublishedAt": "2026-04-21T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "act-api-takumi-static.mihoyo.com：fetch failed",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com"
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T07:18:12.590Z",
+      "lastSuccessAt": "2026-10-03T07:23:07.038Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -34,14 +34,11 @@
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
       "error": null,
       "primarySource": "website",
-      "endpoint": "https://api-takumi-static.mihoyo.com"
+      "endpoint": "https://act-api-takumi-static.mihoyo.com"
     }
   },
-  "lastAttemptAt": "2026-10-03T07:18:12.590Z",
-  "issues": [
-    "原神获取失败：act-api-takumi-static.mihoyo.com：fetch failed；保留旧事件。",
-    "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：fetch failed；保留旧事件。"
-  ],
+  "lastAttemptAt": "2026-10-03T07:23:07.038Z",
+  "issues": [],
   "reviewCount": 1,
-  "successfulSources": 1
+  "successfulSources": 3
 }
