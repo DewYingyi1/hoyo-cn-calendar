@@ -46,18 +46,5 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
-  },
-  {
-    "game": "genshin",
-    "postId": "166261",
-    "title": "「七圣召唤」铸境研炼：巧策进斗",
-    "url": "https://ys.mihoyo.com/main/news/detail/166261",
-    "reason": "未取得唯一带标签的明确时间段",
-    "digest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
-    "source": "website",
-    "firstSeenAt": "2026-10-03T03:05:10.182Z",
-    "lastSeenAt": "2026-10-03T21:26:25.666Z",
-    "resolved": false,
-    "changedConfirmation": false
   }
 ]

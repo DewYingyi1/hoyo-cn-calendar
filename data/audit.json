@@ -887,5 +887,24 @@
       "https://ys.mihoyo.com/main/news/detail/166263"
     ],
     "checkedAt": "2026-10-03T17:27:00.000Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166261",
+    "decision": "confirmed-relative-only-no-publishable-node",
+    "notes": "结案：当前官网正文经重新采集，唯一活动时间原文仍为「7.1版本期间持续开放」，没有明确开始或截止节点；两张当前官方图片经人工逐张核对，分别为活动题图与摩拉奖励图，均无日期。正文 digest、图片列表 digest 与两张完整图片字节 SHA256 已绑定人工确认。按“不猜版本结束、不生成双null事件”规则，不发布日历事件；后续正文、图片列表或图片字节任一变化都会重新阻断并送审。",
+    "bodyDigest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
+    "imagesHash": "2a1bbe18f6a611b844b0c95b5a13ea23c1852d63b3d6161abd0749079d73b1ee",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/0dec54ca95be4d0f739445aa9fd06287_2994576233141355097.png": "05dba94f3ede19f2fb9209477f4bf2f3f9580d07e18964dfc50f88ce665e121f",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/53085da8561d14974989882a602f8669_2337821289380569120.png": "4ee722c1a4f1059cee167e952372c6ba785d73e05a796832d1177d9478b14bcb"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166261",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/0dec54ca95be4d0f739445aa9fd06287_2994576233141355097.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/53085da8561d14974989882a602f8669_2337821289380569120.png"
+    ],
+    "checkedAt": "2026-10-03T23:30:18.391Z"
   }
 ]
