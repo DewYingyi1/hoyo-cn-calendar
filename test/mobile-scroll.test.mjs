@@ -28,7 +28,7 @@ test('手机禁用程序平滑滚动并优化屏外卡片，不拦截触摸或�
   const css = await fs.readFile(new URL('../site/style.css', import.meta.url), 'utf8');
   const html = await fs.readFile(new URL('../site/index.html', import.meta.url), 'utf8');
   assert.match(css, /@media \(max-width: 720px\) \{\s*html \{ scroll-behavior: auto; \}/);
-  assert.match(css, /content-visibility: auto; contain-intrinsic-size: auto 190px/);
+  assert.match(css, /content-visibility: auto; contain-intrinsic-size: auto 150px/);
   assert.doesNotMatch(html, /preventDefault\(|addEventListener\(['"](?:touchmove|wheel)/);
-  assert.match(html, /filtered\.forEach\(event/);
+  assert.match(html, /group\.items\.forEach\(event/);
 });

@@ -68,14 +68,14 @@
     <section id="events" class="section" aria-labelledby="events-title">
       <div class="section-heading"><div><span class="eyebrow">FROM OFFICIAL SOURCES</span><h2 id="events-title">已收录的活动</h2></div><span id="event-count" class="section-caption">读取中</span></div>
       <p class="section-description">这里展示本项目已收录的数据，不是完整官方排期。活动可能变更，具体规则和时间以官方原文为准。</p>
-      <div class="filters" role="group" aria-label="按游戏筛选"><button type="button" class="filter active" data-filter="all" aria-pressed="true">全部游戏</button><button type="button" class="filter" data-filter="genshin" aria-pressed="false">原神</button><button type="button" class="filter" data-filter="starrail" aria-pressed="false">星穹铁道</button><button type="button" class="filter" data-filter="zzz" aria-pressed="false">绝区零</button></div>
-      <div id="event-list" class="event-list" aria-live="polite"><p class="empty-state">正在读取活动数据……</p></div>
+      <p class="event-guide">按游戏收纳，默认收起。展开游戏查看活动，再点活动查看完整时间、说明与官方原文。</p>
+      <div id="event-list" class="game-groups"><p class="empty-state" role="status">正在读取活动数据……</p></div>
     </section>
 
     <section class="trust-note"><span class="note-icon" aria-hidden="true">i</span><div><h2>只订阅日历，不连接游戏账号</h2><p>本项目是非官方社区工具，新增采集仅使用国服官网公告；不需要米哈游账号、密码、Cookie 或游戏授权。既有历史日程及其官方出处保留。待复核内容不等同于已确认排期，重要节点以官网公告为准。</p></div></section>
   </main>
   <footer class="site-footer wrap"><div class="footer-disclaimer"><span>虚树之外 · HoYo 国服日历</span><p class="footer-credit">由影翼制作与维护</p><p>本项目是非官方、非盈利的米哈游游戏活动日历订阅项目，与米哈游 / HoYoverse 无任何关联。涉及的游戏名称、商标及相关官方内容，版权归米哈游所有。</p></div><a href="https://github.com/DewYingyi1/hoyo-cn-calendar" target="_blank" rel="noopener noreferrer">源码与问题反馈 ↗</a></footer>
-  <noscript><p class="wrap">启用 JavaScript 可查看更新状态、筛选活动与复制链接；上方 ICS 文件链接仍可直接使用。未加载状态时，无法确认日历是否已发布。</p></noscript>
+  <noscript><p class="wrap">启用 JavaScript 可查看更新状态、按游戏展开活动与复制链接；上方 ICS 文件链接仍可直接使用。未加载状态时，无法确认日历是否已发布。</p></noscript>
 
   <script>
     'use strict';
@@ -84,7 +84,6 @@
     const dateFormatter = new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false });
     let events = [];
     let eventLoadError = false;
-    let selectedGame = 'all';
     let state = null;
 
     function dateValue(value) {
@@ -168,42 +167,90 @@
       } catch { return null; }
     }
 
+    function eventTime(value, text) {
+      return value ? formatDate(value) : text || formatDate(null);
+    }
+
+    function createEventCard(event) {
+      const card = textElement('details', 'event-card' + (event.cancelled ? ' cancelled' : ''), '');
+      const summary = textElement('summary', 'event-summary', '');
+      const meta = textElement('span', 'event-meta', '');
+      meta.append(textElement('span', 'event-game', games[event.game] || event.game || '其他游戏'));
+      if (typeof event.category === 'string' && event.category) meta.append(textElement('span', 'event-category', ({ event: '游戏活动', banner: '卡池', maintenance: '更新维护', livestream: '前瞻' })[event.category] || event.category));
+      if (event.cancelled) meta.append(textElement('span', 'badge warning', '已取消'));
+      const startLabel = event.category === 'maintenance' ? '维护开始' : event.category === 'livestream' ? '开播' : '开始';
+      const endLabel = event.category === 'maintenance' ? '预计维护结束' : '截止';
+      const showEnd = event.category !== 'livestream' && (event.end || event.endText);
+      const keyTime = (showEnd ? endLabel : startLabel) + '：' + (showEnd ? eventTime(event.end, event.endText) : eventTime(event.start, event.startText));
+      summary.append(meta, textElement('h4', '', typeof event.title === 'string' ? event.title : '未命名活动'));
+      summary.append(textElement('span', 'event-key-time', keyTime), disclosureLabel('展开详情', '收起详情'));
+      const body = textElement('div', 'event-body', '');
+      const times = textElement('div', 'event-times', '');
+      times.append(textElement('p', '', startLabel + '：' + eventTime(event.start, event.startText)));
+      if (event.category !== 'livestream') times.append(textElement('p', '', endLabel + '：' + eventTime(event.end, event.endText)));
+      body.append(times);
+      if (typeof event.notes === 'string' && event.notes) body.append(textElement('p', 'event-notes', event.notes));
+      const url = officialURL(event.url);
+      if (url) {
+        const source = textElement('a', 'source-link', '查看官方原文 ↗');
+        source.href = url;
+        source.target = '_blank';
+        source.rel = 'noopener noreferrer';
+        body.append(source);
+      } else body.append(textElement('p', 'fine-print', '未提供可验证的官方链接，请复核来源。'));
+      card.append(summary, body);
+      return card;
+    }
+
+    function disclosureLabel(closed, open) {
+      const label = textElement('span', 'disclosure-label', '');
+      label.append(textElement('span', 'when-closed', closed + ' ＋'), textElement('span', 'when-open', open + ' −'));
+      return label;
+    }
+
+    function groupEvents(items) {
+      // Registered games stay visible even when empty. Future game keys get their own group.
+      const groups = new Map(Object.entries(games).map(([key, title]) => [key, { key, title, items: [] }]));
+      items.forEach(event => {
+        const key = typeof event.game === 'string' && event.game ? event.game : 'other';
+        if (!groups.has(key)) groups.set(key, { key, title: key === 'other' ? '其他游戏' : key, items: [] });
+        groups.get(key).items.push(event);
+      });
+      for (const group of groups.values()) group.items.sort((a, b) => (dateValue(a.start)?.getTime() ?? Infinity) - (dateValue(b.start)?.getTime() ?? Infinity));
+      return [...groups.values()];
+    }
+
     function renderEvents() {
       const list = document.getElementById('event-list');
       list.replaceChildren();
-      const filtered = events.filter(event => selectedGame === 'all' || event.game === selectedGame);
-      document.getElementById('event-count').textContent = eventLoadError ? '活动数据不可用' : filtered.length + ' 条已收录 / 总计 ' + events.length + ' 条';
-      if (!filtered.length) {
+      document.getElementById('event-count').textContent = eventLoadError ? '活动数据不可用' : '总计 ' + events.length + ' 条已收录';
+      if (eventLoadError || !events.length) {
         const published = state && state.games && Object.values(state.games).some(record => record && dateValue(record.lastSuccessAt));
         const message = eventLoadError ? '活动文件尚未生成或暂时无法读取。数据不可用不代表没有活动，请查看官方公告。' : !published ? '当前没有可展示的活动，也没有可确认的成功发布记录。请稍后再查看。' : '当前筛选下没有已收录活动；这不代表官方没有活动。';
         list.append(textElement('p', 'empty-state', message));
-        return;
+        if (eventLoadError) return;
       }
-      filtered.sort((a, b) => (dateValue(a.start)?.getTime() ?? Infinity) - (dateValue(b.start)?.getTime() ?? Infinity));
       const fragment = document.createDocumentFragment();
-      filtered.forEach(event => {
-        const article = textElement('article', 'event-card' + (event.cancelled ? ' cancelled' : ''), '');
-        const meta = textElement('div', 'event-meta', '');
-        meta.append(textElement('span', 'event-game', games[event.game] || '其他游戏'));
-        if (typeof event.category === 'string' && event.category) meta.append(textElement('span', 'event-category', ({ event: '游戏活动', banner: '卡池', maintenance: '更新维护', livestream: '前瞻' })[event.category] || event.category));
-        if (event.cancelled) meta.append(textElement('span', 'badge warning', '已取消'));
-        article.append(meta, textElement('h3', '', typeof event.title === 'string' ? event.title : '未命名活动'));
-        const times = textElement('div', 'event-times', '');
-        const startLabel = event.category === 'maintenance' ? '维护开始' : event.category === 'livestream' ? '开播' : '开始';
-        const endLabel = event.category === 'maintenance' ? '预计维护结束' : '截止';
-        times.append(textElement('p', '', startLabel + '：' + (event.start ? formatDate(event.start) : event.startText || formatDate(null))));
-        if (event.category !== 'livestream') times.append(textElement('p', '', endLabel + '：' + (event.end ? formatDate(event.end) : event.endText || formatDate(null))));
-        article.append(times);
-        if (typeof event.notes === 'string' && event.notes) article.append(textElement('p', 'event-notes', event.notes));
-        const url = officialURL(event.url);
-        if (url) {
-          const source = textElement('a', 'source-link', '查看官方原文 ↗');
-          source.href = url;
-          source.target = '_blank';
-          source.rel = 'noopener noreferrer';
-          article.append(source);
-        } else article.append(textElement('p', 'fine-print', '未提供可验证的官方链接，请复核来源。'));
-        fragment.append(article);
+      groupEvents(events).forEach(group => {
+        const section = textElement('details', 'game-group', '');
+        section.dataset.game = group.key;
+        const summary = textElement('summary', 'game-summary', '');
+        const heading = textElement('span', 'game-heading', '');
+        heading.append(textElement('h3', '', group.title), textElement('span', 'game-count', group.items.length + ' 条活动'));
+        summary.append(heading, disclosureLabel('展开活动', '收起活动'));
+        const cards = textElement('div', 'event-list', '');
+        section.append(summary, cards);
+        let built = false;
+        section.addEventListener('toggle', () => {
+          // Nested card toggle events must never rebuild the game. Keep cards and open states.
+          if (!section.open || built) return;
+          built = true;
+          const content = document.createDocumentFragment();
+          group.items.forEach(event => content.append(createEventCard(event)));
+          if (!group.items.length) content.append(textElement('p', 'empty-state', '当前没有已收录活动；这不代表官方没有活动。'));
+          cards.append(content);
+        });
+        fragment.append(section);
       });
       list.append(fragment);
     }
@@ -247,16 +294,6 @@
         input.select();
         feedback.textContent = '请手动复制下方链接。';
       }
-    }));
-
-    document.querySelectorAll('[data-filter]').forEach(button => button.addEventListener('click', () => {
-      selectedGame = button.dataset.filter;
-      document.querySelectorAll('[data-filter]').forEach(item => {
-        const active = item === button;
-        item.classList.toggle('active', active);
-        item.setAttribute('aria-pressed', String(active));
-      });
-      renderEvents();
     }));
 
     const themes = ['auto', 'light', 'dark'];

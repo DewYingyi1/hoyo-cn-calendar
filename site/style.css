@@ -123,16 +123,31 @@ summary { padding: 17px 20px; cursor: pointer; font-weight: 600; }
 .manual-copy { padding: 15px; margin-top: 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); }
 .manual-copy label { display: block; font-size: 12px; margin-bottom: 8px; }
 .manual-copy input { width: 100%; border: 1px solid var(--border); color: var(--ink); background: var(--bg); border-radius: 6px; padding: 9px; font-size: 13px; }
-.filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 21px 0; }
-.filter { padding: 8px 15px; font-size: 12px; border-radius: 100px; border: 1px solid var(--border); color: var(--muted); background: var(--surface); }
-.filter.active { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); font-weight: 650; }
-.event-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 15px; }
-.event-card { padding: 23px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); overflow-wrap: anywhere; }
+.event-guide { color: var(--muted); font-size: 12px; margin: 12px 0 18px; }
+.game-groups { display: grid; gap: 12px; }
+.game-group { min-width: 0; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); }
+.game-summary { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 18px 20px; list-style: none; }
+.game-heading { display: flex; align-items: baseline; flex-wrap: wrap; gap: 8px 14px; min-width: 0; }
+.game-heading h3 { margin: 0; font-size: 17px; overflow-wrap: anywhere; }
+.game-count { color: var(--muted); font-size: 12px; font-weight: 400; }
+.disclosure-label { color: var(--accent); font-size: 12px; font-weight: 600; white-space: nowrap; }
+.game-summary > .disclosure-label { padding: 8px 10px; border-radius: 8px; background: var(--accent-soft); }
+.game-summary::-webkit-details-marker, .event-summary::-webkit-details-marker { display: none; }
+.game-summary:focus-visible, .event-summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; border-radius: 10px; }
+.disclosure-label .when-open { display: none; }
+.game-group[open] > .game-summary .when-closed, .event-card[open] > .event-summary .when-closed { display: none; }
+.game-group[open] > .game-summary .when-open, .event-card[open] > .event-summary .when-open { display: inline; }
+.event-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 12px; padding: 16px; border-top: 1px solid var(--border); }
+.event-card { min-width: 0; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); overflow-wrap: anywhere; }
+.event-summary { display: block; padding: 16px 18px; list-style: none; }
+.event-key-time { display: block; color: var(--muted); font-size: 12px; font-weight: 400; }
+.event-summary > .disclosure-label { display: block; margin-top: 10px; }
+.event-body { padding: 14px 18px 18px; border-top: 1px solid var(--border); }
 .event-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 11px; }
 .event-game { color: var(--accent); font-weight: 650; }
 .event-category { color: var(--muted); }
-.event-card h3 { font-size: 17px; margin: 13px 0; line-height: 1.6; }
-.cancelled h3 { text-decoration: line-through; text-decoration-color: var(--muted); }
+.event-card h4 { font-size: 15px; margin: 8px 0; line-height: 1.6; }
+.cancelled h4 { text-decoration: line-through; text-decoration-color: var(--muted); }
 .event-times { color: var(--muted); font-size: 12px; }
 .event-times p { margin: 3px 0; }
 .event-notes { color: var(--muted); font-size: 12px; white-space: pre-wrap; }
@@ -182,9 +197,14 @@ summary { padding: 17px 20px; cursor: pointer; font-weight: 600; }
   .calendar-card { padding: 17px; }
   .calendar-card h3 { font-size: 16px; }
   .card-actions { flex-direction: column; }
-  .event-list { grid-template-columns: 1fr; }
+  .game-summary { padding: 14px; gap: 10px; }
+  .game-heading { display: block; }
+  .game-heading h3 { font-size: 15px; margin-bottom: 3px; }
+  .event-list { grid-template-columns: 1fr; padding: 10px; gap: 10px; }
+  .event-summary { padding: 13px 14px; }
+  .event-body { padding: 12px 14px 14px; }
   /* Keep the complete list; skip layout/paint work for off-screen cards where supported. */
-  .event-card { content-visibility: auto; contain-intrinsic-size: auto 190px; }
+  .event-card { content-visibility: auto; contain-intrinsic-size: auto 150px; }
   .trust-note { padding: 19px; }
   .site-footer { align-items: flex-start; flex-direction: column; gap: 8px; margin-top: 30px; }
 }
