@@ -1,27 +1,27 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-03T02:16:48.989Z",
-      "source": "miyoushe",
-      "scanned": 160,
-      "officialPosts": 85,
-      "eligiblePosts": 21,
-      "earliestPublishedAt": "2026-08-16T04:00:19.000Z",
-      "coverage": "官方主账号版块向前分页；不包含千星奇域独立账号或社区活动",
+      "lastSuccessAt": "2026-10-03T02:41:09.774Z",
+      "source": "website",
+      "scanned": 100,
+      "officialPosts": 100,
+      "eligiblePosts": 23,
+      "earliestPublishedAt": "2026-08-13T04:00:00.000Z",
+      "coverage": "官网综合栏目最近100条；非完整历史",
       "error": null
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-03T02:16:48.989Z",
-      "source": "miyoushe",
-      "scanned": 160,
-      "officialPosts": 106,
-      "eligiblePosts": 15,
-      "earliestPublishedAt": "2026-08-02T02:00:11.000Z",
-      "coverage": "官方主账号版块向前分页；不包含千星奇域独立账号或社区活动",
+      "lastSuccessAt": "2026-10-03T02:41:09.774Z",
+      "source": "website",
+      "scanned": 100,
+      "officialPosts": 99,
+      "eligiblePosts": 27,
+      "earliestPublishedAt": "2026-04-21T04:00:00.000Z",
+      "coverage": "官网综合栏目最近100条；非完整历史",
       "error": null
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-03T02:16:48.989Z",
+      "lastSuccessAt": "2026-10-03T02:41:09.774Z",
       "source": "miyoushe",
       "scanned": 160,
       "officialPosts": 135,
@@ -31,8 +31,11 @@
       "error": null
     }
   },
-  "lastAttemptAt": "2026-10-03T02:16:48.989Z",
-  "issues": [],
-  "reviewCount": 2,
+  "lastAttemptAt": "2026-10-03T02:41:09.774Z",
+  "issues": [
+    "原神米游社不可用：fetch failed；本轮使用官网备用来源，可能进入审核而非自动重复收录。",
+    "星铁米游社不可用：fetch failed；本轮使用官网备用来源，可能进入审核而非自动重复收录。"
+  ],
+  "reviewCount": 52,
   "successfulSources": 3
 }
