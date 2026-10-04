@@ -8,7 +8,7 @@
       "eligiblePosts": 27,
       "earliestPublishedAt": "2026-08-15T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "act-api-takumi-static.mihoyo.com：source-fetch",
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
@@ -24,7 +24,7 @@
       "eligiblePosts": 41,
       "earliestPublishedAt": "2026-04-21T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "act-api-takumi-static.mihoyo.com：source-fetch",
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
@@ -33,7 +33,7 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-04T17:18:09.337Z",
+      "lastSuccessAt": "2026-10-04T21:37:12.609Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -49,10 +49,13 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-04T17:18:09.337Z",
-  "issues": [],
+  "lastAttemptAt": "2026-10-04T21:37:12.609Z",
+  "issues": [
+    "原神获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
+    "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。"
+  ],
   "reviewCount": 0,
-  "successfulSources": 3,
+  "successfulSources": 1,
   "partialSources": 0,
-  "completeSources": 3
+  "completeSources": 1
 }
