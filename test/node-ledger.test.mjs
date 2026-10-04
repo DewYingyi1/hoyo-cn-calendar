@@ -35,6 +35,12 @@ const waitForOutput = (child, marker) => new Promise((resolve, reject) => {
   child.once('error', error => { clearTimeout(timeout); reject(error); });
   child.once('close', code => { if (!output.includes(marker)) { clearTimeout(timeout); reject(new Error(`子进程提前退出：${code}\n${errors}`)); } });
 });
+const waitForExit = child => new Promise((resolve, reject) => {
+  if (child.exitCode !== null || child.signalCode !== null) return resolve();
+  const timeout = setTimeout(() => reject(new Error('等待竞争失败的构建进程退出超时')), 10000);
+  child.once('error', error => { clearTimeout(timeout); reject(error); });
+  child.once('close', () => { clearTimeout(timeout); resolve(); });
+});
 
 test('已有完整区间全部UID、modified、展示修订offset2及ICS字节兼容', () => {
   const events = [base, { ...base, id: 'genshin:miyoushe:124', category: 'maintenance', sequence: 7, modified: '2026-10-03T07:00:00Z' }, { ...base, id: 'genshin:miyoushe:125', category: 'livestream', end: null }];
@@ -399,7 +405,8 @@ test('隔离build集成：持久化账本、抑制/拆分墓碑、退休不显�
     // waits for the one successful holder instead of turning that expected loss into a
     // platform-dependent test failure.
     await Promise.any(racers.map(child => waitForOutput(child, 'LOCK_HELD')));
-    await new Promise(resolve => setTimeout(resolve, 100));
+    // Wait for the losing process to actually exit; a fixed sleep is racy on busy CI runners.
+    await Promise.race(racers.map(waitForExit));
     const live = racers.filter(child => child.exitCode === null);
     assert.equal(live.length, 1, '损坏旧锁的并发回收者只能有一个进入临界区');
     live[0].kill('SIGKILL');
