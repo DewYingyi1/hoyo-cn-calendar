@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "166263",
+    "title": "「往冥府的安魂歌」7.1版本活动速递第一期",
+    "url": "https://ys.mihoyo.com/main/news/detail/166263",
+    "reason": "图片获取失败或发生重定向；保留既有日程",
+    "digest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
+    "source": "website",
+    "firstSeenAt": "2026-10-05T02:55:53.944Z",
+    "lastSeenAt": "2026-10-05T02:55:53.944Z",
+    "resolved": false,
+    "changedConfirmation": true
   }
 ]
