@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "zzz",
+    "postId": "77004031",
+    "title": "「恰浪花逐夏而至」活动介绍",
+    "url": "https://zzz.mihoyo.com/news/165411",
+    "reason": "图片获取失败或发生重定向；保留既有日程",
+    "digest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
+    "source": "miyoushe",
+    "firstSeenAt": "2026-10-05T14:56:08.051Z",
+    "lastSeenAt": "2026-10-05T14:56:08.051Z",
+    "resolved": false,
+    "changedConfirmation": true
   }
 ]
