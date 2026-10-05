@@ -1,0 +1,23 @@
+name: 隔离官网网络诊断（不发布）
+on:
+  push:
+    branches: ['diag/official-network-*']
+    paths:
+      - '.github/workflows/official-network-diagnostic.yml'
+      - 'scripts/diagnose-official-network.mjs'
+      - 'test/official-network-diagnostic.test.mjs'
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: 离线诊断脚本测试
+        run: node --test test/official-network-diagnostic.test.mjs
+      - name: 仅检查原官网连接（无模型、无入库、无部署）
+        run: node scripts/diagnose-official-network.mjs
