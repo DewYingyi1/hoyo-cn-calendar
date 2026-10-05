@@ -33,7 +33,7 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-04T21:37:12.609Z",
+      "lastSuccessAt": "2026-10-05T02:31:19.827Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -49,7 +49,7 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-04T21:37:12.609Z",
+  "lastAttemptAt": "2026-10-05T02:31:19.827Z",
   "issues": [
     "原神获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
     "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。"
