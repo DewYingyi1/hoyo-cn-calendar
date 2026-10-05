@@ -712,5 +712,17 @@
     "modified": "2026-10-03T05:24:31.247Z",
     "sequence": 1,
     "startText": "3.2版本更新后"
+  },
+  {
+    "id": "zzz:website:166583",
+    "game": "zzz",
+    "category": "livestream",
+    "title": "《绝区零》3.3版本「重返天空的旅程」前瞻特别节目预告",
+    "start": "2026-10-09T19:30:00+08:00",
+    "end": null,
+    "url": "https://zzz.mihoyo.com/news/166583",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-05T05:52:44.062Z",
+    "sequence": 0
   }
 ]
