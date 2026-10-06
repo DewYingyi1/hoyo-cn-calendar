@@ -56,7 +56,33 @@
     "digest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
     "source": "website",
     "firstSeenAt": "2026-10-06T00:09:04.595Z",
-    "lastSeenAt": "2026-10-06T00:09:04.595Z",
+    "lastSeenAt": "2026-10-06T06:31:10.945Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "166261",
+    "title": "「七圣召唤」铸境研炼：巧策进斗",
+    "url": "https://ys.mihoyo.com/main/news/detail/166261",
+    "reason": "图片获取失败或发生重定向；保留既有日程",
+    "digest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
+    "source": "website",
+    "firstSeenAt": "2026-10-06T06:31:10.945Z",
+    "lastSeenAt": "2026-10-06T06:31:10.945Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "165914",
+    "title": "「无神怜爱的雪国」7.0版本活动速递第二期",
+    "url": "https://ys.mihoyo.com/main/news/detail/165914",
+    "reason": "图片获取失败或发生重定向；保留既有日程",
+    "digest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
+    "source": "website",
+    "firstSeenAt": "2026-10-06T06:31:10.945Z",
+    "lastSeenAt": "2026-10-06T06:31:10.945Z",
     "resolved": false,
     "changedConfirmation": true
   },
@@ -68,8 +94,8 @@
     "reason": "图片证据仍待人工复核；观察一致不会自动清除待审；保留既有日程",
     "digest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
     "source": "miyoushe",
-    "firstSeenAt": "2026-10-06T00:09:04.595Z",
-    "lastSeenAt": "2026-10-06T00:09:04.595Z",
+    "firstSeenAt": "2026-10-06T06:31:10.945Z",
+    "lastSeenAt": "2026-10-06T06:31:10.945Z",
     "resolved": false,
     "changedConfirmation": true
   }
