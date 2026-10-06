@@ -9,6 +9,11 @@ test('全部订阅文案不限定游戏数量，删选游戏前句、保留网�
   const build = await fs.readFile(new URL('../scripts/build.mjs', import.meta.url), 'utf8');
   const update = await fs.readFile(new URL('../scripts/update.mjs', import.meta.url), 'utf8');
   for (const text of [html, readme, build]) assert.doesNotMatch(text, /三款|三游|三个独立|合并版|合并日历/);
+  assert.match(html, /<meta name="description" content="订阅米哈游游戏的国服活动日历。基于公开官方来源，无需游戏账号。">/);
+  assert.match(html, /<p class="hero-copy">把米哈游游戏公开官方活动的时间节点订阅到自己的日历，少一次来回查公告。<\/p>/);
+  assert.match(html, /<span class="aside-footer">MIHOYO GAMES<\/span>/);
+  assert.match(readme, /^# 米哈游游戏国服活动日历$/m);
+  assert.match(readme, /^米哈游游戏国服的公开 ICS 订阅。/m);
   assert.match(html, /<p class="section-description">复制链接后，在日历应用里添加「网址订阅」，即可持续更新。<\/p>/);
   assert.match(html, /<h3>全部订阅<\/h3>/);
   assert.match(html, /全部订阅 · 时间跨度/);
