@@ -68,8 +68,66 @@ test('同URL换字节跨轮持续待审，即便图片回滚也不会自动清�
   assert.equal(reverted.needsReview, true);
   assert.deepEqual(saved.confirmedImageBytes, baseline.confirmedImageBytes);
   const manuallyApproved = { ...saved, confirmedImageBytes: saved.observedImageBytes,
-    confirmedImageBytesDigest: context.digest, imageEvidencePending: false };
+    confirmedImageBytesDigest: context.digest, imageEvidencePending: false, imageEvidenceManualReview: false };
   assert.equal((await createImageEvidenceChecker({ request: async () => response('GIF89a-two') })(post, manuallyApproved, context)).needsReview, false);
+});
+
+test('网络型图片失败有限重试，恢复后按完整旧基线自动解除瞬时阻断', async () => {
+  let calls = 0;
+  const recovered = await createImageEvidenceChecker({ request: async () => {
+    calls++;
+    if (calls < 3) throw new Error('temporary network failure');
+    return response();
+  } })(
+    post,
+    { ...baseline, imageEvidencePending: true, imageEvidenceError: '图片获取失败或发生重定向' },
+    context,
+  );
+  assert.equal(calls, 3);
+  assert.equal(recovered.failure, undefined);
+  assert.equal(recovered.needsReview, false);
+  assert.equal(recovered.fields.imageEvidencePending, false);
+  assert.ok(recovered.fields.imageEvidenceRecoveredAt);
+  assert.equal(recovered.fields.imageEvidenceRetryable, false);
+});
+
+test('已有人工待审但没有瞬时失败标记时，观察一致也不能自动解除', async () => {
+  const result = await createImageEvidenceChecker({ request: async () => response() })(
+    post,
+    { ...baseline, imageEvidencePending: true, imageEvidenceError: null },
+    context,
+  );
+  assert.equal(result.needsReview, true);
+  assert.equal(result.fields.imageEvidencePending, true);
+  assert.equal(Object.hasOwn(result.fields, 'imageEvidenceRecoveredAt'), false);
+});
+
+test('真实字节变更后即使夹杂网络失败再回滚，也必须保持人工待审', async () => {
+  const changed = await createImageEvidenceChecker({ request: async () => response('GIF89a-two') })(post, baseline, context);
+  const locked = { ...baseline, ...changed.fields };
+  const failed = await createImageEvidenceChecker({ request: async () => { throw new Error('temporary network failure'); } })(post, locked, context);
+  assert.equal(failed.needsReview, true);
+  assert.equal(failed.fields.imageEvidenceManualReview, true);
+  const reverted = await createImageEvidenceChecker({ request: async () => response() })(post, { ...locked, ...failed.fields }, context);
+  assert.equal(reverted.needsReview, true);
+  assert.equal(reverted.fields.imageEvidencePending, true);
+  assert.equal(Object.hasOwn(reverted.fields, 'imageEvidenceRecoveredAt'), false);
+});
+
+test('图片HTTP 429/5xx可重试，404与重定向不重试', async () => {
+  let transientCalls = 0;
+  const transient = await loadImageBytes(url, { request: async () => {
+    transientCalls++;
+    return transientCalls < 3 ? new Response('busy', { status: 503 }) : response();
+  } });
+  assert.equal(transientCalls, 3);
+  assert.equal(transient.size, 10);
+  let permanentCalls = 0;
+  await assert.rejects(loadImageBytes(url, { request: async () => {
+    permanentCalls++;
+    return new Response('missing', { status: 404 });
+  } }), /image-http/);
+  assert.equal(permanentCalls, 1);
 });
 
 test('人工批准必须绑定当前正文、当前图片列表与完整观察字节', () => {
@@ -144,8 +202,10 @@ test('请求或读流挂起都受总超时约束，信号会中断', async () =>
   } }), /image-timeout/);
   assert.equal(signal.aborted, true);
   let cancelled = false;
-  const stream = new ReadableStream({ pull() { return new Promise(() => {}); }, cancel() { cancelled = true; } });
-  await assert.rejects(loadImageBytes(url, { timeoutMs: 15, request: async () => new Response(stream, { headers: { 'content-type': 'image/gif' } }) }), /image-timeout/);
+  await assert.rejects(loadImageBytes(url, { timeoutMs: 15, request: async () => {
+    const stream = new ReadableStream({ pull() { return new Promise(() => {}); }, cancel() { cancelled = true; } });
+    return new Response(stream, { headers: { 'content-type': 'image/gif' } });
+  } }), /image-timeout/);
   assert.equal(cancelled, true);
 });
 
@@ -256,7 +316,11 @@ test('更新入口隔离测试：图片失败不吞有效posts，跨轮不自动
         ...(i === 1 ? {} : { confirmedImageBytes: { [p.images[0]]: hash('old-bytes') }, confirmedImageBytesDigest: postDigest(p) }) };
     }
     registry['genshin:miyoushe:99'] = { title: list[0].sTitle, published: '2026-10-03T00:00:00.000Z' };
-    const previous = [1, 2, 3, 5].map(i => ({ id: `genshin:website:${i}`, game: 'genshin', category: 'event', title: `旧事件${i}`,
+    // Two reviewed website posts share one published canonical. A later healthy
+    // post must not erase the earlier post's unresolved image evidence.
+    await put('data/aliases.json', { 'genshin:website:2': 'genshin:miyoushe:98', 'genshin:website:4': 'genshin:miyoushe:98' });
+    await put('data/confirmations.json', { 'genshin:website:4': postDigest(referencePost(4)) });
+    const previous = [1, 2, 3, 5].map(i => ({ id: i === 2 ? 'genshin:miyoushe:98' : `genshin:website:${i}`, game: 'genshin', category: 'event', title: `旧事件${i}`,
       start: '2026-10-03T10:00:00+08:00', end: '2026-10-10T10:00:00+08:00', url: config.website.urlBase + i,
       sequence: 9, modified: '2026-10-02T00:00:00Z' }));
     await put('sources/games.json', { genshin: config });
@@ -286,9 +350,11 @@ test('更新入口隔离测试：图片失败不吞有效posts，跨轮不自动
       assert.equal(Object.hasOwn(await get('data/aliases.json'), 'genshin:website:1'), false, '未确认图片公告不得提交跨源alias');
       const reviews = await get('data/review.json');
       for (const i of [1, 2, 3]) assert.ok(reviews.some(review => review.postId === String(i) && !review.resolved));
+      const imageReview = reviews.find(review => review.postId === '2');
+      assert.equal(imageReview.source, 'website');
+      assert.equal(imageReview.url, config.website.urlBase + '2');
       const events = await get('data/events.json');
       for (const old of previous) assert.deepEqual(events.find(event => event.id === old.id), old);
-      assert.ok(events.some(event => event.id === 'genshin:website:4'));
       const status = await get('data/status.json');
       assert.equal(status.partialSources, 1);
       assert.equal(status.completeSources, 0);

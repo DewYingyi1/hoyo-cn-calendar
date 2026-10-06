@@ -30,6 +30,7 @@ for (const item of await readJson('data/review.json', [])) {
   if (/官网备用源：须检查/.test(item.reason)) continue;
   reviews.set(key, { ...item, source, postId: id });
 }
+const initialReviews = new Map(reviews);
 const status = await readJson('data/status.json', { games: {} });
 delete status.supplemental;
 status.lastAttemptAt = now;
@@ -93,12 +94,12 @@ for (const [game, config] of Object.entries(configs)) {
         ...byteEvidence.fields };
       const parsed = parsePost(canonical);
       if (aliasPending) {
-        parsed.review = { game, postId: canonical.id, title: post.title, url: post.url,
+        parsed.review = { game, postId: post.id, title: post.title, url: post.url,
           reason: changed ? '跨来源身份候选的当前正文或图片证据尚未确认；保留既有身份与日程' : '跨来源身份候选尚未人工确认；保留既有身份与日程', digest };
         delete parsed.event; delete parsed.ignored;
       }
       if (changed) {
-        parsed.review = { game, postId: canonical.id, title: post.title, url: post.url,
+        parsed.review = { game, postId: post.id, title: post.title, url: post.url,
           reason: byteEvidence.needsReview ? `${byteEvidence.reason}；保留既有日程` : '人工确认后当前官方来源正文已修改；既有人工日程需重新核对', digest };
         delete parsed.event; delete parsed.ignored;
       }
@@ -115,10 +116,11 @@ for (const [game, config] of Object.entries(configs)) {
         // automatically parsed event” rather than a manual override/suppression.
         reviews.delete(key);
       } else if (handled && !expected && source === 'website' && !changed) {
-        reviews.set(key, { game, source: canonical.source, postId: canonical.id, title: post.title, url: post.url, reason: '跨来源人工记录尚未核对官网正文；保留既有日程', digest, firstSeenAt: now, resolved: false, changedConfirmation: true });
+          reviews.set(key, { game, source: post.source, postId: post.id, title: post.title, url: post.url, reason: '跨来源人工记录尚未核对官网正文；保留既有日程', digest, firstSeenAt: now, resolved: false, changedConfirmation: true });
       } else {
         if (parsed.event) incoming.push(parsed.event);
-        updateReview(reviews, key, parsed, { source: canonical.source, now, handled, changed });
+        if (parsed.review) parsed.review.postId = post.id;
+        updateReview(reviews, key, parsed, { source: post.source, now, handled, changed });
       }
       if (reviews.has(key) && !reviews.get(key).resolved) reviewInputs.push({ ...post, canonical: key, digest, imagesHash, ...byteEvidence.fields });
     }
@@ -139,6 +141,34 @@ for (const [game, config] of Object.entries(configs)) {
     status.issues.push(`${GAMES[game].name}获取失败：${safeError}；保留旧事件。`);
     console.error(`${GAMES[game].name}来源失败：${safeError}`);
   }
+}
+// Repair historical snapshots where a pending image-evidence record exists in
+// posts.json/status.json but its public review index was lost. This is an index
+// reconciliation only: the confirmed byte baseline remains untouched and the
+// item stays unresolved until the explicit approval flow handles it.
+for (const [rawKey, record] of Object.entries(registry)) {
+  if (record?.imageEvidencePending !== true) continue;
+  const canonicalKey = canonicalPrefix(record.canonical ?? rawKey, aliases);
+  const [game] = canonicalKey.split(':');
+  const [, source, postId] = rawKey.split(':');
+  if (!GAMES[game] || !source || !postId) continue;
+  const previous = reviews.get(canonicalKey) ?? initialReviews.get(canonicalKey);
+  reviews.set(canonicalKey, {
+    ...(previous ?? {}),
+    game,
+    source,
+    postId,
+    title: record.title,
+    url: record.url,
+    reason: record.imageEvidenceError
+      ? `${record.imageEvidenceError}；保留既有日程`
+      : '图片证据仍待人工复核；观察一致不会自动清除待审；保留既有日程',
+    digest: record.digest,
+    firstSeenAt: previous?.firstSeenAt ?? now,
+    lastSeenAt: now,
+    resolved: false,
+    changedConfirmation: true,
+  });
 }
 const canonicalOld = new Map();
 for (const event of old) {

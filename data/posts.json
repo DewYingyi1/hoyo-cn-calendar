@@ -673,10 +673,10 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/282bb39ebf4bce861bda8a85c3970b6b_6190535564428635793.gif": "63cece052d470f0b307b1b4754705810fc9b6dfdedaabffbc22d4d5684aa5a30"
     },
     "observedImageBytesDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
-    "observedImageBytesAt": "2026-10-05T05:52:44.062Z",
-    "imageEvidenceCheckedAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidencePending": true,
-    "imageEvidenceError": "图片获取失败或发生重定向",
+    "observedImageBytesAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceCheckedAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
     "reviewedDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
     "confirmedImagesHash": "cf3eeda6ef73750625b9f9738067ff03f81589d9a5b4ed2931406acda57d6875",
     "confirmedImagesDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
@@ -688,7 +688,11 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/4692bd9d52aa89f9f37a893a8f0012d7_6480787190767604121.gif": "70351cc92d94d0e95b70bd1c53b9a2681957c895236b7854ce61a316a19aa43e",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166334/282bb39ebf4bce861bda8a85c3970b6b_6190535564428635793.gif": "63cece052d470f0b307b1b4754705810fc9b6dfdedaabffbc22d4d5684aa5a30"
     },
-    "confirmedImageBytesDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4"
+    "confirmedImageBytesDigest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
+    "imageEvidenceErrorCode": null,
+    "imageEvidenceRetryable": false,
+    "imageEvidenceRecoveredAt": "2026-10-06T12:22:19.847Z",
+    "imageEvidenceManualReview": false
   },
   "genshin:website:166333": {
     "title": "「银翎溯月，玄鸟结璘」活动：参与获取活动专属武器「单手剑·银釭」",
@@ -736,10 +740,10 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/5675494ae85bf8e2130ab1cb852dbbff_7169513807879256443.jpg": "859bdff9c437afa49121f842788179ca0aa4b3b29f7c3900580283a0757ed400"
     },
     "observedImageBytesDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
-    "observedImageBytesAt": "2026-10-05T05:52:44.062Z",
-    "imageEvidenceCheckedAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidencePending": true,
-    "imageEvidenceError": "图片获取失败或发生重定向",
+    "observedImageBytesAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceCheckedAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
     "reviewedDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
     "confirmedImagesHash": "b822549ddd3d62f774d0541478360c9107a630fa8cc076fe037b36a93f17fbc0",
     "confirmedImagesDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
@@ -754,7 +758,11 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/69295124f909fcf7295498f5f86f4620_4642922694323751354.jpg": "f1e9f70c24aca112f7e9af05aec29e2e9254650766c25fdc30f4dffd66765ff2",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166263/5675494ae85bf8e2130ab1cb852dbbff_7169513807879256443.jpg": "859bdff9c437afa49121f842788179ca0aa4b3b29f7c3900580283a0757ed400"
     },
-    "confirmedImageBytesDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164"
+    "confirmedImageBytesDigest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
+    "imageEvidenceErrorCode": null,
+    "imageEvidenceRetryable": false,
+    "imageEvidenceRecoveredAt": "2026-10-06T12:22:19.847Z",
+    "imageEvidenceManualReview": false
   },
   "genshin:website:166262": {
     "title": "7.1版本「往冥府的安魂歌」内容专题页上线！",
@@ -777,10 +785,10 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/53085da8561d14974989882a602f8669_2337821289380569120.png": "4ee722c1a4f1059cee167e952372c6ba785d73e05a796832d1177d9478b14bcb"
     },
     "observedImageBytesDigest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
-    "observedImageBytesAt": "2026-10-06T00:09:04.595Z",
-    "imageEvidenceCheckedAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidenceError": "图片获取失败或发生重定向",
-    "imageEvidencePending": true,
+    "observedImageBytesAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceCheckedAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceError": null,
+    "imageEvidencePending": false,
     "reviewedDigest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
     "confirmedImagesHash": "2a1bbe18f6a611b844b0c95b5a13ea23c1852d63b3d6161abd0749079d73b1ee",
     "confirmedImagesDigest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
@@ -788,7 +796,11 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/0dec54ca95be4d0f739445aa9fd06287_2994576233141355097.png": "05dba94f3ede19f2fb9209477f4bf2f3f9580d07e18964dfc50f88ce665e121f",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166261/53085da8561d14974989882a602f8669_2337821289380569120.png": "4ee722c1a4f1059cee167e952372c6ba785d73e05a796832d1177d9478b14bcb"
     },
-    "confirmedImageBytesDigest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553"
+    "confirmedImageBytesDigest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
+    "imageEvidenceErrorCode": null,
+    "imageEvidenceRetryable": false,
+    "imageEvidenceRecoveredAt": "2026-10-06T12:22:19.847Z",
+    "imageEvidenceManualReview": false
   },
   "genshin:website:166259": {
     "title": "「溯月纪行」活动说明",
@@ -1172,10 +1184,10 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/bd319f0d72b8b7447ebcb91d1786d366_3106538754065659145.jpg": "9247c2184e40e7eb70899e6e034b00ff24dbe39ffc36856b2a797017622d1fbc"
     },
     "observedImageBytesDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
-    "observedImageBytesAt": "2026-10-06T00:09:04.595Z",
-    "imageEvidenceCheckedAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidencePending": true,
-    "imageEvidenceError": "图片获取失败或发生重定向",
+    "observedImageBytesAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceCheckedAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
     "reviewedDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
     "confirmedImagesHash": "191626b4af46081b32f5d810edc2cef5674015a3e1231e8d2b2b9b0594df749b",
     "confirmedImagesDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
@@ -1184,7 +1196,11 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/c02ac034f5c2c0959f3ade48595d77db_743397851519121153.jpg": "fbbc44ccc0a007f595bfc3d3aa357f82b5800c40d38ee364482d9d7bf1bf7fda",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/165914/bd319f0d72b8b7447ebcb91d1786d366_3106538754065659145.jpg": "9247c2184e40e7eb70899e6e034b00ff24dbe39ffc36856b2a797017622d1fbc"
     },
-    "confirmedImageBytesDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1"
+    "confirmedImageBytesDigest": "e9c560ac97bc75612350574fc3e83328372923b2ccdedfce8cc06a4a746858d1",
+    "imageEvidenceErrorCode": null,
+    "imageEvidenceRetryable": false,
+    "imageEvidenceRecoveredAt": "2026-10-06T12:22:19.847Z",
+    "imageEvidenceManualReview": false
   },
   "genshin:website:165910": {
     "title": "「险境征者竞锋大赛」活动介绍——参与比赛 邀请迪奥娜！",
@@ -1204,10 +1220,10 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/9a21614b408b94acccda2b65aa1d869b_564912837328891112.jpg": "fc4d532036e1b108ef0283356341462300f1dc405466b7a7d813829b5a22b23a"
     },
     "observedImageBytesDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
-    "observedImageBytesAt": "2026-10-06T00:09:04.595Z",
-    "imageEvidenceCheckedAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidencePending": true,
-    "imageEvidenceError": "图片获取失败或发生重定向",
+    "observedImageBytesAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceCheckedAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidencePending": false,
+    "imageEvidenceError": null,
     "reviewedDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
     "confirmedImagesHash": "d7f06ee65f763beee54d3feeb1123737cd8f1fff07b5f42cecc14a031de4cf40",
     "confirmedImagesDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
@@ -1220,7 +1236,11 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/afd28cf0e444cbcf625912b7f9caa0d4_7649492175008471429.jpg": "5d10576527a436c184be5bbb54e75ebda4ab2d11a98043dd481b6cf2308cae7c",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/165910/9a21614b408b94acccda2b65aa1d869b_564912837328891112.jpg": "fc4d532036e1b108ef0283356341462300f1dc405466b7a7d813829b5a22b23a"
     },
-    "confirmedImageBytesDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e"
+    "confirmedImageBytesDigest": "0ea4fc3faeb59d96ff42f998fb2e5bef02b6ecd37543db72bbcaad8afd24351e",
+    "imageEvidenceErrorCode": null,
+    "imageEvidenceRetryable": false,
+    "imageEvidenceRecoveredAt": "2026-10-06T12:22:19.847Z",
+    "imageEvidenceManualReview": false
   },
   "genshin:website:165908": {
     "title": "「七圣召唤」热斗模式：列阵斗巧",
@@ -2451,9 +2471,9 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/166031/4c8f54754d6095781c204dc1cfe44d52_7971724793015399520.png": "c744b29062e2de82f6ffe720b99d299e5eb7967d8dc53f35401ba3fb64f7dbff"
     },
     "observedImageBytesDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
-    "observedImageBytesAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidenceCheckedAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidencePending": true,
+    "observedImageBytesAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceCheckedAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidencePending": false,
     "imageEvidenceError": null,
     "reviewedDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
     "confirmedImagesHash": "c0db542767a87481ae1689e4874bbbc6c6a47786c560edc8d4e8d47484503f45",
@@ -2464,7 +2484,10 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/166031/c55ff09b186f0a923a472352a7ad9011_4669055663940502195.png": "9d2bf5843a8a138be7b2795c5c344efb8b60e4ef9792cdd859826ed3bf937c5c",
       "https://fastcdn.mihoyo.com/content-v2/nap/166031/4c8f54754d6095781c204dc1cfe44d52_7971724793015399520.png": "c744b29062e2de82f6ffe720b99d299e5eb7967d8dc53f35401ba3fb64f7dbff"
     },
-    "confirmedImageBytesDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d"
+    "confirmedImageBytesDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
+    "imageEvidenceErrorCode": null,
+    "imageEvidenceRetryable": false,
+    "imageEvidenceManualReview": false
   },
   "zzz:website:166028": {
     "title": "🎁维尔乌姆假日相册",
@@ -3003,9 +3026,9 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/165411/0338a58d03725ed70367123c72f55a10_8662279285537486980.jpg": "34b755e70ae214aac56d6c6344714a8c6d469bb83383167d3763b022a12c8df6"
     },
     "observedImageBytesDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
-    "observedImageBytesAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidenceCheckedAt": "2026-10-06T06:31:10.945Z",
-    "imageEvidencePending": true,
+    "observedImageBytesAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidenceCheckedAt": "2026-10-06T13:30:04.850Z",
+    "imageEvidencePending": false,
     "imageEvidenceError": null,
     "reviewedDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
     "confirmedImagesHash": "2134bb0a723fb98a0b0d46cfe5b429cf0c967500117f90c9f45909e1bfc5ba6f",
@@ -3016,7 +3039,10 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/165411/4a1f4757ff6fe34939692ff9dabb6bb4_166268544614374654.jpg": "d39161a441ffe39505e214c298d3e762dfa5f9c8bafa3581eba9280354e7818a",
       "https://fastcdn.mihoyo.com/content-v2/nap/165411/0338a58d03725ed70367123c72f55a10_8662279285537486980.jpg": "34b755e70ae214aac56d6c6344714a8c6d469bb83383167d3763b022a12c8df6"
     },
-    "confirmedImageBytesDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51"
+    "confirmedImageBytesDigest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
+    "imageEvidenceErrorCode": null,
+    "imageEvidenceRetryable": false,
+    "imageEvidenceManualReview": false
   },
   "zzz:website:165404": {
     "title": "「潜能预演·狩猎游戏」活动说明",

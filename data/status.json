@@ -1,36 +1,30 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-06T06:31:10.945Z",
+      "lastSuccessAt": "2026-10-06T13:30:04.850Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 27,
       "earliestPublishedAt": "2026-08-16T04:05:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
       "qualityIssues": [],
-      "imageEvidenceIssues": [
-        "原神图片字节检查失败（公告166334）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-        "原神图片字节检查失败（公告166263）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-        "原神图片字节检查失败（公告166261）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-        "原神图片字节检查失败（公告165914）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-        "原神图片字节检查失败（公告165910）：图片获取失败或发生重定向；保留旧日程及人工基线。"
-      ],
-      "partial": true
+      "imageEvidenceIssues": [],
+      "partial": false
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-06T00:09:04.595Z",
+      "lastSuccessAt": "2026-10-06T13:30:04.850Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 41,
       "earliestPublishedAt": "2026-04-21T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "act-api-takumi-static.mihoyo.com：source-fetch",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
@@ -39,38 +33,26 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-06T06:31:10.945Z",
+      "lastSuccessAt": "2026-10-06T13:30:04.850Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 31,
       "earliestPublishedAt": "2026-07-27T11:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
+      "error": null,
       "primarySource": "website",
-      "endpoint": "https://api-takumi-static.mihoyo.com",
+      "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
       "qualityIssues": [],
-      "imageEvidenceIssues": [
-        "绝区零图片证据阻断（公告166031）：图片证据仍待人工复核；观察一致不会自动清除待审；保留旧日程。",
-        "绝区零图片证据阻断（公告165411）：图片证据仍待人工复核；观察一致不会自动清除待审；保留旧日程。"
-      ],
-      "partial": true
+      "imageEvidenceIssues": [],
+      "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-06T06:31:10.945Z",
-  "issues": [
-    "原神图片字节检查失败（公告166334）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-    "原神图片字节检查失败（公告166263）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-    "原神图片字节检查失败（公告166261）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-    "原神图片字节检查失败（公告165914）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-    "原神图片字节检查失败（公告165910）：图片获取失败或发生重定向；保留旧日程及人工基线。",
-    "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
-    "绝区零图片证据阻断（公告166031）：图片证据仍待人工复核；观察一致不会自动清除待审；保留旧日程。",
-    "绝区零图片证据阻断（公告165411）：图片证据仍待人工复核；观察一致不会自动清除待审；保留旧日程。"
-  ],
-  "reviewCount": 4,
-  "successfulSources": 2,
-  "partialSources": 2,
-  "completeSources": 0
+  "lastAttemptAt": "2026-10-06T13:30:04.850Z",
+  "issues": [],
+  "reviewCount": 0,
+  "successfulSources": 3,
+  "partialSources": 0,
+  "completeSources": 3
 }

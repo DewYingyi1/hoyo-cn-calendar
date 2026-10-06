@@ -43,6 +43,12 @@ jobs:
             git commit -m 'chore: refresh official calendar data [skip ci]'
             git push
           fi
+      - name: 保存本轮健康状态
+        uses: actions/upload-artifact@v4
+        with:
+          name: calendar-status
+          path: data/status.json
+          retention-days: 7
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
@@ -60,3 +66,22 @@ jobs:
       - name: 发布订阅页面与ICS
         id: deployment
         uses: actions/deploy-pages@v4
+
+  quality:
+    name: 发布后健康核验
+    needs: [build, deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: calendar-status
+          path: health-status
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: 检查来源完整性与待审核状态
+        run: node scripts/check-status.mjs health-status/status.json
