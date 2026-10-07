@@ -46,18 +46,5 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
-  },
-  {
-    "game": "genshin",
-    "source": "website",
-    "postId": "166334",
-    "title": "「银翎溯月，玄鸟结璘」活动介绍——参与活动，获取专属武器！",
-    "url": "https://ys.mihoyo.com/main/news/detail/166334",
-    "reason": "图片获取失败或发生重定向；保留既有日程",
-    "digest": "4b19338724dcb264bb79da5a5be25569f3276226f42d496ea3f31e8cab4ee5f4",
-    "firstSeenAt": "2026-10-07T13:36:13.564Z",
-    "lastSeenAt": "2026-10-07T13:36:13.564Z",
-    "resolved": false,
-    "changedConfirmation": true
   }
 ]

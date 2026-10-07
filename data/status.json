@@ -1,25 +1,23 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-07T13:36:13.564Z",
+      "lastSuccessAt": "2026-10-07T16:32:03.556Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 27,
       "earliestPublishedAt": "2026-08-17T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
       "qualityIssues": [],
-      "imageEvidenceIssues": [
-        "原神图片字节检查失败（公告166334）：图片获取失败或发生重定向；保留旧日程及人工基线。"
-      ],
-      "partial": true
+      "imageEvidenceIssues": [],
+      "partial": false
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-07T13:36:13.564Z",
+      "lastSuccessAt": "2026-10-07T16:32:03.556Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -35,7 +33,7 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-07T13:36:13.564Z",
+      "lastSuccessAt": "2026-10-07T16:32:03.556Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -51,12 +49,10 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-07T13:36:13.564Z",
-  "issues": [
-    "原神图片字节检查失败（公告166334）：图片获取失败或发生重定向；保留旧日程及人工基线。"
-  ],
-  "reviewCount": 1,
+  "lastAttemptAt": "2026-10-07T16:32:03.556Z",
+  "issues": [],
+  "reviewCount": 0,
   "successfulSources": 3,
-  "partialSources": 1,
-  "completeSources": 2
+  "partialSources": 0,
+  "completeSources": 3
 }
