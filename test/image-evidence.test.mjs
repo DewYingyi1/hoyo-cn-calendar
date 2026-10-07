@@ -74,7 +74,7 @@ test('同URL换字节跨轮持续待审，即便图片回滚也不会自动清�
 
 test('网络型图片失败有限重试，恢复后按完整旧基线自动解除瞬时阻断', async () => {
   let calls = 0;
-  const recovered = await createImageEvidenceChecker({ request: async () => {
+  const recovered = await createImageEvidenceChecker({ retryDelaysMs: [1, 1], request: async () => {
     calls++;
     if (calls < 3) throw new Error('temporary network failure');
     return response();
@@ -116,7 +116,7 @@ test('真实字节变更后即使夹杂网络失败再回滚，也必须保持�
 
 test('图片HTTP 429/5xx可重试，404与重定向不重试', async () => {
   let transientCalls = 0;
-  const transient = await loadImageBytes(url, { request: async () => {
+  const transient = await loadImageBytes(url, { retryDelaysMs: [1, 1], request: async () => {
     transientCalls++;
     return transientCalls < 3 ? new Response('busy', { status: 503 }) : response();
   } });
@@ -130,9 +130,37 @@ test('图片HTTP 429/5xx可重试，404与重定向不重试', async () => {
   assert.equal(permanentCalls, 1);
 });
 
+test('请求阶段和响应读流阶段失败使用可重试的独立错误码', async () => {
+  await assert.rejects(loadImageBytes(url, { attempts: 1, request: async () => {
+    throw new Error('socket closed');
+  } }), /image-request/);
+  const brokenStream = new ReadableStream({
+    start(controller) { controller.enqueue(new TextEncoder().encode('GIF89a')); controller.error(new Error('socket closed')); },
+  });
+  await assert.rejects(loadImageBytes(url, { attempts: 1, request: async () => new Response(brokenStream, {
+    headers: { 'content-type': 'image/gif' },
+  }) }), /image-read/);
+});
+
+test('响应读流短暂中断后按退避重试并恢复', async () => {
+  let calls = 0;
+  const recovered = await loadImageBytes(url, { retryDelaysMs: [1, 1], request: async () => {
+    calls++;
+    if (calls < 3) {
+      const brokenStream = new ReadableStream({
+        start(controller) { controller.enqueue(new TextEncoder().encode('GIF89a-partial')); controller.error(new Error('socket closed')); },
+      });
+      return new Response(brokenStream, { headers: { 'content-type': 'image/gif' } });
+    }
+    return response();
+  } });
+  assert.equal(calls, 3);
+  assert.equal(recovered.size, 10);
+});
+
 test('人工批准必须绑定当前正文、当前图片列表与完整观察字节', () => {
   const digest = hash('current-body');
-  const imagesHash = hash('current-image-list');
+  const imagesHash = imageDigest({ images: [url] });
   const observed = { [url]: hash('GIF89a-current') };
   const reference = { imageEvidenceRequired: true, digest, imagesHash, observedImageBytes: observed,
     observedImageBytesDigest: digest, imageEvidencePending: true, imageEvidenceError: null };
@@ -150,6 +178,7 @@ test('人工批准必须绑定当前正文、当前图片列表与完整观察�
     [{ ...reference, observedImageBytes: {} }, digest],
     [{ ...reference, imageEvidenceError: '图片失败' }, digest],
     [{ ...reference, imagesHash: null }, digest],
+    [{ ...reference, imagesHash: hash('different-image-list') }, digest],
   ]) assert.throws(() => approveImageEvidence(...bad), /image-approval-/);
 });
 
@@ -224,7 +253,7 @@ test('全局并发限制覆盖多公告，单轮URL去重', async () => {
   assert.ok(results.every(result => result.needsReview));
 });
 
-test('限制单篇图片数与整轮下载总字节，预算失败保持待审', async () => {
+test('限制单篇图片数与整轮下载总字节，预算失败保持待审但下一轮可恢复', async () => {
   const tooMany = Array.from({ length: MAX_IMAGES_PER_POST + 1 }, (_, index) => `https://assets.mihoyo.com/${index}.gif`);
   let calls = 0;
   const countResult = await createImageEvidenceChecker({ request: async () => { calls++; return response(); } })(
@@ -236,10 +265,38 @@ test('限制单篇图片数与整轮下载总字节，预算失败保持待审',
   const first = 'https://assets.mihoyo.com/first.gif';
   const second = 'https://assets.mihoyo.com/second.gif';
   const checker = createImageEvidenceChecker({ concurrency: 1, maxTotalBytes: 12, request: async () => response('12345678') });
-  const budgetResult = await checker({ images: [first, second] }, { imageEvidenceRequired: true }, context);
+  const completeBudgetBaseline = { imageEvidenceRequired: true, confirmedImageBytes: {
+    [first]: hash('12345678'), [second]: hash('12345678'),
+  }, confirmedImageBytesDigest: context.expectedDigest };
+  const budgetResult = await checker({ images: [first, second] }, completeBudgetBaseline, context);
   assert.equal(budgetResult.needsReview, true);
   assert.match(budgetResult.failure, /总预算/);
   assert.equal(Object.hasOwn(budgetResult.fields, 'observedImageBytes'), false);
+  assert.equal(budgetResult.fields.imageEvidenceManualReview, false);
+
+  const recovered = await createImageEvidenceChecker({ concurrency: 1, maxTotalBytes: 20,
+    request: async () => response('12345678') })(
+    { images: [first, second] },
+    { ...completeBudgetBaseline, imageEvidencePending: true,
+    imageEvidenceError: budgetResult.failure, imageEvidenceErrorCode: 'image-budget',
+    imageEvidenceRetryable: false, imageEvidenceManualReview: false },
+    context,
+  );
+  assert.equal(recovered.needsReview, false);
+  assert.equal(recovered.fields.imageEvidencePending, false);
+
+});
+
+test('真实字节变更后即使预算失败再回滚，也必须保持人工待审', async () => {
+  const changed = await createImageEvidenceChecker({ request: async () => response('GIF89a-two') })(post, baseline, context);
+  const locked = { ...baseline, ...changed.fields };
+  const budgetFailed = await createImageEvidenceChecker({ maxTotalBytes: 1, request: async () => response() })(post, locked, context);
+  assert.equal(budgetFailed.failure, '本轮图片字节检查超过总预算');
+  assert.equal(budgetFailed.fields.imageEvidenceManualReview, true);
+  const reverted = await createImageEvidenceChecker({ request: async () => response() })(post,
+    { ...locked, ...budgetFailed.fields }, context);
+  assert.equal(reverted.needsReview, true);
+  assert.equal(reverted.fields.imageEvidenceManualReview, true);
 });
 
 test('官网发布时间支持无偏移北京时间、Z及offset，非法日期不自动滚动', () => {
