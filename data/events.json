@@ -99,6 +99,18 @@
     "sequence": 0
   },
   {
+    "id": "genshin:website:166633",
+    "game": "genshin",
+    "category": "event",
+    "title": "「七圣召唤」热斗模式：自行巧局",
+    "start": "2026-10-10T10:00:00+08:00",
+    "end": "2026-10-26T03:59:00+08:00",
+    "url": "https://ys.mihoyo.com/main/news/detail/166633",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-08T06:17:42.449Z",
+    "sequence": 0
+  },
+  {
     "id": "starrail:miyoushe:77328417",
     "game": "starrail",
     "category": "livestream",
