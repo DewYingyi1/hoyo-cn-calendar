@@ -20,6 +20,20 @@ test('采集配置只保留官网字段，不暴露米游社采集适配器', ()
   assert.equal(sources.normalizeForum, undefined);
 });
 
+test('三个官网采集入口都配置同服务备用域名并支持切换', async () => {
+  for (const [game, config] of Object.entries(configs)) {
+    assert.deepEqual(config.website.fallbackBases, ['https://api-takumi-static.mihoyo.com']);
+    const requests = [];
+    const result = await sources.fetchWebsite(game, config, async url => {
+      requests.push(url);
+      if (requests.length === 1) throw new Error('primary unavailable');
+      return { iTotal: 1, list: [{ iInfoId: 8, sTitle: `${game}官网公告`, sContent: '<p>正文</p>', dtStartTime: '2026-10-03 10:00:00' }] };
+    });
+    assert.deepEqual(requests.map(url => new URL(url).origin), [config.website.base, config.website.fallbackBases[0]]);
+    assert.equal(result.endpoint, config.website.fallbackBases[0]);
+  }
+});
+
 test('所有官网服务入口失败，仍不调用米游社或B站，不受旧开关影响', async () => {
   for (const websiteOnly of [undefined, false, true]) {
     const requests = [];

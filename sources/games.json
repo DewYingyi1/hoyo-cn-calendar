@@ -1,8 +1,8 @@
 {
   "genshin": {
-    "website": { "base": "https://act-api-takumi-static.mihoyo.com", "app": "16471662a82d418a", "channel": 720, "urlBase": "https://ys.mihoyo.com/main/news/detail/" } },
+    "website": { "base": "https://act-api-takumi-static.mihoyo.com", "fallbackBases": ["https://api-takumi-static.mihoyo.com"], "app": "16471662a82d418a", "channel": 720, "urlBase": "https://ys.mihoyo.com/main/news/detail/" } },
   "starrail": {
-    "website": { "base": "https://act-api-takumi-static.mihoyo.com", "app": "1963de8dc19e461c", "channel": 255, "urlBase": "https://sr.mihoyo.com/news/" } },
+    "website": { "base": "https://act-api-takumi-static.mihoyo.com", "fallbackBases": ["https://api-takumi-static.mihoyo.com"], "app": "1963de8dc19e461c", "channel": 255, "urlBase": "https://sr.mihoyo.com/news/" } },
   "zzz": {
     "website": { "base": "https://act-api-takumi-static.mihoyo.com", "fallbackBases": ["https://api-takumi-static.mihoyo.com"], "app": "706fd13a87294881", "channel": 273, "urlBase": "https://zzz.mihoyo.com/news/" } }
 }
