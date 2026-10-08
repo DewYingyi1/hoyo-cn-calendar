@@ -8,7 +8,7 @@
       "eligiblePosts": 27,
       "earliestPublishedAt": "2026-08-17T04:01:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "act-api-takumi-static.mihoyo.com：source-fetch",
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
@@ -24,7 +24,7 @@
       "eligiblePosts": 41,
       "earliestPublishedAt": "2026-04-21T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "act-api-takumi-static.mihoyo.com：source-fetch",
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
@@ -33,26 +33,34 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-08T06:17:42.449Z",
+      "lastSuccessAt": "2026-10-08T13:41:59.281Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 31,
       "earliestPublishedAt": "2026-07-28T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
       "qualityIssues": [],
-      "imageEvidenceIssues": [],
-      "partial": false
+      "imageEvidenceIssues": [
+        "绝区零图片字节检查失败（公告166031）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
+        "绝区零图片字节检查失败（公告165411）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
+      ],
+      "partial": true
     }
   },
-  "lastAttemptAt": "2026-10-08T06:17:42.449Z",
-  "issues": [],
-  "reviewCount": 0,
-  "successfulSources": 3,
-  "partialSources": 0,
-  "completeSources": 3
+  "lastAttemptAt": "2026-10-08T13:41:59.281Z",
+  "issues": [
+    "原神获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
+    "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
+    "绝区零图片字节检查失败（公告166031）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
+    "绝区零图片字节检查失败（公告165411）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
+  ],
+  "reviewCount": 2,
+  "successfulSources": 1,
+  "partialSources": 1,
+  "completeSources": 0
 }

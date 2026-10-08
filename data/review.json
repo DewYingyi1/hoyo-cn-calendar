@@ -46,5 +46,31 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "zzz",
+    "postId": "165411",
+    "title": "「恰浪花逐夏而至」活动介绍",
+    "url": "https://zzz.mihoyo.com/news/165411",
+    "reason": "图片连接请求失败（可重试）；保留既有日程",
+    "digest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
+    "source": "website",
+    "firstSeenAt": "2026-10-08T13:41:59.281Z",
+    "lastSeenAt": "2026-10-08T13:41:59.281Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166031",
+    "title": "「『弹球勇者』哐哐当！」活动介绍",
+    "url": "https://zzz.mihoyo.com/news/166031",
+    "reason": "图片连接请求失败（可重试）；保留既有日程",
+    "digest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
+    "firstSeenAt": "2026-10-08T13:41:59.281Z",
+    "lastSeenAt": "2026-10-08T13:41:59.281Z",
+    "resolved": false,
+    "changedConfirmation": true
   }
 ]
