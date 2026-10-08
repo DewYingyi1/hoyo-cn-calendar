@@ -1,14 +1,14 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-08T06:17:42.449Z",
+      "lastSuccessAt": "2026-10-08T19:21:24.789Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
-      "eligiblePosts": 27,
-      "earliestPublishedAt": "2026-08-17T04:01:00.000Z",
+      "eligiblePosts": 30,
+      "earliestPublishedAt": "2026-08-20T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "act-api-takumi-static.mihoyo.com：source-fetch",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
@@ -17,14 +17,14 @@
       "partial": false
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-08T06:17:42.449Z",
+      "lastSuccessAt": "2026-10-08T19:21:24.789Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 41,
       "earliestPublishedAt": "2026-04-21T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "act-api-takumi-static.mihoyo.com：source-fetch",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
@@ -33,34 +33,26 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-08T13:41:59.281Z",
+      "lastSuccessAt": "2026-10-08T19:21:24.789Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 31,
       "earliestPublishedAt": "2026-07-28T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
       "qualityIssues": [],
-      "imageEvidenceIssues": [
-        "绝区零图片字节检查失败（公告166031）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
-        "绝区零图片字节检查失败（公告165411）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
-      ],
-      "partial": true
+      "imageEvidenceIssues": [],
+      "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-08T13:41:59.281Z",
-  "issues": [
-    "原神获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
-    "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
-    "绝区零图片字节检查失败（公告166031）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
-    "绝区零图片字节检查失败（公告165411）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
-  ],
-  "reviewCount": 2,
-  "successfulSources": 1,
-  "partialSources": 1,
-  "completeSources": 0
+  "lastAttemptAt": "2026-10-08T19:21:24.789Z",
+  "issues": [],
+  "reviewCount": 3,
+  "successfulSources": 3,
+  "partialSources": 0,
+  "completeSources": 3
 }

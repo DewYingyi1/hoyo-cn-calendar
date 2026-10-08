@@ -48,29 +48,42 @@
     "changedConfirmation": false
   },
   {
-    "game": "zzz",
-    "postId": "165411",
-    "title": "「恰浪花逐夏而至」活动介绍",
-    "url": "https://zzz.mihoyo.com/news/165411",
-    "reason": "图片连接请求失败（可重试）；保留既有日程",
-    "digest": "8ced02ba72972711896ab151f4ef86cb417a3d854555166a5e324f3ab1405f51",
+    "game": "genshin",
+    "postId": "166638",
+    "title": "「神铸赋形」祈愿：「单手剑·苍耀」「长柄武器·香韵奏者」概率UP！",
+    "url": "https://ys.mihoyo.com/main/news/detail/166638",
+    "reason": "未取得唯一带标签的明确时间段",
+    "digest": "682434f680ef8487e2db35c49b243c0ff146c7eab36c8354eee93f5bd5bb740d",
     "source": "website",
-    "firstSeenAt": "2026-10-08T13:41:59.281Z",
-    "lastSeenAt": "2026-10-08T13:41:59.281Z",
+    "firstSeenAt": "2026-10-08T19:21:24.789Z",
+    "lastSeenAt": "2026-10-08T19:21:24.789Z",
     "resolved": false,
-    "changedConfirmation": true
+    "changedConfirmation": false
   },
   {
-    "game": "zzz",
+    "game": "genshin",
+    "postId": "166637",
+    "title": "「莓色香颂」祈愿：「明绚千韵·爱可菲(冰)」概率UP！",
+    "url": "https://ys.mihoyo.com/main/news/detail/166637",
+    "reason": "未取得唯一带标签的明确时间段",
+    "digest": "e8114a7e013511edf6ab881919b95ac8b4c1bd20a37445743d333e3c80823424",
     "source": "website",
-    "postId": "166031",
-    "title": "「『弹球勇者』哐哐当！」活动介绍",
-    "url": "https://zzz.mihoyo.com/news/166031",
-    "reason": "图片连接请求失败（可重试）；保留既有日程",
-    "digest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
-    "firstSeenAt": "2026-10-08T13:41:59.281Z",
-    "lastSeenAt": "2026-10-08T13:41:59.281Z",
+    "firstSeenAt": "2026-10-08T19:21:24.789Z",
+    "lastSeenAt": "2026-10-08T19:21:24.789Z",
     "resolved": false,
-    "changedConfirmation": true
+    "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "166636",
+    "title": "「虚星临渡」祈愿：「虚渊暗星·丝柯克(冰)」概率UP！",
+    "url": "https://ys.mihoyo.com/main/news/detail/166636",
+    "reason": "未取得唯一带标签的明确时间段",
+    "digest": "8f9b0c44da70959a6017578aeb14a0206e769628ad4b2c622bb36c0be7f12775",
+    "source": "website",
+    "firstSeenAt": "2026-10-08T19:21:24.789Z",
+    "lastSeenAt": "2026-10-08T19:21:24.789Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
