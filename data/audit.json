@@ -1000,5 +1000,44 @@
     },
     "evidenceUrls": ["https://zzz.mihoyo.com/news/165411"],
     "checkedAt": "2026-10-06T13:22:30.732Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166638",
+    "decision": "confirmed-official-image-banner",
+    "notes": "国服官网正文仅说明神铸赋形概率提升；主动读取官网引用的两张原图。第一张确认单手剑·苍耀与长柄武器·香韵奏者同池，第二张明确祈愿时间2026/10/13 18:00至2026/11/03 14:59。正文digest、图片列表hash和两张图片逐URL字节SHA256已绑定当前人工基线；后续变化重新送审。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166638",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/893505f8b2185b2babb974257e4cdfac_6238714091027503631.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/4bb31efe05b1d1835a9b54c9e5720035_7788291658981755285.png"
+    ],
+    "checkedAt": "2026-10-09T02:27:43.600Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166637",
+    "decision": "confirmed-official-image-banner",
+    "notes": "国服官网正文仅说明莓色香颂概率提升；主动读取官网引用的两张原图。第一张确认明绚千韵·爱可菲及角色活动祈愿-2，第二张明确祈愿时间2026/10/13 18:00至2026/11/03 14:59。正文digest、图片列表hash和两张图片逐URL字节SHA256已绑定当前人工基线；后续变化重新送审。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166637",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/070666daec406ca5956ef8cd54fcf49b_4015757610732907794.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/cf5e544ea50cdd19862bfee2bc269b20_6526298204675709487.png"
+    ],
+    "checkedAt": "2026-10-09T02:27:43.600Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166636",
+    "decision": "confirmed-official-image-banner",
+    "notes": "国服官网正文仅说明虚星临渡概率提升；主动读取官网引用的两张原图。第一张确认虚渊暗星·丝柯克及角色活动祈愿，第二张明确祈愿时间2026/10/13 18:00至2026/11/03 14:59。正文digest、图片列表hash和两张图片逐URL字节SHA256已绑定当前人工基线；后续变化重新送审。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166636",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/abb9d26ae52b2541ec54f125f609a614_2668449002304153746.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/2f12c04893a10a1ba059de82577cae24_3612554919482833238.png"
+    ],
+    "checkedAt": "2026-10-09T02:27:43.600Z"
   }
 ]

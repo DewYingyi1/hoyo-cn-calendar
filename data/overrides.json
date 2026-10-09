@@ -1,6 +1,45 @@
 {
   "events": [
     {
+      "id": "genshin:website:166638",
+      "game": "genshin",
+      "category": "banner",
+      "title": "神铸赋形：单手剑·苍耀、长柄武器·香韵奏者概率UP",
+      "start": "2026-10-13T18:00:00+08:00",
+      "end": "2026-11-03T14:59:00+08:00",
+      "url": "https://ys.mihoyo.com/main/news/detail/166638",
+      "notes": "国服官网166638第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认单手剑·苍耀与长柄武器·香韵奏者同属神铸赋形武器祈愿。",
+      "modified": "2026-10-09T02:27:43.600Z",
+      "sequence": 0,
+      "displayNotes": "武器祈愿：单手剑·苍耀、长柄武器·香韵奏者概率提升。"
+    },
+    {
+      "id": "genshin:website:166637",
+      "game": "genshin",
+      "category": "banner",
+      "title": "莓色香颂：明绚千韵·爱可菲概率UP",
+      "start": "2026-10-13T18:00:00+08:00",
+      "end": "2026-11-03T14:59:00+08:00",
+      "url": "https://ys.mihoyo.com/main/news/detail/166637",
+      "notes": "国服官网166637第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认明绚千韵·爱可菲为角色活动祈愿-2。",
+      "modified": "2026-10-09T02:27:43.600Z",
+      "sequence": 0,
+      "displayNotes": "角色祈愿：明绚千韵·爱可菲（冰）概率提升。"
+    },
+    {
+      "id": "genshin:website:166636",
+      "game": "genshin",
+      "category": "banner",
+      "title": "虚星临渡：虚渊暗星·丝柯克概率UP",
+      "start": "2026-10-13T18:00:00+08:00",
+      "end": "2026-11-03T14:59:00+08:00",
+      "url": "https://ys.mihoyo.com/main/news/detail/166636",
+      "notes": "国服官网166636第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认虚渊暗星·丝柯克为角色活动祈愿。",
+      "modified": "2026-10-09T02:27:43.600Z",
+      "sequence": 0,
+      "displayNotes": "角色祈愿：虚渊暗星·丝柯克（冰）概率提升。"
+    },
+    {
       "id": "genshin:miyoushe:78299035",
       "game": "genshin",
       "category": "maintenance",

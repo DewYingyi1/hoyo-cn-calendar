@@ -5935,6 +5935,252 @@
       "modified": "2026-10-08T06:17:42.449Z",
       "publishedAt": "2026-10-08T06:18:32.544Z",
       "state": "active"
+    },
+    {
+      "uid": "9bc24762fdee7d43fa88dda31f8aa9008c62c859ff5cc246887c18be77ed6ad9@hoyo-cn-calendar",
+      "eventId": "genshin:website:166638",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166638",
+        "game": "genshin",
+        "category": "banner",
+        "title": "神铸赋形：单手剑·苍耀、长柄武器·香韵奏者概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166638",
+        "notes": "国服官网166638第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认单手剑·苍耀与长柄武器·香韵奏者同属神铸赋形武器祈愿。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "武器祈愿：单手剑·苍耀、长柄武器·香韵奏者概率提升。"
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-13T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "0ad444da6df3b29d6f67aa42569776dbf06ba8ee7774e901a3db284210d9486d@hoyo-cn-calendar",
+      "eventId": "genshin:website:166638",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166638",
+        "game": "genshin",
+        "category": "banner",
+        "title": "神铸赋形：单手剑·苍耀、长柄武器·香韵奏者概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166638",
+        "notes": "国服官网166638第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认单手剑·苍耀与长柄武器·香韵奏者同属神铸赋形武器祈愿。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "武器祈愿：单手剑·苍耀、长柄武器·香韵奏者概率提升。"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-03T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "2b1d23cc6f04e060afda79acfe9548150b3dcfd1f5cf876ff2cc936b33cadec2@hoyo-cn-calendar",
+      "eventId": "genshin:website:166638",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:166638",
+        "game": "genshin",
+        "category": "banner",
+        "title": "神铸赋形：单手剑·苍耀、长柄武器·香韵奏者概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166638",
+        "notes": "国服官网166638第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认单手剑·苍耀与长柄武器·香韵奏者同属神铸赋形武器祈愿。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "武器祈愿：单手剑·苍耀、长柄武器·香韵奏者概率提升。"
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "7b48adf3d4564cdcd7f1723847e4129961f66581be73e8063e364c8abb5ed327@hoyo-cn-calendar",
+      "eventId": "genshin:website:166637",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166637",
+        "game": "genshin",
+        "category": "banner",
+        "title": "莓色香颂：明绚千韵·爱可菲概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166637",
+        "notes": "国服官网166637第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认明绚千韵·爱可菲为角色活动祈愿-2。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "角色祈愿：明绚千韵·爱可菲（冰）概率提升。"
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-13T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "39595ec3a79d286604d702c861fadbad17d6b49dcbe6f9f12780037a00e8344c@hoyo-cn-calendar",
+      "eventId": "genshin:website:166637",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166637",
+        "game": "genshin",
+        "category": "banner",
+        "title": "莓色香颂：明绚千韵·爱可菲概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166637",
+        "notes": "国服官网166637第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认明绚千韵·爱可菲为角色活动祈愿-2。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "角色祈愿：明绚千韵·爱可菲（冰）概率提升。"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-03T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "5c2f3ed06f08a651aa9646c624956e01b186a01e8765623bf9c23890be231a57@hoyo-cn-calendar",
+      "eventId": "genshin:website:166637",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:166637",
+        "game": "genshin",
+        "category": "banner",
+        "title": "莓色香颂：明绚千韵·爱可菲概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166637",
+        "notes": "国服官网166637第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认明绚千韵·爱可菲为角色活动祈愿-2。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "角色祈愿：明绚千韵·爱可菲（冰）概率提升。"
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "ad3a7af1c4e79dd00d997ddc9973ccc4c3fc36833ca747dc470d338c01a7b645@hoyo-cn-calendar",
+      "eventId": "genshin:website:166636",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166636",
+        "game": "genshin",
+        "category": "banner",
+        "title": "虚星临渡：虚渊暗星·丝柯克概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166636",
+        "notes": "国服官网166636第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认虚渊暗星·丝柯克为角色活动祈愿。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "角色祈愿：虚渊暗星·丝柯克（冰）概率提升。"
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-13T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "6d00817ed39638f449495d0f9de695c9f32a837e67bfb2946125dc5b40e80d3c@hoyo-cn-calendar",
+      "eventId": "genshin:website:166636",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166636",
+        "game": "genshin",
+        "category": "banner",
+        "title": "虚星临渡：虚渊暗星·丝柯克概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166636",
+        "notes": "国服官网166636第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认虚渊暗星·丝柯克为角色活动祈愿。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "角色祈愿：虚渊暗星·丝柯克（冰）概率提升。"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-03T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
+    },
+    {
+      "uid": "c3511d57f77fac3e387a37dd3a2c56b84f059382d85daf2cde7b57e34edff562@hoyo-cn-calendar",
+      "eventId": "genshin:website:166636",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:166636",
+        "game": "genshin",
+        "category": "banner",
+        "title": "虚星临渡：虚渊暗星·丝柯克概率UP",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166636",
+        "notes": "国服官网166636第二张原图明确祈愿时间：2026/10/13 18:00 ~ 2026/11/03 14:59；第一张原图确认虚渊暗星·丝柯克为角色活动祈愿。",
+        "modified": "2026-10-09T02:27:43.600Z",
+        "sequence": 0,
+        "displayNotes": "角色祈愿：虚渊暗星·丝柯克（冰）概率提升。"
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-13T18:00:00+08:00",
+        "end": "2026-11-03T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-09T02:27:43.600Z",
+      "publishedAt": "2026-10-09T02:45:11.154Z",
+      "state": "active"
     }
   ]
 }
