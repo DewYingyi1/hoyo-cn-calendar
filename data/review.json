@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "166657",
+    "title": "「判测胜券本征」活动：战局胜负预测",
+    "url": "https://ys.mihoyo.com/main/news/detail/166657",
+    "reason": "未取得唯一带标签的明确时间段",
+    "digest": "08b4dbd6845011b977a2ecf968eddea5929a9e34f4050f833f8c516459193c9f",
+    "source": "website",
+    "firstSeenAt": "2026-10-10T06:02:12.810Z",
+    "lastSeenAt": "2026-10-10T06:02:12.810Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
