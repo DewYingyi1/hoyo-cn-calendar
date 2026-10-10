@@ -1039,5 +1039,19 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/2f12c04893a10a1ba059de82577cae24_3612554919482833238.png"
     ],
     "checkedAt": "2026-10-09T02:27:43.600Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166657",
+    "decision": "confirmed-cross-source-duplicate-no-new-event",
+    "notes": "已读取国服官网166657正文及全部2张官方图片。正文明确赛事持续期2026/10/12 10:00至2026/10/20 09:59；图片仅确认同一赛事期与参与奖励，无新增结果公示或独立领奖截止。与已人工核对的官网166263活动速递同一活动，沿用既有166263:competition赛事期、166263:results结果公示期及全部UID，不新增166657事件。166657正文digest、图片列表hash和两张图片逐URL字节SHA256已绑定当前人工基线；后续变化重新送审。",
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/166657",
+      "https://ys.mihoyo.com/main/news/detail/166263",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166657/da27dde6f3b27e2676ee57c534b4bec3_6414773843660104017.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166657/250d4656d99f3ca6109ef860e5a28c37_7330085728893470055.png"
+    ],
+    "checkedAt": "2026-10-10T09:30:44.412Z"
   }
 ]
