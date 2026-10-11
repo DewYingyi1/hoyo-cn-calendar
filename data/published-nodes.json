@@ -6181,6 +6181,85 @@
       "modified": "2026-10-09T02:27:43.600Z",
       "publishedAt": "2026-10-09T02:45:11.154Z",
       "state": "active"
+    },
+    {
+      "uid": "e82dba5aef323e8406674dab27e24613cd78a01c27483480b4a57a27a2756e13@hoyo-cn-calendar",
+      "eventId": "starrail:website:166662",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:166662",
+        "game": "starrail",
+        "category": "event",
+        "title": "「位面分裂」活动：位面饰品限时双倍掉落",
+        "start": "2026-10-12T04:00:00+08:00",
+        "end": "2026-10-25T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166662",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-11T05:59:36.308Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-12T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-11T05:59:36.308Z",
+      "publishedAt": "2026-10-11T06:00:13.544Z",
+      "state": "active"
+    },
+    {
+      "uid": "88d3ee9623ece6d1729505e5f7e9d078cc6a0e26318d77ad3acd5a119747a1a2@hoyo-cn-calendar",
+      "eventId": "starrail:website:166662",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:166662",
+        "game": "starrail",
+        "category": "event",
+        "title": "「位面分裂」活动：位面饰品限时双倍掉落",
+        "start": "2026-10-12T04:00:00+08:00",
+        "end": "2026-10-25T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166662",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-11T05:59:36.308Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-10-25T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-11T05:59:36.308Z",
+      "publishedAt": "2026-10-11T06:00:13.544Z",
+      "state": "active"
+    },
+    {
+      "uid": "f7e82a0e1b3733f2512a42a4e397604fb4c883a396b3d7702ef28e556fa39768@hoyo-cn-calendar",
+      "eventId": "starrail:website:166662",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:166662",
+        "game": "starrail",
+        "category": "event",
+        "title": "「位面分裂」活动：位面饰品限时双倍掉落",
+        "start": "2026-10-12T04:00:00+08:00",
+        "end": "2026-10-25T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166662",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-11T05:59:36.308Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-12T04:00:00+08:00",
+        "end": "2026-10-25T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-11T05:59:36.308Z",
+      "publishedAt": "2026-10-11T06:00:13.544Z",
+      "state": "active"
     }
   ]
 }
