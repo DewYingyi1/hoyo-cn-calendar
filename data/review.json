@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "166676",
+    "title": "「往冥府的安魂歌」7.1版本活动速递第二期",
+    "url": "https://ys.mihoyo.com/main/news/detail/166676",
+    "reason": "图片公告正文不足以确定日程，需要读图审核",
+    "digest": "4ac508814a9a21824ce9e58f702cb3c6232f26b8848bb93266acd12bacd0963a",
+    "source": "website",
+    "firstSeenAt": "2026-10-12T15:43:16.566Z",
+    "lastSeenAt": "2026-10-12T15:43:16.566Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
