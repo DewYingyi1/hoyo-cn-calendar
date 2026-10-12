@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "166675",
+    "title": "「判测胜券本征」活动现已开启，参与即得原石奖励！",
+    "url": "https://ys.mihoyo.com/main/news/detail/166675",
+    "reason": "图片公告正文不足以确定日程，需要读图审核",
+    "digest": "44326f12a95bebb56338270fac9619c030e556ab415509049f3bf16e80a04f9b",
+    "source": "website",
+    "firstSeenAt": "2026-10-12T06:09:54.443Z",
+    "lastSeenAt": "2026-10-12T06:09:54.443Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]

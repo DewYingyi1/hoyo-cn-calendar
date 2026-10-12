@@ -6260,6 +6260,85 @@
       "modified": "2026-10-11T05:59:36.308Z",
       "publishedAt": "2026-10-11T06:00:13.544Z",
       "state": "active"
+    },
+    {
+      "uid": "f6b7663ce2cba02a8592877289b2ddf572989ced8afc36bd1bbddf2ab35f624f@hoyo-cn-calendar",
+      "eventId": "zzz:website:166677",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166677",
+        "game": "zzz",
+        "category": "event",
+        "title": "「数据悬赏-实战模拟」活动说明",
+        "start": "2026-10-14T04:00:00+08:00",
+        "end": "2026-10-19T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166677",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-12T06:09:54.443Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-14T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-12T06:09:54.443Z",
+      "publishedAt": "2026-10-12T06:10:43.419Z",
+      "state": "active"
+    },
+    {
+      "uid": "1b4ecfb73713ac13708385b036585c04c81a6427744b8fb3a3161b1397e41edf@hoyo-cn-calendar",
+      "eventId": "zzz:website:166677",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166677",
+        "game": "zzz",
+        "category": "event",
+        "title": "「数据悬赏-实战模拟」活动说明",
+        "start": "2026-10-14T04:00:00+08:00",
+        "end": "2026-10-19T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166677",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-12T06:09:54.443Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-10-19T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-12T06:09:54.443Z",
+      "publishedAt": "2026-10-12T06:10:43.419Z",
+      "state": "active"
+    },
+    {
+      "uid": "029e30ed0b4a4a6646b516f10aa02f516f265c9aef18fab4fd0f6ce933459265@hoyo-cn-calendar",
+      "eventId": "zzz:website:166677",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166677",
+        "game": "zzz",
+        "category": "event",
+        "title": "「数据悬赏-实战模拟」活动说明",
+        "start": "2026-10-14T04:00:00+08:00",
+        "end": "2026-10-19T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166677",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-12T06:09:54.443Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-14T04:00:00+08:00",
+        "end": "2026-10-19T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-12T06:09:54.443Z",
+      "publishedAt": "2026-10-12T06:10:43.419Z",
+      "state": "active"
     }
   ]
 }
