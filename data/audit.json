@@ -981,7 +981,9 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/166031/c55ff09b186f0a923a472352a7ad9011_4669055663940502195.png": "9d2bf5843a8a138be7b2795c5c344efb8b60e4ef9792cdd859826ed3bf937c5c",
       "https://fastcdn.mihoyo.com/content-v2/nap/166031/4c8f54754d6095781c204dc1cfe44d52_7971724793015399520.png": "c744b29062e2de82f6ffe720b99d299e5eb7967d8dc53f35401ba3fb64f7dbff"
     },
-    "evidenceUrls": ["https://zzz.mihoyo.com/news/166031"],
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166031"
+    ],
     "checkedAt": "2026-10-06T13:22:30.732Z"
   },
   {
@@ -998,7 +1000,9 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/165411/4a1f4757ff6fe34939692ff9dabb6bb4_166268544614374654.jpg": "d39161a441ffe39505e214c298d3e762dfa5f9c8bafa3581eba9280354e7818a",
       "https://fastcdn.mihoyo.com/content-v2/nap/165411/0338a58d03725ed70367123c72f55a10_8662279285537486980.jpg": "34b755e70ae214aac56d6c6344714a8c6d469bb83383167d3763b022a12c8df6"
     },
-    "evidenceUrls": ["https://zzz.mihoyo.com/news/165411"],
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/165411"
+    ],
     "checkedAt": "2026-10-06T13:22:30.732Z"
   },
   {
@@ -1069,5 +1073,166 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/47e156c17b2ec511f28f5e25e14b2e5a_1067221884210358220.jpg"
     ],
     "checkedAt": "2026-10-12T08:07:12.809Z"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166638",
+    "decision": "reconfirmed-current-evidence",
+    "notes": "已读取当前官网正文及两张原图。标题改为活动祈愿现已开启，UP武器与原日程一致；两张图片SHA256与原人工基线完全相同。重新绑定当前正文digest，保持既有UID及2026/10/13 18:00至2026/11/03 14:59，不新增事件。",
+    "checkedAt": "2026-10-13T16:29:54.965Z",
+    "digest": "c297cf5f04f6c34f114ac6f9c704efe4ed9fd15880b0f6b99d94edf56016b778",
+    "imagesHash": "1f389e72bcc4c05edb11858da7bd7cca87688c147392d9a2203acc76329be695",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/893505f8b2185b2babb974257e4cdfac_6238714091027503631.png": "6097f7ab7f91b12d3b7057bd0ef4be897edb39a94d17eb977433427fc2ba2d94",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/4bb31efe05b1d1835a9b54c9e5720035_7788291658981755285.png": "adf445c843d05d6d81c00198eaba5a99dace6d999063ce5d4734878fd130bce5"
+    },
+    "previousConfirmation": {
+      "digest": "682434f680ef8487e2db35c49b243c0ff146c7eab36c8354eee93f5bd5bb740d",
+      "imagesHash": "1f389e72bcc4c05edb11858da7bd7cca87688c147392d9a2203acc76329be695",
+      "imageBytes": {
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/893505f8b2185b2babb974257e4cdfac_6238714091027503631.png": "6097f7ab7f91b12d3b7057bd0ef4be897edb39a94d17eb977433427fc2ba2d94",
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/4bb31efe05b1d1835a9b54c9e5720035_7788291658981755285.png": "adf445c843d05d6d81c00198eaba5a99dace6d999063ce5d4734878fd130bce5"
+      }
+    },
+    "evidence": [
+      "https://ys.mihoyo.com/main/news/detail/166638",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/893505f8b2185b2babb974257e4cdfac_6238714091027503631.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166638/4bb31efe05b1d1835a9b54c9e5720035_7788291658981755285.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166637",
+    "decision": "reconfirmed-current-evidence",
+    "notes": "已读取当前官网正文及两张原图。标题改为活动祈愿现已开启，爱可菲与角色活动祈愿-2身份不变；两张图片SHA256与原人工基线完全相同。重新绑定当前正文digest，保持既有UID及2026/10/13 18:00至2026/11/03 14:59，不新增事件。",
+    "checkedAt": "2026-10-13T16:29:54.965Z",
+    "digest": "2f48a72fdae3c82bab9cd652475fb274fd67dad088931388d29a8b49900cc3f9",
+    "imagesHash": "fb22458d8241fc95ba807f48bb67dcb2fdf154c6f1eb027764fa67238cbc3833",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/070666daec406ca5956ef8cd54fcf49b_4015757610732907794.png": "fc7895b9537c5b4919c369d7d503edfaa178300e08a89af332fc2b682c2d882e",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/cf5e544ea50cdd19862bfee2bc269b20_6526298204675709487.png": "6f6d4412eadc6dd7cc9624c8d16562b18a8e71be7f74dd6e6404e105bb50e67c"
+    },
+    "previousConfirmation": {
+      "digest": "e8114a7e013511edf6ab881919b95ac8b4c1bd20a37445743d333e3c80823424",
+      "imagesHash": "fb22458d8241fc95ba807f48bb67dcb2fdf154c6f1eb027764fa67238cbc3833",
+      "imageBytes": {
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/070666daec406ca5956ef8cd54fcf49b_4015757610732907794.png": "fc7895b9537c5b4919c369d7d503edfaa178300e08a89af332fc2b682c2d882e",
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/cf5e544ea50cdd19862bfee2bc269b20_6526298204675709487.png": "6f6d4412eadc6dd7cc9624c8d16562b18a8e71be7f74dd6e6404e105bb50e67c"
+      }
+    },
+    "evidence": [
+      "https://ys.mihoyo.com/main/news/detail/166637",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/070666daec406ca5956ef8cd54fcf49b_4015757610732907794.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166637/cf5e544ea50cdd19862bfee2bc269b20_6526298204675709487.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166636",
+    "decision": "reconfirmed-current-evidence",
+    "notes": "已读取当前官网正文及两张原图。标题改为活动祈愿现已开启，丝柯克与角色活动祈愿身份不变；两张图片SHA256与原人工基线完全相同。重新绑定当前正文digest，保持既有UID及2026/10/13 18:00至2026/11/03 14:59，不新增事件。",
+    "checkedAt": "2026-10-13T16:29:54.965Z",
+    "digest": "fde416bd1b55e56a41d36869c7174983f0502811334266b104302153bffa6a57",
+    "imagesHash": "c5da6e4d37371fa3312f7cd6a7a70adbd27bd75d70245b805d71c3dab7fe0fb2",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/abb9d26ae52b2541ec54f125f609a614_2668449002304153746.png": "425fca793a366626b15c45c4370a99f662753130e79eceb41b624a5b3cf4f61b",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/2f12c04893a10a1ba059de82577cae24_3612554919482833238.png": "6a257313f95bc04eff8c514a2cc123af49a1f3a135290e06f99915b295cf3a1c"
+    },
+    "previousConfirmation": {
+      "digest": "8f9b0c44da70959a6017578aeb14a0206e769628ad4b2c622bb36c0be7f12775",
+      "imagesHash": "c5da6e4d37371fa3312f7cd6a7a70adbd27bd75d70245b805d71c3dab7fe0fb2",
+      "imageBytes": {
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/abb9d26ae52b2541ec54f125f609a614_2668449002304153746.png": "425fca793a366626b15c45c4370a99f662753130e79eceb41b624a5b3cf4f61b",
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/2f12c04893a10a1ba059de82577cae24_3612554919482833238.png": "6a257313f95bc04eff8c514a2cc123af49a1f3a135290e06f99915b295cf3a1c"
+      }
+    },
+    "evidence": [
+      "https://ys.mihoyo.com/main/news/detail/166636",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/abb9d26ae52b2541ec54f125f609a614_2668449002304153746.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166636/2f12c04893a10a1ba059de82577cae24_3612554919482833238.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166763",
+    "decision": "suppressed-duplicate-aggregate",
+    "notes": "已读取官网正文及两张原图。正文与第二张图均明确本期祈愿2026/10/13 18:00至2026/11/03 14:59，丝柯克、爱可菲及苍耀/香韵奏者与166636/166637/166638三个已发布祈愿一致。抑制此汇总来源，避免重复卡池；两把UP武器仍属于一个武器祈愿。",
+    "checkedAt": "2026-10-13T16:29:54.965Z",
+    "digest": "950c0f299b6c1df50a194dc21440d441fb3acbf82f0936476ca8995854f6cda1",
+    "imagesHash": "7b525d3cf5eb5b511709c9cc100b70c0355d9282e71d3de9dc2e7107ed142151",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166763/79500fa6d3e94627a7fd4224e00817e7_7297842812464066037.jpg": "2d3b3557810edcbb10c1898e274f403435545bb31b4a77220d3aa2e4978e55a7",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166763/846d258d98a9af0c76a6e25efeec27f2_1092138898976245507.jpg": "c471699a05bfc1a094cf8abc6de2237f33b52e37bf7f06a0cab82bacde4672a3"
+    },
+    "previousConfirmation": {
+      "digest": null,
+      "imagesHash": null,
+      "imageBytes": null
+    },
+    "evidence": [
+      "https://ys.mihoyo.com/main/news/detail/166763",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166763/79500fa6d3e94627a7fd4224e00817e7_7297842812464066037.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166763/846d258d98a9af0c76a6e25efeec27f2_1092138898976245507.jpg"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166676",
+    "decision": "confirmed-official-image-split",
+    "notes": "已读取官网正文及全部三张原图。第三张详细时间表新增无忧无虑大雪仗2026/10/21 10:00至2026/11/02 03:59、祝圣移涌2026/10/26 04:00至2026/11/02 03:59，现有数据无同一期事件，单独收录。祈愿、周年福利、判测赛事、公示、幽境危战及区域奖励保持既有UID和日程；日期速览不用作精确时刻。幻想真境剧诗只给2026/11/01更新日期，无明确时刻，不补04:00，不表示常驻玩法关闭。",
+    "checkedAt": "2026-10-13T16:29:54.965Z",
+    "digest": "4ac508814a9a21824ce9e58f702cb3c6232f26b8848bb93266acd12bacd0963a",
+    "imagesHash": "78a9a83c8f30a7b314c030d2809417288f31e397d9456b4a93cad6987be191bf",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166676/7e69f7a95cd15024b9036e4106847a2f_3643598914813804149.jpg": "7f481e52049ec34d67e56db9597d8f1ed5d818ac4a8dc05762df0a29a0698f9c",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166676/7742b29748c0ab6e5a1a03e78916ee0d_6316537124835295048.jpg": "3fea616a1aef8ba401bb7973b1022ec76b9d065be82bfc6186d03d94eccb95e7",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166676/55a9e84eafa18c5989272d3aa5a31815_3429855834811924852.jpg": "230da543cbe6e10c5e56a9797f7ccfde146a0dae7ac64f1a2b841f23993e235c"
+    },
+    "previousConfirmation": {
+      "digest": null,
+      "imagesHash": null,
+      "imageBytes": null
+    },
+    "evidence": [
+      "https://ys.mihoyo.com/main/news/detail/166676",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166676/7e69f7a95cd15024b9036e4106847a2f_3643598914813804149.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166676/7742b29748c0ab6e5a1a03e78916ee0d_6316537124835295048.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166676/55a9e84eafa18c5989272d3aa5a31815_3429855834811924852.jpg"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "166675",
+    "decision": "reconfirmed-current-evidence",
+    "notes": "已读取当前官网正文及全部三张原图。第二张图片确实替换URL与字节，底部仍明确赛事持续期2026/10/12 10:00至2026/10/20 09:59、结果公示期2026/10/20 10:00至2026/10/23 09:59；第一及第三张图字节未变。重新确认当前图片列表及逐URL字节基线，保持166263两个已发布阶段与全部UID，不推算逐轮时间或另加领奖截止。",
+    "checkedAt": "2026-10-13T16:29:54.965Z",
+    "digest": "44326f12a95bebb56338270fac9619c030e556ab415509049f3bf16e80a04f9b",
+    "imagesHash": "00c322729bd49811023aaa78375fff002dbf5645d3d6fdc8a88d92dd468262b3",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/48a54d70221bf632f95792ad276df8aa_5737236100251746172.jpg": "34af7500f3061643a1fac103e77ddb9706e18eaff2f2ae593555624c0342117f",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/7030028abc1379bdcadeec5f0c3c13f8_1015300268469782499.jpg": "eba9b94514d8f9ee9c23668fe18c2041abbdc488e8d81917d1166e53a8a2b326",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/47e156c17b2ec511f28f5e25e14b2e5a_1067221884210358220.jpg": "a0b40e0ef7bae349100cb4ed745805f9becd83708719ee3a13b190f9c33f3789"
+    },
+    "previousConfirmation": {
+      "digest": "44326f12a95bebb56338270fac9619c030e556ab415509049f3bf16e80a04f9b",
+      "imagesHash": "71771cca118abf3442f459a275314e42a4298fe41c178aa237d4255a8653fbec",
+      "imageBytes": {
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/48a54d70221bf632f95792ad276df8aa_5737236100251746172.jpg": "34af7500f3061643a1fac103e77ddb9706e18eaff2f2ae593555624c0342117f",
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/6227977f4cd9e68dbd6f5f812603278f_6776790069540469531.jpg": "7409b93a4d85ae5988a8714610ac0d5961fd8cefea2f3612e08a1e9c43dc101c",
+        "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/47e156c17b2ec511f28f5e25e14b2e5a_1067221884210358220.jpg": "a0b40e0ef7bae349100cb4ed745805f9becd83708719ee3a13b190f9c33f3789"
+      }
+    },
+    "evidence": [
+      "https://ys.mihoyo.com/main/news/detail/166675",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/48a54d70221bf632f95792ad276df8aa_5737236100251746172.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/7030028abc1379bdcadeec5f0c3c13f8_1015300268469782499.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/47e156c17b2ec511f28f5e25e14b2e5a_1067221884210358220.jpg"
+    ]
   }
 ]

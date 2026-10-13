@@ -68,6 +68,8 @@ for (const [game, config] of Object.entries(configs)) {
       const imageConfirmation = confirmedImages(reference, expected, imagesHash);
       const byteEvidence = await checkImageEvidence(post, reference, { expectedDigest: expected, digest, now });
       if (byteEvidence.failure) {
+        console.warn(JSON.stringify({ type: 'image-failure', game, postId: /^\d+$/.test(post.id) ? post.id : null,
+          code: byteEvidence.fields.imageEvidenceErrorCode, ...byteEvidence.fields.imageEvidenceDiagnostic }));
         const issue = `${GAMES[game].name}图片字节检查失败（公告${/^\d+$/.test(post.id) ? post.id : 'ID不可用'}）：${byteEvidence.failure}；保留旧日程及人工基线。`;
         imageIssues.push(issue);
         status.issues.push(issue);
@@ -160,9 +162,9 @@ for (const [rawKey, record] of Object.entries(registry)) {
     postId,
     title: record.title,
     url: record.url,
-    reason: record.imageEvidenceError
+    reason: reviews.get(canonicalKey)?.reason ?? (record.imageEvidenceError
       ? `${record.imageEvidenceError}；保留既有日程`
-      : '图片证据仍待人工复核；观察一致不会自动清除待审；保留既有日程',
+      : '图片证据仍待人工复核；观察一致不会自动清除待审；保留既有日程'),
     digest: record.digest,
     firstSeenAt: previous?.firstSeenAt ?? now,
     lastSeenAt: now,

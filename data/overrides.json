@@ -665,6 +665,32 @@
       "displayNotes": "登录可从吉尔伽美什与Archer中免费领取一名，并获得直升60级材料补给。",
       "modified": "2026-10-03T16:45:00.000Z",
       "sequence": 0
+    },
+    {
+      "id": "genshin:website:166676:snowball",
+      "game": "genshin",
+      "category": "event",
+      "title": "无忧无虑大雪仗",
+      "start": "2026-10-21T10:00:00+08:00",
+      "end": "2026-11-02T03:59:00+08:00",
+      "url": "https://ys.mihoyo.com/main/news/detail/166676",
+      "notes": "官网166676第三张原图第06项明确活动时间2026/10/21 10:00至2026/11/02 03:59；人工读取原图 https://fastcdn.mihoyo.com/content-v2/hk4e/166676/55a9e84eafa18c5989272d3aa5a31815_3429855834811924852.jpg。未给独立领奖截止，不推算其他阶段时刻。",
+      "displayNotes": "活动期间参与雪仗挑战，获取原石等奖励。",
+      "modified": "2026-10-13T16:29:54.965Z",
+      "sequence": 0
+    },
+    {
+      "id": "genshin:website:166676:artifact-double",
+      "game": "genshin",
+      "category": "event",
+      "title": "祝圣移涌：圣遗物双倍掉落",
+      "start": "2026-10-26T04:00:00+08:00",
+      "end": "2026-11-02T03:59:00+08:00",
+      "url": "https://ys.mihoyo.com/main/news/detail/166676",
+      "notes": "官网166676第三张原图第07项明确活动时间2026/10/26 04:00至2026/11/02 03:59；人工读取原图 https://fastcdn.mihoyo.com/content-v2/hk4e/166676/55a9e84eafa18c5989272d3aa5a31815_3429855834811924852.jpg。这是双倍掉落活动截止，不是祝圣秘境永久关闭。",
+      "displayNotes": "活动期间祝圣秘境可享圣遗物双倍掉落；截止后常规挑战继续。",
+      "modified": "2026-10-13T16:29:54.965Z",
+      "sequence": 0
     }
   ],
   "replaceParentIds": [
@@ -727,6 +753,7 @@
     "starrail:website:164343",
     "zzz:website:165415",
     "genshin:website:166657",
-    "genshin:website:166675"
+    "genshin:website:166675",
+    "genshin:website:166763"
   ]
 }

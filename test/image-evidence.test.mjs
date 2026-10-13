@@ -345,7 +345,7 @@ test('更新入口隔离测试：图片失败不吞有效posts，跨轮不自动
   };
   const get = async file => JSON.parse(await fs.readFile(path.join(sandbox, file), 'utf8'));
   try {
-    for (const name of ['calendar', 'time', 'parser', 'sources', 'identity', 'selection', 'review', 'review-state', 'image-evidence']) {
+    for (const name of ['calendar', 'time', 'parser', 'sources', 'identity', 'selection', 'review', 'review-state', 'image-evidence', 'network-failure']) {
       await put(`lib/${name}.mjs`, await fs.readFile(new URL(`../lib/${name}.mjs`, import.meta.url), 'utf8'));
     }
     await put('scripts/update.mjs', await fs.readFile(new URL('../scripts/update.mjs', import.meta.url), 'utf8'));
@@ -435,7 +435,7 @@ test('首次采集全败且无基线时在事务前拒绝，不留下半套数�
     await fs.writeFile(path.join(sandbox, file), typeof value === 'string' ? value : JSON.stringify(value));
   };
   try {
-    for (const name of ['calendar', 'time', 'parser', 'sources', 'identity', 'selection', 'review', 'review-state', 'image-evidence']) {
+    for (const name of ['calendar', 'time', 'parser', 'sources', 'identity', 'selection', 'review', 'review-state', 'image-evidence', 'network-failure']) {
       await put(`lib/${name}.mjs`, await fs.readFile(new URL(`../lib/${name}.mjs`, import.meta.url), 'utf8'));
     }
     await put('scripts/update.mjs', await fs.readFile(new URL('../scripts/update.mjs', import.meta.url), 'utf8'));
