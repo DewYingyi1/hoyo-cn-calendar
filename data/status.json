@@ -1,20 +1,27 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-13T00:49:40.674Z",
+      "lastSuccessAt": "2026-10-13T14:23:10.658Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 33,
-      "earliestPublishedAt": "2026-08-26T04:00:00.000Z",
+      "earliestPublishedAt": "2026-08-27T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
       "primarySource": "website",
-      "endpoint": "https://api-takumi-static.mihoyo.com",
+      "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
       "qualityIssues": [],
-      "imageEvidenceIssues": [],
-      "partial": false
+      "imageEvidenceIssues": [
+        "原神图片证据阻断（公告166638）：图片证据尚无绑定当前人工确认正文的字节基线，须人工建立基线；保留旧日程。",
+        "原神图片证据阻断（公告166637）：图片证据尚无绑定当前人工确认正文的字节基线，须人工建立基线；保留旧日程。",
+        "原神图片证据阻断（公告166636）：图片证据尚无绑定当前人工确认正文的字节基线，须人工建立基线；保留旧日程。",
+        "原神图片证据阻断（公告166675）：人工确认后官方图片字节或图片列表已修改，须重新核对；保留旧日程。",
+        "原神图片字节检查失败（公告166334）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
+        "原神图片字节检查失败（公告166263）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
+      ],
+      "partial": true
     },
     "starrail": {
       "lastSuccessAt": "2026-10-13T00:49:40.674Z",
@@ -24,7 +31,7 @@
       "eligiblePosts": 42,
       "earliestPublishedAt": "2026-04-21T05:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "act-api-takumi-static.mihoyo.com：source-fetch；api-takumi-static.mihoyo.com：source-fetch",
       "primarySource": "website",
       "endpoint": "https://api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
@@ -33,26 +40,37 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-13T00:49:40.674Z",
+      "lastSuccessAt": "2026-10-13T14:23:10.658Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 27,
       "earliestPublishedAt": "2026-07-28T23:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
       "primarySource": "website",
-      "endpoint": "https://api-takumi-static.mihoyo.com",
+      "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
       "qualityIssues": [],
-      "imageEvidenceIssues": [],
-      "partial": false
+      "imageEvidenceIssues": [
+        "绝区零图片字节检查失败（公告166031）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
+      ],
+      "partial": true
     }
   },
-  "lastAttemptAt": "2026-10-13T00:49:40.674Z",
-  "issues": [],
-  "reviewCount": 1,
-  "successfulSources": 3,
-  "partialSources": 0,
-  "completeSources": 3
+  "lastAttemptAt": "2026-10-13T14:23:10.658Z",
+  "issues": [
+    "原神图片证据阻断（公告166638）：图片证据尚无绑定当前人工确认正文的字节基线，须人工建立基线；保留旧日程。",
+    "原神图片证据阻断（公告166637）：图片证据尚无绑定当前人工确认正文的字节基线，须人工建立基线；保留旧日程。",
+    "原神图片证据阻断（公告166636）：图片证据尚无绑定当前人工确认正文的字节基线，须人工建立基线；保留旧日程。",
+    "原神图片证据阻断（公告166675）：人工确认后官方图片字节或图片列表已修改，须重新核对；保留旧日程。",
+    "原神图片字节检查失败（公告166334）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
+    "原神图片字节检查失败（公告166263）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
+    "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：source-fetch；api-takumi-static.mihoyo.com：source-fetch；保留旧事件。",
+    "绝区零图片字节检查失败（公告166031）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
+  ],
+  "reviewCount": 9,
+  "successfulSources": 2,
+  "partialSources": 2,
+  "completeSources": 0
 }
