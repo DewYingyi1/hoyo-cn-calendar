@@ -5,6 +5,7 @@ import net from 'node:net';
 import { AsyncLocalStorage } from 'node:async_hooks';
 import { createHash, randomUUID } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { setTimeout as delay } from 'node:timers/promises';
 import { GAMES, PRESENTATION_REVISION, renderCalendar, validateEvent, readerNotes } from '../lib/calendar.mjs';
 import { initializeNodeLedger, reconcileNodeLedger, validateNodeLedger } from '../lib/node-ledger.mjs';
 
@@ -291,15 +292,37 @@ async function recoverTransactions() {
   }
 }
 
+// Retry only this repository's same kernel mutex; choosing another port would
+// let two publishers enter the critical section. Non-address errors fail fast.
+export async function listenForRepositoryLock(server, { port = LOCK_PORT, wait = delay } = {}) {
+  const retryDelays = [1000, 3000];
+  for (let attempt = 1; ; attempt++) {
+    try {
+      await new Promise((resolve, reject) => {
+        const cleanup = () => { server.off('error', failed); server.off('listening', ready); };
+        const failed = error => { cleanup(); reject(error); };
+        const ready = () => { cleanup(); resolve(); };
+        server.once('error', failed);
+        server.once('listening', ready);
+        try { server.listen({ host: '127.0.0.1', port, exclusive: true }); }
+        catch (error) { failed(error); }
+      });
+      return;
+    } catch (error) {
+      if (error.code === 'EADDRINUSE' && attempt <= retryDelays.length) {
+        await wait(retryDelays[attempt - 1]);
+        continue;
+      }
+      throw Object.assign(new Error(error.code === 'EADDRINUSE' ? '已有构建持有发布锁（或发布锁端口被占用）' : `发布锁端口失败：${error.code}`), { cause: error, code: error.code, attempts: attempt });
+    }
+  }
+}
+
 async function acquireLock() {
   await fs.mkdir(BUILD_ROOT, { recursive: true });
   const token = randomUUID();
   const server = net.createServer(socket => socket.destroy());
-  await new Promise((resolve, reject) => {
-    const failed = error => reject(Object.assign(new Error(error.code === 'EADDRINUSE' ? '已有构建持有发布锁' : `发布锁端口失败：${error.code}`), { cause: error }));
-    server.once('error', failed);
-    server.listen({ host: '127.0.0.1', port: LOCK_PORT, exclusive: true }, () => { server.off('error', failed); resolve(); });
-  }).catch(async error => { await new Promise(resolve => server.close(resolve)).catch(() => {}); throw error; });
+  await listenForRepositoryLock(server).catch(async error => { await new Promise(resolve => server.close(resolve)).catch(() => {}); throw error; });
   const owner = { token, pid: process.pid, hostname: os.hostname(), startedAt: new Date().toISOString(), port: LOCK_PORT, server };
   // The kernel mutex is authoritative. Any directory left here belongs to a dead
   // process because no second live process can own this repository's lock port.
