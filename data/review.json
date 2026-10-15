@@ -46,18 +46,5 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
-  },
-  {
-    "game": "genshin",
-    "postId": "166638",
-    "title": "《原神》「神铸赋形」活动祈愿现已开启，「单手剑·苍耀」「长柄武器·香韵奏者」概率UP！",
-    "url": "https://ys.mihoyo.com/main/news/detail/166638",
-    "reason": "图片连接请求失败（可重试）；保留既有日程",
-    "digest": "c297cf5f04f6c34f114ac6f9c704efe4ed9fd15880b0f6b99d94edf56016b778",
-    "source": "website",
-    "firstSeenAt": "2026-10-14T21:48:29.831Z",
-    "lastSeenAt": "2026-10-14T21:48:29.831Z",
-    "resolved": false,
-    "changedConfirmation": true
   }
 ]
