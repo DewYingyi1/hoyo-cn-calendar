@@ -1,7 +1,7 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-17T04:39:28.126Z",
+      "lastSuccessAt": "2026-10-17T10:55:31.863Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
@@ -19,7 +19,7 @@
       "partial": true
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-17T04:39:28.126Z",
+      "lastSuccessAt": "2026-10-17T10:55:31.863Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -35,12 +35,12 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-17T04:39:28.126Z",
+      "lastSuccessAt": "2026-10-17T10:55:31.863Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 25,
-      "earliestPublishedAt": "2026-07-30T04:15:00.000Z",
+      "earliestPublishedAt": "2026-07-31T10:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
       "error": null,
       "primarySource": "website",
@@ -51,7 +51,7 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-17T04:39:28.126Z",
+  "lastAttemptAt": "2026-10-17T10:55:31.863Z",
   "issues": [
     "原神图片字节检查失败（公告166638）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
   ],
