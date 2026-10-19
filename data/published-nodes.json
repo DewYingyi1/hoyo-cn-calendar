@@ -6582,6 +6582,60 @@
       "modified": "2026-10-19T04:53:08.647Z",
       "publishedAt": "2026-10-19T04:54:18.884Z",
       "state": "active"
+    },
+    {
+      "uid": "6b0c484cea9e34150c1294f19f81549118f80c52150818cb64327bca920c9192@hoyo-cn-calendar",
+      "eventId": "zzz:website:166922",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166922",
+        "game": "zzz",
+        "category": "banner",
+        "title": "3.3版本限时频段（上期）",
+        "start": null,
+        "end": "2026-11-11T11:59:00+08:00",
+        "startText": "为：3.3版本更新后",
+        "url": "https://zzz.mihoyo.com/news/166922",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-19T13:36:03.138Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-11T11:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-19T13:36:03.138Z",
+      "publishedAt": "2026-10-19T13:37:02.825Z",
+      "state": "active"
+    },
+    {
+      "uid": "d113b4af485c876fd110381d98b9311b22151a7572b49c7796cfbd19dd8f67ff@hoyo-cn-calendar",
+      "eventId": "zzz:website:166922",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166922",
+        "game": "zzz",
+        "category": "banner",
+        "title": "3.3版本限时频段（上期）",
+        "start": null,
+        "end": "2026-11-11T11:59:00+08:00",
+        "startText": "为：3.3版本更新后",
+        "url": "https://zzz.mihoyo.com/news/166922",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-19T13:36:03.138Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-11T11:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-19T13:36:03.138Z",
+      "publishedAt": "2026-10-19T13:37:02.825Z",
+      "state": "active"
     }
   ]
 }

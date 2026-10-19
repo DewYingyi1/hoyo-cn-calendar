@@ -772,5 +772,18 @@
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
     "modified": "2026-10-12T06:09:54.443Z",
     "sequence": 0
+  },
+  {
+    "id": "zzz:website:166922",
+    "game": "zzz",
+    "category": "banner",
+    "title": "3.3版本限时频段（上期）",
+    "start": null,
+    "end": "2026-11-11T11:59:00+08:00",
+    "startText": "为：3.3版本更新后",
+    "url": "https://zzz.mihoyo.com/news/166922",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-19T13:36:03.138Z",
+    "sequence": 0
   }
 ]
