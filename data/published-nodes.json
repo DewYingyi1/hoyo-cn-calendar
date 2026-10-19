@@ -6503,6 +6503,85 @@
       "modified": "2026-10-13T16:29:54.965Z",
       "publishedAt": "2026-10-13T16:32:44.817Z",
       "state": "active"
+    },
+    {
+      "uid": "fd727275ce89bbd6d5af66c1bcbd3a11b2ba33d6855bcb0a7e1a35ee19dbbb74@hoyo-cn-calendar",
+      "eventId": "genshin:website:166932",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166932",
+        "game": "genshin",
+        "category": "event",
+        "title": "「无忧无虑大雪仗」活动：趣味投掷挑战",
+        "start": "2026-10-21T10:00:00+08:00",
+        "end": "2026-11-02T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166932",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-19T04:53:08.647Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-21T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-19T04:53:08.647Z",
+      "publishedAt": "2026-10-19T04:54:18.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "4d69952e257493ff4f0c965912130e6059d118e3d36ee9ef6beb76108b26c734@hoyo-cn-calendar",
+      "eventId": "genshin:website:166932",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166932",
+        "game": "genshin",
+        "category": "event",
+        "title": "「无忧无虑大雪仗」活动：趣味投掷挑战",
+        "start": "2026-10-21T10:00:00+08:00",
+        "end": "2026-11-02T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166932",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-19T04:53:08.647Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-02T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-19T04:53:08.647Z",
+      "publishedAt": "2026-10-19T04:54:18.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "ac6fc48481685301fd0e1c36e721ac1617bcd008ea27796c79b03897730a2733@hoyo-cn-calendar",
+      "eventId": "genshin:website:166932",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:166932",
+        "game": "genshin",
+        "category": "event",
+        "title": "「无忧无虑大雪仗」活动：趣味投掷挑战",
+        "start": "2026-10-21T10:00:00+08:00",
+        "end": "2026-11-02T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/166932",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-19T04:53:08.647Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-21T10:00:00+08:00",
+        "end": "2026-11-02T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-19T04:53:08.647Z",
+      "publishedAt": "2026-10-19T04:54:18.884Z",
+      "state": "active"
     }
   ]
 }
