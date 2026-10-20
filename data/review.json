@@ -46,5 +46,31 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "166263",
+    "title": "「往冥府的安魂歌」7.1版本活动速递第一期",
+    "url": "https://ys.mihoyo.com/main/news/detail/166263",
+    "reason": "图片连接请求失败（可重试）；保留既有日程",
+    "digest": "f6bcb8a728c356ce60924c2ebfe139e066fff186b0224def6c5e95dad7709164",
+    "source": "website",
+    "firstSeenAt": "2026-10-20T13:38:52.877Z",
+    "lastSeenAt": "2026-10-20T13:38:52.877Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "166261",
+    "title": "「七圣召唤」铸境研炼：巧策进斗",
+    "url": "https://ys.mihoyo.com/main/news/detail/166261",
+    "reason": "图片连接请求失败（可重试）；保留既有日程",
+    "digest": "140d097b947b8f3053fc90fab439765edbd8ff855ab4995e47092c4e65496553",
+    "source": "website",
+    "firstSeenAt": "2026-10-20T13:38:52.877Z",
+    "lastSeenAt": "2026-10-20T13:38:52.877Z",
+    "resolved": false,
+    "changedConfirmation": true
   }
 ]
