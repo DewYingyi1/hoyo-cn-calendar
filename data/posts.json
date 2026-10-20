@@ -4474,7 +4474,10 @@
     "url": "https://sr.mihoyo.com/news/166950",
     "digest": "01e904d466ac60f31c826ec5369177454293d1c38f31d2b37bf4cb65b43d6d1d",
     "canonical": "starrail:website:166950",
-    "imagesHash": "77b8f6722134b89180845e0ca876ee9cba4e0276187c646a3774a4458b1a4823"
+    "imagesHash": "77b8f6722134b89180845e0ca876ee9cba4e0276187c646a3774a4458b1a4823",
+    "reviewedDigest": "01e904d466ac60f31c826ec5369177454293d1c38f31d2b37bf4cb65b43d6d1d",
+    "confirmedImagesHash": "77b8f6722134b89180845e0ca876ee9cba4e0276187c646a3774a4458b1a4823",
+    "confirmedImagesDigest": "01e904d466ac60f31c826ec5369177454293d1c38f31d2b37bf4cb65b43d6d1d"
   },
   "zzz:website:166974": {
     "title": "《绝区零》菲欧妮EP《低电量女孩》现已上架音乐平台",
@@ -4498,7 +4501,10 @@
     "url": "https://zzz.mihoyo.com/news/166971",
     "digest": "921401b9e509f72c349dc6b5c6dee48dc6eb7e2bc18aae7ccba711493813b583",
     "canonical": "zzz:website:166971",
-    "imagesHash": "cf870e9ac905efe7bf8c4f148c41d8c52f0fc96d683c0d469b6760e222ee7c19"
+    "imagesHash": "cf870e9ac905efe7bf8c4f148c41d8c52f0fc96d683c0d469b6760e222ee7c19",
+    "reviewedDigest": "921401b9e509f72c349dc6b5c6dee48dc6eb7e2bc18aae7ccba711493813b583",
+    "confirmedImagesHash": "cf870e9ac905efe7bf8c4f148c41d8c52f0fc96d683c0d469b6760e222ee7c19",
+    "confirmedImagesDigest": "921401b9e509f72c349dc6b5c6dee48dc6eb7e2bc18aae7ccba711493813b583"
   },
   "zzz:website:166970": {
     "title": "「全新放送」活动说明",
@@ -4514,6 +4520,9 @@
     "url": "https://zzz.mihoyo.com/news/166969",
     "digest": "053afd05fa44b01ef558875584169d2d91025c6bb602c24b30fe91441bc676e6",
     "canonical": "zzz:website:166969",
-    "imagesHash": "e86083d2822cf193d5891b8cf3473eee27a67fc68b5c13aacdcabd5c8ba8a985"
+    "imagesHash": "e86083d2822cf193d5891b8cf3473eee27a67fc68b5c13aacdcabd5c8ba8a985",
+    "reviewedDigest": "053afd05fa44b01ef558875584169d2d91025c6bb602c24b30fe91441bc676e6",
+    "confirmedImagesHash": "e86083d2822cf193d5891b8cf3473eee27a67fc68b5c13aacdcabd5c8ba8a985",
+    "confirmedImagesDigest": "053afd05fa44b01ef558875584169d2d91025c6bb602c24b30fe91441bc676e6"
   }
 }

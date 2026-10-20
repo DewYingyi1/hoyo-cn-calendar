@@ -6690,6 +6690,364 @@
       "modified": "2026-10-20T11:50:19.589Z",
       "publishedAt": "2026-10-20T11:50:48.823Z",
       "state": "active"
+    },
+    {
+      "uid": "ae816337e8b6a76027bab880259d2f25e6f418adec97a2da972703377e3f965c@hoyo-cn-calendar",
+      "eventId": "starrail:website:166950:banner-blade",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:166950:banner-blade",
+        "game": "starrail",
+        "category": "banner",
+        "title": "「我身即刃」角色活动跃迁：千冶•刃返场",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166950",
+        "notes": "官网166950正文明确千冶•刃及光锥返场时间2026/10/21 12:00至2026/11/10 15:00。真珠及其光锥延续原期，沿用78448395:banner-1及:banner-2，不重复新建。千冶•刃角色试用与本返场同起止；真珠、青雀、雪衣、米沙的试用为4.6版本更新后至2026/11/10 15:00，不另建重复卡池。",
+        "displayNotes": "限定5星角色千冶•刃（虚无•火）返场。千冶•刃角色试用同步开放至11月10日15:00；真珠、青雀、雪衣、米沙的持续试用也于该时刻结束。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-21T12:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "6714bfd385e46dac1035862c1ce36e04936fcd882777f5e3de123f93fff6f0bc@hoyo-cn-calendar",
+      "eventId": "starrail:website:166950:banner-blade",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:166950:banner-blade",
+        "game": "starrail",
+        "category": "banner",
+        "title": "「我身即刃」角色活动跃迁：千冶•刃返场",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166950",
+        "notes": "官网166950正文明确千冶•刃及光锥返场时间2026/10/21 12:00至2026/11/10 15:00。真珠及其光锥延续原期，沿用78448395:banner-1及:banner-2，不重复新建。千冶•刃角色试用与本返场同起止；真珠、青雀、雪衣、米沙的试用为4.6版本更新后至2026/11/10 15:00，不另建重复卡池。",
+        "displayNotes": "限定5星角色千冶•刃（虚无•火）返场。千冶•刃角色试用同步开放至11月10日15:00；真珠、青雀、雪衣、米沙的持续试用也于该时刻结束。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-10T15:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "659d101f5f7b2c12a43bb7b2da164c0f71671ce861127091e8a90259327d94e9@hoyo-cn-calendar",
+      "eventId": "starrail:website:166950:banner-blade",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:166950:banner-blade",
+        "game": "starrail",
+        "category": "banner",
+        "title": "「我身即刃」角色活动跃迁：千冶•刃返场",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166950",
+        "notes": "官网166950正文明确千冶•刃及光锥返场时间2026/10/21 12:00至2026/11/10 15:00。真珠及其光锥延续原期，沿用78448395:banner-1及:banner-2，不重复新建。千冶•刃角色试用与本返场同起止；真珠、青雀、雪衣、米沙的试用为4.6版本更新后至2026/11/10 15:00，不另建重复卡池。",
+        "displayNotes": "限定5星角色千冶•刃（虚无•火）返场。千冶•刃角色试用同步开放至11月10日15:00；真珠、青雀、雪衣、米沙的持续试用也于该时刻结束。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "94f3d2672bf8cd3d8efa5ae2c8d8d04e43cbe38ef9ac3fed73a0df0ddbb259ab@hoyo-cn-calendar",
+      "eventId": "starrail:website:166950:banner-lightcone",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:166950:banner-lightcone",
+        "game": "starrail",
+        "category": "banner",
+        "title": "「溯回忆象」光锥活动跃迁：灼尽炼狱的新骸返场",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166950",
+        "notes": "官网166950正文明确限定5星光锥『灼尽炼狱的新骸（虚无）』返场时间2026/10/21 12:00至2026/11/10 15:00。『献给明日的色彩』为延续卡池，保持既有UID，不重复新建。",
+        "displayNotes": "限定5星光锥『灼尽炼狱的新骸（虚无）』返场。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-21T12:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "f90f9db825352b6255bf9713783898429b652546f67e29ba85dbab7cf36dccc3@hoyo-cn-calendar",
+      "eventId": "starrail:website:166950:banner-lightcone",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:166950:banner-lightcone",
+        "game": "starrail",
+        "category": "banner",
+        "title": "「溯回忆象」光锥活动跃迁：灼尽炼狱的新骸返场",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166950",
+        "notes": "官网166950正文明确限定5星光锥『灼尽炼狱的新骸（虚无）』返场时间2026/10/21 12:00至2026/11/10 15:00。『献给明日的色彩』为延续卡池，保持既有UID，不重复新建。",
+        "displayNotes": "限定5星光锥『灼尽炼狱的新骸（虚无）』返场。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-10T15:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "8274c17bba1aa6fb15242c70ae624fda50d0bbc026bd39c4af789e582e731d30@hoyo-cn-calendar",
+      "eventId": "starrail:website:166950:banner-lightcone",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:166950:banner-lightcone",
+        "game": "starrail",
+        "category": "banner",
+        "title": "「溯回忆象」光锥活动跃迁：灼尽炼狱的新骸返场",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00",
+        "url": "https://sr.mihoyo.com/news/166950",
+        "notes": "官网166950正文明确限定5星光锥『灼尽炼狱的新骸（虚无）』返场时间2026/10/21 12:00至2026/11/10 15:00。『献给明日的色彩』为延续卡池，保持既有UID，不重复新建。",
+        "displayNotes": "限定5星光锥『灼尽炼狱的新骸（虚无）』返场。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-21T12:00:00+08:00",
+        "end": "2026-11-10T15:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "c8200b73bb3b55cf3ebda84afdab8ae8f02489aa7905fd9f1cf70ff2c82e614a@hoyo-cn-calendar",
+      "eventId": "zzz:website:166971",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166971",
+        "game": "zzz",
+        "category": "event",
+        "title": "怪奇诡屋惊魂记",
+        "start": "2026-10-22T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166971",
+        "notes": "官网166971正文明确活动时间2026/10/22 10:00至2026/11/30 03:59。三个主题逐步开放，完成相应内容后解锁挑战模式；正文未给各主题单独开放时刻，不推算阶段或另加领奖截止。",
+        "displayNotes": "三个主题逐步开放，完成相应内容后解锁挑战模式；各阶段具体开放时间以游戏内为准。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-22T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "d115b125c7008f6b9bab0ac8de71a78a39d43b9a60fc4acb07aa346f5c14014f@hoyo-cn-calendar",
+      "eventId": "zzz:website:166971",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166971",
+        "game": "zzz",
+        "category": "event",
+        "title": "怪奇诡屋惊魂记",
+        "start": "2026-10-22T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166971",
+        "notes": "官网166971正文明确活动时间2026/10/22 10:00至2026/11/30 03:59。三个主题逐步开放，完成相应内容后解锁挑战模式；正文未给各主题单独开放时刻，不推算阶段或另加领奖截止。",
+        "displayNotes": "三个主题逐步开放，完成相应内容后解锁挑战模式；各阶段具体开放时间以游戏内为准。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "9219ed0fdb8d8a3f28c18ff8ce916207505c6114b8d2a36f1af74c94d7f1a387@hoyo-cn-calendar",
+      "eventId": "zzz:website:166971",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166971",
+        "game": "zzz",
+        "category": "event",
+        "title": "怪奇诡屋惊魂记",
+        "start": "2026-10-22T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166971",
+        "notes": "官网166971正文明确活动时间2026/10/22 10:00至2026/11/30 03:59。三个主题逐步开放，完成相应内容后解锁挑战模式；正文未给各主题单独开放时刻，不推算阶段或另加领奖截止。",
+        "displayNotes": "三个主题逐步开放，完成相应内容后解锁挑战模式；各阶段具体开放时间以游戏内为准。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-22T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "44c1a3f6722f52759ccb81178167b71f146fd260e84b108d022847beeac58979@hoyo-cn-calendar",
+      "eventId": "zzz:website:166969",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166969",
+        "game": "zzz",
+        "category": "event",
+        "title": "3.3版本丽都城募：任务与奖励截止",
+        "start": null,
+        "end": "2026-11-30T03:59:00+08:00",
+        "startText": "3.3版本更新后",
+        "url": "https://zzz.mihoyo.com/news/166969",
+        "notes": "官网166969正文明确丽都城募时间3.3版本更新后至2026/11/30 03:59；付费计划购买于同日02:59提前关闭，另设:purchase提醒。开始仅写版本更新后，不推算开服时刻。此为3.3新一期，不并入3.2官网166012。",
+        "displayNotes": "3.3版本更新后开放；本条提醒任务与奖励截止，付费计划购买提前一小时关闭。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "607497fae67a9a5462d4d1bb06963c15350174e00a85208b749ece29477e5d8d@hoyo-cn-calendar",
+      "eventId": "zzz:website:166969",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166969",
+        "game": "zzz",
+        "category": "event",
+        "title": "3.3版本丽都城募：任务与奖励截止",
+        "start": null,
+        "end": "2026-11-30T03:59:00+08:00",
+        "startText": "3.3版本更新后",
+        "url": "https://zzz.mihoyo.com/news/166969",
+        "notes": "官网166969正文明确丽都城募时间3.3版本更新后至2026/11/30 03:59；付费计划购买于同日02:59提前关闭，另设:purchase提醒。开始仅写版本更新后，不推算开服时刻。此为3.3新一期，不并入3.2官网166012。",
+        "displayNotes": "3.3版本更新后开放；本条提醒任务与奖励截止，付费计划购买提前一小时关闭。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "9d98841266657dd17665711488eb4a51a3a29d7e8da67c92d1f6cc076d84dc4c@hoyo-cn-calendar",
+      "eventId": "zzz:website:166969:purchase",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166969:purchase",
+        "game": "zzz",
+        "category": "event",
+        "title": "3.3版本丽都城募：付费计划购买截止",
+        "start": null,
+        "end": "2026-11-30T02:59:00+08:00",
+        "startText": "3.3版本更新后",
+        "url": "https://zzz.mihoyo.com/news/166969",
+        "notes": "官网166969正文明确2026/11/30 02:59关闭本期付费计划购买。任务与奖励仍可进行至同日03:59；本条不是活动提前结束。开始仅为3.3版本更新后，不推算具体时刻。",
+        "displayNotes": "本条只提醒付费计划停止购买；任务与奖励仍可进行至同日03:59。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T02:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
+    },
+    {
+      "uid": "55d919e0cabf88532cd2f728e4c3ccbacc7f4f5cc3fd2c85a372510cc3e8c925@hoyo-cn-calendar",
+      "eventId": "zzz:website:166969:purchase",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166969:purchase",
+        "game": "zzz",
+        "category": "event",
+        "title": "3.3版本丽都城募：付费计划购买截止",
+        "start": null,
+        "end": "2026-11-30T02:59:00+08:00",
+        "startText": "3.3版本更新后",
+        "url": "https://zzz.mihoyo.com/news/166969",
+        "notes": "官网166969正文明确2026/11/30 02:59关闭本期付费计划购买。任务与奖励仍可进行至同日03:59；本条不是活动提前结束。开始仅为3.3版本更新后，不推算具体时刻。",
+        "displayNotes": "本条只提醒付费计划停止购买；任务与奖励仍可进行至同日03:59。",
+        "modified": "2026-10-20T13:21:44.331Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T02:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-20T13:21:44.331Z",
+      "publishedAt": "2026-10-20T13:25:40.551Z",
+      "state": "active"
     }
   ]
 }

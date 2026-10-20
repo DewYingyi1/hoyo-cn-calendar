@@ -1234,5 +1234,38 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/7030028abc1379bdcadeec5f0c3c13f8_1015300268469782499.jpg",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/166675/47e156c17b2ec511f28f5e25e14b2e5a_1067221884210358220.jpg"
     ]
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "166950",
+    "decision": "confirmed-text-split-existing-banners-preserved",
+    "notes": "实时官网正文与待审digest一致。仅新增千冶•刃及『灼尽炼狱的新骸』两个返场卡池，均2026/10/21 12:00至2026/11/10 15:00；真珠及『献给明日的色彩』持续期已由starrail:miyoushe:78448395:banner-1及:banner-2收录，保留原记录与UID，不重复。原绯英及其光锥返场也保持不变。『锋芒崭露』试用中真珠、青雀、雪衣、米沙为4.6版本更新后至2026/11/10 15:00，千冶•刃为2026/10/21 12:00至2026/11/10 15:00；依既有试用处理方式附角色卡池备注，不把试用再建成卡池。所有时间依据正文；仅绑定本正文digest及图片URL列表hash，未逐图审核或确认图片字节，不新增图片字节证据基线、不解除任何人工锁。",
+    "checkedAt": "2026-10-20T13:21:44.331Z",
+    "digest": "01e904d466ac60f31c826ec5369177454293d1c38f31d2b37bf4cb65b43d6d1d",
+    "imagesHash": "77b8f6722134b89180845e0ca876ee9cba4e0276187c646a3774a4458b1a4823",
+    "evidenceUrls": ["https://sr.mihoyo.com/news/166950"]
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166971",
+    "decision": "confirmed-text-total-window-no-inferred-stages",
+    "notes": "实时官网正文与待审digest一致。总活动2026/10/22 10:00至2026/11/30 03:59；三个主题逐步开放及挑战模式解锁没有各自具体时刻，只保留说明，不推算阶段或新增领奖截止。所有时间依据正文；仅绑定本正文digest及图片URL列表hash，未逐图审核或确认图片字节，不新增图片字节证据基线、不解除任何人工锁。",
+    "checkedAt": "2026-10-20T13:21:44.331Z",
+    "digest": "921401b9e509f72c349dc6b5c6dee48dc6eb7e2bc18aae7ccba711493813b583",
+    "imagesHash": "cf870e9ac905efe7bf8c4f148c41d8c52f0fc96d683c0d469b6760e222ee7c19",
+    "evidenceUrls": ["https://zzz.mihoyo.com/news/166971"]
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166969",
+    "decision": "confirmed-text-split-pass-new-version",
+    "notes": "实时官网正文与待审digest一致。3.3版本丽都城募任务与奖励至2026/11/30 03:59，付费计划购买于同日02:59关闭，拆成主事件及:purchase。两条开始均保留『3.3版本更新后』，start为null，不推算开服时刻；此为新一期，不并入3.2官网166012或改变旧UID。所有时间依据正文；仅绑定本正文digest及图片URL列表hash，未逐图审核或确认图片字节，不新增图片字节证据基线、不解除任何人工锁。",
+    "checkedAt": "2026-10-20T13:21:44.331Z",
+    "digest": "053afd05fa44b01ef558875584169d2d91025c6bb602c24b30fe91441bc676e6",
+    "imagesHash": "e86083d2822cf193d5891b8cf3473eee27a67fc68b5c13aacdcabd5c8ba8a985",
+    "evidenceUrls": ["https://zzz.mihoyo.com/news/166969"]
   }
 ]
