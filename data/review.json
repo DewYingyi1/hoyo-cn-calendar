@@ -46,5 +46,44 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "starrail",
+    "postId": "166950",
+    "title": "4.6版本活动跃迁（其二）",
+    "url": "https://sr.mihoyo.com/news/166950",
+    "reason": "汇总或存在多个截止语义，需要拆分审核",
+    "digest": "01e904d466ac60f31c826ec5369177454293d1c38f31d2b37bf4cb65b43d6d1d",
+    "source": "website",
+    "firstSeenAt": "2026-10-20T11:50:19.589Z",
+    "lastSeenAt": "2026-10-20T11:50:19.589Z",
+    "resolved": false,
+    "changedConfirmation": false
+  },
+  {
+    "game": "zzz",
+    "postId": "166971",
+    "title": "「怪奇诡屋惊魂记」活动说明",
+    "url": "https://zzz.mihoyo.com/news/166971",
+    "reason": "正文有分阶段语义，需要核对各阶段时间",
+    "digest": "921401b9e509f72c349dc6b5c6dee48dc6eb7e2bc18aae7ccba711493813b583",
+    "source": "website",
+    "firstSeenAt": "2026-10-20T11:50:19.589Z",
+    "lastSeenAt": "2026-10-20T11:50:19.589Z",
+    "resolved": false,
+    "changedConfirmation": false
+  },
+  {
+    "game": "zzz",
+    "postId": "166969",
+    "title": "3.3版本「丽都城募」说明",
+    "url": "https://zzz.mihoyo.com/news/166969",
+    "reason": "活动截止与购买截止不同，需要拆分审核",
+    "digest": "053afd05fa44b01ef558875584169d2d91025c6bb602c24b30fe91441bc676e6",
+    "source": "website",
+    "firstSeenAt": "2026-10-20T11:50:19.589Z",
+    "lastSeenAt": "2026-10-20T11:50:19.589Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]

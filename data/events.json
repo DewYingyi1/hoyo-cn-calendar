@@ -785,5 +785,18 @@
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
     "modified": "2026-10-19T13:36:03.138Z",
     "sequence": 0
+  },
+  {
+    "id": "zzz:website:166970",
+    "game": "zzz",
+    "category": "event",
+    "title": "「全新放送」活动说明",
+    "start": null,
+    "end": "2026-12-01T03:59:00+08:00",
+    "startText": "3.3版本更新后",
+    "url": "https://zzz.mihoyo.com/news/166970",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-20T11:50:19.589Z",
+    "sequence": 0
   }
 ]
