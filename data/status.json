@@ -1,7 +1,7 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-19T22:28:36.436Z",
+      "lastSuccessAt": "2026-10-20T01:03:49.622Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
@@ -19,14 +19,14 @@
       "partial": true
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-19T13:36:03.138Z",
+      "lastSuccessAt": "2026-10-20T01:03:49.622Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 42,
       "earliestPublishedAt": "2026-04-21T05:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "act-api-takumi-static.mihoyo.com：source-connect；api-takumi-static.mihoyo.com：source-connect",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
@@ -35,7 +35,7 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-19T22:28:36.436Z",
+      "lastSuccessAt": "2026-10-20T01:03:49.622Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -51,13 +51,12 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-19T22:28:36.436Z",
+  "lastAttemptAt": "2026-10-20T01:03:49.622Z",
   "issues": [
-    "原神图片字节检查失败（公告166638）：图片连接请求失败（可重试）；保留旧日程及人工基线。",
-    "崩坏：星穹铁道获取失败：act-api-takumi-static.mihoyo.com：source-connect；api-takumi-static.mihoyo.com：source-connect；保留旧事件。"
+    "原神图片字节检查失败（公告166638）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
   ],
   "reviewCount": 1,
-  "successfulSources": 2,
+  "successfulSources": 3,
   "partialSources": 1,
-  "completeSources": 1
+  "completeSources": 2
 }
