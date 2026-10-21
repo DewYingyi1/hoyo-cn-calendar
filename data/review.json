@@ -46,18 +46,5 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
-  },
-  {
-    "game": "zzz",
-    "postId": "166995",
-    "title": "「怪奇诡屋惊魂记」活动介绍",
-    "url": "https://zzz.mihoyo.com/news/166995",
-    "reason": "图片连接请求失败（可重试）；保留既有日程",
-    "digest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
-    "source": "website",
-    "firstSeenAt": "2026-10-21T17:21:57.649Z",
-    "lastSeenAt": "2026-10-21T17:21:57.649Z",
-    "resolved": false,
-    "changedConfirmation": true
   }
 ]
