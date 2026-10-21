@@ -1,25 +1,23 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-21T14:49:21.449Z",
+      "lastSuccessAt": "2026-10-21T14:57:04.018Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 31,
       "earliestPublishedAt": "2026-09-01T10:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
+      "error": null,
       "primarySource": "website",
-      "endpoint": "https://api-takumi-static.mihoyo.com",
+      "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
       "qualityIssues": [],
-      "imageEvidenceIssues": [
-        "原神图片字节检查失败（公告166638）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
-      ],
-      "partial": true
+      "imageEvidenceIssues": [],
+      "partial": false
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-21T14:49:21.449Z",
+      "lastSuccessAt": "2026-10-21T14:57:04.018Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -35,7 +33,7 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-21T14:49:21.449Z",
+      "lastSuccessAt": "2026-10-21T14:57:04.018Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -51,12 +49,10 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-21T14:49:21.449Z",
-  "issues": [
-    "原神图片字节检查失败（公告166638）：图片连接请求失败（可重试）；保留旧日程及人工基线。"
-  ],
-  "reviewCount": 1,
+  "lastAttemptAt": "2026-10-21T14:57:04.018Z",
+  "issues": [],
+  "reviewCount": 0,
   "successfulSources": 3,
-  "partialSources": 1,
-  "completeSources": 2
+  "partialSources": 0,
+  "completeSources": 3
 }
