@@ -7048,6 +7048,60 @@
       "modified": "2026-10-20T13:21:44.331Z",
       "publishedAt": "2026-10-20T13:25:40.551Z",
       "state": "active"
+    },
+    {
+      "uid": "7e54908ddd568e3bd8bc061a8c380aaeef47bb25cc81228cc09f6c1e34a1c055@hoyo-cn-calendar",
+      "eventId": "genshin:website:166992",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:166992",
+        "game": "genshin",
+        "category": "livestream",
+        "title": "《原神》7.2版本「坏灭肇始之时」前瞻特别节目预告",
+        "start": "2026-10-23T20:00:00+08:00",
+        "end": null,
+        "url": "https://ys.mihoyo.com/main/news/detail/166992",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-21T05:00:02.192Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "前瞻开始",
+        "start": "2026-10-23T20:00:00+08:00",
+        "end": null
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T05:00:02.192Z",
+      "publishedAt": "2026-10-21T05:02:47.660Z",
+      "state": "active"
+    },
+    {
+      "uid": "71115f59c7a43045dfe8dbc3f687f7370b7b74ffe5887d7fa5dfc4a7b954ecfd@hoyo-cn-calendar",
+      "eventId": "genshin:website:166992",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:166992",
+        "game": "genshin",
+        "category": "livestream",
+        "title": "《原神》7.2版本「坏灭肇始之时」前瞻特别节目预告",
+        "start": "2026-10-23T20:00:00+08:00",
+        "end": null,
+        "url": "https://ys.mihoyo.com/main/news/detail/166992",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-21T05:00:02.192Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "前瞻开始",
+        "start": "2026-10-23T20:00:00+08:00",
+        "end": null
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T05:00:02.192Z",
+      "publishedAt": "2026-10-21T05:02:47.660Z",
+      "state": "active"
     }
   ]
 }

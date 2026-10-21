@@ -123,6 +123,18 @@
     "sequence": 0
   },
   {
+    "id": "genshin:website:166992",
+    "game": "genshin",
+    "category": "livestream",
+    "title": "《原神》7.2版本「坏灭肇始之时」前瞻特别节目预告",
+    "start": "2026-10-23T20:00:00+08:00",
+    "end": null,
+    "url": "https://ys.mihoyo.com/main/news/detail/166992",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-21T05:00:02.192Z",
+    "sequence": 0
+  },
+  {
     "id": "starrail:miyoushe:77328417",
     "game": "starrail",
     "category": "livestream",

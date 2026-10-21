@@ -46,5 +46,44 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "166638",
+    "title": "《原神》「神铸赋形」活动祈愿现已开启，「单手剑·苍耀」「长柄武器·香韵奏者」概率UP！",
+    "url": "https://ys.mihoyo.com/main/news/detail/166638",
+    "reason": "图片连接请求失败（可重试）；保留既有日程",
+    "digest": "c297cf5f04f6c34f114ac6f9c704efe4ed9fd15880b0f6b99d94edf56016b778",
+    "source": "website",
+    "firstSeenAt": "2026-10-21T05:00:02.192Z",
+    "lastSeenAt": "2026-10-21T05:00:02.192Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "zzz",
+    "postId": "166995",
+    "title": "「怪奇诡屋惊魂记」活动介绍",
+    "url": "https://zzz.mihoyo.com/news/166995",
+    "reason": "图片公告正文不足以确定日程，需要读图审核",
+    "digest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
+    "source": "website",
+    "firstSeenAt": "2026-10-21T05:00:02.192Z",
+    "lastSeenAt": "2026-10-21T05:00:02.192Z",
+    "resolved": false,
+    "changedConfirmation": false
+  },
+  {
+    "game": "zzz",
+    "postId": "166989",
+    "title": "3.3版本「重返天空的旅程」更新公告",
+    "url": "https://zzz.mihoyo.com/news/166989",
+    "reason": "正文存在额外时刻，需要核对是否多个阶段",
+    "digest": "a83c7c5b036cdcc93ed59c40fe631c0e079bae73358d35c93465593501e02361",
+    "source": "website",
+    "firstSeenAt": "2026-10-21T05:00:02.192Z",
+    "lastSeenAt": "2026-10-21T05:00:02.192Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
