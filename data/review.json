@@ -46,31 +46,5 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
-  },
-  {
-    "game": "zzz",
-    "postId": "166995",
-    "title": "「怪奇诡屋惊魂记」活动介绍",
-    "url": "https://zzz.mihoyo.com/news/166995",
-    "reason": "图片公告正文不足以确定日程，需要读图审核",
-    "digest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
-    "source": "website",
-    "firstSeenAt": "2026-10-21T05:00:02.192Z",
-    "lastSeenAt": "2026-10-21T12:01:57.509Z",
-    "resolved": false,
-    "changedConfirmation": false
-  },
-  {
-    "game": "zzz",
-    "postId": "166989",
-    "title": "3.3版本「重返天空的旅程」更新公告",
-    "url": "https://zzz.mihoyo.com/news/166989",
-    "reason": "正文存在额外时刻，需要核对是否多个阶段",
-    "digest": "a83c7c5b036cdcc93ed59c40fe631c0e079bae73358d35c93465593501e02361",
-    "source": "website",
-    "firstSeenAt": "2026-10-21T05:00:02.192Z",
-    "lastSeenAt": "2026-10-21T12:01:57.509Z",
-    "resolved": false,
-    "changedConfirmation": false
   }
 ]

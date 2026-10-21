@@ -7102,6 +7102,748 @@
       "modified": "2026-10-21T05:00:02.192Z",
       "publishedAt": "2026-10-21T05:02:47.660Z",
       "state": "active"
+    },
+    {
+      "uid": "db9cdb286ca811e1ac4f298fb52a32f713b22592683ef4444d2ca7f58b6fdd1e@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-cyber",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-cyber",
+        "game": "zzz",
+        "category": "event",
+        "title": "赛博圣手，出诊！",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/10/28 10:00至2026/11/16 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/10/28 10:00至2026/11/16 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-28T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "2b57a9aa36105027e3ea398b8b47721d3118c4e34e056262f659d8e511a9581f@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-cyber",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-cyber",
+        "game": "zzz",
+        "category": "event",
+        "title": "赛博圣手，出诊！",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/10/28 10:00至2026/11/16 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/10/28 10:00至2026/11/16 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-16T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "0329382f6d3db113b337a93a142ec6af463409ddfa3f0898350e71827f03e487@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-cyber",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:event-cyber",
+        "game": "zzz",
+        "category": "event",
+        "title": "赛博圣手，出诊！",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/10/28 10:00至2026/11/16 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/10/28 10:00至2026/11/16 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "04995c340e37b2207f1e0704402ab6c8fc05a4349f354d91bf8b929b92c7ad9c@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-bounty",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-bounty",
+        "game": "zzz",
+        "category": "event",
+        "title": "先遣赏金-区域巡防",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/04 04:00至2026/11/09 03:59；区域巡防挑战奖励翻倍。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/04 04:00至2026/11/09 03:59；区域巡防挑战奖励翻倍。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-04T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "928959a5369c4597ed8495c3d001cc4241152bb0d1930ece50e2b4707ce733ef@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-bounty",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-bounty",
+        "game": "zzz",
+        "category": "event",
+        "title": "先遣赏金-区域巡防",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/04 04:00至2026/11/09 03:59；区域巡防挑战奖励翻倍。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/04 04:00至2026/11/09 03:59；区域巡防挑战奖励翻倍。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-09T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "5f9b4a9b8bae0eb01935a9e0b440d7c332510d63d657c1359897c8fa4ea7774d@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-bounty",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:event-bounty",
+        "game": "zzz",
+        "category": "event",
+        "title": "先遣赏金-区域巡防",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/04 04:00至2026/11/09 03:59；区域巡防挑战奖励翻倍。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/04 04:00至2026/11/09 03:59；区域巡防挑战奖励翻倍。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "cfc96c52d041fe0875a94c6de255fe5a70c2484349147cbc5b196ac84c122fef@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-bangboo",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-bangboo",
+        "game": "zzz",
+        "category": "event",
+        "title": "「嗯呢」从天降",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/11 10:00至2026/12/01 03:59；累计登录7天可获邦布券。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/11 10:00至2026/12/01 03:59；累计登录7天可获邦布券。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "c4c76ca2ee31ddec2c16c4d698a84fff624a1759deaa4d99633f78b8d2d88402@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-bangboo",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-bangboo",
+        "game": "zzz",
+        "category": "event",
+        "title": "「嗯呢」从天降",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/11 10:00至2026/12/01 03:59；累计登录7天可获邦布券。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/11 10:00至2026/12/01 03:59；累计登录7天可获邦布券。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-01T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "c7c3f96d6ac2f0037773761cc72dad0b284e7846a5a5ab158468cca349b7e14f@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-bangboo",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:event-bangboo",
+        "game": "zzz",
+        "category": "event",
+        "title": "「嗯呢」从天降",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/11 10:00至2026/12/01 03:59；累计登录7天可获邦布券。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/11 10:00至2026/12/01 03:59；累计登录7天可获邦布券。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "976bbfdad9f88af15f36a31f672c9881aa00bf985975bd7a97be308e9a1dd9fe@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-raven",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-raven",
+        "game": "zzz",
+        "category": "event",
+        "title": "跛脚乌鸦奇踪记",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/11 10:00至2026/11/30 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/11 10:00至2026/11/30 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "30b60897e21f739b0fa6505703cc1445cecce0bbbc888d755a46991b62ca0179@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-raven",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-raven",
+        "game": "zzz",
+        "category": "event",
+        "title": "跛脚乌鸦奇踪记",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/11 10:00至2026/11/30 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/11 10:00至2026/11/30 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "71db61ba744a2a750b0cacf6fefc083e117cef54ba011e49b36df74ff59a9490@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-raven",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:event-raven",
+        "game": "zzz",
+        "category": "event",
+        "title": "跛脚乌鸦奇踪记",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/11 10:00至2026/11/30 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/11 10:00至2026/11/30 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "cc77eea4edaf0da6de75e8acab79c49f293181442800c4b966013fb8192bb9b2@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-album",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-album",
+        "game": "zzz",
+        "category": "event",
+        "title": "修复吧！漂流画集",
+        "start": "2026-11-16T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/16 10:00至2026/11/30 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/16 10:00至2026/11/30 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-16T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "b3cb43abcad2b4131c27c2d5c8f563a350ec0ce7a321b513ad7945cded09fd6e@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-album",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-album",
+        "game": "zzz",
+        "category": "event",
+        "title": "修复吧！漂流画集",
+        "start": "2026-11-16T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/16 10:00至2026/11/30 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/16 10:00至2026/11/30 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "3b0fd829024be75d45580d6abc979e22ad2e90986344028b270147c4475cb993@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-album",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:event-album",
+        "game": "zzz",
+        "category": "event",
+        "title": "修复吧！漂流画集",
+        "start": "2026-11-16T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/16 10:00至2026/11/30 03:59。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/16 10:00至2026/11/30 03:59。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-16T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "a263161cbe145e454dfac4c41fea1b8dd36c642ff57862d28ec2c9ea99f8d4da@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-data",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-data",
+        "game": "zzz",
+        "category": "event",
+        "title": "数据悬赏-实战模拟",
+        "start": "2026-11-25T04:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/25 04:00至2026/11/30 03:59；实战模拟室挑战奖励翻倍。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/25 04:00至2026/11/30 03:59；实战模拟室挑战奖励翻倍。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-25T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "4108b54e1708f5f2ba48bad3ff40fdfdcbe17fb18a6bd8eb04f5f25ad08aab85@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-data",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:event-data",
+        "game": "zzz",
+        "category": "event",
+        "title": "数据悬赏-实战模拟",
+        "start": "2026-11-25T04:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/25 04:00至2026/11/30 03:59；实战模拟室挑战奖励翻倍。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/25 04:00至2026/11/30 03:59；实战模拟室挑战奖励翻倍。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "10d69498f7bf9f91e62e7fa2a499c0643a6dbbad7d8de9667b9e3a3fe12e42ae@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:event-data",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:event-data",
+        "game": "zzz",
+        "category": "event",
+        "title": "数据悬赏-实战模拟",
+        "start": "2026-11-25T04:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：活动时间2026/11/25 04:00至2026/11/30 03:59；实战模拟室挑战奖励翻倍。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "活动时间2026/11/25 04:00至2026/11/30 03:59；实战模拟室挑战奖励翻倍。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-25T04:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "c728c9f5c9727309b50d1b5fdbd6f235deab192463edb5ed5e39fbf67f4ecdb5@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-life",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:outfit-life",
+        "game": "zzz",
+        "category": "event",
+        "title": "菲欧妮「病名为生」时装限时折扣",
+        "start": null,
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0,
+        "startText": "3.3版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "10173ee7bbc83aac53f4c516987a0a43da186d698d25fe82bbed727f0c11c2bf@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-life",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:outfit-life",
+        "game": "zzz",
+        "category": "event",
+        "title": "菲欧妮「病名为生」时装限时折扣",
+        "start": null,
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0,
+        "startText": "3.3版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "9dfb9f49afb6f69d2b3dfbf07374343d7237ad2f82aae0c64c1e511e6f6c8172@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-fantasy",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:outfit-fantasy",
+        "game": "zzz",
+        "category": "event",
+        "title": "菲欧妮「空想症候」时装限时折扣",
+        "start": null,
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0,
+        "startText": "3.3版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "60223435f80c88a4852878d1cfa8a2ebe3795a7aceb91698e0d567a15406f85e@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-fantasy",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:outfit-fantasy",
+        "game": "zzz",
+        "category": "event",
+        "title": "菲欧妮「空想症候」时装限时折扣",
+        "start": null,
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "3.3版本更新后至2026/12/02 05:59为单品折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0,
+        "startText": "3.3版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "20b1bf9b77bb22faa2fe563732bd1ef68fbbe05be255c40d35b0a00bd35cd227@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-bundle",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:outfit-bundle",
+        "game": "zzz",
+        "category": "event",
+        "title": "空白遐想：菲欧妮时装组合限时上架",
+        "start": null,
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：3.3版本更新后至2026/12/02 05:59限时上架；组合含病名为生与空想症候，售价2350菲林底片，组合优惠与单品折扣不可同享。本条提醒组合限时售卖截止，不代表单品下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "3.3版本更新后至2026/12/02 05:59限时上架；组合含病名为生与空想症候，售价2350菲林底片，组合优惠与单品折扣不可同享。本条提醒组合限时售卖截止，不代表单品下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0,
+        "startText": "3.3版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "348d39ca75ab782c2a190de620c043cf094b219ed8aecde8f996366d1bf64f72@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-bundle",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:outfit-bundle",
+        "game": "zzz",
+        "category": "event",
+        "title": "空白遐想：菲欧妮时装组合限时上架",
+        "start": null,
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：3.3版本更新后至2026/12/02 05:59限时上架；组合含病名为生与空想症候，售价2350菲林底片，组合优惠与单品折扣不可同享。本条提醒组合限时售卖截止，不代表单品下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "3.3版本更新后至2026/12/02 05:59限时上架；组合含病名为生与空想症候，售价2350菲林底片，组合优惠与单品折扣不可同享。本条提醒组合限时售卖截止，不代表单品下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0,
+        "startText": "3.3版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "cc369b4d7996448a14e88445670e329858c60bae004e7131a0f1099f6d7f8890@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-severian",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:outfit-severian",
+        "game": "zzz",
+        "category": "event",
+        "title": "赛维里安「肃仪无犯」时装限时折扣",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：2026/11/11 12:00至2026/12/02 05:59为折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "2026/11/11 12:00至2026/12/02 05:59为折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T12:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "ea40d842c20fb690f425459d3e64e9bb3bfeeff5dd150b66474ec2baf1091341@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-severian",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:166989:outfit-severian",
+        "game": "zzz",
+        "category": "event",
+        "title": "赛维里安「肃仪无犯」时装限时折扣",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：2026/11/11 12:00至2026/12/02 05:59为折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "2026/11/11 12:00至2026/12/02 05:59为折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
+    },
+    {
+      "uid": "527095f5a6e2460a069224c24d18e676894ae7e63b47f58bc974b224098baa96@hoyo-cn-calendar",
+      "eventId": "zzz:website:166989:outfit-severian",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:166989:outfit-severian",
+        "game": "zzz",
+        "category": "event",
+        "title": "赛维里安「肃仪无犯」时装限时折扣",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-02T05:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/166989",
+        "notes": "官网166989当前正文人工核对：2026/11/11 12:00至2026/12/02 05:59为折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。 时间为国服官方原文，不推算开服、主题阶段或额外领奖截止。",
+        "displayNotes": "2026/11/11 12:00至2026/12/02 05:59为折扣期；1350菲林底片，结束后恢复1680原价，不是时装下架。",
+        "modified": "2026-10-21T11:40:25.133Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-02T05:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-21T11:40:25.133Z",
+      "publishedAt": "2026-10-21T11:43:39.252Z",
+      "state": "active"
     }
   ]
 }

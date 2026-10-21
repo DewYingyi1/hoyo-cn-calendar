@@ -1244,7 +1244,9 @@
     "checkedAt": "2026-10-20T13:21:44.331Z",
     "digest": "01e904d466ac60f31c826ec5369177454293d1c38f31d2b37bf4cb65b43d6d1d",
     "imagesHash": "77b8f6722134b89180845e0ca876ee9cba4e0276187c646a3774a4458b1a4823",
-    "evidenceUrls": ["https://sr.mihoyo.com/news/166950"]
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/166950"
+    ]
   },
   {
     "game": "zzz",
@@ -1255,7 +1257,9 @@
     "checkedAt": "2026-10-20T13:21:44.331Z",
     "digest": "921401b9e509f72c349dc6b5c6dee48dc6eb7e2bc18aae7ccba711493813b583",
     "imagesHash": "cf870e9ac905efe7bf8c4f148c41d8c52f0fc96d683c0d469b6760e222ee7c19",
-    "evidenceUrls": ["https://zzz.mihoyo.com/news/166971"]
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166971"
+    ]
   },
   {
     "game": "zzz",
@@ -1266,6 +1270,48 @@
     "checkedAt": "2026-10-20T13:21:44.331Z",
     "digest": "053afd05fa44b01ef558875584169d2d91025c6bb602c24b30fe91441bc676e6",
     "imagesHash": "e86083d2822cf193d5891b8cf3473eee27a67fc68b5c13aacdcabd5c8ba8a985",
-    "evidenceUrls": ["https://zzz.mihoyo.com/news/166969"]
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166969"
+    ]
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166989",
+    "decision": "confirmed-summary-split-explicit-times-permanent-content-preserved",
+    "notes": "已读取当前官网完整正文及唯一题图，题图无日期。补齐六项明确时段活动、菲欧妮两款时装各自折扣、空白遐想组合限时上架、赛维里安肃仪无犯折扣及10/21 06:00维护（预计5小时，11:00只为预计维护结束，不是活动开服）。菲欧妮单品仅折扣结束后恢复原价，组合则限时停售，分别建条目；开始只写3.3版本更新后者保持start=null。全新放送沿用166970、怪奇诡屋沿用166971、丽都城募沿用166969及:purchase，保留原UID不重复。12/02 06:00只为版本结束/补偿领取语境，不作为全部活动截止。永久剧情、信赖及常驻系统不设置关闭；式舆/危局各期无日期不推算；古怪试炼的版本期间限时内容只留说明，不据版本周期补时间。补偿邮件及领取条件不另建游戏活动。全部时间为国服官网明确原文；正文、图片列表及题图逐URL字节绑定人工基线。",
+    "checkedAt": "2026-10-21T11:40:25.133Z",
+    "digest": "a83c7c5b036cdcc93ed59c40fe631c0e079bae73358d35c93465593501e02361",
+    "imagesHash": "9dceeb363718dcd77335b939ec04140532a97d512ff102646c26c50397699c07",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/nap/166989/32b9db0af2f894141f99ce41aab85074_5943209145671856794.jpg": "ffa1036361126011b624a2e4d3e9b2defe8069a69dd050492da94f2f8c80dbae"
+    },
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166989",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166989/32b9db0af2f894141f99ce41aab85074_5943209145671856794.jpg"
+    ]
+  },
+  {
+    "game": "zzz",
+    "source": "website",
+    "postId": "166995",
+    "decision": "confirmed-image-duplicate-existing-uid-preserved",
+    "notes": "已读取当前官网正文及全部四张原图，并与主人提供图核对。第二图明确2026/10/22 10:00至2026/11/30 03:59（服务器时间）；其余图片仅介绍玩法及解锁，无额外明确日期，限时奖励无独立领取截止。与166971为同一期，保留zzz:website:166971及原UID；仅抑制166995重复自动事件，不添加别名、不复制阶段或领奖截止。正文digest、图片列表hash及四图逐URL字节SHA256绑定当前人工基线，后续变化重新送审。",
+    "checkedAt": "2026-10-21T11:40:25.133Z",
+    "digest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
+    "imagesHash": "7d0f4d78e72c413a9789b99481af92c8af43d71c826eb0809a459d86dc37dbd0",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/81769e5e9aae70047575163683c063a9_3917300996308684301.png": "917faa0ecb3172b098e78a818b92bb50ed1504b3c63a90da273a6cb0ca8ae9b2",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/95c826ad00ade682f8350822a46ca3b0_1480141058260097565.png": "6382066a89ff95a585fe2359fc1adc72b7cd66e2763d43d9021b1653a18af234",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/863c44b69f15998f6a89775590092e39_2395932031211197791.png": "48ae084acb0871a00650107a3043fca0872cfe333379c236e9b0ebefa28372ed",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/e439c9af0b6455111ddb7e9ea194e9d6_2515885002497182271.png": "1465e1b78d3cdac811f9feddbb4826b13ab3b29abb7d6cd29809c3e778659e54"
+    },
+    "evidenceUrls": [
+      "https://zzz.mihoyo.com/news/166995",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/81769e5e9aae70047575163683c063a9_3917300996308684301.png",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/95c826ad00ade682f8350822a46ca3b0_1480141058260097565.png",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/863c44b69f15998f6a89775590092e39_2395932031211197791.png",
+      "https://fastcdn.mihoyo.com/content-v2/nap/166995/e439c9af0b6455111ddb7e9ea194e9d6_2515885002497182271.png"
+    ]
   }
 ]
