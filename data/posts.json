@@ -2476,8 +2476,8 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/166031/4c8f54754d6095781c204dc1cfe44d52_7971724793015399520.png": "c744b29062e2de82f6ffe720b99d299e5eb7967d8dc53f35401ba3fb64f7dbff"
     },
     "observedImageBytesDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
-    "observedImageBytesAt": "2026-10-21T14:57:04.018Z",
-    "imageEvidenceCheckedAt": "2026-10-21T14:57:04.018Z",
+    "observedImageBytesAt": "2026-10-21T17:21:57.649Z",
+    "imageEvidenceCheckedAt": "2026-10-21T17:21:57.649Z",
     "imageEvidencePending": false,
     "imageEvidenceError": null,
     "reviewedDigest": "36877cc3bb94c26cfb928d89a286b0fa06f587f834a0102e67225cd41727727d",
@@ -4557,7 +4557,7 @@
     },
     "observedImageBytesDigest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
     "observedImageBytesAt": "2026-10-21T14:57:04.018Z",
-    "imageEvidenceCheckedAt": "2026-10-21T14:57:04.018Z",
+    "imageEvidenceCheckedAt": "2026-10-21T17:21:57.649Z",
     "reviewedDigest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
     "confirmedImagesHash": "7d0f4d78e72c413a9789b99481af92c8af43d71c826eb0809a459d86dc37dbd0",
     "confirmedImagesDigest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
@@ -4568,11 +4568,14 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/166995/e439c9af0b6455111ddb7e9ea194e9d6_2515885002497182271.png": "1465e1b78d3cdac811f9feddbb4826b13ab3b29abb7d6cd29809c3e778659e54"
     },
     "confirmedImageBytesDigest": "244f0b6d2d49a406d0a83235c9f7f7aacca270d92f71e646e39ccf5fdcbd4617",
-    "imageEvidencePending": false,
-    "imageEvidenceError": null,
-    "imageEvidenceErrorCode": null,
-    "imageEvidenceDiagnostic": null,
-    "imageEvidenceRetryable": false,
+    "imageEvidencePending": true,
+    "imageEvidenceError": "图片连接请求失败（可重试）",
+    "imageEvidenceErrorCode": "image-request",
+    "imageEvidenceDiagnostic": {
+      "kind": "connect",
+      "attempts": 3
+    },
+    "imageEvidenceRetryable": true,
     "imageEvidenceManualReview": false
   },
   "zzz:website:166994": {
@@ -4603,8 +4606,8 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/166989/32b9db0af2f894141f99ce41aab85074_5943209145671856794.jpg": "ffa1036361126011b624a2e4d3e9b2defe8069a69dd050492da94f2f8c80dbae"
     },
     "observedImageBytesDigest": "a83c7c5b036cdcc93ed59c40fe631c0e079bae73358d35c93465593501e02361",
-    "observedImageBytesAt": "2026-10-21T14:57:04.018Z",
-    "imageEvidenceCheckedAt": "2026-10-21T14:57:04.018Z",
+    "observedImageBytesAt": "2026-10-21T17:21:57.649Z",
+    "imageEvidenceCheckedAt": "2026-10-21T17:21:57.649Z",
     "reviewedDigest": "a83c7c5b036cdcc93ed59c40fe631c0e079bae73358d35c93465593501e02361",
     "confirmedImagesHash": "9dceeb363718dcd77335b939ec04140532a97d512ff102646c26c50397699c07",
     "confirmedImagesDigest": "a83c7c5b036cdcc93ed59c40fe631c0e079bae73358d35c93465593501e02361",
