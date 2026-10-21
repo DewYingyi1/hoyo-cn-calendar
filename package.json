@@ -7,6 +7,7 @@
   "scripts": {
     "test": "node --test test/*.test.mjs",
     "update": "node scripts/update.mjs",
+    "update:resilient": "node scripts/update-with-recovery.mjs",
     "build": "node scripts/build.mjs",
     "check": "node scripts/check.mjs",
     "approve-image": "node scripts/approve-image-evidence.mjs",

@@ -27,7 +27,8 @@ jobs:
       - name: 规则与日历测试
         run: npm test
       - name: 采集官方公告
-        run: npm run update
+        timeout-minutes: 15
+        run: npm run update:resilient
       - name: 校验并生成公开日历
         run: npm run build && npm run check
       - name: 维护异常与人工审核告警
