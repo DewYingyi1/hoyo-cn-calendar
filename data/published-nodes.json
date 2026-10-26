@@ -7923,6 +7923,85 @@
       "modified": "2026-10-24T04:47:28.728Z",
       "publishedAt": "2026-10-24T04:48:02.799Z",
       "state": "active"
+    },
+    {
+      "uid": "6880a63e5961a80de2b4d4358fe3fe7b10891fee62b74aa86f1f0decec4c3b34@hoyo-cn-calendar",
+      "eventId": "zzz:website:167045",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167045",
+        "game": "zzz",
+        "category": "event",
+        "title": "「赛博圣手，出诊!」活动说明",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167045",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-26T04:58:40.486Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-10-28T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-26T04:58:40.486Z",
+      "publishedAt": "2026-10-26T04:59:23.075Z",
+      "state": "active"
+    },
+    {
+      "uid": "35fe8df010e32e7adf80989744e8ce44d87a6516aa81d6dd7db7cebec6a6a865@hoyo-cn-calendar",
+      "eventId": "zzz:website:167045",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167045",
+        "game": "zzz",
+        "category": "event",
+        "title": "「赛博圣手，出诊!」活动说明",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167045",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-26T04:58:40.486Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-16T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-26T04:58:40.486Z",
+      "publishedAt": "2026-10-26T04:59:23.075Z",
+      "state": "active"
+    },
+    {
+      "uid": "05a6e77a6fa7d8b2df7f816402c285866680cd0bbd3aeef88443f7125b62bd2e@hoyo-cn-calendar",
+      "eventId": "zzz:website:167045",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:167045",
+        "game": "zzz",
+        "category": "event",
+        "title": "「赛博圣手，出诊!」活动说明",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167045",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-10-26T04:58:40.486Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-10-28T10:00:00+08:00",
+        "end": "2026-11-16T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-10-26T04:58:40.486Z",
+      "publishedAt": "2026-10-26T04:59:23.075Z",
+      "state": "active"
     }
   ]
 }
