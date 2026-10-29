@@ -1,26 +1,23 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-29T05:59:39.417Z",
+      "lastSuccessAt": "2026-10-29T13:18:51.184Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 26,
-      "earliestPublishedAt": "2026-09-12T13:45:00.000Z",
+      "earliestPublishedAt": "2026-09-13T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
       "qualityIssues": [],
-      "imageEvidenceIssues": [
-        "原神图片字节检查失败（公告166263）：本轮图片字节检查超过总预算；保留旧日程及人工基线。",
-        "原神图片字节检查失败（公告166261）：本轮图片字节检查超过总预算；保留旧日程及人工基线。"
-      ],
-      "partial": true
+      "imageEvidenceIssues": [],
+      "partial": false
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-29T05:59:39.417Z",
+      "lastSuccessAt": "2026-10-29T13:18:51.184Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -36,36 +33,26 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-29T05:59:39.417Z",
+      "lastSuccessAt": "2026-10-29T13:18:51.184Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 26,
       "earliestPublishedAt": "2026-08-24T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
+      "error": null,
       "primarySource": "website",
       "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 1,
       "qualityIssues": [],
-      "imageEvidenceIssues": [
-        "绝区零图片字节检查失败（公告166995）：本轮图片字节检查超过总预算；保留旧日程及人工基线。",
-        "绝区零图片字节检查失败（公告166989）：本轮图片字节检查超过总预算；保留旧日程及人工基线。",
-        "绝区零图片字节检查失败（公告166031）：本轮图片字节检查超过总预算；保留旧日程及人工基线。"
-      ],
-      "partial": true
+      "imageEvidenceIssues": [],
+      "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-29T05:59:39.417Z",
-  "issues": [
-    "原神图片字节检查失败（公告166263）：本轮图片字节检查超过总预算；保留旧日程及人工基线。",
-    "原神图片字节检查失败（公告166261）：本轮图片字节检查超过总预算；保留旧日程及人工基线。",
-    "绝区零图片字节检查失败（公告166995）：本轮图片字节检查超过总预算；保留旧日程及人工基线。",
-    "绝区零图片字节检查失败（公告166989）：本轮图片字节检查超过总预算；保留旧日程及人工基线。",
-    "绝区零图片字节检查失败（公告166031）：本轮图片字节检查超过总预算；保留旧日程及人工基线。"
-  ],
-  "reviewCount": 5,
+  "lastAttemptAt": "2026-10-29T13:18:51.184Z",
+  "issues": [],
+  "reviewCount": 0,
   "successfulSources": 3,
-  "partialSources": 2,
-  "completeSources": 1
+  "partialSources": 0,
+  "completeSources": 3
 }
