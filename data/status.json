@@ -1,7 +1,7 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-10-30T06:00:16.085Z",
+      "lastSuccessAt": "2026-10-30T13:14:44.416Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
@@ -17,12 +17,12 @@
       "partial": false
     },
     "starrail": {
-      "lastSuccessAt": "2026-10-30T06:00:16.085Z",
+      "lastSuccessAt": "2026-10-30T13:14:44.416Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
       "eligiblePosts": 42,
-      "earliestPublishedAt": "2026-04-26T10:00:00.000Z",
+      "earliestPublishedAt": "2026-05-11T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
       "error": null,
       "primarySource": "website",
@@ -33,7 +33,7 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-10-30T06:00:16.085Z",
+      "lastSuccessAt": "2026-10-30T13:14:44.416Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -49,9 +49,9 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-10-30T06:00:16.085Z",
+  "lastAttemptAt": "2026-10-30T13:14:44.416Z",
   "issues": [],
-  "reviewCount": 0,
+  "reviewCount": 1,
   "successfulSources": 3,
   "partialSources": 0,
   "completeSources": 3

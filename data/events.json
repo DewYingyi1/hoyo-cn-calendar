@@ -503,6 +503,19 @@
     "sequence": 0
   },
   {
+    "id": "starrail:website:167101",
+    "game": "starrail",
+    "category": "event",
+    "title": "「寰宇美学•幻乐秀场」时装抽取活动说明",
+    "start": null,
+    "end": "2026-12-23T03:59:00+08:00",
+    "startText": "2026/11/11 4.7版本更新后",
+    "url": "https://sr.mihoyo.com/news/167101",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-10-30T13:10:50.939Z",
+    "sequence": 0
+  },
+  {
     "id": "zzz:miyoushe:76998963",
     "game": "zzz",
     "category": "event",

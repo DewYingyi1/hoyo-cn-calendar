@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "starrail",
+    "postId": "167107",
+    "title": "「开场好礼先抱走」活动说明",
+    "url": "https://sr.mihoyo.com/news/167107",
+    "reason": "图片公告正文不足以确定日程，需要读图审核",
+    "digest": "c9c1e07f5a5d4febf002f8cc358eae4f6b8b268c41c3183df69fd1cb9a7c2233",
+    "source": "website",
+    "firstSeenAt": "2026-10-30T13:10:50.939Z",
+    "lastSeenAt": "2026-10-30T13:14:44.416Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
