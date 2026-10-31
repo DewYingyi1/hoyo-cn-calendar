@@ -904,6 +904,90 @@
       "displayNotes": "2026/10/21 06:00开始，预计5小时完成；11:00仅为预计维护结束，实际开服以官方通知为准，不作为其他活动开始时刻。",
       "modified": "2026-10-21T11:40:25.133Z",
       "sequence": 0
+    },
+    {
+      "id": "starrail:website:167107:eidos",
+      "game": "starrail",
+      "category": "event",
+      "title": "「开场好礼先抱走」奇缘星幕",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-23T05:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167107",
+      "notes": "官网167107完整正文及7图人工核对：六项奖励共用领取时间2026/11/11 4.7版本更新后至2026/12/23 05:59，开拓等级≥4级；未给出确定开服时刻，start保留null，仅生成领取截止。在黄泉、丹恒·饮月、景元的奇缘星魂中任选其一。",
+      "displayNotes": "开拓等级≥4级。在黄泉、丹恒·饮月、景元的奇缘星魂中任选其一。",
+      "modified": "2026-10-31T09:09:32.919Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167107:invitation",
+      "game": "starrail",
+      "category": "event",
+      "title": "「开场好礼先抱走」魔术请柬",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-23T05:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167107",
+      "notes": "官网167107完整正文及7图人工核对：六项奖励共用领取时间2026/11/11 4.7版本更新后至2026/12/23 05:59，开拓等级≥4级；未给出确定开服时刻，start保留null，仅生成领取截止。在黄泉、丹恒·饮月、景元中任选一位角色，另获对应角色直升60级的养成材料。",
+      "displayNotes": "开拓等级≥4级。在黄泉、丹恒·饮月、景元中任选一位角色，另获对应角色直升60级的养成材料。",
+      "modified": "2026-10-31T09:09:32.919Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167107:companion",
+      "game": "starrail",
+      "category": "event",
+      "title": "「开场好礼先抱走」千星旅伴",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-23T05:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167107",
+      "notes": "官网167107完整正文及7图人工核对：六项奖励共用领取时间2026/11/11 4.7版本更新后至2026/12/23 05:59，开拓等级≥4级；未给出确定开服时刻，start保留null，仅生成领取截止。领取旅伴金灵×1；椒丘及光锥那无数个春天加入聚灵铸星商店，不将商店新增内容标为限时下架。",
+      "displayNotes": "开拓等级≥4级。领取旅伴金灵×1；椒丘及光锥那无数个春天加入聚灵铸星商店，不将商店新增内容标为限时下架。",
+      "modified": "2026-10-31T09:09:32.919Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167107:check-in",
+      "game": "starrail",
+      "category": "event",
+      "title": "「开场好礼先抱走」阿哈觉得你需要",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-23T05:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167107",
+      "notes": "官网167107完整正文及7图人工核对：六项奖励共用领取时间2026/11/11 4.7版本更新后至2026/12/23 05:59，开拓等级≥4级；未给出确定开服时刻，start保留null，仅生成领取截止。版本期间累计签到领取星轨专票×20。",
+      "displayNotes": "开拓等级≥4级。版本期间累计签到领取星轨专票×20。",
+      "modified": "2026-10-31T09:09:32.919Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167107:outfit",
+      "game": "starrail",
+      "category": "event",
+      "title": "「开场好礼先抱走」快递请查收",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-23T05:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167107",
+      "notes": "官网167107完整正文及7图人工核对：六项奖励共用领取时间2026/11/11 4.7版本更新后至2026/12/23 05:59，开拓等级≥4级；未给出确定开服时刻，start保留null，仅生成领取截止。登录领取开拓穿搭服装黄紫风尚。",
+      "displayNotes": "开拓等级≥4级。登录领取开拓穿搭服装黄紫风尚。",
+      "modified": "2026-10-31T09:09:32.919Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167107:farewell",
+      "game": "starrail",
+      "category": "event",
+      "title": "「开场好礼先抱走」散场也别空着手",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-23T05:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167107",
+      "notes": "官网167107完整正文及7图人工核对：六项奖励共用领取时间2026/11/11 4.7版本更新后至2026/12/23 05:59，开拓等级≥4级；未给出确定开服时刻，start保留null，仅生成领取截止。领取这样就能把你捧在手心啦、归寂的馈赠及开拓穿搭头饰「欢愉」代理人。",
+      "displayNotes": "开拓等级≥4级。领取这样就能把你捧在手心啦、归寂的馈赠及开拓穿搭头饰「欢愉」代理人。",
+      "modified": "2026-10-31T09:09:32.919Z",
+      "sequence": 0
     }
   ],
   "replaceParentIds": [
@@ -916,7 +1000,8 @@
     "starrail:website:166485",
     "zzz:website:166012",
     "zzz:website:166026",
-    "zzz:website:166989"
+    "zzz:website:166989",
+    "starrail:website:167107"
   ],
   "suppressPostIds": [
     "78335167",

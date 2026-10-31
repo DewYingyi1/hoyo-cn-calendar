@@ -1313,5 +1313,34 @@
       "https://fastcdn.mihoyo.com/content-v2/nap/166995/863c44b69f15998f6a89775590092e39_2395932031211197791.png",
       "https://fastcdn.mihoyo.com/content-v2/nap/166995/e439c9af0b6455111ddb7e9ea194e9d6_2515885002497182271.png"
     ]
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "167107",
+    "decision": "confirmed-six-rewards-shared-claim-window",
+    "notes": "人工读取官网完整正文、题图及六张奖励图。正文明确六项福利共用领取窗口：2026/11/11 4.7版本更新后至2026/12/23 05:59，开拓等级≥4级。六图仅展示对应奖励，无独立日期；按六项拆分并显式替换父事件，仅生成截止，不猜开服时间、不新增签到每日节点、不将常驻商店新增内容设为到期下架。确认当前正文digest、完整图片列表hash及7图逐URL字节SHA256；后续变化仍送人工复核。",
+    "checkedAt": "2026-10-31T09:09:32.919Z",
+    "digest": "c9c1e07f5a5d4febf002f8cc358eae4f6b8b268c41c3183df69fd1cb9a7c2233",
+    "imagesHash": "910fd6a9304987ccc2dbe805d27df1b742a0bb67a611e6c6044d57fb8a4ed860",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/412b4d82e3485a7271a27e4e04a0d071_4014492986486877459.jpg": "358934d0f84e25f371ea9b3de949a29aeef2382ff641b89a58ef64e9e8fbaac8",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/fbd5ad6c275447baf055435905a58136_7136073152139988114.png": "7605fea9801d255b7cee2e4978f252cde692f668b91eb5bb58d40ebc98e0faac",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/99d209e1e6893b5d0673977d40b92a6d_4001792036434612393.png": "5b2e3b226db6726280e6698b4b8b3982a1ccc33c3aeceeda16859aeb00f8cd81",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/c3c4b8fdcb6186c99b65015f13ad231b_5756828793336411093.png": "72ec27a39527f0790459b1552b33c36b8daf7c2aa756a3685228dc94f65eff08",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/509cfbad5cea802ad4f3c228a3db59aa_2920161296947288928.png": "ad506fb3bc114044a8a3bdc6bb31a0d98c2f4680c41df3dcae36f7092e56e547",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/a5cac84bba670dc64103a8ec6ee54cbc_5201584183625125868.png": "f00b002fb4bc2ade1a104f0619e39af1a78052edaa0f5a4a3f0f590fb9d09c26",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/ba8e06501e2cb822f95882f36a70bcba_5441405775864033388.png": "79d19539a7d031ae50f325d6d2c20debe7a0ba3074919b0dc2f1a42f4d9ed6b5"
+    },
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/167107",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/412b4d82e3485a7271a27e4e04a0d071_4014492986486877459.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/fbd5ad6c275447baf055435905a58136_7136073152139988114.png",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/99d209e1e6893b5d0673977d40b92a6d_4001792036434612393.png",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/c3c4b8fdcb6186c99b65015f13ad231b_5756828793336411093.png",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/509cfbad5cea802ad4f3c228a3db59aa_2920161296947288928.png",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/a5cac84bba670dc64103a8ec6ee54cbc_5201584183625125868.png",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/ba8e06501e2cb822f95882f36a70bcba_5441405775864033388.png"
+    ]
   }
 ]
