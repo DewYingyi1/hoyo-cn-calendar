@@ -8550,6 +8550,700 @@
       "modified": "2026-11-02T06:24:45.958Z",
       "publishedAt": "2026-11-02T06:30:14.329Z",
       "state": "active"
+    },
+    {
+      "uid": "c2cf065c050cd2a57619cd7bb21a02c8ec631bee6bb7cb8edbbacd7bccf607b8@hoyo-cn-calendar",
+      "eventId": "genshin:website:167161",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167161",
+        "category": "banner",
+        "title": "「万序衍盈」祈愿：列律名虚·米提亚概率UP",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-11-24T17:59:00+08:00",
+        "notes": "官网167161正文及两张原图人工核对：祈愿时间为7.2版本更新后至2026/11/24 17:59；开始时刻未单独公布，不猜版本开服时间。",
+        "displayNotes": "角色祈愿：列律名虚·米提亚（雷）概率提升。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167161",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-24T17:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "9569ee6e4f17138f8c4fc82438eb18324e00b17ce75b5ad4b71b8c9014f075ee@hoyo-cn-calendar",
+      "eventId": "genshin:website:167161",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167161",
+        "category": "banner",
+        "title": "「万序衍盈」祈愿：列律名虚·米提亚概率UP",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-11-24T17:59:00+08:00",
+        "notes": "官网167161正文及两张原图人工核对：祈愿时间为7.2版本更新后至2026/11/24 17:59；开始时刻未单独公布，不猜版本开服时间。",
+        "displayNotes": "角色祈愿：列律名虚·米提亚（雷）概率提升。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167161",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-24T17:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "650f445105f04c99572b473653b8af1962f0e2d522452f05fce2a84fae256a4d@hoyo-cn-calendar",
+      "eventId": "genshin:website:167162",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167162",
+        "category": "banner",
+        "title": "「众水的颂诗」祈愿：不休独舞·芙宁娜概率UP",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-11-24T17:59:00+08:00",
+        "notes": "官网167162正文及两张原图人工核对：祈愿时间为7.2版本更新后至2026/11/24 17:59；开始时刻未单独公布，不猜版本开服时间。",
+        "displayNotes": "角色祈愿：不休独舞·芙宁娜（水）概率提升。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167162",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-24T17:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "2676f974dc19501b9bbd5a35b9eeac64d83c7ea676d59652842befc7627ffafe@hoyo-cn-calendar",
+      "eventId": "genshin:website:167162",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167162",
+        "category": "banner",
+        "title": "「众水的颂诗」祈愿：不休独舞·芙宁娜概率UP",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-11-24T17:59:00+08:00",
+        "notes": "官网167162正文及两张原图人工核对：祈愿时间为7.2版本更新后至2026/11/24 17:59；开始时刻未单独公布，不猜版本开服时间。",
+        "displayNotes": "角色祈愿：不休独舞·芙宁娜（水）概率提升。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167162",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-24T17:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "0ec101c5ded7907fc648b098d96a1ecb704639dc3d420bd7d31b15eb1e375644@hoyo-cn-calendar",
+      "eventId": "genshin:website:167163",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167163",
+        "category": "banner",
+        "title": "「神铸赋形」祈愿：秘星典谕、静水流涌之辉概率UP",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-11-24T17:59:00+08:00",
+        "notes": "官网167163正文及两张原图人工核对：祈愿时间为7.2版本更新后至2026/11/24 17:59；开始时刻未单独公布，不猜版本开服时间。",
+        "displayNotes": "武器祈愿：法器·秘星典谕、单手剑·静水流涌之辉概率提升。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167163",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-24T17:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "88189eb409bdfe6cb95e371a803e23fb5ed21c532ea92e97e68198bc764657cf@hoyo-cn-calendar",
+      "eventId": "genshin:website:167163",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167163",
+        "category": "banner",
+        "title": "「神铸赋形」祈愿：秘星典谕、静水流涌之辉概率UP",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-11-24T17:59:00+08:00",
+        "notes": "官网167163正文及两张原图人工核对：祈愿时间为7.2版本更新后至2026/11/24 17:59；开始时刻未单独公布，不猜版本开服时间。",
+        "displayNotes": "武器祈愿：法器·秘星典谕、单手剑·静水流涌之辉概率提升。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167163",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-24T17:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "2f40a6666d26cfabe117a5903564f2c8bd4818410953f795d1677df0994ef395@hoyo-cn-calendar",
+      "eventId": "genshin:website:167159",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167159",
+        "category": "maintenance",
+        "title": "7.2版本更新维护预告",
+        "start": "2026-11-04T06:00:00+08:00",
+        "end": "2026-11-04T11:00:00+08:00",
+        "notes": "官网167159正文及两张原图人工核对：2026/11/04 06:00开始，预计5个小时完成。11:00仅为官方预计维护结束，不代表实际开服；预下载不另建日程。",
+        "displayNotes": "2026/11/04 06:00开始，预计维护5小时；结束时间为官方预计，实际开服以官方通知为准。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167159",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "维护开始",
+        "start": "2026-11-04T06:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "0d04cdae75bbedde0f6bc961ec8ad6a5944413cd353d215fb8c4c04fbced2831@hoyo-cn-calendar",
+      "eventId": "genshin:website:167159",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167159",
+        "category": "maintenance",
+        "title": "7.2版本更新维护预告",
+        "start": "2026-11-04T06:00:00+08:00",
+        "end": "2026-11-04T11:00:00+08:00",
+        "notes": "官网167159正文及两张原图人工核对：2026/11/04 06:00开始，预计5个小时完成。11:00仅为官方预计维护结束，不代表实际开服；预下载不另建日程。",
+        "displayNotes": "2026/11/04 06:00开始，预计维护5小时；结束时间为官方预计，实际开服以官方通知为准。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167159",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "预计维护结束",
+        "start": "2026-11-04T11:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "8bb383e596e54fd3efe93e81994af1b21bf2f274fd068bc922f872e04dcd39d8@hoyo-cn-calendar",
+      "eventId": "genshin:website:167159",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167159",
+        "category": "maintenance",
+        "title": "7.2版本更新维护预告",
+        "start": "2026-11-04T06:00:00+08:00",
+        "end": "2026-11-04T11:00:00+08:00",
+        "notes": "官网167159正文及两张原图人工核对：2026/11/04 06:00开始，预计5个小时完成。11:00仅为官方预计维护结束，不代表实际开服；预下载不另建日程。",
+        "displayNotes": "2026/11/04 06:00开始，预计维护5小时；结束时间为官方预计，实际开服以官方通知为准。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167159",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-04T06:00:00+08:00",
+        "end": "2026-11-04T11:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "95bbe9d382cb4ca413a6264ac8f5166eb4bb4cfa23de30a347876b045c1c9f9d@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:archon-reward",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:archon-reward",
+        "category": "event",
+        "title": "魔神任务「坏灭肇始之时」限时奖励",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-15T14:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：7.2版本更新后至2026/12/15 14:59为魔神任务限时奖励领取期限；不猜版本开服时刻。",
+        "displayNotes": "魔神任务限时奖励领取截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "a27fff633c337090c00c68e08e50544a2fdb3225363f479b2d0b449a8234e2a8@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:archon-reward",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167173:archon-reward",
+        "category": "event",
+        "title": "魔神任务「坏灭肇始之时」限时奖励",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-15T14:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：7.2版本更新后至2026/12/15 14:59为魔神任务限时奖励领取期限；不猜版本开服时刻。",
+        "displayNotes": "魔神任务限时奖励领取截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "1de4fa5a781b6c3f1141351f7b3c5aa2369718c49f9667eccedb2f3ddb0390fb@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:exploration-reward",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:exploration-reward",
+        "category": "event",
+        "title": "「晶石如林生长之地」区域探索限时奖励",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2027-01-26T14:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：区域探索限时奖励领取至2027/01/26 14:59；开始时刻未单独公布，不猜版本开服时刻。",
+        "displayNotes": "区域探索限时奖励领取截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2027-01-26T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "3aa136ae136c6e7475a2271e119227333b700b63ee4ecb52d10bd8911c55678d@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:exploration-reward",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167173:exploration-reward",
+        "category": "event",
+        "title": "「晶石如林生长之地」区域探索限时奖励",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2027-01-26T14:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：区域探索限时奖励领取至2027/01/26 14:59；开始时刻未单独公布，不猜版本开服时刻。",
+        "displayNotes": "区域探索限时奖励领取截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2027-01-26T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "14443f53e467d1db67cf4388ac4cdcf6c5ef328824ddae8a2dea195121f17589@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:abyssal-war",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:abyssal-war",
+        "category": "event",
+        "title": "活动·幽境危战",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-15T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确整体活动时间为2026/11/11 10:00至2026/12/15 03:59；其中絮乱爆发期为同日10:00至11/21 03:59，不另建重复阶段。",
+        "displayNotes": "幽境危战活动时间。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "f941a478b6b600a665dc65746071f8793dbe7f8b0d50593a68410701b4849286@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:abyssal-war",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:abyssal-war",
+        "category": "event",
+        "title": "活动·幽境危战",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-15T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确整体活动时间为2026/11/11 10:00至2026/12/15 03:59；其中絮乱爆发期为同日10:00至11/21 03:59，不另建重复阶段。",
+        "displayNotes": "幽境危战活动时间。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "08efa1c6e265536e5d799c0c76bccefba2c6692a44bc44e269b84ee41e46dab3@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:abyssal-war",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167173:abyssal-war",
+        "category": "event",
+        "title": "活动·幽境危战",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-15T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确整体活动时间为2026/11/11 10:00至2026/12/15 03:59；其中絮乱爆发期为同日10:00至11/21 03:59，不另建重复阶段。",
+        "displayNotes": "幽境危战活动时间。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-15T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "3d1390f6faf7704616632dd2853d8df7845d0544efd85de9ef5a2aa86e956999@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:abyssal-war-outburst",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:abyssal-war-outburst",
+        "category": "event",
+        "title": "幽境危战：紊乱爆发期",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-21T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：紊乱爆发期为2026/11/11 10:00至2026/11/21 03:59；整体幽境危战继续至2026/12/15 03:59，分别提醒。",
+        "displayNotes": "紊乱爆发期截止；整体幽境危战继续至2026年12月15日03:59。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "f7370b048b042664570c68abe718ecd070600b01e62bc5742d60362b0f42f987@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:abyssal-war-outburst",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:abyssal-war-outburst",
+        "category": "event",
+        "title": "幽境危战：紊乱爆发期",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-21T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：紊乱爆发期为2026/11/11 10:00至2026/11/21 03:59；整体幽境危战继续至2026/12/15 03:59，分别提醒。",
+        "displayNotes": "紊乱爆发期截止；整体幽境危战继续至2026年12月15日03:59。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-21T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "713f7774ca3b7fd7f7a67e15acbee8c1384a08355d3dbcecff24fe100c9225ab@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:abyssal-war-outburst",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167173:abyssal-war-outburst",
+        "category": "event",
+        "title": "幽境危战：紊乱爆发期",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-21T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：紊乱爆发期为2026/11/11 10:00至2026/11/21 03:59；整体幽境危战继续至2026/12/15 03:59，分别提醒。",
+        "displayNotes": "紊乱爆发期截止；整体幽境危战继续至2026年12月15日03:59。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-21T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "2575c5650fb7bb5bb3f0c6feb2d13e6e012b081afac1603d1f55742f659349b5@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:music-reward",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:music-reward",
+        "category": "event",
+        "title": "「相遇·悠久旅途之暇」千音雅集更新限时奖励",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-15T14:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：千音雅集更新限时奖励领取至2026/12/15 14:59；开始时刻未单独公布，不猜版本开服时刻。",
+        "displayNotes": "千音雅集更新限时奖励领取截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "69316ef0fe444c4503e25a9e6eb831cc187dbbd50f81281c1183fedf0fa84184@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:music-reward",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167173:music-reward",
+        "category": "event",
+        "title": "「相遇·悠久旅途之暇」千音雅集更新限时奖励",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-15T14:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：千音雅集更新限时奖励领取至2026/12/15 14:59；开始时刻未单独公布，不猜版本开服时刻。",
+        "displayNotes": "千音雅集更新限时奖励领取截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "b95fb265f355558d9e6cbce16b9647f4b904798b575a407ab8dff50e45762d44@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:battle-pass",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:battle-pass",
+        "category": "event",
+        "title": "灵圣纪行开放",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-14T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：灵圣纪行开放时间为7.2版本更新后至2026/12/14 03:59；开始时刻未单独公布，不猜版本开服时刻。",
+        "displayNotes": "灵圣纪行开放截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-14T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "a6b6c35e2e000c79223556d36f192bd2f0c85b80308189d899acddc9764e7c71@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:battle-pass",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167173:battle-pass",
+        "category": "event",
+        "title": "灵圣纪行开放",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-14T03:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：灵圣纪行开放时间为7.2版本更新后至2026/12/14 03:59；开始时刻未单独公布，不猜版本开服时刻。",
+        "displayNotes": "灵圣纪行开放截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-14T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "ac0c039fda6267acfce4d77fa30e9e2f06a2225650f652fead8461632c9252a0@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:battle-pass-purchase",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167173:battle-pass-purchase",
+        "category": "event",
+        "title": "灵圣纪行购买",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-14T02:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：灵圣纪行购买时间为7.2版本更新后至2026/12/14 02:59；购买截止单独提醒，不覆盖纪行开放截止。",
+        "displayNotes": "灵圣纪行购买截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-14T02:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
+    },
+    {
+      "uid": "f96d38eddd01ec3a81a2bbcb442366fd63234760f86236f4bcd9f172b780950f@hoyo-cn-calendar",
+      "eventId": "genshin:website:167173:battle-pass-purchase",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167173:battle-pass-purchase",
+        "category": "event",
+        "title": "灵圣纪行购买",
+        "start": null,
+        "startText": "7.2版本更新后",
+        "end": "2026-12-14T02:59:00+08:00",
+        "notes": "官网167173活动速递原图明确：灵圣纪行购买时间为7.2版本更新后至2026/12/14 02:59；购买截止单独提醒，不覆盖纪行开放截止。",
+        "displayNotes": "灵圣纪行购买截止。",
+        "game": "genshin",
+        "url": "https://ys.mihoyo.com/main/news/detail/167173",
+        "modified": "2026-11-02T21:40:06.081Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-14T02:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T21:40:06.081Z",
+      "publishedAt": "2026-11-02T21:41:43.093Z",
+      "state": "active"
     }
   ]
 }

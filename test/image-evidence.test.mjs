@@ -7,7 +7,7 @@ import os from 'node:os';
 import { promisify } from 'node:util';
 import { execFile } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
-import { approveImageEvidence, createImageEvidenceChecker, loadImageBytes, isOfficialImageURL, MAX_IMAGE_BYTES, MAX_IMAGES_PER_POST } from '../lib/image-evidence.mjs';
+import { approveImageEvidence, createImageEvidenceChecker, loadImageBytes, isOfficialImageURL, MAX_IMAGE_BYTES, MAX_IMAGES_PER_POST, MAX_TOTAL_IMAGE_BYTES } from '../lib/image-evidence.mjs';
 import { websitePublished, fetchWebsite, publicSourceError } from '../lib/sources.mjs';
 import { postDigest, imageDigest } from '../lib/parser.mjs';
 
@@ -254,6 +254,7 @@ test('全局并发限制覆盖多公告，单轮URL去重', async () => {
 });
 
 test('限制单篇图片数与整轮下载总字节，预算失败保持待审但下一轮可恢复', async () => {
+  assert.equal(MAX_TOTAL_IMAGE_BYTES, 128 * 1024 * 1024);
   const tooMany = Array.from({ length: MAX_IMAGES_PER_POST + 1 }, (_, index) => `https://assets.mihoyo.com/${index}.gif`);
   let calls = 0;
   const countResult = await createImageEvidenceChecker({ request: async () => { calls++; return response(); } })(
@@ -285,6 +286,25 @@ test('限制单篇图片数与整轮下载总字节，预算失败保持待审�
   assert.equal(recovered.needsReview, false);
   assert.equal(recovered.fields.imageEvidencePending, false);
 
+});
+
+test('64MiB以上但低于128MiB的已绑定图片集合不会误报总预算', async () => {
+  const bytes = Buffer.alloc(13 * 1024 * 1024, 7);
+  const images = Array.from({ length: 5 }, (_, index) => `https://assets.hoyoverse.com/budget-${index}.gif`);
+  const confirmedImageBytes = Object.fromEntries(images.map(location => [location, hash(bytes)]));
+  const result = await createImageEvidenceChecker({
+    concurrency: 1,
+    maxTotalBytes: 70 * 1024 * 1024,
+    request: async () => response(bytes),
+  })({ images }, {
+    imageEvidenceRequired: true,
+    confirmedImageBytes,
+    confirmedImageBytesDigest: context.expectedDigest,
+  }, context);
+  assert.equal(result.failure, undefined);
+  assert.equal(result.needsReview, false);
+  assert.equal(result.bytesChanged, false);
+  assert.equal(Object.keys(result.fields.observedImageBytes).length, 5);
 });
 
 test('真实字节变更后即使预算失败再回滚，也必须保持人工待审', async () => {

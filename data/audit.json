@@ -1342,5 +1342,173 @@
       "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/a5cac84bba670dc64103a8ec6ee54cbc_5201584183625125868.png",
       "https://fastcdn.mihoyo.com/content-v2/hkrpg/167107/ba8e06501e2cb822f95882f36a70bcba_5441405775864033388.png"
     ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167154",
+    "digest": "3917063c949916f8385a850f690680f3a53057179f4353bd803b48da8ed4a8bf",
+    "decision": "confirmed-duplicate-intro-suppressed",
+    "notes": "已读取官网正文及全部6张官方图片。与167168为同一「全域镇卫·逆捍谬罚」活动的介绍/详细公告，当前正文仅写7.2版本期间，图中活动日期无精确时刻；不复制事件，抑制167154重复介绍，保留167168作为详细来源。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "e08a06b4bc3a007bc9a8808af8f7572d0de1501c81f474134dce201d5e287490",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/0bafc03f90df5f3199dc1ac75c887bef_5835437709986962467.jpg": "a3f5d831a6655c8318b819f0e1b498a7fcdc9efe9341aab4defd42418033d55d",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/d22ff15738298850f214f23d071bd4e1_3070614929329363010.jpg": "6fa5ebd748d44db7175cfc3e239c8f28668bc3151f381d825e0bc2bf620eb1c7",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/6ed869f4577e7d4bd4cdf9a4e528dc92_3198102508068631147.jpg": "87ca9104ca682ff50efe20be102d882682681a953b46a652fa01c053b078de57",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/741528d41e4a1f24cc6fb855f819fe9d_4497276236269817672.gif": "891b7a81efec85a4ada84b5e3436c8eedb5027d685a1886f03f5b972f388c593",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/0b15f1a13ee2903b909d019b73c07e81_8680377293537507945.gif": "26eb290157d0cd0e71f2dc48bc33c3ca9ff4e90afd4b8a53bcc3908e21da421b",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/56dbbae1ccf1a8412493d495419d7391_4778395374036977279.gif": "96c9bf5bcae6291d2faf41233251618c851804f26e9e24964f8430f14014a038"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167154",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/0bafc03f90df5f3199dc1ac75c887bef_5835437709986962467.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/d22ff15738298850f214f23d071bd4e1_3070614929329363010.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/6ed869f4577e7d4bd4cdf9a4e528dc92_3198102508068631147.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/741528d41e4a1f24cc6fb855f819fe9d_4497276236269817672.gif",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/0b15f1a13ee2903b909d019b73c07e81_8680377293537507945.gif",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167154/56dbbae1ccf1a8412493d495419d7391_4778395374036977279.gif"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167173",
+    "digest": "406b5d7140a75feab6fd24b74070eb37e8104c7b53b5041c6b87a088a521d5a2",
+    "decision": "confirmed-image-summary-split-unique-schedules",
+    "notes": "已读取官网正文及全部7张官方图片。只收录该汇总公告独有且带明确时刻的魔神任务奖励、区域探索奖励、幽境危战、千音雅集奖励及灵圣纪行开放/购买截止；祈愿、全域镇卫和仅有日期无时刻的项目不重复、不猜时间。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "affd1865b8ce709d394125592b0b25175a0036d3c19b1b27ff92855772757e78",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/7e4fb2084f8a3e35b3aef130592f5600_1423989605867822605.jpg": "a61f1d65e1469334c03529fe957fcfb5792662f94ae79676217bfe1bc75aa2bd",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/aec94e44479a970589912867112b2549_7390114422545407818.jpg": "11d8e342ab676ebc8e8ccb63145534ec7a928f2a60bb44c32cdfba0e5a70a08b",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/a31dc158dd3378fbf7ba7ca9c29e280a_477525835827642645.jpg": "c942ffe12f384e0b150d3fd44b3e644d3bdbae5482a1b9a252a303a1f2e06e46",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/c2d05dd01bc93b179400fdbd809d43d4_7457742836781725240.jpg": "f6a19ecafa57f9bc322b17c94456327e2eaea111d27627cc0d00873295833686",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/55c342c0c8d8f75c42427b4a5790cfda_6722712812200669763.jpg": "36b5d36d11c419b890e34ec38b4952888a5b0cd2dfd8a6a138c36449a268c88d",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/350945f4bad0fcce69265062c8d3c015_3472753878544407305.gif": "48edf56b13b8111ea588f315e814208201a5ae8b61768c39ecbedf725f3be453",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/4dd1d4313bd7f7339b380c86eb358020_5687136189657398193.jpg": "b1e08201b20c8fd51888386234db2f99eb1ef66a063756f5442ba16e7c5148f5"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167173",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/7e4fb2084f8a3e35b3aef130592f5600_1423989605867822605.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/aec94e44479a970589912867112b2549_7390114422545407818.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/a31dc158dd3378fbf7ba7ca9c29e280a_477525835827642645.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/c2d05dd01bc93b179400fdbd809d43d4_7457742836781725240.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/55c342c0c8d8f75c42427b4a5790cfda_6722712812200669763.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/350945f4bad0fcce69265062c8d3c015_3472753878544407305.gif",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167173/4dd1d4313bd7f7339b380c86eb358020_5687136189657398193.jpg"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167168",
+    "digest": "cebaaa75a36723180f12e388833e76113a527c80f1bd508b8bb544da4a331418",
+    "decision": "confirmed-date-only-activity-no-time-node",
+    "notes": "已读取官网正文及全部2张官方图片。活动时间只写7.2版本期间持续开放，当前图片没有明确时刻；167173汇总图的日期不足以为本公告补具体时间，因此不生成双null或00:00节点。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "c0d2e0309da5fc5eeec804ceb00706ed932bd19cf2456c3a64108cc42ebb7f97",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167168/2f2b075f5bf2456602f00574b705b31c_8710618973221739429.png": "4ec3d948623b318cee8123318af96fd0fe92bb8b3884ef0acb0a62b3010c75ca",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167168/d6642eca4a34bee1ac39d1ffd6107710_1090158758007746770.png": "7462e81746c0910b921b97dc491953cf93cb6efa996c6bbd02cd2c09fa739d99"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167168",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167168/2f2b075f5bf2456602f00574b705b31c_8710618973221739429.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167168/d6642eca4a34bee1ac39d1ffd6107710_1090158758007746770.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167167",
+    "digest": "c46de301f06886566753fae99c5eac185e48933e9c127dbc8eefe7a0dfbadd5d",
+    "decision": "confirmed-per-user-window-no-uniform-calendar-node",
+    "notes": "已读取官网正文及官方题图。活动开放取决于7.2更新后注册用户，注册后持续42天且受7.x版本结束影响，不存在统一的公共开始/截止节点；不猜版本结束、不生成日历事件。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "39f3ba3784516059a443f367c0d1b38c4481dd8a2ce1ac3786c93fb8cf588e09",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167167/cbd7658cc6b6e94a7bd65f0f41471779_4797205922156766564.png": "49975f946d329dbe6135d43431001244d4dfd4dd291162b3b8cf001aa8a11c12"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167167",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167167/cbd7658cc6b6e94a7bd65f0f41471779_4797205922156766564.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167163",
+    "digest": "d517795aed988f2eab9f20f84c09820b916b00cfdb6e00f305762311fd7cda20",
+    "decision": "confirmed-image-schedule",
+    "notes": "已读取官网正文及全部官方图片，按图片中的明确日程人工确认；开始时刻未公布时保留官方「7.2版本更新后」原文，不补版本开服时间。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "be49e939aa18c31fca053dd0615692f93ff160c3be226b17abb8a27fd6f059bd",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/8a1b70dbb3ab2c97bb478f3fa4ca4188_1399164556200891547.png": "72b048fa6209e9ea12e48d0f98563ba5ed7b9d242d696db0bcaf4a8dda3f4983",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/d43865afab6c13712c344fb091d88e44_5055269922705482323.png": "71c93afec253dbc2322b9e8c317a3c37c576cedebdc8275902dfef285fa6593b"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167163",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/8a1b70dbb3ab2c97bb478f3fa4ca4188_1399164556200891547.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/d43865afab6c13712c344fb091d88e44_5055269922705482323.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167162",
+    "digest": "1ca541d53e71fc1e121f31e043cbc2c2b0d57020db62e345e3ef9b97101487df",
+    "decision": "confirmed-image-schedule",
+    "notes": "已读取官网正文及全部官方图片，按图片中的明确日程人工确认；开始时刻未公布时保留官方「7.2版本更新后」原文，不补版本开服时间。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "c43d2f21838d8bd9b4adb0f74a3ad548b81d36d9c5f524fd8799ac03bd24619e",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/0ccc2d0f134016ea5c490f01cc88051b_8159708250012790481.png": "d47af40e5c11c02231120a40b39df10790c5c129a76bd7cf1f437ed1f833e4d1",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/8679509ae8a37ed559f39dda332a8467_911805525180109568.png": "d6e78b08b050411906195006c2eea99cb867c43622ac5043551d6ae1a9e4e073"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167162",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/0ccc2d0f134016ea5c490f01cc88051b_8159708250012790481.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/8679509ae8a37ed559f39dda332a8467_911805525180109568.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167161",
+    "digest": "9e4a5b729b82f9e9d6fa45f1f6a62bf4948959d5456e18a28161a71415db1719",
+    "decision": "confirmed-image-schedule",
+    "notes": "已读取官网正文及全部官方图片，按图片中的明确日程人工确认；开始时刻未公布时保留官方「7.2版本更新后」原文，不补版本开服时间。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "2e2339fa733038a94f99916dccf02965b5dfefc52fae6cbb841c50823ef32b4e",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/d6f4443cb5e0d1e6f9bcd64707b3c572_3170659932213135264.png": "4804ec9f1da69cb4d79e12209683c46e9fa5bf91d4ce2508f2ac764a73bc1212",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/b18d64934c5aca327441cf0eb469979f_240560528680162766.png": "8b932e35d1545ba564fb3ad0d3fe6f3dafb5a54ce382c3f9b53e9217158af93d"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167161",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/d6f4443cb5e0d1e6f9bcd64707b3c572_3170659932213135264.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/b18d64934c5aca327441cf0eb469979f_240560528680162766.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167159",
+    "digest": "d1ef32cb4d3b891438fb2346f06963093cbf6b095cfee35fc826e48a8031d891",
+    "decision": "confirmed-image-schedule",
+    "notes": "已读取官网正文及全部官方图片，按图片中的明确日程人工确认；开始时刻未公布时保留官方「7.2版本更新后」原文，不补版本开服时间。",
+    "checkedAt": "2026-11-02T21:40:06.081Z",
+    "imagesHash": "07ca129ef586d6f836fdfddd5e614d1147a938cf66be11918e42d58d5fc8f0fd",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167159/22037f33a6781c818ff27518c5b63f50_5383093133449111989.jpg": "4cfee3122d41b79fab13e878bcc980776c794af18258787cf216cfb4a42b21c1",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167159/5a2cbb8f9989da0aa6687700b1a98256_2909120731503681632.jpg": "cd9727a8f733a1cd077002c7f8abf4394442bcc5fee6ef1d04c1ae53b67fbca6"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167159",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167159/22037f33a6781c818ff27518c5b63f50_5383093133449111989.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167159/5a2cbb8f9989da0aa6687700b1a98256_2909120731503681632.jpg"
+    ]
   }
 ]
