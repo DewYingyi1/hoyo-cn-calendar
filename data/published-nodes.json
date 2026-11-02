@@ -8471,6 +8471,85 @@
       "modified": "2026-10-31T09:09:32.919Z",
       "publishedAt": "2026-10-31T09:11:34.052Z",
       "state": "active"
+    },
+    {
+      "uid": "56e42d74309d938ea9b3339d623f9e18caef65e580b7d91c136f2b3580511c49@hoyo-cn-calendar",
+      "eventId": "zzz:website:167166",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167166",
+        "game": "zzz",
+        "category": "event",
+        "title": "「先遣赏金-区域巡防」活动说明",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167166",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-02T06:24:45.958Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-04T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T06:24:45.958Z",
+      "publishedAt": "2026-11-02T06:30:14.329Z",
+      "state": "active"
+    },
+    {
+      "uid": "d14dd6a30490993e73e50be10f33085ca70cf03856fc1e0f3c3da5119276814a@hoyo-cn-calendar",
+      "eventId": "zzz:website:167166",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167166",
+        "game": "zzz",
+        "category": "event",
+        "title": "「先遣赏金-区域巡防」活动说明",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167166",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-02T06:24:45.958Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-09T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T06:24:45.958Z",
+      "publishedAt": "2026-11-02T06:30:14.329Z",
+      "state": "active"
+    },
+    {
+      "uid": "340a383472d942ed2f8bdfe1e34b2ca9e6b088e6443e9c371febde6fb5f50dfd@hoyo-cn-calendar",
+      "eventId": "zzz:website:167166",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:167166",
+        "game": "zzz",
+        "category": "event",
+        "title": "「先遣赏金-区域巡防」活动说明",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167166",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-02T06:24:45.958Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-04T04:00:00+08:00",
+        "end": "2026-11-09T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-02T06:24:45.958Z",
+      "publishedAt": "2026-11-02T06:30:14.329Z",
+      "state": "active"
     }
   ]
 }
