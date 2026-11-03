@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "167191",
+    "title": "7.2版本活动祈愿预告第一期",
+    "url": "https://ys.mihoyo.com/main/news/detail/167191",
+    "reason": "汇总或存在多个截止语义，需要拆分审核",
+    "digest": "a163414b4950b714516b4d71358885ef0ab2657a16a1508418448f2f0b49f1e9",
+    "source": "website",
+    "firstSeenAt": "2026-11-03T19:37:08.340Z",
+    "lastSeenAt": "2026-11-03T19:37:08.340Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
