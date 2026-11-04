@@ -1510,5 +1510,81 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/167159/22037f33a6781c818ff27518c5b63f50_5383093133449111989.jpg",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/167159/5a2cbb8f9989da0aa6687700b1a98256_2909120731503681632.jpg"
     ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167163",
+    "digest": "06f8abcf06b7e5f25b42adbf374b40f030a2c28b933f430ceaeac65896262731",
+    "decision": "reconfirmed-official-edit-unchanged-image-schedule",
+    "notes": "已重新核对当前官网标题、正文及全部2张原图，标题现为祈愿现已开启；逐图SHA256及图片列表与11月3日已确认基线完全一致，图示仍为7.2版本更新后至2026/11/24 17:59。保留既有祈愿ID、UID、时间、SEQUENCE与不猜开服时刻规则，显式将图片证据重新绑定当前正文。",
+    "checkedAt": "2026-11-04T20:17:04.256Z",
+    "imagesHash": "be49e939aa18c31fca053dd0615692f93ff160c3be226b17abb8a27fd6f059bd",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/8a1b70dbb3ab2c97bb478f3fa4ca4188_1399164556200891547.png": "72b048fa6209e9ea12e48d0f98563ba5ed7b9d242d696db0bcaf4a8dda3f4983",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/d43865afab6c13712c344fb091d88e44_5055269922705482323.png": "71c93afec253dbc2322b9e8c317a3c37c576cedebdc8275902dfef285fa6593b"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167163",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/8a1b70dbb3ab2c97bb478f3fa4ca4188_1399164556200891547.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167163/d43865afab6c13712c344fb091d88e44_5055269922705482323.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167162",
+    "digest": "fc73b221fb743501885ecce2ea3e7f4d88532a29f942ba8ddb510a4c0d008a1f",
+    "decision": "reconfirmed-official-edit-unchanged-image-schedule",
+    "notes": "已重新核对当前官网标题、正文及全部2张原图，标题现为祈愿现已开启；逐图SHA256及图片列表与11月3日已确认基线完全一致，图示仍为7.2版本更新后至2026/11/24 17:59。保留既有祈愿ID、UID、时间、SEQUENCE与不猜开服时刻规则，显式将图片证据重新绑定当前正文。",
+    "checkedAt": "2026-11-04T20:17:04.256Z",
+    "imagesHash": "c43d2f21838d8bd9b4adb0f74a3ad548b81d36d9c5f524fd8799ac03bd24619e",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/0ccc2d0f134016ea5c490f01cc88051b_8159708250012790481.png": "d47af40e5c11c02231120a40b39df10790c5c129a76bd7cf1f437ed1f833e4d1",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/8679509ae8a37ed559f39dda332a8467_911805525180109568.png": "d6e78b08b050411906195006c2eea99cb867c43622ac5043551d6ae1a9e4e073"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167162",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/0ccc2d0f134016ea5c490f01cc88051b_8159708250012790481.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167162/8679509ae8a37ed559f39dda332a8467_911805525180109568.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167161",
+    "digest": "e4428ec84e44ff5432c31a8cd92bdedb2bae12b843389fa099656388f9b44770",
+    "decision": "reconfirmed-official-edit-unchanged-image-schedule",
+    "notes": "已重新核对当前官网标题、正文及全部2张原图，标题现为祈愿现已开启；逐图SHA256及图片列表与11月3日已确认基线完全一致，图示仍为7.2版本更新后至2026/11/24 17:59。保留既有祈愿ID、UID、时间、SEQUENCE与不猜开服时刻规则，显式将图片证据重新绑定当前正文。",
+    "checkedAt": "2026-11-04T20:17:04.256Z",
+    "imagesHash": "2e2339fa733038a94f99916dccf02965b5dfefc52fae6cbb841c50823ef32b4e",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/d6f4443cb5e0d1e6f9bcd64707b3c572_3170659932213135264.png": "4804ec9f1da69cb4d79e12209683c46e9fa5bf91d4ce2508f2ac764a73bc1212",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/b18d64934c5aca327441cf0eb469979f_240560528680162766.png": "8b932e35d1545ba564fb3ad0d3fe6f3dafb5a54ce382c3f9b53e9217158af93d"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167161",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/d6f4443cb5e0d1e6f9bcd64707b3c572_3170659932213135264.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167161/b18d64934c5aca327441cf0eb469979f_240560528680162766.png"
+    ]
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167191",
+    "digest": "a163414b4950b714516b4d71358885ef0ab2657a16a1508418448f2f0b49f1e9",
+    "decision": "confirmed-image-summary-existing-banner-schedules",
+    "notes": "已核官网正文及全部2张原图：第一期汇总对应167161/167162/167163既有三组祈愿，开始为2026/11/04 7.2版本更新后，截止2026/11/24 17:59；不猜具体开服时刻，不重复生成节点。正文、图片列表和逐图字节绑定当前人工确认。",
+    "checkedAt": "2026-11-04T20:17:04.256Z",
+    "imagesHash": "062a5c29f02efa8113993eb906d27593ba415520ec0b69abd77bc07ec1861f69",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167191/a5b7eb36f9ee7a1947cab6d9cc26698c_8878611666057331155.jpg": "d873480019e0b078b7303e679ccb74694a046b957f38339ebec5a0954fdc9770",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167191/8f6a029a4ea5da12137ce1e28b8a33c2_3881742403533245999.jpg": "c8b28e67a1abdde7bf6e0c257a20fd8bd209ec99c3418d9d7b42ccec29dd86ee"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167191",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167191/a5b7eb36f9ee7a1947cab6d9cc26698c_8878611666057331155.jpg",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167191/8f6a029a4ea5da12137ce1e28b8a33c2_3881742403533245999.jpg"
+    ]
   }
 ]

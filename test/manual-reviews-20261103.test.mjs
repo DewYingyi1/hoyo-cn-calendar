@@ -4,8 +4,8 @@ import fs from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { validateEvent, renderCalendar } from '../lib/calendar.mjs';
 import { isHandled } from '../lib/identity.mjs';
-import { confirmedImages } from '../lib/review.mjs';
 import { parsePost } from '../lib/parser.mjs';
+import { createImageEvidenceChecker, approveImageEvidence } from '../lib/image-evidence.mjs';
 
 const read = async name => JSON.parse(await fs.readFile(new URL(`../data/${name}.json`, import.meta.url), 'utf8'));
 const overrides = await read('overrides');
@@ -20,24 +20,92 @@ const expectedIds = [
   'genshin:website:167173:battle-pass', 'genshin:website:167173:battle-pass-purchase',
 ];
 
-test('八项原神审核的确认、图片基线与人工事件集合完整', () => {
+test('八项原神历史审核证据与当前人工基线完整，允许后续官方修改进入待审', () => {
   const ids = ['167154', '167173', '167168', '167167', '167163', '167162', '167161', '167159'];
   for (const id of ids) {
     const rawKey = key(id);
     const post = posts[rawKey];
     assert.ok(post, rawKey);
+    // Historical acceptance is immutable; the live observation and confirmation
+    // may legitimately move forward after a later official edit and human review.
+    const original = audit.filter(item => item.game === 'genshin' && item.source === 'website'
+      && item.postId === id && item.checkedAt === '2026-11-02T21:40:06.081Z');
+    assert.equal(original.length, 1, rawKey);
+    assert.equal(createHash('sha256').update(JSON.stringify(Object.keys(original[0].imageBytes))).digest('hex'), original[0].imagesHash);
+    assert.equal(new Set(original[0].evidenceUrls).size, Object.keys(original[0].imageBytes).length + 1);
+    assert.deepEqual(new Set(original[0].evidenceUrls), new Set([post.url, ...Object.keys(original[0].imageBytes)]));
     assert.equal(confirmations[rawKey], post.reviewedDigest, rawKey);
     assert.equal(post.confirmedImagesDigest, confirmations[rawKey]);
     assert.equal(post.confirmedImageBytesDigest, confirmations[rawKey]);
     assert.equal(post.imageEvidenceRequired, true);
-    assert.equal(post.imageEvidencePending, false);
     assert.equal(createHash('sha256').update(JSON.stringify(Object.keys(post.confirmedImageBytes))).digest('hex'), post.confirmedImagesHash);
-    assert.equal(confirmedImages(post, confirmations[rawKey], post.imagesHash).changed, false);
-    const records = audit.filter(item => item.game === 'genshin' && item.source === 'website' && item.postId === id && item.digest === confirmations[rawKey]);
-    assert.equal(records.length, 1, rawKey);
+    if (!post.imageEvidencePending) {
+      assert.equal(post.digest, confirmations[rawKey], rawKey);
+      assert.equal(post.imagesHash, post.confirmedImagesHash, rawKey);
+      assert.equal(post.observedImageBytesDigest, confirmations[rawKey], rawKey);
+      assert.deepEqual(post.observedImageBytes, post.confirmedImageBytes, rawKey);
+      assert.equal(createHash('sha256').update(JSON.stringify(Object.keys(post.observedImageBytes))).digest('hex'), post.imagesHash, rawKey);
+      assert.notEqual(post.imageEvidenceManualReview, true, rawKey);
+      assert.equal(post.imageEvidenceError, null, rawKey);
+    } else {
+      assert.ok(post.digest !== confirmations[rawKey] || post.imagesHash !== post.confirmedImagesHash
+        || post.imageEvidenceManualReview === true || post.imageEvidenceError,
+      `${rawKey}: pending must retain a change, manual lock or failure reason`);
+    }
+    // One body digest may have multiple legitimate image-only revisions. Match
+    // the current byte baseline, not just the body, without erasing old audits.
+    const records = audit.filter(item => item.game === 'genshin' && item.source === 'website' && item.postId === id
+      && item.digest === confirmations[rawKey] && item.imagesHash === post.confirmedImagesHash
+      && Object.entries(post.confirmedImageBytes).every(([url, hash]) => item.imageBytes?.[url] === hash)
+      && Object.keys(item.imageBytes ?? {}).length === Object.keys(post.confirmedImageBytes).length);
+    assert.ok(records.length >= 1, rawKey);
     assert.deepEqual(records[0].imageBytes, post.confirmedImageBytes);
     assert.equal(records[0].imagesHash, post.confirmedImagesHash);
-    assert.equal(new Set(records[0].evidenceUrls).size, post.confirmedImageBytes ? Object.keys(post.confirmedImageBytes).length + 1 : 0);
+    for (const record of records) {
+      assert.deepEqual(new Set(record.evidenceUrls), new Set([post.url, ...Object.keys(post.confirmedImageBytes)]), rawKey);
+    }
+  }
+});
+
+test('合成正文、图片列表或字节变化保留旧基线，回滚与网络故障不清锁，显式审核后才解除', async () => {
+  const hash = value => createHash('sha256').update(value).digest('hex');
+  const url = 'https://fastcdn.mihoyo.com/manual-review-fixture.png';
+  const newUrl = 'https://fastcdn.mihoyo.com/manual-review-fixture-new.png';
+  const bytes = Buffer.from('synthetic image evidence');
+  const oldDigest = hash('reviewed body');
+  const oldBytes = { [url]: hash(bytes) };
+  const baseline = { imageEvidenceRequired: true, digest: oldDigest, reviewedDigest: oldDigest,
+    imagesHash: hash(JSON.stringify([url])), confirmedImagesHash: hash(JSON.stringify([url])),
+    confirmedImagesDigest: oldDigest, confirmedImageBytes: oldBytes, confirmedImageBytesDigest: oldDigest,
+    imageEvidencePending: false, imageEvidenceManualReview: false };
+  for (const kind of ['body', 'image-list', 'image-bytes']) {
+    const digest = kind === 'body' ? hash('edited official body') : oldDigest;
+    const images = kind === 'image-list' ? [newUrl] : [url];
+    const observedBytes = kind === 'image-bytes' ? Buffer.from('edited synthetic image evidence') : bytes;
+    const checker = createImageEvidenceChecker({ request: async () => new Response(observedBytes, { headers: { 'content-type': 'image/png' } }) });
+    const post = { images };
+    const result = await checker(post, baseline, { expectedDigest: oldDigest, digest, now: '2026-11-05T00:00:00Z' });
+    assert.equal(result.needsReview, true, kind);
+    assert.equal(result.fields.imageEvidencePending, true, kind);
+    assert.equal(result.fields.imageEvidenceManualReview, true, kind);
+    assert.deepEqual(baseline.confirmedImageBytes, oldBytes);
+    const changed = { ...baseline, ...result.fields, digest, imagesHash: hash(JSON.stringify(images)) };
+    // Even a later identical observation cannot clear a genuine manual lock.
+    const again = await checker(post, changed, { expectedDigest: oldDigest, digest, now: '2026-11-05T00:01:00Z' });
+    assert.equal(again.needsReview, true, kind);
+    const failed = await createImageEvidenceChecker({ attempts: 1, request: async () => { throw new TypeError('synthetic network failure'); } })(post, changed,
+      { expectedDigest: oldDigest, digest, now: '2026-11-05T00:01:10Z' });
+    assert.equal(failed.fields.imageEvidenceManualReview, true, kind);
+    const rollbackChecker = createImageEvidenceChecker({ request: async () => new Response(bytes, { headers: { 'content-type': 'image/png' } }) });
+    const rollback = await rollbackChecker({ images: [url] }, { ...changed, ...failed.fields },
+      { expectedDigest: oldDigest, digest: oldDigest, now: '2026-11-05T00:01:20Z' });
+    assert.equal(rollback.needsReview, true, kind);
+    assert.equal(rollback.fields.imageEvidenceManualReview, true, kind);
+    if (kind === 'body') assert.throws(() => approveImageEvidence(changed, oldDigest), /image-approval-digest/);
+    const approved = approveImageEvidence(changed, digest);
+    assert.equal(approved.imageEvidencePending, false);
+    const after = await checker(post, approved, { expectedDigest: digest, digest, now: '2026-11-05T00:02:00Z' });
+    assert.equal(after.needsReview, false, kind);
   }
 });
 
