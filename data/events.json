@@ -147,6 +147,30 @@
     "sequence": 0
   },
   {
+    "id": "genshin:website:167205",
+    "game": "genshin",
+    "category": "maintenance",
+    "title": "「坏灭肇始之时」7.2版本更新说明",
+    "start": "2026-11-04T06:00:00+08:00",
+    "end": "2026-11-04T11:00:00+08:00",
+    "url": "https://ys.mihoyo.com/main/news/detail/167205",
+    "notes": "官方维护说明：2026/11/04 06:00开始，预计5个小时完成。。结束按官方预计5小时计算，仅为预计，不代表已开服。",
+    "modified": "2026-11-04T06:40:38.943Z",
+    "sequence": 0
+  },
+  {
+    "id": "genshin:website:167214",
+    "game": "genshin",
+    "category": "event",
+    "title": "原神超话「7.2」版本签到互动活动现已开启",
+    "start": "2026-11-04T10:00:00+08:00",
+    "end": "2026-12-15T23:59:00+08:00",
+    "url": "https://ys.mihoyo.com/main/news/detail/167214",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-11-04T06:40:38.943Z",
+    "sequence": 0
+  },
+  {
     "id": "starrail:miyoushe:77328417",
     "game": "starrail",
     "category": "livestream",

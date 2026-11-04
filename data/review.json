@@ -56,8 +56,47 @@
     "digest": "a163414b4950b714516b4d71358885ef0ab2657a16a1508418448f2f0b49f1e9",
     "source": "website",
     "firstSeenAt": "2026-11-03T19:37:08.340Z",
-    "lastSeenAt": "2026-11-03T19:37:08.340Z",
+    "lastSeenAt": "2026-11-04T06:40:38.943Z",
     "resolved": false,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "167163",
+    "title": "《原神》「神铸赋形」活动祈愿现已开启，「法器·秘星典谕」「单手剑·静水流涌之辉」概率UP！",
+    "url": "https://ys.mihoyo.com/main/news/detail/167163",
+    "reason": "人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留既有日程",
+    "digest": "06f8abcf06b7e5f25b42adbf374b40f030a2c28b933f430ceaeac65896262731",
+    "source": "website",
+    "firstSeenAt": "2026-11-04T06:40:38.943Z",
+    "lastSeenAt": "2026-11-04T06:40:38.943Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "167162",
+    "title": "《原神》「众水的颂诗」活动祈愿现已开启",
+    "url": "https://ys.mihoyo.com/main/news/detail/167162",
+    "reason": "人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留既有日程",
+    "digest": "fc73b221fb743501885ecce2ea3e7f4d88532a29f942ba8ddb510a4c0d008a1f",
+    "source": "website",
+    "firstSeenAt": "2026-11-04T06:40:38.943Z",
+    "lastSeenAt": "2026-11-04T06:40:38.943Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "167161",
+    "title": "《原神》「万序衍盈」活动祈愿现已开启",
+    "url": "https://ys.mihoyo.com/main/news/detail/167161",
+    "reason": "人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留既有日程",
+    "digest": "e4428ec84e44ff5432c31a8cd92bdedb2bae12b843389fa099656388f9b44770",
+    "source": "website",
+    "firstSeenAt": "2026-11-04T06:40:38.943Z",
+    "lastSeenAt": "2026-11-04T06:40:38.943Z",
+    "resolved": false,
+    "changedConfirmation": true
   }
 ]

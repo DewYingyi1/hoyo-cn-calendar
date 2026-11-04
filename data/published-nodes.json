@@ -9244,6 +9244,85 @@
       "modified": "2026-11-02T21:40:06.081Z",
       "publishedAt": "2026-11-02T21:41:43.093Z",
       "state": "active"
+    },
+    {
+      "uid": "6f56d09958b885c279e622b1b3aa5cbd7a167b53a9d8d3b070d263e887447142@hoyo-cn-calendar",
+      "eventId": "genshin:website:167214",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167214",
+        "game": "genshin",
+        "category": "event",
+        "title": "原神超话「7.2」版本签到互动活动现已开启",
+        "start": "2026-11-04T10:00:00+08:00",
+        "end": "2026-12-15T23:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167214",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-04T06:40:38.943Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-04T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-04T06:40:38.943Z",
+      "publishedAt": "2026-11-04T06:43:53.614Z",
+      "state": "active"
+    },
+    {
+      "uid": "3640d07638a0d3afab6ecc4311e95b6f15be091980ad1e32b8d367cb5b43b7ba@hoyo-cn-calendar",
+      "eventId": "genshin:website:167214",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167214",
+        "game": "genshin",
+        "category": "event",
+        "title": "原神超话「7.2」版本签到互动活动现已开启",
+        "start": "2026-11-04T10:00:00+08:00",
+        "end": "2026-12-15T23:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167214",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-04T06:40:38.943Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T23:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-04T06:40:38.943Z",
+      "publishedAt": "2026-11-04T06:43:53.614Z",
+      "state": "active"
+    },
+    {
+      "uid": "753b6f31a14271b97aa87572bd5f2148956a75f8f13173c22aefc3298890517f@hoyo-cn-calendar",
+      "eventId": "genshin:website:167214",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167214",
+        "game": "genshin",
+        "category": "event",
+        "title": "原神超话「7.2」版本签到互动活动现已开启",
+        "start": "2026-11-04T10:00:00+08:00",
+        "end": "2026-12-15T23:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167214",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-04T06:40:38.943Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-04T10:00:00+08:00",
+        "end": "2026-12-15T23:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-04T06:40:38.943Z",
+      "publishedAt": "2026-11-04T06:43:53.614Z",
+      "state": "active"
     }
   ]
 }
