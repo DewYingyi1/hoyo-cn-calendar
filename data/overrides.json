@@ -1139,6 +1139,36 @@
       "url": "https://ys.mihoyo.com/main/news/detail/167173",
       "modified": "2026-11-02T21:40:06.081Z",
       "sequence": 0
+    },
+    {
+      "id": "starrail:website:167274:rewards",
+      "game": "starrail",
+      "category": "event",
+      "title": "4.7版本无名勋礼：任务与奖励截止",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-21T03:59:00+08:00",
+      "endText": "2026/12/21 03:59",
+      "url": "https://sr.mihoyo.com/news/167274",
+      "notes": "官网167274正文明确：无名勋礼开启时间为2026/11/11 4.7版本更新后至2026/12/21 03:59。此节点表示完成任务与领取奖励的截止；开始时刻未公布，不推算版本开服时间。",
+      "displayNotes": "任务与奖励可进行至12月21日03:59；付费计划购买提前一小时关闭。",
+      "modified": "2026-11-07T11:13:16.646Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167274:purchase",
+      "game": "starrail",
+      "category": "event",
+      "title": "4.7版本无名勋礼：付费计划购买截止",
+      "start": null,
+      "startText": "2026/11/11 4.7版本更新后",
+      "end": "2026-12-21T02:59:00+08:00",
+      "endText": "2026/12/21 02:59",
+      "url": "https://sr.mihoyo.com/news/167274",
+      "notes": "官网167274正文明确：2026/12/21 02:59关闭「无名客的荣勋」「无名客的奖章」「荣勋授章」购买。购买关闭后仍可完成勋礼任务并领取奖励至同日03:59；本条不是活动提前结束。",
+      "displayNotes": "本条只提醒付费计划停止购买；任务与奖励仍可进行至同日03:59。",
+      "modified": "2026-11-07T11:13:16.646Z",
+      "sequence": 0
     }
   ],
   "replaceParentIds": [
@@ -1152,7 +1182,8 @@
     "zzz:website:166012",
     "zzz:website:166026",
     "zzz:website:166989",
-    "starrail:website:167107"
+    "starrail:website:167107",
+    "starrail:website:167274"
   ],
   "suppressPostIds": [
     "78335167",

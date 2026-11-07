@@ -9323,6 +9323,122 @@
       "modified": "2026-11-04T06:40:38.943Z",
       "publishedAt": "2026-11-04T06:43:53.614Z",
       "state": "active"
+    },
+    {
+      "uid": "d6073f443bc78e9f553146ffecf95b3f3740e1e9abeda141edb6689794bbb70e@hoyo-cn-calendar",
+      "eventId": "starrail:website:167274:rewards",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167274:rewards",
+        "game": "starrail",
+        "category": "event",
+        "title": "4.7版本无名勋礼：任务与奖励截止",
+        "start": null,
+        "startText": "2026/11/11 4.7版本更新后",
+        "end": "2026-12-21T03:59:00+08:00",
+        "endText": "2026/12/21 03:59",
+        "url": "https://sr.mihoyo.com/news/167274",
+        "notes": "官网167274正文明确：无名勋礼开启时间为2026/11/11 4.7版本更新后至2026/12/21 03:59。此节点表示完成任务与领取奖励的截止；开始时刻未公布，不推算版本开服时间。",
+        "displayNotes": "任务与奖励可进行至12月21日03:59；付费计划购买提前一小时关闭。",
+        "modified": "2026-11-07T11:13:16.646Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-21T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-07T11:13:16.646Z",
+      "publishedAt": "2026-11-07T11:18:30.783Z",
+      "state": "active"
+    },
+    {
+      "uid": "2f7ce5225415091864f30d827a8cb456d3ae9155ca25cf7055ce6ecee356ecf9@hoyo-cn-calendar",
+      "eventId": "starrail:website:167274:rewards",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167274:rewards",
+        "game": "starrail",
+        "category": "event",
+        "title": "4.7版本无名勋礼：任务与奖励截止",
+        "start": null,
+        "startText": "2026/11/11 4.7版本更新后",
+        "end": "2026-12-21T03:59:00+08:00",
+        "endText": "2026/12/21 03:59",
+        "url": "https://sr.mihoyo.com/news/167274",
+        "notes": "官网167274正文明确：无名勋礼开启时间为2026/11/11 4.7版本更新后至2026/12/21 03:59。此节点表示完成任务与领取奖励的截止；开始时刻未公布，不推算版本开服时间。",
+        "displayNotes": "任务与奖励可进行至12月21日03:59；付费计划购买提前一小时关闭。",
+        "modified": "2026-11-07T11:13:16.646Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-21T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-07T11:13:16.646Z",
+      "publishedAt": "2026-11-07T11:18:30.783Z",
+      "state": "active"
+    },
+    {
+      "uid": "d75034d28d9bd9f6fa85c7f62306a48d8f2277d17fcb2ca97f9ba2530642a48c@hoyo-cn-calendar",
+      "eventId": "starrail:website:167274:purchase",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167274:purchase",
+        "game": "starrail",
+        "category": "event",
+        "title": "4.7版本无名勋礼：付费计划购买截止",
+        "start": null,
+        "startText": "2026/11/11 4.7版本更新后",
+        "end": "2026-12-21T02:59:00+08:00",
+        "endText": "2026/12/21 02:59",
+        "url": "https://sr.mihoyo.com/news/167274",
+        "notes": "官网167274正文明确：2026/12/21 02:59关闭「无名客的荣勋」「无名客的奖章」「荣勋授章」购买。购买关闭后仍可完成勋礼任务并领取奖励至同日03:59；本条不是活动提前结束。",
+        "displayNotes": "本条只提醒付费计划停止购买；任务与奖励仍可进行至同日03:59。",
+        "modified": "2026-11-07T11:13:16.646Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-21T02:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-07T11:13:16.646Z",
+      "publishedAt": "2026-11-07T11:18:30.783Z",
+      "state": "active"
+    },
+    {
+      "uid": "9472ee438214b722ed38feefac023e48ea3cca3029cde5d83ab7d72a79fdb6cf@hoyo-cn-calendar",
+      "eventId": "starrail:website:167274:purchase",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167274:purchase",
+        "game": "starrail",
+        "category": "event",
+        "title": "4.7版本无名勋礼：付费计划购买截止",
+        "start": null,
+        "startText": "2026/11/11 4.7版本更新后",
+        "end": "2026-12-21T02:59:00+08:00",
+        "endText": "2026/12/21 02:59",
+        "url": "https://sr.mihoyo.com/news/167274",
+        "notes": "官网167274正文明确：2026/12/21 02:59关闭「无名客的荣勋」「无名客的奖章」「荣勋授章」购买。购买关闭后仍可完成勋礼任务并领取奖励至同日03:59；本条不是活动提前结束。",
+        "displayNotes": "本条只提醒付费计划停止购买；任务与奖励仍可进行至同日03:59。",
+        "modified": "2026-11-07T11:13:16.646Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-21T02:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-07T11:13:16.646Z",
+      "publishedAt": "2026-11-07T11:18:30.783Z",
+      "state": "active"
     }
   ]
 }

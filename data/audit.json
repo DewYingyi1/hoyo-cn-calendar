@@ -1586,5 +1586,22 @@
       "https://fastcdn.mihoyo.com/content-v2/hk4e/167191/a5b7eb36f9ee7a1947cab6d9cc26698c_8878611666057331155.jpg",
       "https://fastcdn.mihoyo.com/content-v2/hk4e/167191/8f6a029a4ea5da12137ce1e28b8a33c2_3881742403533245999.jpg"
     ]
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "167274",
+    "digest": "6af9994321cede7ae2266b71d6bec06612aa6a64127041335aa21bc367c109e1",
+    "decision": "confirmed-image-split-reward-and-purchase-deadlines",
+    "notes": "已核对官网当前完整正文及唯一官方原图。正文明确：开放时间2026/11/11 4.7版本更新后至2026/12/21 03:59；付费计划购买提前于2026/12/21 02:59关闭。拆分为奖励/任务截止与付费购买截止两个节点，购买关闭后仍可完成任务并领取奖励至03:59。开始仅保留官方版本更新后原文，不推算开服时间。",
+    "checkedAt": "2026-11-07T11:13:16.646Z",
+    "imagesHash": "77d324bc45495903b36691edd198d65c2ade5ab178cce86aa3d65f86e1c0a31e",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167274/762203d34880543c7bb6c1539b6ed89b_4194304359125924507.jpg": "6035614d25631a394af76c6d5061bad38db18d2b725661f66b46b6349f162d03"
+    },
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/167274",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167274/762203d34880543c7bb6c1539b6ed89b_4194304359125924507.jpg"
+    ]
   }
 ]
