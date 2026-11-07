@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "starrail",
+    "postId": "167274",
+    "title": "4.7版本「无名勋礼」更新",
+    "url": "https://sr.mihoyo.com/news/167274",
+    "reason": "活动截止与购买截止不同，需要拆分审核",
+    "digest": "6af9994321cede7ae2266b71d6bec06612aa6a64127041335aa21bc367c109e1",
+    "source": "website",
+    "firstSeenAt": "2026-11-07T06:12:34.565Z",
+    "lastSeenAt": "2026-11-07T06:12:34.565Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
