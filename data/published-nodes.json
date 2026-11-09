@@ -9676,6 +9676,60 @@
       "modified": "2026-11-09T06:51:02.001Z",
       "publishedAt": "2026-11-09T06:53:04.884Z",
       "state": "active"
+    },
+    {
+      "uid": "3904eb0e6e1fedb6044fce07a784712237425b1f76c5bf7f3511a4f89e83ed56@hoyo-cn-calendar",
+      "eventId": "starrail:website:167295",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167295",
+        "game": "starrail",
+        "category": "event",
+        "title": "「奇库寻遗」：参与活动获取+15五星遗器！",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "startText": "2026/11/11 4.7版本更新后",
+        "url": "https://sr.mihoyo.com/news/167295",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T22:30:18.942Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T22:30:18.942Z",
+      "publishedAt": "2026-11-09T22:31:18.817Z",
+      "state": "active"
+    },
+    {
+      "uid": "5c39f9f1f62463a0247a465032e9243ea65cbf21fbc543a47a6f63736b68d5e6@hoyo-cn-calendar",
+      "eventId": "starrail:website:167295",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167295",
+        "game": "starrail",
+        "category": "event",
+        "title": "「奇库寻遗」：参与活动获取+15五星遗器！",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "startText": "2026/11/11 4.7版本更新后",
+        "url": "https://sr.mihoyo.com/news/167295",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T22:30:18.942Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T22:30:18.942Z",
+      "publishedAt": "2026-11-09T22:31:18.817Z",
+      "state": "active"
     }
   ]
 }

@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "starrail",
+    "postId": "167296",
+    "title": "4.7版本更新维护预告",
+    "url": "https://sr.mihoyo.com/news/167296",
+    "reason": "维护开始与预计时长未唯一确定",
+    "digest": "475b6c3efb77d36b1d9d87c875042e7e84bd6751bcc9ebf5562142082799ff31",
+    "source": "website",
+    "firstSeenAt": "2026-11-09T22:30:18.942Z",
+    "lastSeenAt": "2026-11-09T22:30:18.942Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
