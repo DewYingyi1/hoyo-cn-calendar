@@ -9439,6 +9439,243 @@
       "modified": "2026-11-07T11:13:16.646Z",
       "publishedAt": "2026-11-07T11:18:30.783Z",
       "state": "active"
+    },
+    {
+      "uid": "3933a835297dd8acef0ca4045dea50eeaa01299c5e4ab91b48e60ad02740ec18@hoyo-cn-calendar",
+      "eventId": "zzz:website:167288",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167288",
+        "game": "zzz",
+        "category": "banner",
+        "title": "3.3版本限时频段（下期）",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-01T14:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167288",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T12:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "6e1d2133264b01500f3719871209a6b5bfe21606cc819176e387e786be936f1d@hoyo-cn-calendar",
+      "eventId": "zzz:website:167288",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167288",
+        "game": "zzz",
+        "category": "banner",
+        "title": "3.3版本限时频段（下期）",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-01T14:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167288",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-01T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "bce27587a412a693a4357c4a14584f285204b7eebaaf0cc938b3f8dcecd1794c@hoyo-cn-calendar",
+      "eventId": "zzz:website:167288",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:167288",
+        "game": "zzz",
+        "category": "banner",
+        "title": "3.3版本限时频段（下期）",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-01T14:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167288",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T12:00:00+08:00",
+        "end": "2026-12-01T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "bb4634f0da9a30ea65611d3a0ff27b3a69b51e637a49ede5a7ff29b5aa278f4f@hoyo-cn-calendar",
+      "eventId": "zzz:website:167289",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167289",
+        "game": "zzz",
+        "category": "event",
+        "title": "「跛脚乌鸦奇踪记」活动说明",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167289",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "0ebf4a7ead754429b1523a126ff269fd185b96057c6a6995c4365a8caba1eaa3@hoyo-cn-calendar",
+      "eventId": "zzz:website:167289",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167289",
+        "game": "zzz",
+        "category": "event",
+        "title": "「跛脚乌鸦奇踪记」活动说明",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167289",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "17309b5f5e30339d0e7c0047b182c7b1eb3cccf944c67af91bf9910ff6039d4c@hoyo-cn-calendar",
+      "eventId": "zzz:website:167289",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:167289",
+        "game": "zzz",
+        "category": "event",
+        "title": "「跛脚乌鸦奇踪记」活动说明",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167289",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-11-30T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "d39adde31a65dc96f98362ad762679c2e6b2e063bf4ff98b021c6a5b3bebf798@hoyo-cn-calendar",
+      "eventId": "zzz:website:167290",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167290",
+        "game": "zzz",
+        "category": "event",
+        "title": "「『嗯呢』从天降」活动说明",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167290",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-11T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "b48928d22c31a89d4e025bccd1d78bb67de7f97dc2de98fcc4914174d18e9252@hoyo-cn-calendar",
+      "eventId": "zzz:website:167290",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167290",
+        "game": "zzz",
+        "category": "event",
+        "title": "「『嗯呢』从天降」活动说明",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167290",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-01T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
+    },
+    {
+      "uid": "611efd0ab543d4b2f9c021441e0933de6c107277de2f35a4d69290f5d10a2d1a@hoyo-cn-calendar",
+      "eventId": "zzz:website:167290",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:167290",
+        "game": "zzz",
+        "category": "event",
+        "title": "「『嗯呢』从天降」活动说明",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00",
+        "url": "https://zzz.mihoyo.com/news/167290",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-09T06:51:02.001Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-11T10:00:00+08:00",
+        "end": "2026-12-01T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-09T06:51:02.001Z",
+      "publishedAt": "2026-11-09T06:53:04.884Z",
+      "state": "active"
     }
   ]
 }
