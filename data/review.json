@@ -56,7 +56,20 @@
     "digest": "475b6c3efb77d36b1d9d87c875042e7e84bd6751bcc9ebf5562142082799ff31",
     "source": "website",
     "firstSeenAt": "2026-11-09T22:30:18.942Z",
-    "lastSeenAt": "2026-11-09T22:30:18.942Z",
+    "lastSeenAt": "2026-11-10T08:11:00.602Z",
+    "resolved": false,
+    "changedConfirmation": false
+  },
+  {
+    "game": "starrail",
+    "postId": "167299",
+    "title": "4.7版本活动跃迁（其一）",
+    "url": "https://sr.mihoyo.com/news/167299",
+    "reason": "汇总或存在多个截止语义，需要拆分审核",
+    "digest": "ea54365361df6960cc7977f40ba02ceed5471ffc91cb4af681c3244f40f4b405",
+    "source": "website",
+    "firstSeenAt": "2026-11-10T08:07:17.897Z",
+    "lastSeenAt": "2026-11-10T08:11:00.602Z",
     "resolved": false,
     "changedConfirmation": false
   }

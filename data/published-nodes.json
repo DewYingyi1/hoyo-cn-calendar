@@ -9730,6 +9730,114 @@
       "modified": "2026-11-09T22:30:18.942Z",
       "publishedAt": "2026-11-09T22:31:18.817Z",
       "state": "active"
+    },
+    {
+      "uid": "ec1592ddd120823ae31e7ba5113960ace98f59a12a7b17386e077fc9a0288a48@hoyo-cn-calendar",
+      "eventId": "starrail:website:167297",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167297",
+        "game": "starrail",
+        "category": "event",
+        "title": "「剧场版绒绒号：欢闹厨房」：经营甜品店、完成漫画稿，获取自塑尘脂等奖励！",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "startText": "2026/11/11 4.7版本更新后",
+        "url": "https://sr.mihoyo.com/news/167297",
+        "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+        "modified": "2026-11-10T08:07:17.897Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-10T08:07:17.897Z",
+      "publishedAt": "2026-11-10T08:12:54.226Z",
+      "state": "active"
+    },
+    {
+      "uid": "24ece3a5e79a30c1ddf06048bd1964e26d0d08cb3e8e95cc99d173866a3282de@hoyo-cn-calendar",
+      "eventId": "starrail:website:167297",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167297",
+        "game": "starrail",
+        "category": "event",
+        "title": "「剧场版绒绒号：欢闹厨房」：经营甜品店、完成漫画稿，获取自塑尘脂等奖励！",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "startText": "2026/11/11 4.7版本更新后",
+        "url": "https://sr.mihoyo.com/news/167297",
+        "notes": "截止仅指限时活动奖励期；常驻玩法可能继续开放。",
+        "modified": "2026-11-10T08:07:17.897Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-10T08:07:17.897Z",
+      "publishedAt": "2026-11-10T08:12:54.226Z",
+      "state": "active"
+    },
+    {
+      "uid": "a19e76cc0f13deb736daf70832b116053aa031df574fd4bedccfc2f27b23ecad@hoyo-cn-calendar",
+      "eventId": "starrail:website:167298",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167298",
+        "game": "starrail",
+        "category": "event",
+        "title": "「星际和平盛典：成名之路」：击败强敌，获取命运的足迹等奖励！",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "startText": "2026/11/11 4.7版本更新后",
+        "url": "https://sr.mihoyo.com/news/167298",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-10T08:07:17.897Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-10T08:07:17.897Z",
+      "publishedAt": "2026-11-10T08:12:54.226Z",
+      "state": "active"
+    },
+    {
+      "uid": "531dbdbc74b56f07acfd7bc172f631faf8b578bc0e4c0995671001dae7b02fd9@hoyo-cn-calendar",
+      "eventId": "starrail:website:167298",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167298",
+        "game": "starrail",
+        "category": "event",
+        "title": "「星际和平盛典：成名之路」：击败强敌，获取命运的足迹等奖励！",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "startText": "2026/11/11 4.7版本更新后",
+        "url": "https://sr.mihoyo.com/news/167298",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-10T08:07:17.897Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-10T08:07:17.897Z",
+      "publishedAt": "2026-11-10T08:12:54.226Z",
+      "state": "active"
     }
   ]
 }
