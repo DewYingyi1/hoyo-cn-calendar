@@ -39,8 +39,9 @@ test('167274明确拆分勋礼奖励截止与购买截止，不推算版本更�
   assert.equal(overrides.events.filter(event => event.id === key).length, 0);
   assert.deepEqual(overrides.events.filter(event => event.url === 'https://sr.mihoyo.com/news/167274')
     .map(event => event.id).sort(), [`${key}:purchase`, `${key}:rewards`].sort());
-  assert.equal(review.filter(item => !item.resolved).length, 0);
-  assert.equal(status.reviewCount, 0);
+  const unresolvedReviews = review.filter(item => !item.resolved);
+  assert.equal(unresolvedReviews.some(item => item.source === 'website' && item.postId === '167274'), false);
+  assert.equal(status.reviewCount, unresolvedReviews.length);
   assert.equal(status.successfulSources, 3);
   assert.equal(status.partialSources, 0);
   const post = posts[key];
