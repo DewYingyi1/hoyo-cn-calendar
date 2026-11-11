@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "starrail",
+    "postId": "167300",
+    "title": "4.7版本「此刻，将群星付之一笑」版本更新说明",
+    "url": "https://sr.mihoyo.com/news/167300",
+    "reason": "维护时间已解析，正文其他活动或卡池仍需拆分审核",
+    "digest": "79dff2465f86292d87c9858295a33b7adc3c39956b07be7723b796cc26747823",
+    "source": "website",
+    "firstSeenAt": "2026-11-11T06:44:18.449Z",
+    "lastSeenAt": "2026-11-11T06:44:18.449Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]

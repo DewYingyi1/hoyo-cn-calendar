@@ -579,6 +579,18 @@
     "sequence": 0
   },
   {
+    "id": "starrail:website:167300",
+    "game": "starrail",
+    "category": "maintenance",
+    "title": "4.7版本「此刻，将群星付之一笑」版本更新说明",
+    "start": "2026-11-11T06:00:00+08:00",
+    "end": "2026-11-11T11:00:00+08:00",
+    "url": "https://sr.mihoyo.com/news/167300",
+    "notes": "官方维护说明：2026/11/11 06:00开始，预计5个小时完成。。结束按官方预计5小时计算，仅为预计，不代表已开服。",
+    "modified": "2026-11-11T06:44:18.449Z",
+    "sequence": 0
+  },
+  {
     "id": "zzz:miyoushe:76998963",
     "game": "zzz",
     "category": "event",
