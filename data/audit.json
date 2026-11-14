@@ -1663,5 +1663,22 @@
       "https://fastcdn.mihoyo.com/content-v2/hkrpg/167299/e84bb3286fce986a4b897756e4dab1a4_6306789793938808670.png",
       "https://fastcdn.mihoyo.com/content-v2/hkrpg/167299/e5759184438c17e68b8ec041c389b487_891382034357299501.png"
     ]
+  },
+  {
+    "game": "starrail",
+    "source": "website",
+    "postId": "167300",
+    "digest": "79dff2465f86292d87c9858295a33b7adc3c39956b07be7723b796cc26747823",
+    "decision": "confirmed-official-body-and-all-images",
+    "checkedAt": "2026-11-13T23:55:48.129Z",
+    "imagesHash": "93bfa9c68c5ad1fc828c8a6eae2c746e7ddbf4d325fa505adbb15b912a4775bb",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167300/0421706b656533de9f991c049925fd57_696232985081599291.jpg": "74f9848154f106cb9c553c380f247c1e7985b881057e530f9d0135904d6b9d91"
+    },
+    "evidenceUrls": [
+      "https://sr.mihoyo.com/news/167300",
+      "https://fastcdn.mihoyo.com/content-v2/hkrpg/167300/0421706b656533de9f991c049925fd57_696232985081599291.jpg"
+    ],
+    "notes": "核对官网完整正文与唯一原图。新增万象和鸣截止、三期逐光捡金完整窗口、问题修复补偿上线收取邮件截止，共5项。版本更新后不推算开服时刻。替换自动维护父项，保留已发布167296维护身份；不开重复维护。开场好礼6项沿用167107精确05:59截止，不用版本06:00覆盖；幻乐秀场167101、奇库167295、厨房167297、成名之路167298均已有03:59截止，不重复。停服更新补偿未单独立项：正文仅写版本结束前领取，不另造独立补偿节点；永久剧情、货币战争赛季、异相仲裁及常驻商店无独立精确窗口，不生成有限截止。"
   }
 ]

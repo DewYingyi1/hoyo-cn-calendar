@@ -10559,6 +10559,362 @@
       "modified": "2026-11-13T06:56:37.956Z",
       "publishedAt": "2026-11-13T06:57:57.348Z",
       "state": "active"
+    },
+    {
+      "uid": "6e1922836c538744bdb0486b741853939e0f9c38ea65d084915cf79cdabd3207@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:echo",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:echo",
+        "game": "starrail",
+        "category": "event",
+        "title": "万象和鸣：奇缘星魂奖励领取",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "活动期间累计消耗星轨专票或时装邀请函，获得回响领取奇缘星魂。仅记录本活动截止，不代表常驻商店关闭。",
+        "displayNotes": "活动期间累计消耗星轨专票或时装邀请函，获得回响领取奇缘星魂。仅记录本活动截止，不代表常驻商店关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0,
+        "startText": "2026/11/11 4.7版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "6f76c3e6ea108e4c3335158032526ea05ee2b9f0840a6205e922aded033617c8@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:echo",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167300:echo",
+        "game": "starrail",
+        "category": "event",
+        "title": "万象和鸣：奇缘星魂奖励领取",
+        "start": null,
+        "end": "2026-12-23T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "活动期间累计消耗星轨专票或时装邀请函，获得回响领取奇缘星魂。仅记录本活动截止，不代表常驻商店关闭。",
+        "displayNotes": "活动期间累计消耗星轨专票或时装邀请函，获得回响领取奇缘星魂。仅记录本活动截止，不代表常驻商店关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0,
+        "startText": "2026/11/11 4.7版本更新后"
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-23T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "5140e18aa35a0621ef0de307e705a41f035e0989a859c7a2b8216e899c17329c@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-1",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:challenge-1",
+        "game": "starrail",
+        "category": "event",
+        "title": "末日幻影：领航冥茫",
+        "start": "2026-11-16T04:00:00+08:00",
+        "end": "2026-12-28T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-16T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "b25b678e2287d09421b48fb1704b12263e482c7d9eb9fedc385a41a1215a2c67@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-1",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:challenge-1",
+        "game": "starrail",
+        "category": "event",
+        "title": "末日幻影：领航冥茫",
+        "start": "2026-11-16T04:00:00+08:00",
+        "end": "2026-12-28T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-28T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "6a893d2c838cfefef6f882d769df0a260b9acd6b30424a4e3349b13e101d6068@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-1",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167300:challenge-1",
+        "game": "starrail",
+        "category": "event",
+        "title": "末日幻影：领航冥茫",
+        "start": "2026-11-16T04:00:00+08:00",
+        "end": "2026-12-28T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-16T04:00:00+08:00",
+        "end": "2026-12-28T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "3f4c356520c3076c5967b1447bd8ba38f09b3740b27e0c45d42a9866299cb1b2@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-2",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:challenge-2",
+        "game": "starrail",
+        "category": "event",
+        "title": "虚构叙事：虚事成理",
+        "start": "2026-11-30T04:00:00+08:00",
+        "end": "2027-01-11T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-30T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "2575cf81ab8766a617be03eeff5699749da2ef82e0e173626a92b47b2b3de5e0@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-2",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:challenge-2",
+        "game": "starrail",
+        "category": "event",
+        "title": "虚构叙事：虚事成理",
+        "start": "2026-11-30T04:00:00+08:00",
+        "end": "2027-01-11T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2027-01-11T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "e659b116984107be20b03c052540b0432f2d1b17a5d636e28a07c4559de5bc16@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-2",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167300:challenge-2",
+        "game": "starrail",
+        "category": "event",
+        "title": "虚构叙事：虚事成理",
+        "start": "2026-11-30T04:00:00+08:00",
+        "end": "2027-01-11T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-30T04:00:00+08:00",
+        "end": "2027-01-11T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "fc141696c1dc82ee75b121164106a6b58e11d2cc8e185012af688d586119241c@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-3",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:challenge-3",
+        "game": "starrail",
+        "category": "event",
+        "title": "混沌回忆：漆黑残响",
+        "start": "2026-12-14T04:00:00+08:00",
+        "end": "2027-01-25T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-12-14T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "50994e463c7d97348249c4a03cd7c5ef6c5baebe10493694a1e107c67338bc62@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-3",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:challenge-3",
+        "game": "starrail",
+        "category": "event",
+        "title": "混沌回忆：漆黑残响",
+        "start": "2026-12-14T04:00:00+08:00",
+        "end": "2027-01-25T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2027-01-25T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "4d8701ef1dd819029020e22717c1a42bb19f87314325853e5b8891ae5075c68e@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:challenge-3",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167300:challenge-3",
+        "game": "starrail",
+        "category": "event",
+        "title": "混沌回忆：漆黑残响",
+        "start": "2026-12-14T04:00:00+08:00",
+        "end": "2027-01-25T03:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-12-14T04:00:00+08:00",
+        "end": "2027-01-25T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "70f75ef5a214eceae7842f1854145c096fa5ac5ed4634a3deb4649e2414f2f61@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:fix-compensation",
+      "mode": "nodes",
+      "event": {
+        "id": "starrail:website:167300:fix-compensation",
+        "game": "starrail",
+        "category": "event",
+        "title": "4.7问题修复补偿：上线收取邮件截止",
+        "start": null,
+        "end": "2026-12-11T23:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "星琼300；对象为2026/11/11 06:00前开拓等级≥4级的开拓者。须在截止前上线收取邮件；不是停服更新补偿的领取截止，也不推算邮件有效期。",
+        "displayNotes": "星琼300；对象为2026/11/11 06:00前开拓等级≥4级的开拓者。须在截止前上线收取邮件；不是停服更新补偿的领取截止，也不推算邮件有效期。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-11T23:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
+    },
+    {
+      "uid": "1b2f0b3510a3939b758b29e6eb62b30cd56fec380e69d837b900243fbf50d927@hoyo-cn-calendar",
+      "eventId": "starrail:website:167300:fix-compensation",
+      "mode": "timeline",
+      "event": {
+        "id": "starrail:website:167300:fix-compensation",
+        "game": "starrail",
+        "category": "event",
+        "title": "4.7问题修复补偿：上线收取邮件截止",
+        "start": null,
+        "end": "2026-12-11T23:59:00+08:00",
+        "url": "https://sr.mihoyo.com/news/167300",
+        "notes": "星琼300；对象为2026/11/11 06:00前开拓等级≥4级的开拓者。须在截止前上线收取邮件；不是停服更新补偿的领取截止，也不推算邮件有效期。",
+        "displayNotes": "星琼300；对象为2026/11/11 06:00前开拓等级≥4级的开拓者。须在截止前上线收取邮件；不是停服更新补偿的领取截止，也不推算邮件有效期。",
+        "modified": "2026-11-13T23:55:48.129Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-11T23:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-13T23:55:48.129Z",
+      "publishedAt": "2026-11-13T23:56:56.221Z",
+      "state": "active"
     }
   ]
 }

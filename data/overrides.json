@@ -1322,6 +1322,72 @@
       "modified": "2026-11-10T08:27:12.666Z",
       "sequence": 0,
       "startText": "2026/11/11 4.7版本更新后"
+    },
+    {
+      "id": "starrail:website:167300:echo",
+      "game": "starrail",
+      "category": "event",
+      "title": "万象和鸣：奇缘星魂奖励领取",
+      "start": null,
+      "end": "2026-12-23T03:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167300",
+      "notes": "活动期间累计消耗星轨专票或时装邀请函，获得回响领取奇缘星魂。仅记录本活动截止，不代表常驻商店关闭。",
+      "displayNotes": "活动期间累计消耗星轨专票或时装邀请函，获得回响领取奇缘星魂。仅记录本活动截止，不代表常驻商店关闭。",
+      "modified": "2026-11-13T23:55:48.129Z",
+      "sequence": 0,
+      "startText": "2026/11/11 4.7版本更新后"
+    },
+    {
+      "id": "starrail:website:167300:challenge-1",
+      "game": "starrail",
+      "category": "event",
+      "title": "末日幻影：领航冥茫",
+      "start": "2026-11-16T04:00:00+08:00",
+      "end": "2026-12-28T03:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167300",
+      "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+      "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+      "modified": "2026-11-13T23:55:48.129Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167300:challenge-2",
+      "game": "starrail",
+      "category": "event",
+      "title": "虚构叙事：虚事成理",
+      "start": "2026-11-30T04:00:00+08:00",
+      "end": "2027-01-11T03:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167300",
+      "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+      "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+      "modified": "2026-11-13T23:55:48.129Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167300:challenge-3",
+      "game": "starrail",
+      "category": "event",
+      "title": "混沌回忆：漆黑残响",
+      "start": "2026-12-14T04:00:00+08:00",
+      "end": "2027-01-25T03:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167300",
+      "notes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+      "displayNotes": "逐光捡金本期挑战窗口；截止仅指本期，不代表常驻玩法关闭。",
+      "modified": "2026-11-13T23:55:48.129Z",
+      "sequence": 0
+    },
+    {
+      "id": "starrail:website:167300:fix-compensation",
+      "game": "starrail",
+      "category": "event",
+      "title": "4.7问题修复补偿：上线收取邮件截止",
+      "start": null,
+      "end": "2026-12-11T23:59:00+08:00",
+      "url": "https://sr.mihoyo.com/news/167300",
+      "notes": "星琼300；对象为2026/11/11 06:00前开拓等级≥4级的开拓者。须在截止前上线收取邮件；不是停服更新补偿的领取截止，也不推算邮件有效期。",
+      "displayNotes": "星琼300；对象为2026/11/11 06:00前开拓等级≥4级的开拓者。须在截止前上线收取邮件；不是停服更新补偿的领取截止，也不推算邮件有效期。",
+      "modified": "2026-11-13T23:55:48.129Z",
+      "sequence": 0
     }
   ],
   "replaceParentIds": [
@@ -1337,7 +1403,8 @@
     "zzz:website:166989",
     "starrail:website:167107",
     "starrail:website:167274",
-    "starrail:website:167299"
+    "starrail:website:167299",
+    "starrail:website:167300"
   ],
   "suppressPostIds": [
     "78335167",
