@@ -10915,6 +10915,60 @@
       "modified": "2026-11-13T23:55:48.129Z",
       "publishedAt": "2026-11-13T23:56:56.221Z",
       "state": "active"
+    },
+    {
+      "uid": "b85d56d4f127658489137720ea7b4b883e9983da42fcf0e79296319deb713865@hoyo-cn-calendar",
+      "eventId": "zzz:website:167359",
+      "mode": "nodes",
+      "event": {
+        "id": "zzz:website:167359",
+        "game": "zzz",
+        "category": "livestream",
+        "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目预告",
+        "start": "2026-11-20T18:30:00+08:00",
+        "end": null,
+        "url": "https://zzz.mihoyo.com/news/167359",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-16T06:46:55.604Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "前瞻开始",
+        "start": "2026-11-20T18:30:00+08:00",
+        "end": null
+      },
+      "sequence": 0,
+      "modified": "2026-11-16T06:46:55.604Z",
+      "publishedAt": "2026-11-16T06:48:15.542Z",
+      "state": "active"
+    },
+    {
+      "uid": "3ded1e1bdb847feaa0e1f7e2be587838943229e231c8c07dcf24c22d976dde76@hoyo-cn-calendar",
+      "eventId": "zzz:website:167359",
+      "mode": "timeline",
+      "event": {
+        "id": "zzz:website:167359",
+        "game": "zzz",
+        "category": "livestream",
+        "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目预告",
+        "start": "2026-11-20T18:30:00+08:00",
+        "end": null,
+        "url": "https://zzz.mihoyo.com/news/167359",
+        "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+        "modified": "2026-11-16T06:46:55.604Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "前瞻开始",
+        "start": "2026-11-20T18:30:00+08:00",
+        "end": null
+      },
+      "sequence": 0,
+      "modified": "2026-11-16T06:46:55.604Z",
+      "publishedAt": "2026-11-16T06:48:15.542Z",
+      "state": "active"
     }
   ]
 }

@@ -994,5 +994,17 @@
     "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
     "modified": "2026-11-13T06:56:37.956Z",
     "sequence": 0
+  },
+  {
+    "id": "zzz:website:167359",
+    "game": "zzz",
+    "category": "livestream",
+    "title": "《绝区零》3.4 版本「长日终尽」前瞻特别节目预告",
+    "start": "2026-11-20T18:30:00+08:00",
+    "end": null,
+    "url": "https://zzz.mihoyo.com/news/167359",
+    "notes": "自动解析官方公告；缺少明确开始时刻时仅发布截止节点。",
+    "modified": "2026-11-16T06:46:55.604Z",
+    "sequence": 0
   }
 ]
