@@ -46,5 +46,18 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "zzz",
+    "postId": "167373",
+    "title": "调频统计工具介绍",
+    "url": "https://zzz.mihoyo.com/news/167373",
+    "reason": "图片公告正文不足以确定日程，需要读图审核",
+    "digest": "53528323b2664baaac117744a05d5970bd57db75ba868385190f3a72833b2f6e",
+    "source": "website",
+    "firstSeenAt": "2026-11-18T07:41:48.648Z",
+    "lastSeenAt": "2026-11-18T07:41:48.648Z",
+    "resolved": false,
+    "changedConfirmation": false
   }
 ]
