@@ -11048,6 +11048,580 @@
       "modified": "2026-11-18T07:41:48.648Z",
       "publishedAt": "2026-11-18T07:42:37.924Z",
       "state": "active"
+    },
+    {
+      "uid": "132dbb73c2ae2171a4ee615fc83c277c745acbea50e0ef6fd7c51bb79391c517@hoyo-cn-calendar",
+      "eventId": "genshin:website:167384",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167384",
+        "game": "genshin",
+        "category": "banner",
+        "title": "华黍由仪：兹白概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-24T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "df1f7a7ec186eccdfa88d30aa3bbdf30765bdb32bad1dd83b166a49ef3eb36a3@hoyo-cn-calendar",
+      "eventId": "genshin:website:167384",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167384",
+        "game": "genshin",
+        "category": "banner",
+        "title": "华黍由仪：兹白概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "eb04142118da5984d6f4be73b4c908c0b73824b345b267fb90f2ad13fffc7fc5@hoyo-cn-calendar",
+      "eventId": "genshin:website:167384",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167384",
+        "game": "genshin",
+        "category": "banner",
+        "title": "华黍由仪：兹白概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "b7a77abd5dbe527580adc89d33f24b57026b4435218c0fda78da02ca01e75b1d@hoyo-cn-calendar",
+      "eventId": "genshin:website:167385",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167385",
+        "game": "genshin",
+        "category": "banner",
+        "title": "呀吼吼博物志：莉奈娅概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167385",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-24T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "c245d7835efece32e4a9cb7a9447ed3763c869f66ca2b8f23cd49f51c93ac0e1@hoyo-cn-calendar",
+      "eventId": "genshin:website:167385",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167385",
+        "game": "genshin",
+        "category": "banner",
+        "title": "呀吼吼博物志：莉奈娅概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167385",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "bf66afb4eb63d6a117931c08a84fe3a3e672a37ce865c1aab5fbdb093b1c2ab9@hoyo-cn-calendar",
+      "eventId": "genshin:website:167385",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167385",
+        "game": "genshin",
+        "category": "banner",
+        "title": "呀吼吼博物志：莉奈娅概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167385",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "c66ff8c66e4318c8447d433bd962494aaa0a4585370805179c0e93c61d3535c0@hoyo-cn-calendar",
+      "eventId": "genshin:website:167386",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167386",
+        "game": "genshin",
+        "category": "banner",
+        "title": "神铸赋形：朏魄含光、霜结的誓金枝概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167386",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-24T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "16152deaaf6a985e66c21f404f1076fb13e2e49e23437c81e28128f11abb9312@hoyo-cn-calendar",
+      "eventId": "genshin:website:167386",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167386",
+        "game": "genshin",
+        "category": "banner",
+        "title": "神铸赋形：朏魄含光、霜结的誓金枝概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167386",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "aaf1d12902adcce55cac32993b0c3eb2b32134490804a78b0d4004f304e2b2e0@hoyo-cn-calendar",
+      "eventId": "genshin:website:167386",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167386",
+        "game": "genshin",
+        "category": "banner",
+        "title": "神铸赋形：朏魄含光、霜结的誓金枝概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167386",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "799dfe19a95630c8748ab059b34dc1abac14470236d7fd9fc3f0e29fd51977a2@hoyo-cn-calendar",
+      "eventId": "genshin:website:167388",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167388",
+        "game": "genshin",
+        "category": "banner",
+        "title": "炎天铸名：集录祈愿",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167388",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "集录祈愿包含本期可定轨角色与武器；角色和武器属于同一祈愿，不重复拆分。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-24T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "f27fbb9ce471092b9b4d0c482eb932a47c405e11921e90cbe831e43d2d6df92e@hoyo-cn-calendar",
+      "eventId": "genshin:website:167388",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167388",
+        "game": "genshin",
+        "category": "banner",
+        "title": "炎天铸名：集录祈愿",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167388",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "集录祈愿包含本期可定轨角色与武器；角色和武器属于同一祈愿，不重复拆分。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "4f2dba4234c8fb77a28b17d8d4b8d27095a9942d1030761245edbe74b5d38ecc@hoyo-cn-calendar",
+      "eventId": "genshin:website:167388",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167388",
+        "game": "genshin",
+        "category": "banner",
+        "title": "炎天铸名：集录祈愿",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167388",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "集录祈愿包含本期可定轨角色与武器；角色和武器属于同一祈愿，不重复拆分。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "e82252c495f24f395b042c15c91a910dd5f8501ea783fcea77b8143f9146a3b1@hoyo-cn-calendar",
+      "eventId": "genshin:website:167384:trial",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167384:trial",
+        "game": "genshin",
+        "category": "event",
+        "title": "且试身手：兹白、莉奈娅角色试用",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "167384、167385正文均写明祈愿开启期间开放相应且试身手，两篇第2图的祈愿窗口相同；合并同期试用，不重复共享角色。",
+        "displayNotes": "对应本期两组角色祈愿的且试身手；使用固定阵容完成试用挑战可领取奖励。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-24T18:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "5a54944b9a65ca306b609fb7d2d5b3fd93c571792dd30ee998ebf6fed5cc60bf@hoyo-cn-calendar",
+      "eventId": "genshin:website:167384:trial",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167384:trial",
+        "game": "genshin",
+        "category": "event",
+        "title": "且试身手：兹白、莉奈娅角色试用",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "167384、167385正文均写明祈愿开启期间开放相应且试身手，两篇第2图的祈愿窗口相同；合并同期试用，不重复共享角色。",
+        "displayNotes": "对应本期两组角色祈愿的且试身手；使用固定阵容完成试用挑战可领取奖励。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "7dab68fc4ed3eb4ba98d1b1573ee41be1dcd5d98e227b4351eef82e88c8de4c7@hoyo-cn-calendar",
+      "eventId": "genshin:website:167384:trial",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167384:trial",
+        "game": "genshin",
+        "category": "event",
+        "title": "且试身手：兹白、莉奈娅角色试用",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "167384、167385正文均写明祈愿开启期间开放相应且试身手，两篇第2图的祈愿窗口相同；合并同期试用，不重复共享角色。",
+        "displayNotes": "对应本期两组角色祈愿的且试身手；使用固定阵容完成试用挑战可领取奖励。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "d78b1be010b75ffdd7b32301254d90c5ccd05d5c3be948efcdbca9659c5ffb99@hoyo-cn-calendar",
+      "eventId": "genshin:website:167387:photo",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167387:photo",
+        "game": "genshin",
+        "category": "event",
+        "title": "历影定格录：留影挑战",
+        "start": "2026-11-27T10:00:00+08:00",
+        "end": "2026-12-07T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167387",
+        "notes": "核对官方第2张长图06：活动时间2026/11/27 10:00 ~ 2026/12/07 03:59。",
+        "displayNotes": "完成留影挑战，获得原石等奖励。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-11-27T10:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "bf56bf5e5d224d4ada08a6cbde4d29d3a100bf73c46d1f5dbe156681af9b3285@hoyo-cn-calendar",
+      "eventId": "genshin:website:167387:photo",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167387:photo",
+        "game": "genshin",
+        "category": "event",
+        "title": "历影定格录：留影挑战",
+        "start": "2026-11-27T10:00:00+08:00",
+        "end": "2026-12-07T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167387",
+        "notes": "核对官方第2张长图06：活动时间2026/11/27 10:00 ~ 2026/12/07 03:59。",
+        "displayNotes": "完成留影挑战，获得原石等奖励。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-07T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "35fc8f030f26ba16b5b45eeadb6c41f3235da199bb6ded2d103f029141282e10@hoyo-cn-calendar",
+      "eventId": "genshin:website:167387:photo",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167387:photo",
+        "game": "genshin",
+        "category": "event",
+        "title": "历影定格录：留影挑战",
+        "start": "2026-11-27T10:00:00+08:00",
+        "end": "2026-12-07T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167387",
+        "notes": "核对官方第2张长图06：活动时间2026/11/27 10:00 ~ 2026/12/07 03:59。",
+        "displayNotes": "完成留影挑战，获得原石等奖励。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-11-27T10:00:00+08:00",
+        "end": "2026-12-07T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "1499f1d5448d567209cd68d2e25eb4582d44fede76ae7681d7fe797a7b8708fa@hoyo-cn-calendar",
+      "eventId": "genshin:website:167387:ley-line",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167387:ley-line",
+        "game": "genshin",
+        "category": "event",
+        "title": "地脉移涌：地脉双倍掉落",
+        "start": "2026-12-07T04:00:00+08:00",
+        "end": "2026-12-14T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167387",
+        "notes": "核对官方第2张长图07：活动时间2026/12/07 04:00 ~ 2026/12/14 03:59。",
+        "displayNotes": "消耗原粹树脂领取藏金之花或启示之花奖励时可获双倍奖励，每天共3次双倍机会。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "start",
+        "label": "开启",
+        "start": "2026-12-07T04:00:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "2f34ceaa4f383e56f4040238327383aa76681b72807b23f8a1d3590fd79be05e@hoyo-cn-calendar",
+      "eventId": "genshin:website:167387:ley-line",
+      "mode": "nodes",
+      "event": {
+        "id": "genshin:website:167387:ley-line",
+        "game": "genshin",
+        "category": "event",
+        "title": "地脉移涌：地脉双倍掉落",
+        "start": "2026-12-07T04:00:00+08:00",
+        "end": "2026-12-14T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167387",
+        "notes": "核对官方第2张长图07：活动时间2026/12/07 04:00 ~ 2026/12/14 03:59。",
+        "displayNotes": "消耗原粹树脂领取藏金之花或启示之花奖励时可获双倍奖励，每天共3次双倍机会。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "end",
+        "label": "截止",
+        "start": "2026-12-14T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
+    },
+    {
+      "uid": "bbc6bea29356fcc895131acad8ac4eb8a8fbdd4c764ec2c1900923c4dfea3851@hoyo-cn-calendar",
+      "eventId": "genshin:website:167387:ley-line",
+      "mode": "timeline",
+      "event": {
+        "id": "genshin:website:167387:ley-line",
+        "game": "genshin",
+        "category": "event",
+        "title": "地脉移涌：地脉双倍掉落",
+        "start": "2026-12-07T04:00:00+08:00",
+        "end": "2026-12-14T03:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167387",
+        "notes": "核对官方第2张长图07：活动时间2026/12/07 04:00 ~ 2026/12/14 03:59。",
+        "displayNotes": "消耗原粹树脂领取藏金之花或启示之花奖励时可获双倍奖励，每天共3次双倍机会。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      "node": {
+        "suffix": "timeline",
+        "label": "",
+        "start": "2026-12-07T04:00:00+08:00",
+        "end": "2026-12-14T03:59:00+08:00"
+      },
+      "sequence": 0,
+      "modified": "2026-11-20T01:41:43.519Z",
+      "publishedAt": "2026-11-20T01:42:26.661Z",
+      "state": "active"
     }
   ]
 }
