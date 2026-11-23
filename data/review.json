@@ -46,18 +46,5 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
-  },
-  {
-    "game": "zzz",
-    "postId": "167401",
-    "title": "《绝区零》官方调频统计工具上线！",
-    "url": "https://zzz.mihoyo.com/news/167401",
-    "reason": "图片公告正文不足以确定日程，需要读图审核",
-    "digest": "d1751fca0d84f10b3dd070ffa78967c61a1049c7294e430c909f8ef6fcf65ddc",
-    "source": "website",
-    "firstSeenAt": "2026-11-20T20:31:12.854Z",
-    "lastSeenAt": "2026-11-23T07:52:45.338Z",
-    "resolved": false,
-    "changedConfirmation": false
   }
 ]
