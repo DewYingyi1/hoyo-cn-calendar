@@ -1877,5 +1877,214 @@
       }
     ],
     "notes": "核对完整官网正文和全部2张原图。正文及第2张长图明确2026/11/24 18:00至2026/12/15 14:59。两项角色祈愿、一项武器祈愿及炎天铸名集录祈愿分别由167384/167385/167386/167388独立公告日程完整覆盖；集录中的角色和武器属于同一祈愿，不拆成两个池。第1图为标题封面，第2图没有额外独有日程。四星角色武器为同窗口池内内容。保留既有四祈愿与167384:trial试身手的精确时刻、身份与UID，不新增汇总事件、不永久抑制、不新增别名。仅确认本版正文/图片列表/逐图字节，未来变化仍须送审。"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167384",
+    "digest": "eeca4c0333f5392ca7e8e3c09816d0c66906825aea5c6f9bf39f9321931e7beb",
+    "previousDigest": "c3bf80c5ae928a49c9225e7f90a4080e10faaf5f293e868f63d9af62780fc0ff",
+    "decision": "confirmed-official-body-and-all-images",
+    "checkedAt": "2026-11-24T23:07:50.591Z",
+    "imagesHash": "bfa151f6fa384134a32c9c93fd6a9f713a23311ccd8c656993d4e07349059d36",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167384/4839200880e4dd89ccae757a778ecbbe_1140071887056549864.png": "08cd9e1e2346b67d7d765217ab6c04b11edc9419e492c1f3aff282488625516f",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167384/8326f4b00b6b7c41025a5411f0a64550_2887632829881208396.png": "3b9356f0cb5dc028bebdffc670b8a81805b03f910b6c91913085f153a033d82a"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167384",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167384/4839200880e4dd89ccae757a778ecbbe_1140071887056549864.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167384/8326f4b00b6b7c41025a5411f0a64550_2887632829881208396.png"
+    ],
+    "scheduleDecision": "retain-existing-schedules",
+    "calendarEventIds": [
+      "genshin:website:167384",
+      "genshin:website:167384:trial"
+    ],
+    "retainedSchedules": [
+      {
+        "id": "genshin:website:167384",
+        "game": "genshin",
+        "category": "banner",
+        "title": "华黍由仪：兹白概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      },
+      {
+        "id": "genshin:website:167384:trial",
+        "game": "genshin",
+        "category": "event",
+        "title": "且试身手：兹白、莉奈娅角色试用",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167384",
+        "notes": "167384、167385正文均写明祈愿开启期间开放相应且试身手，两篇第2图的祈愿窗口相同；合并同期试用，不重复共享角色。",
+        "displayNotes": "对应本期两组角色祈愿的且试身手；使用固定阵容完成试用挑战可领取奖励。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      }
+    ],
+    "changeSummary": {
+      "previousTitle": "「华黍由仪」祈愿：「驹隙隐泉·兹白(岩)」概率UP！",
+      "currentTitle": "《原神》「华黍由仪」活动祈愿现已开启",
+      "previousPublished": "2026-11-19T08:00:00.000Z",
+      "currentPublished": "2026-11-24T10:00:00.000Z",
+      "bodyUnchanged": true,
+      "imageListUnchanged": true,
+      "imageBytesUnchanged": true
+    },
+    "relatedEvidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167385"
+    ],
+    "notes": "重新核对当前官方完整正文及全部2张原图。与11月20日已审版本比较，仅官方标题改为现已开启、发布时间更新；正文、图片列表和逐图SHA256完全一致。第2张图的窗口仍为2026/11/24 18:00至2026/12/15 14:59，保留原有日程、精确时刻、稳定身份、modified、sequence和UID。两组角色的且试身手仍合并于167384:trial；集录中的角色和武器仍为同一祈愿。无额外独有日程，不新增事件、别名或永久抑制。仅把当前标题/正文digest与这次完整图片列表/字节重新绑定；未来正文/列表/字节变化仍须重新送审。"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167385",
+    "digest": "2f1ee6d7f63cc461b5244539a1d78ca3f89a46686afc786df3b9595342b9ed4a",
+    "previousDigest": "0fc4788b7bd971134b9d36dccf38118e4b8d70c45335977c1bd6569d780c21cd",
+    "decision": "confirmed-official-body-and-all-images",
+    "checkedAt": "2026-11-24T23:07:50.591Z",
+    "imagesHash": "bc3b7488fd2bbfee583f914461ffa4e0dce97be67d93ccfbe7f64f9e36f5f9bd",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167385/b1b4377c6d0a1d666dd9fddd998cda6a_7071218024805723118.png": "6a30847fd6ccc7f80177ac088802f37823458350b1c2b96674fc1f4036583fad",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167385/c58bc42679a4124c5fd9fd2ebb341c68_6562272457270546772.png": "6a9dcca5fad9ce33b558c075c81447ab265281bde35296ca884523fe20370774"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167385",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167385/b1b4377c6d0a1d666dd9fddd998cda6a_7071218024805723118.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167385/c58bc42679a4124c5fd9fd2ebb341c68_6562272457270546772.png"
+    ],
+    "scheduleDecision": "retain-existing-schedules",
+    "calendarEventIds": [
+      "genshin:website:167385"
+    ],
+    "retainedSchedules": [
+      {
+        "id": "genshin:website:167385",
+        "game": "genshin",
+        "category": "banner",
+        "title": "呀吼吼博物志：莉奈娅概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167385",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      }
+    ],
+    "changeSummary": {
+      "previousTitle": "「呀吼吼博物志」祈愿：「博闻异旅·莉奈娅(岩)」概率UP！",
+      "currentTitle": "《原神》「呀吼吼博物志」活动祈愿现已开启",
+      "previousPublished": "2026-11-19T08:00:00.000Z",
+      "currentPublished": "2026-11-24T10:00:00.000Z",
+      "bodyUnchanged": true,
+      "imageListUnchanged": true,
+      "imageBytesUnchanged": true
+    },
+    "notes": "重新核对当前官方完整正文及全部2张原图。与11月20日已审版本比较，仅官方标题改为现已开启、发布时间更新；正文、图片列表和逐图SHA256完全一致。第2张图的窗口仍为2026/11/24 18:00至2026/12/15 14:59，保留原有日程、精确时刻、稳定身份、modified、sequence和UID。两组角色的且试身手仍合并于167384:trial；集录中的角色和武器仍为同一祈愿。无额外独有日程，不新增事件、别名或永久抑制。仅把当前标题/正文digest与这次完整图片列表/字节重新绑定；未来正文/列表/字节变化仍须重新送审。"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167386",
+    "digest": "e074acce3ca28b20b88c63d6a83e5f3ab7b9e0b7479f4dc6e6d645b437b10011",
+    "previousDigest": "71a545637f10fce4d82e124613672be442abb42ef2555ed7064b282c705838a8",
+    "decision": "confirmed-official-body-and-all-images",
+    "checkedAt": "2026-11-24T23:07:50.591Z",
+    "imagesHash": "2e81051f2fefb15fa7704a32d2786c04d4cc70f19fe33aa306a48554d88e6372",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167386/b9c339d9d30a827df3389f27969d16f3_4084205147900982622.png": "6fd14f3bb81a2c239d932dd18f1478bc88ef80c73d0810a2dbfd80e7e85fbe76",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167386/e2d026846993a43e43504311247772d3_6977370852664593053.png": "1576f141fc6c81db0f445210d48b17c9f4c347417dcdb1bfc50654a15272b36e"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167386",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167386/b9c339d9d30a827df3389f27969d16f3_4084205147900982622.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167386/e2d026846993a43e43504311247772d3_6977370852664593053.png"
+    ],
+    "scheduleDecision": "retain-existing-schedules",
+    "calendarEventIds": [
+      "genshin:website:167386"
+    ],
+    "retainedSchedules": [
+      {
+        "id": "genshin:website:167386",
+        "game": "genshin",
+        "category": "banner",
+        "title": "神铸赋形：朏魄含光、霜结的誓金枝概率UP",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167386",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "官方祈愿时间表明确开始与截止。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      }
+    ],
+    "changeSummary": {
+      "previousTitle": "「神铸赋形」祈愿：「单手剑·朏魄含光」「弓·霜结的誓金枝」概率UP！",
+      "currentTitle": "《原神》「神铸赋形」活动祈愿现已开启，「单手剑·朏魄含光」「弓·霜结的誓金枝」概率UP！",
+      "previousPublished": "2026-11-19T08:00:00.000Z",
+      "currentPublished": "2026-11-24T10:00:00.000Z",
+      "bodyUnchanged": true,
+      "imageListUnchanged": true,
+      "imageBytesUnchanged": true
+    },
+    "notes": "重新核对当前官方完整正文及全部2张原图。与11月20日已审版本比较，仅官方标题改为现已开启、发布时间更新；正文、图片列表和逐图SHA256完全一致。第2张图的窗口仍为2026/11/24 18:00至2026/12/15 14:59，保留原有日程、精确时刻、稳定身份、modified、sequence和UID。两组角色的且试身手仍合并于167384:trial；集录中的角色和武器仍为同一祈愿。无额外独有日程，不新增事件、别名或永久抑制。仅把当前标题/正文digest与这次完整图片列表/字节重新绑定；未来正文/列表/字节变化仍须重新送审。"
+  },
+  {
+    "game": "genshin",
+    "source": "website",
+    "postId": "167388",
+    "digest": "27abb14a9e0740e6ca79dcc1a0d93d0a5a6e3b7152d9755706e772c51dd7fc07",
+    "previousDigest": "724e2a2e8c469726c08d97527e7eb39b192ee942bd34b2268e62ec18101f9d64",
+    "decision": "confirmed-official-body-and-all-images",
+    "checkedAt": "2026-11-24T23:07:50.591Z",
+    "imagesHash": "fc8833028d07ba56d677af188779fc238706135edbd442a10fe7f821726dba9f",
+    "imageBytes": {
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167388/cf866e25be1b72043f576c823e74efa1_5230699130339759137.png": "632ecead0565ba857b068eacd5d35eb0a482f4f0e0bf135fe7d0870d21d2ed61",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167388/c652b6df331c7cc98e1b01bed2d3b646_669156869953678370.png": "3572951517a499cfb32d78adde9e5ff04e55ab3543a2a1e76dcfd3b4235891eb"
+    },
+    "evidenceUrls": [
+      "https://ys.mihoyo.com/main/news/detail/167388",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167388/cf866e25be1b72043f576c823e74efa1_5230699130339759137.png",
+      "https://fastcdn.mihoyo.com/content-v2/hk4e/167388/c652b6df331c7cc98e1b01bed2d3b646_669156869953678370.png"
+    ],
+    "scheduleDecision": "retain-existing-schedules",
+    "calendarEventIds": [
+      "genshin:website:167388"
+    ],
+    "retainedSchedules": [
+      {
+        "id": "genshin:website:167388",
+        "game": "genshin",
+        "category": "banner",
+        "title": "炎天铸名：集录祈愿",
+        "start": "2026-11-24T18:00:00+08:00",
+        "end": "2026-12-15T14:59:00+08:00",
+        "url": "https://ys.mihoyo.com/main/news/detail/167388",
+        "notes": "核对官方公告正文与第2张祈愿时间表：2026/11/24 18:00 ~ 2026/12/15 14:59。",
+        "displayNotes": "集录祈愿包含本期可定轨角色与武器；角色和武器属于同一祈愿，不重复拆分。",
+        "modified": "2026-11-20T01:41:43.519Z",
+        "sequence": 0
+      }
+    ],
+    "changeSummary": {
+      "previousTitle": "「炎天铸名」祈愿：集录祈愿开启！",
+      "currentTitle": "《原神》「炎天铸名」集录祈愿现已开启",
+      "previousPublished": "2026-11-19T08:00:00.000Z",
+      "currentPublished": "2026-11-24T10:00:00.000Z",
+      "bodyUnchanged": true,
+      "imageListUnchanged": true,
+      "imageBytesUnchanged": true
+    },
+    "notes": "重新核对当前官方完整正文及全部2张原图。与11月20日已审版本比较，仅官方标题改为现已开启、发布时间更新；正文、图片列表和逐图SHA256完全一致。第2张图的窗口仍为2026/11/24 18:00至2026/12/15 14:59，保留原有日程、精确时刻、稳定身份、modified、sequence和UID。两组角色的且试身手仍合并于167384:trial；集录中的角色和武器仍为同一祈愿。无额外独有日程，不新增事件、别名或永久抑制。仅把当前标题/正文digest与这次完整图片列表/字节重新绑定；未来正文/列表/字节变化仍须重新送审。"
   }
 ]
