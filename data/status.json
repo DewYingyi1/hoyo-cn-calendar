@@ -1,23 +1,28 @@
 {
   "games": {
     "genshin": {
-      "lastSuccessAt": "2026-11-24T00:02:24.607Z",
+      "lastSuccessAt": "2026-11-24T10:04:39.598Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 100,
       "eligiblePosts": 29,
       "earliestPublishedAt": "2026-09-29T04:00:00.000Z",
       "coverage": "官网综合栏目前100条（含置顶）；非完整历史",
-      "error": null,
+      "error": "部分公告隔离或图片字节检查失败；保留对应旧事件",
       "primarySource": "website",
-      "endpoint": "https://api-takumi-static.mihoyo.com",
+      "endpoint": "https://act-api-takumi-static.mihoyo.com",
       "filteredPosts": 0,
       "qualityIssues": [],
-      "imageEvidenceIssues": [],
-      "partial": false
+      "imageEvidenceIssues": [
+        "原神图片证据阻断（公告167388）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。",
+        "原神图片证据阻断（公告167386）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。",
+        "原神图片证据阻断（公告167385）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。",
+        "原神图片证据阻断（公告167384）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。"
+      ],
+      "partial": true
     },
     "starrail": {
-      "lastSuccessAt": "2026-11-24T00:02:24.607Z",
+      "lastSuccessAt": "2026-11-24T10:04:39.598Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -33,7 +38,7 @@
       "partial": false
     },
     "zzz": {
-      "lastSuccessAt": "2026-11-24T00:02:24.607Z",
+      "lastSuccessAt": "2026-11-24T10:04:39.598Z",
       "source": "website",
       "scanned": 100,
       "officialPosts": 99,
@@ -49,10 +54,15 @@
       "partial": false
     }
   },
-  "lastAttemptAt": "2026-11-24T00:02:24.607Z",
-  "issues": [],
-  "reviewCount": 0,
+  "lastAttemptAt": "2026-11-24T10:04:39.598Z",
+  "issues": [
+    "原神图片证据阻断（公告167388）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。",
+    "原神图片证据阻断（公告167386）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。",
+    "原神图片证据阻断（公告167385）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。",
+    "原神图片证据阻断（公告167384）：人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留旧日程。"
+  ],
+  "reviewCount": 4,
   "successfulSources": 3,
-  "partialSources": 0,
-  "completeSources": 3
+  "partialSources": 1,
+  "completeSources": 2
 }

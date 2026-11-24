@@ -46,5 +46,57 @@
     "firstSeenAt": "2026-10-03T01:54:39.161Z",
     "resolved": true,
     "changedConfirmation": false
+  },
+  {
+    "game": "genshin",
+    "postId": "167388",
+    "title": "《原神》「炎天铸名」集录祈愿现已开启",
+    "url": "https://ys.mihoyo.com/main/news/detail/167388",
+    "reason": "人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留既有日程",
+    "digest": "27abb14a9e0740e6ca79dcc1a0d93d0a5a6e3b7152d9755706e772c51dd7fc07",
+    "source": "website",
+    "firstSeenAt": "2026-11-24T10:04:39.598Z",
+    "lastSeenAt": "2026-11-24T10:04:39.598Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "167386",
+    "title": "《原神》「神铸赋形」活动祈愿现已开启，「单手剑·朏魄含光」「弓·霜结的誓金枝」概率UP！",
+    "url": "https://ys.mihoyo.com/main/news/detail/167386",
+    "reason": "人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留既有日程",
+    "digest": "e074acce3ca28b20b88c63d6a83e5f3ab7b9e0b7479f4dc6e6d645b437b10011",
+    "source": "website",
+    "firstSeenAt": "2026-11-24T10:04:39.598Z",
+    "lastSeenAt": "2026-11-24T10:04:39.598Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "167385",
+    "title": "《原神》「呀吼吼博物志」活动祈愿现已开启",
+    "url": "https://ys.mihoyo.com/main/news/detail/167385",
+    "reason": "人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留既有日程",
+    "digest": "2f1ee6d7f63cc461b5244539a1d78ca3f89a46686afc786df3b9595342b9ed4a",
+    "source": "website",
+    "firstSeenAt": "2026-11-24T10:04:39.598Z",
+    "lastSeenAt": "2026-11-24T10:04:39.598Z",
+    "resolved": false,
+    "changedConfirmation": true
+  },
+  {
+    "game": "genshin",
+    "postId": "167384",
+    "title": "《原神》「华黍由仪」活动祈愿现已开启",
+    "url": "https://ys.mihoyo.com/main/news/detail/167384",
+    "reason": "人工确认后官方标题或正文已修改；旧图片基线仍保留，须重新核对当前正文及图片绑定；保留既有日程",
+    "digest": "eeca4c0333f5392ca7e8e3c09816d0c66906825aea5c6f9bf39f9321931e7beb",
+    "source": "website",
+    "firstSeenAt": "2026-11-24T10:04:39.598Z",
+    "lastSeenAt": "2026-11-24T10:04:39.598Z",
+    "resolved": false,
+    "changedConfirmation": true
   }
 ]
